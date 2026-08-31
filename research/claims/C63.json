@@ -1,0 +1,10 @@
+{
+  "claim": "OGLE-LMC-RRLYR-00004 does not measure all four recovery harmonics above SNR 3 in every chronological block.",
+  "claim_id": "C63",
+  "evidence": [
+    "artifacts/phase13/phase13_temporal_blocks.csv"
+  ],
+  "physical_claim_scope": "waveform-only",
+  "sha256_canonical_json": "d29020282e675b2a1d4d9f56790c6409f114a066b4bd8bd31e5ee681658d62b3",
+  "status": "VERIFIED_FOR_EXPOSED_DEVELOPMENT_TARGET"
+}

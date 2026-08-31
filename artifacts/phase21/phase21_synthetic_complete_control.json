@@ -1,0 +1,33 @@
+{
+  "astronomical_evidence": false,
+  "complete_denominator": true,
+  "control_id": "DERD-PHASE21-SYNTHETIC-COMPLETE-DENOMINATOR-CONTROL-1.0",
+  "family_intervals_emitted": true,
+  "rows": [
+    {
+      "family": "classical_cepheid",
+      "fraction": 0.4,
+      "n": 5,
+      "qualified": 2,
+      "wilson_high": 0.769275718723987,
+      "wilson_low": 0.11762077423264783
+    },
+    {
+      "family": "rr_lyrae",
+      "fraction": 0.4,
+      "n": 5,
+      "qualified": 2,
+      "wilson_high": 0.769275718723987,
+      "wilson_low": 0.11762077423264783
+    },
+    {
+      "family": "delta_scuti",
+      "fraction": 0.4,
+      "n": 5,
+      "qualified": 2,
+      "wilson_high": 0.769275718723987,
+      "wilson_low": 0.11762077423264783
+    }
+  ],
+  "sha256_canonical_json": "f3a6f26d703bf93344620beb393c72cc129e2636d84cbb40088686287c92a8a2"
+}

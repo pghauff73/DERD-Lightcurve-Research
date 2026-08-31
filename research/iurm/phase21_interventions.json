@@ -1,0 +1,22 @@
+{
+  "active_dimension": "authoritative Delta Scuti metadata readiness",
+  "frozen_dimensions": [
+    "cohort identity membership",
+    "family denominators",
+    "raw source requirements",
+    "harmonic extraction",
+    "covariance method",
+    "target-level gates",
+    "population firewall"
+  ],
+  "implementation_id": "DERD-v2.1-phase21-authoritative-dsct-pilot",
+  "intervention": {
+    "after": "3 of 5 authoritative locks",
+    "before": "0 of 5 authoritative locks"
+  },
+  "result": "partial metadata unlock; no family output promotion",
+  "secondary_observed_dimension": {
+    "metadata_ready_total": "10 to 13 of 15"
+  },
+  "sha256_canonical_json": "1f744b608afd58fbbc1f55f8d13eba23244c8267e5af55b01e53e14ad945eb76"
+}

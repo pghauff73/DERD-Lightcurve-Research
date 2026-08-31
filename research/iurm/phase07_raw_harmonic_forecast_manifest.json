@@ -1,0 +1,121 @@
+{
+  "active_dimension": "observation_count_retained_from_actual_cadence",
+  "decision": "PROMOTE_240_AS_PROVISIONAL_SUSTAINED_ACTUAL_CADENCE_FLOOR",
+  "frozen_dimensions": [
+    "OGLE-LMC-CEP-0010 phase/error coordinate template",
+    "geometric DERD positive family",
+    "generic Fourier and phase-scrambled DERD null families",
+    "eight extracted harmonics",
+    "four recovery and four forecast harmonics",
+    "weighted fitting and recurrence score",
+    "70 percent deterministic development split",
+    "24 deterministic replicates per observation level",
+    "median and 10th-percentile promotion thresholds"
+  ],
+  "gate_assessment": {
+    "first_pointwise_pass": 120,
+    "first_sustained_pass": 240,
+    "minimum_sustained_levels": 3,
+    "non_monotonic_pointwise_pattern": true,
+    "pass_pattern": [
+      {
+        "observation_count": 80,
+        "passes_gate": false
+      },
+      {
+        "observation_count": 120,
+        "passes_gate": true
+      },
+      {
+        "observation_count": 160,
+        "passes_gate": false
+      },
+      {
+        "observation_count": 240,
+        "passes_gate": true
+      },
+      {
+        "observation_count": 320,
+        "passes_gate": true
+      },
+      {
+        "observation_count": 372,
+        "passes_gate": true
+      }
+    ],
+    "sustained_level_count": 3
+  },
+  "implementation_id": "DERD-v0.7-phase07-raw-harmonic-forecast-gate",
+  "levels": [
+    80,
+    120,
+    160,
+    240,
+    320,
+    372
+  ],
+  "method": "IURMv1.1.1",
+  "pointwise_results": [
+    {
+      "median_balanced_accuracy": 0.7972890786749482,
+      "median_roc_auc": 0.8329562594268477,
+      "median_threshold": 1.8078850970084306,
+      "observation_count": 80,
+      "passes_gate": false,
+      "q10_balanced_accuracy": 0.6517482517482518,
+      "q10_roc_auc": 0.6799465240641711,
+      "replicate_count": 24
+    },
+    {
+      "median_balanced_accuracy": 0.8158992763772175,
+      "median_roc_auc": 0.8774509803921569,
+      "median_threshold": 1.6247690178161802,
+      "observation_count": 120,
+      "passes_gate": true,
+      "q10_balanced_accuracy": 0.7100650452488688,
+      "q10_roc_auc": 0.8033333333333333,
+      "replicate_count": 24
+    },
+    {
+      "median_balanced_accuracy": 0.7998130341880342,
+      "median_roc_auc": 0.8861904761904762,
+      "median_threshold": 1.4561050863578942,
+      "observation_count": 160,
+      "passes_gate": false,
+      "q10_balanced_accuracy": 0.7144230769230769,
+      "q10_roc_auc": 0.7159090909090909,
+      "replicate_count": 24
+    },
+    {
+      "median_balanced_accuracy": 0.8186145510835914,
+      "median_roc_auc": 0.8826086956521739,
+      "median_threshold": 1.5564701329716957,
+      "observation_count": 240,
+      "passes_gate": true,
+      "q10_balanced_accuracy": 0.7286483253588516,
+      "q10_roc_auc": 0.7842307692307692,
+      "replicate_count": 24
+    },
+    {
+      "median_balanced_accuracy": 0.831845238095238,
+      "median_roc_auc": 0.8863636363636364,
+      "median_threshold": 1.3974628558161029,
+      "observation_count": 320,
+      "passes_gate": true,
+      "q10_balanced_accuracy": 0.7358522727272727,
+      "q10_roc_auc": 0.8210005358418672,
+      "replicate_count": 24
+    },
+    {
+      "median_balanced_accuracy": 0.8483455882352942,
+      "median_roc_auc": 0.9143772893772893,
+      "median_threshold": 1.378994240617561,
+      "observation_count": 372,
+      "passes_gate": true,
+      "q10_balanced_accuracy": 0.7674358974358975,
+      "q10_roc_auc": 0.8453296703296703,
+      "replicate_count": 24
+    }
+  ],
+  "warning": "Observation count is not sufficient by itself; the real star still lacks significant forecast harmonics at 372 observations."
+}

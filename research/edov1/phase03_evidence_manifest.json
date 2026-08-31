@@ -1,0 +1,43 @@
+{
+  "contradiction_and_null_results": [
+    "Training-selected DERD won 9 of 20 primary comparisons and lost or tied 11.",
+    "The 95% bootstrap confidence interval for mean DERD-minus-baseline RMSE crossed zero and exceeded the +0.02 noninferiority margin.",
+    "DERD 90% intervals under-covered at 0.68 to 0.70 pooled coverage, depending on residual scaling.",
+    "Periodic KRR became competitive after widening the length-scale range; this changed the baseline selected on 14 of 20 stars.",
+    "Three targets still selected the expanded kernel length-scale upper boundary and remain flagged.",
+    "No complete official OGLE files were obtained because the isolated runtime could not resolve the host."
+  ],
+  "independence_note": "The data mirrors and software repository establish provenance and executability, not independent astrophysical replication.",
+  "manifest_id": "EDOV1-PHASE03-0.3",
+  "new_evidence_objects": [
+    "artifacts/phase03/PHASE03_RESULT.md",
+    "artifacts/phase03/phase03_summary.json",
+    "artifacts/phase03/phase03_star_results.csv",
+    "research/iurm/phase03_methods_manifest.json",
+    "research/edov1/phase03_data_acquisition_receipt.json",
+    "research/preregistration/phase04_holdout_protocol.json",
+    "data/manifests/phase03_population_expansion_contract.json"
+  ],
+  "physical_claim_boundary": "No light-curve result promotes internal Kepler motion, universal transparent shells, or shell mass.",
+  "precision_objective": "Test whether leakage-resistant selection, a nonlinear periodic baseline, staged period checks, and uncertainty calibration alter the bounded C17 evidence assessment.",
+  "promotion_decision": "DENIED_INCOMPLETE_DATA_CLASS_SCOPE_AND_NO_PRISTINE_SEALED_HOLDOUT",
+  "rights_and_reuse": "OGLE acknowledgement remains mandatory. No claim is made that the 24-row excerpts are complete official light curves.",
+  "source_basis": [
+    {
+      "artifact": "source paper",
+      "role": "four-parameter and physical-claim source",
+      "sha256": "61454058ca99aec855c9558490778eec19776f7f0c7b50d0037cbc5741609712"
+    },
+    {
+      "artifact": "pghauff55/lightcurve-trainer",
+      "commit": "a0d93a2e95cbe9287326897efc419255c1f39610",
+      "role": "historical implementation provenance"
+    },
+    {
+      "artifact": "phase02_source_manifest",
+      "path": "data/manifests/phase02_source_manifest.json",
+      "role": "20-star excerpt provenance"
+    }
+  ],
+  "status": "METHODS_EXECUTED_DATA_COMPLETION_BLOCKED"
+}

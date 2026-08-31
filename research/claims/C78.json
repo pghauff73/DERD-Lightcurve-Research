@@ -1,0 +1,11 @@
+{
+  "claim": "The current reproducibility graph contains no external independent astrophysical replication.",
+  "claim_id": "C78",
+  "evidence": [
+    "artifacts/phase16/phase16_reproducibility_graph.json",
+    "artifacts/phase16/phase16_summary.json"
+  ],
+  "physical_claim_scope": "evidence provenance only",
+  "sha256_canonical_json": "09a4a6285ab3b37fe65836a31d2f9ace4af6b9002d759e4b5768af299859d982",
+  "status": "VERIFIED_ZERO_EXTERNAL_REPLICATIONS"
+}

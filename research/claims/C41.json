@@ -1,0 +1,13 @@
+{
+  "claim": "In the six-object Phase-08 exposed cohort, exactly one target measures all four recovery harmonics at Wald SNR at least 3, and no target measures at least two forecast harmonics at Wald SNR at least 2.",
+  "claim_id": "C41",
+  "date": "2026-08-15",
+  "evidence": [
+    "artifacts/phase08/phase08_harmonic_snr.csv",
+    "artifacts/phase08/phase08_target_results.csv"
+  ],
+  "implementation_id": "DERD-v0.8-phase08-multifamily-harmonic-forecast-cohort",
+  "physical_claim_certificate": false,
+  "scope": "Six exposed development objects only.",
+  "status": "VERIFIED_FOR_FROZEN_COHORT"
+}

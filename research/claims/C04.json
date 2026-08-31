@@ -1,0 +1,13 @@
+{
+  "claim": "In the printed code path, changing the declared Phase variable does not change output because the slice uses literal 0.28.",
+  "claim_id": "C04",
+  "falsifier": "A source version corresponding to the paper in which Phase is used by the slice.",
+  "objects": [
+    "PAPER-2024"
+  ],
+  "scope": "Historical implementation at the frozen paper source.",
+  "status": "REPRODUCED_E2",
+  "tests": [
+    "tests/test_historical.py::test_declared_phase_is_ignored_in_printed_code_path"
+  ]
+}

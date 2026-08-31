@@ -1,0 +1,14 @@
+{
+  "claim": "The catalogue subtype singlemode does not by itself identify the radial order as fundamental or first overtone, so Phase 10 preserves it as singlemode_radial_order_unresolved.",
+  "claim_id": "C50",
+  "date": "2026-08-18",
+  "evidence": [
+    "src/derd/ogle_catalog.py",
+    "data/evidence/phase10_authoritative_sources.json",
+    "artifacts/phase10/phase10_synthetic_catalog_lock_control.json"
+  ],
+  "implementation_id": "DERD-v1.0-phase10-authoritative-metadata-source-lock",
+  "physical_claim_certificate": false,
+  "scope": "Mode-label restraint; not a claim that no radial mode can ever be inferred using other evidence.",
+  "status": "PROVED_AS_A_SCOPE_BOUNDARY"
+}

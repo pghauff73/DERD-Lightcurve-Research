@@ -1,0 +1,11 @@
+{
+  "does_not_exclude": [
+    "gravity-restored hydrodynamic pulsation with pressure and thermal forces",
+    "nonradial orbital motion with angular momentum",
+    "time-dependent or additional forces"
+  ],
+  "proof": "A nonconstant continuous periodic function attains a local minimum. At a twice-differentiable minimum, R_ddot is non-negative. The inverse-square equation requires R_ddot<0 for all positive R. The conditions contradict.",
+  "scope": "gravity-only radial equation with constant positive enclosed mass and no outward force",
+  "statement": "No nonconstant twice-differentiable positive periodic radius R(t) can satisfy R_ddot=-G*M/R^2 for constant G>0 and M>0 at every time.",
+  "theorem_id": "PHASE20-GRAVITY-ONLY-PERIODIC-RADIAL-IMPOSSIBILITY"
+}

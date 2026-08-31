@@ -1,0 +1,4 @@
+family,declared_count,cumulative_record_count,family_denominator_complete,fractions_suppressed
+classical_cepheid,5,3,False,True
+delta_scuti,5,0,False,True
+rr_lyrae,5,2,False,True

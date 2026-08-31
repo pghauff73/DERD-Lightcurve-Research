@@ -1,0 +1,11 @@
+{
+  "claim": "The Phase-17 edge is external-analysis consistency with partial source overlap, not independent astrophysical replication.",
+  "claim_id": "C83",
+  "evidence": [
+    "artifacts/phase17/phase17_external_analysis_audit.json",
+    "artifacts/phase17/phase17_reproducibility_graph.json"
+  ],
+  "physical_claim_scope": "evidence independence only",
+  "sha256_canonical_json": "4674785d54cf426d5063bfa87daa5af2c9481905936d86dedcaacc9565f7361e",
+  "status": "VERIFIED_AND_CLASSIFIED"
+}

@@ -1,0 +1,86 @@
+{
+  "below_threshold_count": 1,
+  "eligible_candidate_count": 0,
+  "priority_counts": {
+    "ACQUISITION_PRIORITY_B_LOW_SNR": 1,
+    "INSUFFICIENT_HARMONIC_EVIDENCE": 16,
+    "LOW_PRIORITY": 3
+  },
+  "top_ranked": [
+    {
+      "bootstrap_below_threshold_fraction": 0.609375,
+      "harmonics_snr_ge_3": 1,
+      "mode": "1O",
+      "priority": "ACQUISITION_PRIORITY_B_LOW_SNR",
+      "rank": 1,
+      "screen_score": 1.7674794320322627,
+      "star_id": "OGLE-LMC-CEP-0010"
+    },
+    {
+      "bootstrap_below_threshold_fraction": 0.0,
+      "harmonics_snr_ge_3": 3,
+      "mode": "F",
+      "priority": "INSUFFICIENT_HARMONIC_EVIDENCE",
+      "rank": 2,
+      "screen_score": 2.2163531229500975,
+      "star_id": "OGLE-LMC-CEP-0023"
+    },
+    {
+      "bootstrap_below_threshold_fraction": 0.046875,
+      "harmonics_snr_ge_3": 0,
+      "mode": "F",
+      "priority": "INSUFFICIENT_HARMONIC_EVIDENCE",
+      "rank": 3,
+      "screen_score": 2.236087762888573,
+      "star_id": "OGLE-LMC-CEP-0025"
+    },
+    {
+      "bootstrap_below_threshold_fraction": 0.0,
+      "harmonics_snr_ge_3": 3,
+      "mode": "F",
+      "priority": "INSUFFICIENT_HARMONIC_EVIDENCE",
+      "rank": 4,
+      "screen_score": 2.349310872429671,
+      "star_id": "OGLE-LMC-CEP-0005"
+    },
+    {
+      "bootstrap_below_threshold_fraction": 0.0625,
+      "harmonics_snr_ge_3": 0,
+      "mode": "1O",
+      "priority": "INSUFFICIENT_HARMONIC_EVIDENCE",
+      "rank": 5,
+      "screen_score": 2.4596111166645453,
+      "star_id": "OGLE-LMC-CEP-0003"
+    },
+    {
+      "bootstrap_below_threshold_fraction": 0.0,
+      "harmonics_snr_ge_3": 1,
+      "mode": "1O",
+      "priority": "INSUFFICIENT_HARMONIC_EVIDENCE",
+      "rank": 6,
+      "screen_score": 2.479923889475477,
+      "star_id": "OGLE-LMC-CEP-0013"
+    },
+    {
+      "bootstrap_below_threshold_fraction": 0.125,
+      "harmonics_snr_ge_3": 0,
+      "mode": "1O",
+      "priority": "INSUFFICIENT_HARMONIC_EVIDENCE",
+      "rank": 7,
+      "screen_score": 2.7012633716308634,
+      "star_id": "OGLE-LMC-CEP-0001"
+    },
+    {
+      "bootstrap_below_threshold_fraction": 0.015625,
+      "harmonics_snr_ge_3": 0,
+      "mode": "1O",
+      "priority": "INSUFFICIENT_HARMONIC_EVIDENCE",
+      "rank": 8,
+      "screen_score": 2.817420973774028,
+      "star_id": "OGLE-LMC-CEP-0007"
+    }
+  ]
+}
+threshold=2.0674366
+holdout_auc=0.476432
+holdout_balanced_accuracy=0.559718

@@ -1,0 +1,26 @@
+{
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "claims": [
+    "C91",
+    "C92",
+    "C93",
+    "C94",
+    "C95",
+    "C96"
+  ],
+  "contradictions_and_limits": [
+    "no external operator submission",
+    "no independent observing source",
+    "observational tasks begin from derived harmonic exchange rather than raw photometry",
+    "private evaluator must remain withheld",
+    "local process shares implementation lineage"
+  ],
+  "manifest_id": "DERD-PHASE19-EDOV1-EVIDENCE-1.0",
+  "promotion_state": "EXTERNAL_COMPUTATIONAL_REPLICATION_NOT_YET_ACHIEVED",
+  "sha256_canonical_json": "794255f4490576b18594dce410d3eafac9a77b4304d9ffd2f8c3c63f9e0ae558",
+  "supporting_evidence": [
+    "sealed public kit",
+    "sealed task manifest",
+    "local clean-room seven-of-seven replay"
+  ]
+}

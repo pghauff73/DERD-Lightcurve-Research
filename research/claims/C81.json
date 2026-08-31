@@ -1,0 +1,11 @@
+{
+  "claim": "The local R21, phi21, R31, and phi31 estimates are jointly consistent with the published external anchor under the frozen combined-covariance test.",
+  "claim_id": "C81",
+  "evidence": [
+    "artifacts/phase17/phase17_fourier_parameter_comparison.csv",
+    "artifacts/phase17/phase17_external_analysis_audit.json"
+  ],
+  "physical_claim_scope": "Fourier-coordinate consistency only",
+  "sha256_canonical_json": "797a8dc8201c983d36185429441da0af739430585f08397845362c16200386bc",
+  "status": "VERIFIED_STATISTICAL_CONSISTENCY"
+}

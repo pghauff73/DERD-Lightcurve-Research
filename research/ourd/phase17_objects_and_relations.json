@@ -1,0 +1,138 @@
+{
+  "graph_id": "OURD-PHASE17-EXTERNAL-ANALYSIS-ANCHOR-V1",
+  "objects": [
+    {
+      "id": "P17-PROTOCOL",
+      "type": "sealed_protocol"
+    },
+    {
+      "id": "P17-EXTERNAL-PAPER",
+      "research_group_independent": true,
+      "type": "external_peer_reviewed_analysis"
+    },
+    {
+      "id": "P17-PUBLISHED-FOURIER-ANCHOR",
+      "type": "published_fourier_coordinate_vector"
+    },
+    {
+      "id": "P17-PARTIAL-V-SOURCE",
+      "observations": 33,
+      "type": "provenance_frozen_partial_observational_source"
+    },
+    {
+      "id": "P17-LOCAL-FOURIER-ESTIMATE",
+      "type": "local_fourier_coordinate_vector"
+    },
+    {
+      "id": "P17-CONSISTENCY-AUDIT",
+      "p_value": 0.7773544797654233,
+      "type": "joint_covariance_comparison"
+    },
+    {
+      "classification": "EXTERNAL_ANALYSIS_CONSISTENT_PARTIAL_SOURCE_OVERLAP",
+      "id": "P17-EXTERNAL-EDGE",
+      "type": "external_analysis_consistency_edge"
+    },
+    {
+      "id": "P17-SOURCE-INDEPENDENCE",
+      "passed": false,
+      "type": "source_independence_gate"
+    },
+    {
+      "id": "P17-MULTIPLICITY-GUARD",
+      "type": "denominator_guard",
+      "unique_objects": 5
+    },
+    {
+      "id": "P17-LEDGER",
+      "record_count": 5,
+      "type": "sealed_cumulative_evidence"
+    },
+    {
+      "id": "P17-FIREWALL",
+      "open": false,
+      "type": "population_output_guard"
+    },
+    {
+      "id": "C79",
+      "type": "claim"
+    },
+    {
+      "id": "C80",
+      "type": "claim"
+    },
+    {
+      "id": "C81",
+      "type": "claim"
+    },
+    {
+      "id": "C82",
+      "type": "claim"
+    },
+    {
+      "id": "C83",
+      "type": "claim"
+    },
+    {
+      "id": "C84",
+      "type": "claim"
+    }
+  ],
+  "relations": [
+    {
+      "relation": "governs",
+      "source": "P17-PROTOCOL",
+      "target": "P17-CONSISTENCY-AUDIT"
+    },
+    {
+      "relation": "publishes",
+      "source": "P17-EXTERNAL-PAPER",
+      "target": "P17-PUBLISHED-FOURIER-ANCHOR"
+    },
+    {
+      "relation": "supports",
+      "source": "P17-PARTIAL-V-SOURCE",
+      "target": "P17-LOCAL-FOURIER-ESTIMATE"
+    },
+    {
+      "relation": "compares",
+      "source": "P17-CONSISTENCY-AUDIT",
+      "target": "P17-PUBLISHED-FOURIER-ANCHOR"
+    },
+    {
+      "relation": "compares",
+      "source": "P17-CONSISTENCY-AUDIT",
+      "target": "P17-LOCAL-FOURIER-ESTIMATE"
+    },
+    {
+      "relation": "creates",
+      "source": "P17-CONSISTENCY-AUDIT",
+      "target": "P17-EXTERNAL-EDGE"
+    },
+    {
+      "relation": "limits",
+      "source": "P17-SOURCE-INDEPENDENCE",
+      "target": "P17-EXTERNAL-EDGE"
+    },
+    {
+      "relation": "constrains",
+      "source": "P17-MULTIPLICITY-GUARD",
+      "target": "P17-LEDGER"
+    },
+    {
+      "relation": "suppresses_partial_population_outputs_from",
+      "source": "P17-FIREWALL",
+      "target": "P17-LEDGER"
+    }
+  ],
+  "score_vector": {
+    "causal_fidelity": "not established; physical mechanism gates remain locked",
+    "complexity": "one external anchor, one partial source, four coordinate differences, one joint test",
+    "family_transfer": "not established; one classical Cepheid method anchor only",
+    "orthogonality": "analysis-group independence, observing-source independence, source completeness, byte identity, and statistical consistency are separate dimensions",
+    "predictive_calibration": "not a DERD prediction test; Fourier-coordinate consistency only",
+    "reconstruction": "local and published Fourier coordinates agree within frozen joint uncertainty",
+    "temporal_stability": "not evaluated by this external anchor",
+    "uniqueness": "one astronomical object remains one denominator record despite additional analysis nodes"
+  }
+}

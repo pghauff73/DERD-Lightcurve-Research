@@ -1,0 +1,4 @@
+json_files_checked 107
+bad []
+schema_valid artifacts/phase07/OGLE-LMC-CEP-0010.catalog-period.harmonics.json
+schema_valid artifacts/phase07/OGLE-LMC-CEP-0010.refined-period.harmonics.json

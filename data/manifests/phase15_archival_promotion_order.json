@@ -1,0 +1,27 @@
+{
+  "claim_boundary": "archival waveform-evidence promotion only; no physical-mechanism or population inference",
+  "date_frozen": "2026-08-19",
+  "manifest_id": "DERD-PHASE15-ARCHIVAL-PROMOTION-ORDER-1.0",
+  "parent_phase14_ledger": {
+    "path": "artifacts/phase14/phase14_cumulative_ledger.json",
+    "record_count": 4,
+    "sha256_canonical_json": "ae0b9ccbf366ccb3d73a6979408836d3e9c2ab907dbe4e2dcbe2642f7cfa83d9"
+  },
+  "parent_phase14_summary": {
+    "path": "artifacts/phase14/phase14_summary.json",
+    "sha256": "fe99d6638e47ef635f7f1aafaed1b63c69a0b9be5c8a8495d745681bf168b8ad"
+  },
+  "result_blindness": "selection is fixed from prior frozen acquisition ranking and parent-ledger exclusion; no Phase-15 lineage result enters selection",
+  "selected_target": {
+    "family": "classical_cepheid",
+    "mode": "1O",
+    "object_id": "OGLE-LMC-CEP-0010",
+    "phase08_acquisition_priority_score": 76.16485551300921,
+    "phase08_exchange_relative_path": "artifacts/phase08/harmonic_exchange/OGLE-LMC-CEP-0010.json",
+    "phase08_exchange_sha256": "84f1089012721da639ed59fd5f454fd27443bf9d64d165e88827ca7c58c5ba78",
+    "phase08_record_sha256": "fe7d7cb579346d597790b9258259ca3b41b022b4ae1c3040c6eaa8ad20904f6b",
+    "rank_in_phase14_remaining_order": 1
+  },
+  "selection_basis": "next remaining claim-grade target in the previously frozen Phase-14 ranked candidate list after excluding the verified Phase-14 ledger identities",
+  "sha256_canonical_json": "3f6b5c6d1f77089aa75f34fd7515fec54eb7d7bd58691fb5927af32e651780c4"
+}

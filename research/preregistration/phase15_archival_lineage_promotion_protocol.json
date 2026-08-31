@@ -1,0 +1,65 @@
+{
+  "archival_chain": {
+    "phase07_exchange": {
+      "path": "artifacts/phase07/OGLE-LMC-CEP-0010.catalog-period.harmonics.json",
+      "sha256": "c2d36709662557168f87423b51a44bbdfd1645810c14548b01c6df21d7b93d21"
+    },
+    "phase07_source_manifest": {
+      "path": "data/manifests/phase07_source_manifest.json",
+      "sha256": "8f3ec0872ff8f001900d4f1e314e6afe6dd8342d7e0f388ded35d410435d2bc3"
+    },
+    "phase07_summary": {
+      "path": "artifacts/phase07/phase07_summary.json",
+      "sha256": "40d07ea0d71631c3afeff6a7b8b12a66ee3fe26c2b5c8067c369186a1dfe7cf2"
+    },
+    "phase08_exchange": {
+      "path": "artifacts/phase08/harmonic_exchange/OGLE-LMC-CEP-0010.json",
+      "sha256": "84f1089012721da639ed59fd5f454fd27443bf9d64d165e88827ca7c58c5ba78"
+    },
+    "phase08_summary": {
+      "path": "artifacts/phase08/phase08_summary.json",
+      "sha256": "77b36f95a1afae5f68938f35170f7da9aa2adf9d4f314c194fe51e9e78f2136e"
+    },
+    "phase08_target_record_sha256": "fe7d7cb579346d597790b9258259ca3b41b022b4ae1c3040c6eaa8ad20904f6b"
+  },
+  "claim_boundary": "normalized waveform and computational-lineage evidence only; not mass, internal orbit, transparent shell, prevalence, or shell-mass evidence",
+  "configuration": {
+    "allow_configuration_sensitive_drift": true,
+    "parent_record_count": 4,
+    "require_phase08_record_hash": true,
+    "require_source_coordinate_identity": true,
+    "selected_object_id": "OGLE-LMC-CEP-0010"
+  },
+  "configuration_sha256": "825bcf373a1451ca3d0f7fb406c4b181c2232143879a2b55afa1fda93b824697",
+  "date_frozen": "2026-08-19",
+  "denominator_firewall": {
+    "family_records_required": 5,
+    "partial_family_fractions_suppressed": true,
+    "total_records_required": 15
+  },
+  "implementation_id": "DERD-v1.5-phase15-archival-lineage-promotion",
+  "parent_phase14_ledger": {
+    "path": "artifacts/phase14/phase14_cumulative_ledger.json",
+    "record_count": 4,
+    "sha256_canonical_json": "ae0b9ccbf366ccb3d73a6979408836d3e9c2ab907dbe4e2dcbe2642f7cfa83d9"
+  },
+  "parent_phase14_summary": {
+    "path": "artifacts/phase14/phase14_summary.json",
+    "sha256": "fe99d6638e47ef635f7f1aafaed1b63c69a0b9be5c8a8495d745681bf168b8ad"
+  },
+  "promotion_order": {
+    "path": "data/manifests/phase15_archival_promotion_order.json",
+    "selected_object_id": "OGLE-LMC-CEP-0010",
+    "sha256_file": "9e7ba75e16531de5c2f02664c9ff7d7199a8e9efd8bde5b2365bf904cbd3c51a"
+  },
+  "promotion_policy": {
+    "archived_source_verification_required": true,
+    "configuration_sensitive_drift_may_be_retained": true,
+    "multiple_analyses_of_same_source_count_as_independent_astrophysical_replications": false,
+    "phase08_exchange_hash_required": true,
+    "phase08_record_hash_required": true,
+    "raw_source_reacquisition_required": false,
+    "source_coordinate_identity_required": true
+  },
+  "protocol_id": "DERD-PHASE15-ARCHIVAL-LINEAGE-PROMOTION-1.0"
+}

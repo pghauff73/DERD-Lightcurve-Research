@@ -1,0 +1,11 @@
+{
+  "claim": "The merged source meets the external publication minimum and reproduces the published four-coordinate Fourier vector under the frozen primary joint and marginal gates.",
+  "claim_id": "C86",
+  "evidence": [
+    "artifacts/phase18/phase18_primary_reconstruction.json",
+    "artifacts/phase18/phase18_method_lattice.csv"
+  ],
+  "physical_claim_scope": "external Fourier input reconstruction and normalized waveform provenance only",
+  "sha256_canonical_json": "1e7e682cc8719e97d6d1cb3b477811e41c60ab5fc79677526821cde12b4f0b44",
+  "status": "VERIFIED_PUBLICATION_COMPATIBLE_RECONSTRUCTION"
+}

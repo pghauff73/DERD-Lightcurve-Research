@@ -1,0 +1,45 @@
+{
+  "artifacts": [
+    "artifacts/phase11/PHASE11_RESULT.md",
+    "artifacts/phase11/phase11_summary.json",
+    "artifacts/phase11/phase11_source_acquisition_receipt.json",
+    "artifacts/phase11/phase11_frontier.csv",
+    "artifacts/phase11/phase11_fresh_execution.csv",
+    "research/preregistration/phase11_progressive_evidence_unlock_protocol.json"
+  ],
+  "contradicting_or_limiting_findings": [
+    "Fourteen raw source locks remain pending.",
+    "Five Delta Scuti authoritative metadata locks remain pending.",
+    "OGLE-LMC-CEP-0004 fails the four-recovery-harmonic SNR gate because h3 and h4 are below SNR 3.",
+    "Its DERD score exceeds the target-specific compatibility threshold.",
+    "Only one family has any fresh result, so no population inference is permissible.",
+    "All current identities are exposed development objects and cannot become pristine confirmatory evidence."
+  ],
+  "date": "2026-08-18",
+  "evidence_role": "EXPOSED_DEVELOPMENT_ONLY",
+  "manifest_id": "EDOV1-PHASE11-PROGRESSIVE-EVIDENCE-UNLOCK-V1",
+  "promotion_decision": "DENIED_INCOMPLETE_DENOMINATOR_AND_NEGATIVE_FRESH_RECOVERY_GATE",
+  "provenance_clusters": [
+    {
+      "cluster": "paper hypothesis",
+      "independence_note": "originating claim lineage",
+      "source": "Cephids Pulsating Stars - Transparent Outer Shell"
+    },
+    {
+      "cluster": "raw photometry mirror",
+      "independence_note": "single external mirror; raw bytes excluded from redistributable bundle",
+      "source": "bksim/OutlierDetection commit 55836b5..."
+    },
+    {
+      "cluster": "computational evidence",
+      "independence_note": "same research programme; configuration and outputs cryptographically frozen",
+      "source": "DERD Phase-11 fresh execution"
+    }
+  ],
+  "supporting_findings": [
+    "The Phase-11 protocol seal verifies.",
+    "One raw photometry source matches its frozen repository commit, path, Git blob, byte count, observation count and SHA-256.",
+    "The matching target has claim-grade metadata and was freshly executed under the frozen full configuration.",
+    "The denominator firewall suppresses all family fractions and Wilson intervals while only one of fifteen fresh results exists."
+  ]
+}

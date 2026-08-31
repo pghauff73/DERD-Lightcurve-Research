@@ -1,0 +1,23 @@
+{
+  "bundle_checksum_entries": 1093,
+  "bundle_checksum_verification_passed": true,
+  "bundle_file_count": 1094,
+  "bundle_zip_integrity_passed": true,
+  "code_manifest_entries": 338,
+  "extracted_bundle_tests_count": 273,
+  "extracted_bundle_tests_passed": true,
+  "metadata_lock_valid": true,
+  "patch_application_verified": true,
+  "patch_applied_tests_passed": 273,
+  "patch_apply_stderr_bytes": 0,
+  "patch_check_stderr_bytes": 0,
+  "patched_tree_byte_identical_files": 1094,
+  "python_compile_passed": true,
+  "raw_complete_files_bundled": 0,
+  "release_id": "DERD-v2.1-phase21-authoritative-dsct-pilot",
+  "repository_manifest_entries": 1092,
+  "row_receipt_valid": true,
+  "status": "FULL_RELEASE_VERIFICATION_PASSED",
+  "test_failures": 0,
+  "tests_passed": 273
+}

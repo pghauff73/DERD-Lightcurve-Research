@@ -1,0 +1,45 @@
+{
+  "alternative_explanations": [
+    "catalogue retirement or reclassification",
+    "identity crosswalk present in another authoritative release",
+    "legacy feature-table period aliases"
+  ],
+  "contradictions_and_limits": [
+    {
+      "affected": [
+        "OGLE-LMC-DSCT-0004",
+        "OGLE-LMC-DSCT-0007"
+      ],
+      "proposition": "two old Delta Scuti identities lack an exact current-catalog crosswalk"
+    },
+    {
+      "count": 15,
+      "proposition": "no complete raw cohort sources are locally frozen"
+    },
+    {
+      "count": 3,
+      "proposition": "legacy Delta Scuti periods are materially displaced from authoritative periods"
+    },
+    {
+      "count": 5,
+      "proposition": "only inherited development evidence exists for five cohort identities"
+    },
+    {
+      "proposition": "family-level intervals remain suppressed",
+      "status": "closed"
+    }
+  ],
+  "implementation_id": "DERD-v2.1-phase21-authoritative-dsct-pilot",
+  "promotion_decision": "DENIED_INCOMPLETE_METADATA_AND_SOURCE_BYTES",
+  "sha256_canonical_json": "de92555472acd0659c03a193957c6c6c480a076b90b5a3a9a9b119c956e758d5",
+  "supporting_evidence": [
+    {
+      "artifact": "data/manifests/phase21_delta_scuti_metadata_lock.json",
+      "proposition": "three exact two-hop crosswalks resolved"
+    },
+    {
+      "artifact": "data/manifests/phase21_development_cohort.json",
+      "proposition": "frozen 5+5+5 denominator retained"
+    }
+  ]
+}

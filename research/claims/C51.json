@@ -1,0 +1,14 @@
+{
+  "claim": "Authoritative metadata locks and replayable raw-photometry locks are orthogonal evidence dimensions: passing either one does not compensate for failure of the other.",
+  "claim_id": "C51",
+  "date": "2026-08-18",
+  "evidence": [
+    "src/derd/validation_phase10.py",
+    "tests/test_phase10_gate.py",
+    "artifacts/phase10/phase10_target_readiness.csv"
+  ],
+  "implementation_id": "DERD-v1.0-phase10-authoritative-metadata-source-lock",
+  "physical_claim_certificate": false,
+  "scope": "OURD/IURMv1.1.1 input-governance architecture.",
+  "status": "PROVED_BY_GATE_DECOMPOSITION"
+}

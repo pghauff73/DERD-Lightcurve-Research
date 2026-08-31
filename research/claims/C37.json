@@ -1,0 +1,49 @@
+{
+  "blockers": [
+    "forecast_harmonics_snr",
+    "structural_constraints",
+    "score_below_cadence_threshold",
+    "uncertainty_structural_stability",
+    "uncertainty_threshold_stability",
+    "cadence_calibration_auc"
+  ],
+  "claim": "OGLE-LMC-CEP-0010 does not pass the integrated DERD harmonic-forecast evidence gate under the frozen Phase-07 rules.",
+  "claim_id": "C37",
+  "decision": "ABSTAIN_OR_REJECT_INSUFFICIENT_HARMONIC_EVIDENCE",
+  "evidence": [
+    "artifacts/phase07/PHASE07_RESULT.md",
+    "artifacts/phase07/phase07_summary.json",
+    "artifacts/phase07/phase07_harmonic_coefficients.csv"
+  ],
+  "evidence_level": "E2_SINGLE_TARGET_DEVELOPMENT_EVIDENCE",
+  "measurements": {
+    "cadence_holdout_auc": 0.7962765957446809,
+    "cadence_holdout_balanced_accuracy": 0.7542553191489361,
+    "coefficient_snr": [
+      182.89489337855974,
+      15.061330366976446,
+      3.8207035735811035,
+      3.116553391944194,
+      1.7595607075032889,
+      1.3364386097235104,
+      1.6985830766898415,
+      0.832390454178761
+    ],
+    "design_condition_number": 1.828138992893719,
+    "first_four_snr_count_ge_threshold": 4,
+    "forecast_snr_count_ge_threshold": 0,
+    "observation_count": 372,
+    "occupied_phase_bins": 12,
+    "score_threshold": 1.470081839858064,
+    "screen_score": 1.9052202501405278,
+    "structural_flags": [
+      "RESIDUE_PHASE_CONSTRAINT_WEAK",
+      "RESIDUE_SIGN_CONSTRAINT_FAILED"
+    ],
+    "total_phase_bins": 12,
+    "uncertainty_below_threshold_fraction": 0.1259765625,
+    "uncertainty_structural_pass_fraction": 0.004150390625
+  },
+  "scope": "A negative or abstaining result for one exposed first-overtone Cepheid. It neither rejects DERD generally nor tests a transparent shell.",
+  "status": "SUPPORTED_NEGATIVE_DEVELOPMENT_RESULT"
+}

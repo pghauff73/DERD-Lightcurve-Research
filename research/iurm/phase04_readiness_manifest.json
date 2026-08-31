@@ -1,0 +1,95 @@
+{
+  "current_pilot_result": {
+    "files_verified": 20,
+    "prior_exposure_count": 20,
+    "ready_for_sealing": false,
+    "required_total": 150,
+    "stratum_counts": {
+      "CEP-1O": 10,
+      "CEP-F": 10
+    }
+  },
+  "experiments": [
+    {
+      "active_dimension": "prior exposure status",
+      "experiment_id": "IURM-P04-EXPOSURE",
+      "frozen": [
+        "star identity",
+        "stratum",
+        "source package"
+      ],
+      "gate": "prior development exposure permanently forbids sealed_holdout",
+      "values": [
+        "never inspected",
+        "used in prior development"
+      ]
+    },
+    {
+      "active_dimension": "clean observation count",
+      "experiment_id": "IURM-P04-OBSERVATIONS",
+      "frozen": [
+        "minimum 50",
+        "source hash",
+        "mode policy"
+      ],
+      "gate": "observation_count >= 50",
+      "values": "integer count per star package"
+    },
+    {
+      "active_dimension": "occupied phase bins",
+      "experiment_id": "IURM-P04-PHASE-COVERAGE",
+      "frozen": [
+        "catalog period",
+        "12-bin audit",
+        "source observations"
+      ],
+      "gate": "at least 10 occupied bins",
+      "values": "0 to 12"
+    },
+    {
+      "active_dimension": "stars per frozen stratum",
+      "experiment_id": "IURM-P04-STRATUM-COVERAGE",
+      "frozen": [
+        "ten stratum definitions",
+        "10 development minimum",
+        "5 sealed minimum"
+      ],
+      "gate": "at least 15 qualifying stars per stratum",
+      "values": "candidate count"
+    },
+    {
+      "active_dimension": "source SHA-256 match",
+      "experiment_id": "IURM-P04-FILE-INTEGRITY",
+      "frozen": [
+        "candidate manifest",
+        "data root",
+        "hash algorithm"
+      ],
+      "gate": "every source package matches",
+      "values": [
+        "match",
+        "mismatch",
+        "missing"
+      ]
+    },
+    {
+      "active_dimension": "canonical role payload integrity",
+      "experiment_id": "IURM-P04-SEAL",
+      "frozen": [
+        "candidate digest",
+        "contract digest",
+        "analysis-plan digest",
+        "code-manifest digest",
+        "seed"
+      ],
+      "gate": "SHA-256 seal verifies",
+      "values": [
+        "valid",
+        "invalid"
+      ]
+    }
+  ],
+  "manifest_id": "IURM-PHASE04-READINESS-0.4",
+  "rule": "one active qualification dimension, one frozen constant set, one gate result",
+  "status": "EXECUTED_ON_CURRENT_EXPOSED_PILOT_AND_SYNTHETIC_GOVERNANCE_FIXTURE"
+}

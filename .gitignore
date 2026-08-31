@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+build/
+dist/
+*.egg-info/
+artifacts/generated/
+data/official/
+# Phase-07 third-party development photometry is fetched and hash-verified locally.
+# Raw redistribution terms are not yet verified, so the complete mirror is not bundled.
+data/raw/ogle/*.complete.dat
+# Phase-08 multi-family raw development cohort. Hash-verified local inputs only.
+data/raw/phase08_cohort/*.complete.dat
+# Phase-09/10 claim-grade cohort inputs are local, rights-reviewed replay bytes only.
+data/raw/phase09_cohort/*.complete.dat
+data/external/phase10_catalogs/ident.dat
+data/external/phase10_catalogs/dsct.dat
+
+# Phase-17 partial V-band external-analysis anchor source; local verified bytes only.
+data/raw/phase17_external/*.dat
+
+# Phase-18 official OGLE-III/IV V-band reconstruction inputs; local-only.
+data/raw/phase18_external/*.dat
+
+# Phase-20 official OGLE I/V mechanism-discrimination inputs; local-only.
+data/raw/phase20_external/*.dat

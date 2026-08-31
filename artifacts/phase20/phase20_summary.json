@@ -1,0 +1,897 @@
+{
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "claim_boundary": "passband projection, synthetic mechanism non-uniqueness, and gravity-only mathematical falsification",
+  "decision": "PHASE20_MULTIBAND_AND_MECHANISM_TESTS_COMPLETE_STRICT_PASSBAND_INVARIANCE_REJECTED_DERD_UNIQUENESS_REJECTED_GRAVITY_ONLY_PERIODIC_MOTION_FORMALLY_REJECTED",
+  "gravity_only_test": {
+    "all_periodic_controls_failed": true,
+    "ballistic_positive_control_passed": true,
+    "controls": [
+      {
+        "coefficient_of_variation_positive": 2.9027475788800784e-17,
+        "gate_pass": true,
+        "median_effective_mass": 1.0,
+        "model_id": "inverse_square_ballistic_segment",
+        "periodic": false,
+        "positive_mass_fraction": 1.0,
+        "sign_changes": 0
+      },
+      {
+        "coefficient_of_variation_positive": 0.5188919650069859,
+        "gate_pass": false,
+        "median_effective_mass": 2.648025054108729,
+        "model_id": "harmonic_breathing_mode",
+        "periodic": true,
+        "positive_mass_fraction": 0.34716796875,
+        "sign_changes": 2
+      },
+      {
+        "coefficient_of_variation_positive": 1.257146002741701,
+        "gate_pass": false,
+        "median_effective_mass": 0.47465264837780247,
+        "model_id": "derd_waveform_interpreted_as_radius",
+        "periodic": true,
+        "positive_mass_fraction": 0.5576171875,
+        "sign_changes": 4
+      },
+      {
+        "coefficient_of_variation_positive": 0.7897130248760968,
+        "gate_pass": false,
+        "median_effective_mass": 1.4874635796993163,
+        "model_id": "pressure_supported_hydrodynamic_surrogate",
+        "periodic": true,
+        "positive_mass_fraction": 0.46435546875,
+        "sign_changes": 4
+      }
+    ],
+    "formal_theorem": {
+      "does_not_exclude": [
+        "gravity-restored hydrodynamic pulsation with pressure and thermal forces",
+        "nonradial orbital motion with angular momentum",
+        "time-dependent or additional forces"
+      ],
+      "proof": "A nonconstant continuous periodic function attains a local minimum. At a twice-differentiable minimum, R_ddot is non-negative. The inverse-square equation requires R_ddot<0 for all positive R. The conditions contradict.",
+      "scope": "gravity-only radial equation with constant positive enclosed mass and no outward force",
+      "statement": "No nonconstant twice-differentiable positive periodic radius R(t) can satisfy R_ddot=-G*M/R^2 for constant G>0 and M>0 at every time.",
+      "theorem_id": "PHASE20-GRAVITY-ONLY-PERIODIC-RADIAL-IMPOSSIBILITY"
+    }
+  },
+  "integrated_interpretation": {
+    "rejected": [
+      "strict passband-invariant normalized waveform for this exposed-development star",
+      "unique gravitational interpretation of DERD fit plus harmonic recurrence",
+      "positive-mass gravity-only periodic radial pulsation"
+    ],
+    "survives": [
+      "DERD as an approximate reduced harmonic coordinate system",
+      "gravity-restored nonlinear hydrodynamics",
+      "band-dependent radius-temperature-opacity-atmosphere projection",
+      "subclass mechanisms such as mode coupling, tides, shocks, rotation, and circumstellar reprocessing"
+    ]
+  },
+  "mechanism_tournament": {
+    "holdout_family_summary": [
+      {
+        "family": "derd_geometric",
+        "fit_pass_fraction": 1.0,
+        "forecast_pass_fraction": 1.0,
+        "holdout_count": 11,
+        "joint_fit_and_screen_pass_fraction": 0.7272727272727273,
+        "median_forecast_residual": 0.28547320215941785,
+        "median_harmonic_screen_score": 1.2438964965538826,
+        "median_heldout_rmse": 0.01735462428048306,
+        "screen_pass_fraction": 0.7272727272727273
+      },
+      {
+        "family": "generic_fourier",
+        "fit_pass_fraction": 0.0,
+        "forecast_pass_fraction": 0.0,
+        "holdout_count": 8,
+        "joint_fit_and_screen_pass_fraction": 0.0,
+        "median_forecast_residual": 1.1028642618923392,
+        "median_harmonic_screen_score": 2.9845689669436,
+        "median_heldout_rmse": 0.1741940280889528,
+        "screen_pass_fraction": 0.0
+      },
+      {
+        "family": "two_pole_transfer",
+        "fit_pass_fraction": 0.14285714285714285,
+        "forecast_pass_fraction": 0.5714285714285714,
+        "holdout_count": 7,
+        "joint_fit_and_screen_pass_fraction": 0.0,
+        "median_forecast_residual": 0.654852210448616,
+        "median_harmonic_screen_score": 2.122684802161905,
+        "median_heldout_rmse": 0.06407712472208392,
+        "screen_pass_fraction": 0.14285714285714285
+      },
+      {
+        "family": "radius_temperature_projection",
+        "fit_pass_fraction": 0.875,
+        "forecast_pass_fraction": 1.0,
+        "holdout_count": 8,
+        "joint_fit_and_screen_pass_fraction": 0.375,
+        "median_forecast_residual": 0.15847333439252426,
+        "median_harmonic_screen_score": 1.7476119438438298,
+        "median_heldout_rmse": 0.01382297323349304,
+        "screen_pass_fraction": 0.375
+      },
+      {
+        "family": "vdp_hydrodynamic_surrogate",
+        "fit_pass_fraction": 0.45454545454545453,
+        "forecast_pass_fraction": 0.6363636363636364,
+        "holdout_count": 11,
+        "joint_fit_and_screen_pass_fraction": 0.2727272727272727,
+        "median_forecast_residual": 0.5141050912799078,
+        "median_harmonic_screen_score": 1.76552323449942,
+        "median_heldout_rmse": 0.04024097990568369,
+        "screen_pass_fraction": 0.45454545454545453
+      },
+      {
+        "family": "two_zone_surrogate",
+        "fit_pass_fraction": 0.16666666666666666,
+        "forecast_pass_fraction": 0.16666666666666666,
+        "holdout_count": 6,
+        "joint_fit_and_screen_pass_fraction": 0.16666666666666666,
+        "median_forecast_residual": 0.9148677824272147,
+        "median_harmonic_screen_score": 1.9667595611893818,
+        "median_heldout_rmse": 0.15754569896818046,
+        "screen_pass_fraction": 0.16666666666666666
+      },
+      {
+        "family": "shock_modified",
+        "fit_pass_fraction": 0.3,
+        "forecast_pass_fraction": 0.3,
+        "holdout_count": 10,
+        "joint_fit_and_screen_pass_fraction": 0.2,
+        "median_forecast_residual": 0.9169031440940167,
+        "median_harmonic_screen_score": 1.9803519653652772,
+        "median_heldout_rmse": 0.11414007864077261,
+        "screen_pass_fraction": 0.4
+      },
+      {
+        "family": "tidal_kepler_response",
+        "fit_pass_fraction": 0.4444444444444444,
+        "forecast_pass_fraction": 0.5555555555555556,
+        "holdout_count": 9,
+        "joint_fit_and_screen_pass_fraction": 0.0,
+        "median_forecast_residual": 0.6488904730099109,
+        "median_harmonic_screen_score": 2.218058099407166,
+        "median_heldout_rmse": 0.040809572150576005,
+        "screen_pass_fraction": 0.1111111111111111
+      },
+      {
+        "family": "spot_rotation",
+        "fit_pass_fraction": 0.75,
+        "forecast_pass_fraction": 1.0,
+        "holdout_count": 4,
+        "joint_fit_and_screen_pass_fraction": 0.5,
+        "median_forecast_residual": 0.19178960951174262,
+        "median_harmonic_screen_score": 1.1572912039099412,
+        "median_heldout_rmse": 0.01667085134615027,
+        "screen_pass_fraction": 0.75
+      },
+      {
+        "family": "cse_reprocessing",
+        "fit_pass_fraction": 0.9166666666666666,
+        "forecast_pass_fraction": 1.0,
+        "holdout_count": 12,
+        "joint_fit_and_screen_pass_fraction": 0.5,
+        "median_forecast_residual": 0.1578905891360702,
+        "median_harmonic_screen_score": 1.6983875510736497,
+        "median_heldout_rmse": 0.016706772315919147,
+        "screen_pass_fraction": 0.5
+      }
+    ],
+    "interpretation_limit": "The generators are controlled mechanism surrogates, not full stellar-evolution models. Passing a gate disproves uniqueness; it does not establish astrophysical prevalence.",
+    "threshold_development_metrics": {
+      "forecast_residual": {
+        "balanced_accuracy": 1.0,
+        "false_negative": 0.0,
+        "false_positive": 0.0,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "true_negative": 22.0,
+        "true_positive": 19.0
+      },
+      "harmonic_screen_score": {
+        "balanced_accuracy": 0.9736842105263157,
+        "false_negative": 1.0,
+        "false_positive": 0.0,
+        "sensitivity": 0.9473684210526315,
+        "specificity": 1.0,
+        "true_negative": 22.0,
+        "true_positive": 18.0
+      },
+      "heldout_rmse": {
+        "balanced_accuracy": 0.9736842105263157,
+        "false_negative": 1.0,
+        "false_positive": 0.0,
+        "sensitivity": 0.9473684210526315,
+        "specificity": 1.0,
+        "true_negative": 22.0,
+        "true_positive": 18.0
+      }
+    },
+    "thresholds": {
+      "forecast_residual": 0.6622222932147183,
+      "harmonic_screen_score": 1.62674112201098,
+      "heldout_rmse": 0.03682793851660837
+    }
+  },
+  "multiband": {
+    "comparisons": {
+      "I_vs_V_OGLEIII": {
+        "combined_covariance": [
+          [
+            0.005444403582559295,
+            0.0071283455382177095,
+            0.002213800316166307,
+            0.009813444992057116
+          ],
+          [
+            0.0071283455382177095,
+            0.025799907866903553,
+            0.0014265365701733015,
+            0.0720082216960686
+          ],
+          [
+            0.002213800316166307,
+            0.0014265365701733015,
+            0.0025657429252312516,
+            -0.001052200331157771
+          ],
+          [
+            0.009813444992057116,
+            0.0720082216960686,
+            -0.001052200331157771,
+            0.4599988759162865
+          ]
+        ],
+        "degrees_of_freedom": 4,
+        "difference_second_minus_first": {
+          "R21": 0.06602290791571791,
+          "R31": 0.02878288546004669,
+          "phi21": -0.5288658630731788,
+          "phi31": -0.8156745506316003
+        },
+        "first": {
+          "covariance": [
+            [
+              7.813262754596523e-05,
+              8.337030127878956e-06,
+              3.5051183453057133e-06,
+              -4.124671271919783e-05
+            ],
+            [
+              8.337030127878956e-06,
+              0.001237117393258086,
+              -5.7528083755482774e-06,
+              0.0004167165498523802
+            ],
+            [
+              3.5051183453057133e-06,
+              -5.7528083755482774e-06,
+              7.5246707712775e-05,
+              -1.6718228336540842e-05
+            ],
+            [
+              -4.124671271919783e-05,
+              0.0004167165498523802,
+              -1.6718228336540842e-05,
+              0.00724513601293618
+            ]
+          ],
+          "draws": 20000,
+          "labels": [
+            "R21",
+            "phi21",
+            "R31",
+            "phi31"
+          ],
+          "standard_error": {
+            "R21": 0.008839266233458817,
+            "R31": 0.008674486020092199,
+            "phi21": 0.03517267964284334,
+            "phi31": 0.08511836472193401
+          },
+          "vector": {
+            "R21": 0.29816273615760863,
+            "R31": 0.10696963693010576,
+            "phi21": 1.4804907648413677,
+            "phi31": 2.8067962048195465
+          }
+        },
+        "mahalanobis_chi_square": 32.80967783451897,
+        "p_value": 1.3065889769568323e-06,
+        "second": {
+          "covariance": [
+            [
+              0.005366270955013329,
+              0.00712000850808983,
+              0.002210295197821001,
+              0.009854691704776314
+            ],
+            [
+              0.00712000850808983,
+              0.024562790473645468,
+              0.0014322893785488498,
+              0.07159150514621622
+            ],
+            [
+              0.002210295197821001,
+              0.0014322893785488498,
+              0.002490496217518477,
+              -0.0010354821028212302
+            ],
+            [
+              0.009854691704776314,
+              0.07159150514621622,
+              -0.0010354821028212302,
+              0.4527537399033503
+            ]
+          ],
+          "draws": 20000,
+          "labels": [
+            "R21",
+            "phi21",
+            "R31",
+            "phi31"
+          ],
+          "standard_error": {
+            "R21": 0.07325483571077973,
+            "R31": 0.049904871681214415,
+            "phi21": 0.15672520688659328,
+            "phi31": 0.6728697793060335
+          },
+          "vector": {
+            "R21": 0.36418564407332654,
+            "R31": 0.13575252239015245,
+            "phi21": 0.9516249017681888,
+            "phi31": 1.9911216541879462
+          }
+        }
+      },
+      "I_vs_V_merged": {
+        "combined_covariance": [
+          [
+            0.00030671692863694903,
+            -4.387637083604129e-05,
+            -4.91066040978267e-05,
+            -0.0001576596151633694
+          ],
+          [
+            -4.387637083604129e-05,
+            0.0027931267218528283,
+            7.714855115991708e-05,
+            0.0025232791258286377
+          ],
+          [
+            -4.91066040978267e-05,
+            7.714855115991708e-05,
+            0.00022218227068958752,
+            0.00022403904687835917
+          ],
+          [
+            -0.0001576596151633694,
+            0.0025232791258286377,
+            0.00022403904687835917,
+            0.02271920388421163
+          ]
+        ],
+        "degrees_of_freedom": 4,
+        "difference_second_minus_first": {
+          "R21": 0.04136409039659461,
+          "R31": 0.01419383215365351,
+          "phi21": -0.5478660120632863,
+          "phi31": -0.8544799501187157
+        },
+        "first": {
+          "covariance": [
+            [
+              7.961541956933882e-05,
+              6.18803398495801e-06,
+              3.3426701492692263e-06,
+              -4.3729319978230375e-05
+            ],
+            [
+              6.18803398495801e-06,
+              0.0012336620075588402,
+              -7.855070159659842e-06,
+              0.0004085543340821513
+            ],
+            [
+              3.3426701492692263e-06,
+              -7.855070159659842e-06,
+              7.678845976421434e-05,
+              -6.114704124203868e-06
+            ],
+            [
+              -4.3729319978230375e-05,
+              0.0004085543340821513,
+              -6.114704124203868e-06,
+              0.007324428812264974
+            ]
+          ],
+          "draws": 20000,
+          "labels": [
+            "R21",
+            "phi21",
+            "R31",
+            "phi31"
+          ],
+          "standard_error": {
+            "R21": 0.008922747310629099,
+            "R31": 0.008762902473736333,
+            "phi21": 0.03512352498766091,
+            "phi31": 0.08558287686368678
+          },
+          "vector": {
+            "R21": 0.29816273615760863,
+            "R31": 0.10696963693010576,
+            "phi21": 1.4804907648413677,
+            "phi31": 2.8067962048195465
+          }
+        },
+        "mahalanobis_chi_square": 123.25637409476077,
+        "p_value": 1.0764361533163735e-25,
+        "second": {
+          "covariance": [
+            [
+              0.0002271015090676102,
+              -5.00644048209993e-05,
+              -5.2449274247095924e-05,
+              -0.00011393029518513902
+            ],
+            [
+              -5.00644048209993e-05,
+              0.001559464714293988,
+              8.500362131957692e-05,
+              0.002114724791746486
+            ],
+            [
+              -5.2449274247095924e-05,
+              8.500362131957692e-05,
+              0.0001453938109253732,
+              0.00023015375100256304
+            ],
+            [
+              -0.00011393029518513902,
+              0.002114724791746486,
+              0.00023015375100256304,
+              0.015394775071946658
+            ]
+          ],
+          "draws": 20000,
+          "labels": [
+            "R21",
+            "phi21",
+            "R31",
+            "phi31"
+          ],
+          "standard_error": {
+            "R21": 0.015069887493528616,
+            "R31": 0.012057935599652753,
+            "phi21": 0.03949005842353222,
+            "phi31": 0.12407568283892964
+          },
+          "vector": {
+            "R21": 0.33952682655420324,
+            "R31": 0.12116346908375927,
+            "phi21": 0.9326247527780813,
+            "phi31": 1.9523162547008308
+          }
+        }
+      },
+      "V_OGLEIII_vs_V_OGLEIV": {
+        "combined_covariance": [
+          [
+            0.006128429969868822,
+            0.0056993340502377345,
+            0.0022152113928641842,
+            0.0035928004102232557
+          ],
+          [
+            0.0056993340502377345,
+            0.0376229990226231,
+            0.0036055664079628867,
+            0.10498951345827585
+          ],
+          [
+            0.0022152113928641842,
+            0.0036055664079628867,
+            0.003509649861793156,
+            0.00196616188113935
+          ],
+          [
+            0.0035928004102232557,
+            0.10498951345827585,
+            0.00196616188113935,
+            0.5971425526021183
+          ]
+        ],
+        "degrees_of_freedom": 4,
+        "difference_second_minus_first": {
+          "R21": -0.03761427340841522,
+          "R31": -0.016172048607078784,
+          "phi21": -0.02076772281544237,
+          "phi31": -0.0423477295791308
+        },
+        "first": {
+          "covariance": [
+            [
+              0.0053581367473792465,
+              0.007016016455360873,
+              0.002258293913243881,
+              0.009463670409870896
+            ],
+            [
+              0.007016016455360873,
+              0.024452545386137513,
+              0.0013756688657626886,
+              0.07132235303982
+            ],
+            [
+              0.002258293913243881,
+              0.0013756688657626886,
+              0.0025769868133793906,
+              -0.0015982017573206457
+            ],
+            [
+              0.009463670409870896,
+              0.07132235303982,
+              -0.0015982017573206457,
+              0.4516103222480155
+            ]
+          ],
+          "draws": 20000,
+          "labels": [
+            "R21",
+            "phi21",
+            "R31",
+            "phi31"
+          ],
+          "standard_error": {
+            "R21": 0.07319929471913815,
+            "R31": 0.050764030704617914,
+            "phi21": 0.15637309674665112,
+            "phi31": 0.6720195847205761
+          },
+          "vector": {
+            "R21": 0.36418564407332654,
+            "R31": 0.13575252239015245,
+            "phi21": 0.9516249017681888,
+            "phi31": 1.9911216541879462
+          }
+        },
+        "mahalanobis_chi_square": 0.25946125448216567,
+        "p_value": 0.9922785587669352,
+        "second": {
+          "covariance": [
+            [
+              0.0007702932224895757,
+              -0.0013166824051231384,
+              -4.3082520379696696e-05,
+              -0.005870869999647641
+            ],
+            [
+              -0.0013166824051231384,
+              0.013170453636485585,
+              0.002229897542200198,
+              0.033667160418455855
+            ],
+            [
+              -4.3082520379696696e-05,
+              0.002229897542200198,
+              0.0009326630484137655,
+              0.0035643636384599955
+            ],
+            [
+              -0.005870869999647641,
+              0.033667160418455855,
+              0.0035643636384599955,
+              0.14553223035410282
+            ]
+          ],
+          "draws": 20000,
+          "labels": [
+            "R21",
+            "phi21",
+            "R31",
+            "phi31"
+          ],
+          "standard_error": {
+            "R21": 0.027754156850633666,
+            "R31": 0.030539532550675454,
+            "phi21": 0.11476259685318028,
+            "phi31": 0.3814868678658583
+          },
+          "vector": {
+            "R21": 0.3265713706649113,
+            "R31": 0.11958047378307367,
+            "phi21": 0.9308571789527464,
+            "phi31": 1.9487739246088154
+          }
+        }
+      }
+    },
+    "period_days": 3.1181490000000003,
+    "reference_epoch": 2171.85654,
+    "same_band_epoch_invariance_rejected": false,
+    "shape_lag": {
+      "I_vs_V_OGLEIII": {
+        "best_lag_cycles": -0.024678660525221486,
+        "grid_size": 8192,
+        "lag_steps_legacy_coordinate": 3201,
+        "method": "FFT discrete alignment plus bounded analytic refinement",
+        "minimum_rmse": 0.09756138384271619
+      },
+      "I_vs_V_merged": {
+        "best_lag_cycles": -0.026911234313044066,
+        "grid_size": 8192,
+        "lag_steps_legacy_coordinate": 3201,
+        "method": "FFT discrete alignment plus bounded analytic refinement",
+        "minimum_rmse": 0.09571211909922761
+      }
+    },
+    "shape_model_comparison": {
+      "bic": {
+        "separate_derd": -3601.384247453727,
+        "shared_components_band_weights": -4023.4026728419194,
+        "shared_derd": -2781.529456341556
+      },
+      "bootstrap_delta_bic": {
+        "components_minus_separate_derd": {
+          "fraction_below_zero": 0.96875,
+          "median": -367.829043725711,
+          "q05": -601.4849495948305,
+          "q95": -127.74198937648879
+        },
+        "components_minus_shared_derd": {
+          "fraction_below_zero": 1.0,
+          "median": -1135.7076890710227,
+          "q05": -1300.3508230040195,
+          "q95": -828.4023256579248
+        },
+        "separate_minus_shared_derd": {
+          "fraction_below_zero": 1.0,
+          "median": -707.3504717367666,
+          "q05": -928.9574683443566,
+          "q95": -589.2739116713877
+        }
+      },
+      "bootstrap_draws": 64,
+      "bootstrap_wins": {
+        "separate_derd": 2,
+        "shared_components_band_weights": 62,
+        "shared_derd": 0
+      },
+      "grid_size": 256,
+      "interpretation_limit": "The comparison uses covariance-sampled h1-h8 reconstructions, not independent raw observations. BIC is therefore a representation-level heuristic.",
+      "rmse": {
+        "separate_derd": 0.028276796698445992,
+        "shared_components_band_weights": 0.018499245868130076,
+        "shared_derd": 0.06452478823590153
+      },
+      "separate_derd_parameters": [
+        [
+          0.18870712562584666,
+          0.448233175728528,
+          1.306079408433155,
+          0.9001220395739199
+        ],
+        [
+          0.3721249765578514,
+          0.3770203408917179,
+          1.0887335351393612,
+          0.9754431194801081
+        ]
+      ],
+      "shared_component_band_coefficients": [
+        [
+          0.43445050592698037,
+          1.1281320250117897,
+          -0.9192129233105716
+        ],
+        [
+          0.240966505939939,
+          1.2019723858607005,
+          -0.7183459839337485
+        ]
+      ],
+      "shared_component_parameters": [
+        0.4272773218493285,
+        0.276430146805155,
+        0.14133264156367523,
+        0.5416059009115944
+      ],
+      "shared_derd_parameters": [
+        0.2059436006335105,
+        0.43121617149637137,
+        1.4592586667526923,
+        0.90348393117441
+      ]
+    },
+    "strict_band_invariance_rejected": true,
+    "v_extraction_diagnostics": [
+      {
+        "complex_standard_errors": [
+          0.008647433920123694,
+          0.007798167249120572,
+          0.008233078841747923,
+          0.009986671757753252,
+          0.011324130977501153,
+          0.01005413241712617,
+          0.011586827240666465,
+          0.010432267317497598
+        ],
+        "covariance_estimator": "hc3",
+        "design_condition_number": 7.625326505161201,
+        "effective_rank": 17,
+        "exchange_sha256": "194bedfa8def2ca4c71f0f4afcbaeefea9fe781d1bf5590fd92e78f11409c93f",
+        "harmonic_count": 8,
+        "harmonic_wald_snr": [
+          18.494064046418718,
+          4.714685650377291,
+          2.56444331508808,
+          0.5409678718674154,
+          0.2932958275774588,
+          0.6368470519095761,
+          0.29521352870724343,
+          0.47196560716055397
+        ],
+        "intercept": 1.0044882238389934,
+        "intercept_standard_error": 0.010206178343425286,
+        "period_days": 3.1181490000000003,
+        "phase_coverage": {
+          "bin_count": 12,
+          "bin_counts": [
+            6,
+            4,
+            5,
+            2,
+            3,
+            1,
+            1,
+            2,
+            3,
+            3,
+            2,
+            1
+          ],
+          "maximum_bin_count": 6,
+          "maximum_circular_phase_gap": 0.09536779672805551,
+          "median_circular_phase_gap": 0.01983356151362159,
+          "minimum_bin_count": 1,
+          "occupied_bins": 12
+        },
+        "photometric_covariance_trace": 8.81229933032012e-05,
+        "residual_rmse": 0.007597641452082555,
+        "ridge": 0.0001,
+        "robust_covariance_trace": 0.0031020600552207752,
+        "sample_count": 33,
+        "source_scope": "ogleiii_v",
+        "weighted_reduced_chi_square": 3.6622420659443056
+      },
+      {
+        "complex_standard_errors": [
+          0.004203893316539326,
+          0.004813862574445559,
+          0.005171115418500272,
+          0.0055384452130044105,
+          0.005530981684226606,
+          0.0046797643862073485,
+          0.004278452314917359,
+          0.003415383361353733
+        ],
+        "covariance_estimator": "hc3",
+        "design_condition_number": 5.7215778278639835,
+        "effective_rank": 17,
+        "exchange_sha256": "66c3b14f87488c18fc1db419a1ffd29d6acdd50a2bf08824cbea8e55addae9a0",
+        "harmonic_count": 8,
+        "harmonic_wald_snr": [
+          24.75002654099478,
+          13.474386792998793,
+          4.818302896759524,
+          0.28866631171394325,
+          0.2911920932999513,
+          0.9566388962760094,
+          0.5327375270100102,
+          0.3111860604910597
+        ],
+        "intercept": 1.0643498276436656,
+        "intercept_standard_error": 0.0039702920851283074,
+        "period_days": 3.1181490000000003,
+        "phase_coverage": {
+          "bin_count": 12,
+          "bin_counts": [
+            3,
+            4,
+            3,
+            2,
+            2,
+            3,
+            4,
+            3,
+            3,
+            2,
+            1,
+            2
+          ],
+          "maximum_bin_count": 4,
+          "maximum_circular_phase_gap": 0.09506088387706768,
+          "median_circular_phase_gap": 0.026294445839425862,
+          "minimum_bin_count": 1,
+          "occupied_bins": 12
+        },
+        "photometric_covariance_trace": 4.3271060955606095e-05,
+        "residual_rmse": 0.005743012240447753,
+        "ridge": 0.0001,
+        "robust_covariance_trace": 0.0007228910110763712,
+        "sample_count": 32,
+        "source_scope": "ogleiv_v",
+        "weighted_reduced_chi_square": 3.346353207395374
+      },
+      {
+        "complex_standard_errors": [
+          0.0014616744030655196,
+          0.0015752575277452536,
+          0.0016708696489605064,
+          0.0016133226459685533,
+          0.0016242072646620246,
+          0.0017693974255221165,
+          0.0017909239748104906,
+          0.0017549103620942298
+        ],
+        "covariance_estimator": "hc3",
+        "design_condition_number": 4.578430923215874,
+        "effective_rank": 17,
+        "exchange_sha256": "088834dc4310e69b8f317fb7c08ac1d902cbae767322064eb4375ab45b5a4424",
+        "harmonic_count": 8,
+        "harmonic_wald_snr": [
+          81.6824228057798,
+          25.464494351955175,
+          9.95018481357743,
+          1.281211492331531,
+          0.2666384036139967,
+          1.680670715354978,
+          1.3599780314203382,
+          0.7802195797825155
+        ],
+        "intercept": 1.0218087230833894,
+        "intercept_standard_error": 0.0013344503001121307,
+        "period_days": 3.1181490000000003,
+        "phase_coverage": {
+          "bin_count": 12,
+          "bin_counts": [
+            9,
+            8,
+            8,
+            4,
+            5,
+            4,
+            5,
+            5,
+            6,
+            5,
+            3,
+            3
+          ],
+          "maximum_bin_count": 9,
+          "maximum_circular_phase_gap": 0.07507081925837156,
+          "median_circular_phase_gap": 0.008886361748523086,
+          "minimum_bin_count": 3,
+          "occupied_bins": 12
+        },
+        "photometric_covariance_trace": 1.947288527820026e-05,
+        "residual_rmse": 0.009021135365861695,
+        "ridge": 0.0001,
+        "robust_covariance_trace": 8.827391693467723e-05,
+        "sample_count": 65,
+        "source_scope": "merged_v",
+        "weighted_reduced_chi_square": 4.147591178101416
+      }
+    ]
+  },
+  "object_id": "OGLE-LMC-CEP-0002",
+  "phase_id": "DERD-v2.0-phase20-multiband-mechanism-falsification",
+  "sha256_canonical_json": "35ecb529833ad3be5e00991d0782c03851c42f6fe49860f1d2febd634e0833fa"
+}

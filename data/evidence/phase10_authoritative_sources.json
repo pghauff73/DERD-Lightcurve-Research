@@ -1,0 +1,48 @@
+{
+  "claim_boundary": "This source record can establish catalogue coordinates. It cannot establish DERD compatibility, literal internal Keplerian motion, a universal transparent shell, or stellar/shell mass.",
+  "current_runtime_state": {
+    "authoritative_catalog_bytes_present": false,
+    "metadata_locks_promoted": 0,
+    "network_attempt_result": "FAILED_RUNTIME_NETWORK_RESOLUTION",
+    "raw_catalog_bytes_redistributed": false
+  },
+  "date_checked": "2026-08-18",
+  "evidence_id": "EDO-PHASE10-AUTHORITATIVE-SOURCES-1.0",
+  "scope": "Authoritative identity, subtype, primary-period and crosswalk coordinates for OGLE-IV LMC Delta Scuti metadata locks.",
+  "sources": [
+    {
+      "authority": "OGLE Collection of Variable Stars",
+      "collection": "OGLE-IV LMC Delta Scuti stars",
+      "evidence_use": "Primary authority for exact OGLE-IV identity, catalogue subtype, OGLE-III cross-reference, primary period and uncertainty.",
+      "identity_file_url": "https://www.astrouw.edu.pl/ogle/ogle4/OCVS/lmc/dsct/ident.dat",
+      "official_collection_url": "https://www.astrouw.edu.pl/ogle/ogle4/OCVS/lmc/dsct/",
+      "parameter_file_url": "https://www.astrouw.edu.pl/ogle/ogle4/OCVS/lmc/dsct/dsct.dat",
+      "record_count": 15256,
+      "rights_boundary": "Citation acknowledgement required; raw catalogue bytes are not bundled until a redistribution basis is recorded."
+    },
+    {
+      "authority": "CDS VizieR",
+      "catalogue_file_description_updated": "2025-08-26",
+      "catalogue_id": "J/AcA/73/105",
+      "identity_file_url": "https://cdsarc.cds.unistra.fr/ftp/J/AcA/73/105/ident.dat",
+      "identity_schema_role": "Fixed-width object ID, subtype, sky coordinates and OGLE-IV/III/II aliases.",
+      "parameter_file_url": "https://cdsarc.cds.unistra.fr/ftp/J/AcA/73/105/dsct.dat",
+      "parameter_schema_role": "Fixed-width mean photometry, primary period, period error, epoch, amplitude and optional additional periods.",
+      "readme_url": "https://cdsarc.cds.unistra.fr/ftp/J/AcA/73/105/ReadMe",
+      "record_count": 15256
+    },
+    {
+      "authority": "OGLE-III LMC Delta Scuti catalogue",
+      "collection_url": "https://www.astrouw.edu.pl/ogle/ogle3/OIII-CVS/lmc/dsct/",
+      "mode_boundary": "The catalogue reported multimode objects but did not unambiguously identify the radial mode of its single-mode objects; Phase 10 therefore preserves singlemode as radial-order unresolved.",
+      "record_count": 2786
+    },
+    {
+      "authority": "UPJS VO mirror",
+      "role": "Independent current service-discovery coordinate only; not substituted for frozen authoritative catalogue files.",
+      "service_url": "https://vos2.astro.sk/ogle/catalogues",
+      "table": "ogle.dsct",
+      "tap_url": "https://vos2.astro.sk/ogle/tap"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "experiments": [
+    {
+      "active_dimension": "source_scope",
+      "frozen": [
+        "target",
+        "band",
+        "published period",
+        "harmonic order",
+        "unweighted curve_fit",
+        "free frequency"
+      ],
+      "id": "I18-SOURCE",
+      "levels": [
+        "ogleiii_only",
+        "ogleiv_only",
+        "merged_ogleiii_iv"
+      ]
+    },
+    {
+      "active_dimension": "weighting",
+      "frozen": [
+        "merged source",
+        "harmonic order",
+        "frequency mode",
+        "published comparison vector"
+      ],
+      "id": "I18-WEIGHT",
+      "levels": [
+        "unweighted",
+        "quoted_relative",
+        "quoted_absolute"
+      ]
+    },
+    {
+      "active_dimension": "period_mode",
+      "frozen": [
+        "source scope",
+        "weighting",
+        "harmonic order",
+        "frequency span"
+      ],
+      "id": "I18-PERIOD",
+      "levels": [
+        "fixed",
+        "free"
+      ]
+    }
+  ],
+  "manifest_id": "IURM-PHASE18-1.0",
+  "primary_variant": "merged_ogleiii_iv_unweighted_free",
+  "rule": "one active dimension per comparison; no favorable variant replaces the preregistered primary variant",
+  "sha256_canonical_json": "05a9a49ab7abdbfc321adc5db0f2af79918a252ba61b90efa5016e04a593027c"
+}

@@ -1,0 +1,13 @@
+{
+  "claim": "The printed 0.333 exponent changes the implied one-second orbital scale and ordinary runs return fewer than the requested 1000 samples.",
+  "claim_id": "C05",
+  "falsifier": "Faithful execution returns exactly 1000 samples and an exact one-second implied period under the printed constants.",
+  "objects": [
+    "PAPER-2024"
+  ],
+  "scope": "Historical numerical behavior, not stellar evidence.",
+  "status": "REPRODUCED_E2",
+  "tests": [
+    "tests/test_historical.py::test_approximate_cube_root_changes_scale_and_cycle_closure"
+  ]
+}

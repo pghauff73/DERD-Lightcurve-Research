@@ -1,0 +1,9 @@
+{
+  "claim": "The fresh OGLE-LMC-RRLYR-00004 scientific result and harmonic exchange reproduce its frozen Phase-08 development result.",
+  "claim_id": "C62",
+  "evidence": [
+    "artifacts/phase13/phase13_replay_audit.csv"
+  ],
+  "sha256_canonical_json": "ac9a27deddbc1f5878588278bbeaed380cf8d7377377bc78bade6efdd5c38f74",
+  "status": "VERIFIED_EXACT_SCIENTIFIC_REPLAY"
+}

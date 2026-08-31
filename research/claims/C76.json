@@ -1,0 +1,11 @@
+{
+  "claim": "One same-source comparison exhibits configuration-sensitive scientific drift and is not an exact replay.",
+  "claim_id": "C76",
+  "evidence": [
+    "artifacts/phase16/phase16_reproducibility_edges.csv",
+    "artifacts/phase15/phase15_archival_lineage_OGLE-LMC-CEP-0010.json"
+  ],
+  "physical_claim_scope": "computational reproducibility only",
+  "sha256_canonical_json": "da8e9cfcef9a0f9910f66fdbdc77c412ff9cee0c39779a29dfc287e5fe170232",
+  "status": "VERIFIED_FOR_OGLE-LMC-CEP-0010"
+}

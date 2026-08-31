@@ -1,0 +1,4 @@
+family,declared_objects,metadata_ready_objects,source_ready_objects,verified_result_objects,recovery_ready_count,forecast_measured_count,structurally_compatible_count,qualified_count,population_estimate_status
+classical_cepheid,5,5,0,2,0,0,0,0,SUPPRESSED_INCOMPLETE_COHORT
+delta_scuti,5,0,0,1,0,0,0,0,SUPPRESSED_INCOMPLETE_COHORT
+rr_lyrae,5,5,0,2,1,0,0,0,SUPPRESSED_INCOMPLETE_COHORT

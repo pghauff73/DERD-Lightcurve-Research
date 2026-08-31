@@ -1,0 +1,74 @@
+{
+  "all_marginal_absolute_z_below_two": true,
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "claim_scope": "external Fourier-coordinate consistency and provenance only",
+  "classification": "EXTERNAL_ANALYSIS_CONSISTENT_PARTIAL_SOURCE_OVERLAP",
+  "combined_covariance": [
+    [
+      0.0005367181949792127,
+      0.00018991188760019285,
+      9.396468384876089e-05,
+      0.0018099184445315565
+    ],
+    [
+      0.00018991188760019285,
+      0.007039409610976634,
+      0.00013381051347315554,
+      0.007812825409336333
+    ],
+    [
+      9.396468384876089e-05,
+      0.00013381051347315554,
+      0.0004026751640681617,
+      0.0005104130404487426
+    ],
+    [
+      0.0018099184445315565,
+      0.007812825409336333,
+      0.0005104130404487426,
+      0.044807780692151786
+    ]
+  ],
+  "counts_as_astronomical_denominator_increment": false,
+  "counts_as_independent_astrophysical_replication": false,
+  "degrees_of_freedom": 4,
+  "difference_local_minus_external": {
+    "phi21": 0.016403547830196707,
+    "phi31": 0.17176359300117872,
+    "r21": 0.02954951443762177,
+    "r31": 0.006400138744270076
+  },
+  "external_research_group_independent": true,
+  "external_vector": {
+    "phi21": 4.238,
+    "phi31": 2.283,
+    "r21": 0.314,
+    "r31": 0.117
+  },
+  "joint_consistency_at_5_percent": true,
+  "local_source_meets_external_minimum_count": false,
+  "local_vector": {
+    "phi21": 4.254403547830197,
+    "phi31": 2.4547635930011786,
+    "r21": 0.3435495144376218,
+    "r31": 0.12340013874427008
+  },
+  "mahalanobis_chi_square": 1.773349307327351,
+  "marginal_z": {
+    "phi21": 0.1955103129597751,
+    "phi31": 0.811436238378321,
+    "r21": 1.2754903867600589,
+    "r31": 0.31894218614154196
+  },
+  "object_id": "OGLE-LMC-CEP-0002",
+  "observational_source_independent": false,
+  "p_value": 0.7773544797654233,
+  "parameter_order": [
+    "r21",
+    "phi21",
+    "r31",
+    "phi31"
+  ],
+  "sha256_canonical_json": "7ed75be6666c596a528fbb7883e184a4b091f14eff3c56aa7d38fa9311b8a295",
+  "source_byte_identity_known": false
+}

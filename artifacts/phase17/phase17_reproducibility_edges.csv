@@ -1,0 +1,6 @@
+classification,comparison_version,counts_as_independent_astrophysical_replication,disposition_match,exchange_match,maximum_harmonic_snr_absolute_difference,object_id,same_observational_source,same_scientific_configuration,scientific_match,screen_score_difference,source_version,stage_match,threshold_difference,overlapping_observational_source_family,counts_as_external_analysis_consistency,counts_as_astronomical_denominator_increment
+EXACT_SCIENTIFIC_REPLAY_METADATA_TRANSPORT_DRIFT,phase14,False,True,True,0.0,OGLE-LMC-CEP-0002,True,True,True,0.0,phase08,True,0.0,,,
+CONFIGURATION_SENSITIVE_SCIENTIFIC_DRIFT,phase08,False,False,False,49.547143337515905,OGLE-LMC-CEP-0010,True,False,False,0.023397334125648372,phase07,False,-0.01898063265706762,,,
+EXACT_SCIENTIFIC_REPLAY_METADATA_TRANSPORT_DRIFT,phase12,False,True,True,0.0,OGLE-LMC-RRLYR-00001,True,True,True,0.0,phase08,True,0.0,,,
+EXACT_SCIENTIFIC_REPLAY_METADATA_TRANSPORT_DRIFT,phase13,False,True,True,0.0,OGLE-LMC-RRLYR-00004,True,True,True,0.0,phase08,True,0.0,,,
+EXTERNAL_ANALYSIS_CONSISTENT_PARTIAL_SOURCE_OVERLAP,phase17_partial_v_fourier_reanalysis,False,,False,,OGLE-LMC-CEP-0002,False,False,True,,jurkovic2022_ogle_v_fourier,,,True,True,False

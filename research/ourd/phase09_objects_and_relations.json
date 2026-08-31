@@ -1,0 +1,38 @@
+{
+  "graph_id": "OURD-PHASE09-CLAIM-GRADE-COHORT-GRAPH-V1",
+  "objects": [
+    {"id": "P09-PROTOCOL", "type": "sealed_protocol"},
+    {"id": "P09-COHORT", "type": "declared_development_cohort", "count": 15},
+    {"id": "P09-CEP", "type": "family_stratum", "count": 5},
+    {"id": "P09-RRL", "type": "family_stratum", "count": 5},
+    {"id": "P09-DSCT", "type": "family_stratum", "count": 5},
+    {"id": "P09-SOURCE-RECEIPT", "type": "acquisition_receipt"},
+    {"id": "P09-INHERITED-EVIDENCE", "type": "verified_prior_evidence", "count": 5},
+    {"id": "C44", "type": "claim"},
+    {"id": "C45", "type": "claim"},
+    {"id": "C46", "type": "claim"},
+    {"id": "C47", "type": "claim"}
+  ],
+  "relations": [
+    {"source": "P09-PROTOCOL", "relation": "governs", "target": "P09-COHORT"},
+    {"source": "P09-CEP", "relation": "member_of", "target": "P09-COHORT"},
+    {"source": "P09-RRL", "relation": "member_of", "target": "P09-COHORT"},
+    {"source": "P09-DSCT", "relation": "member_of", "target": "P09-COHORT"},
+    {"source": "P09-SOURCE-RECEIPT", "relation": "can_freeze", "target": "P09-COHORT"},
+    {"source": "P09-INHERITED-EVIDENCE", "relation": "partially_informs", "target": "P09-COHORT"},
+    {"source": "P09-COHORT", "relation": "supports", "target": "C44"},
+    {"source": "P09-DSCT", "relation": "bounds", "target": "C45"},
+    {"source": "P09-PROTOCOL", "relation": "enforces", "target": "C46"},
+    {"source": "P09-INHERITED-EVIDENCE", "relation": "supports", "target": "C47"}
+  ],
+  "score_vector": {
+    "reconstruction": "five inherited records verified; full cohort not executed",
+    "uniqueness": "identity and source-path uniqueness enforced",
+    "orthogonality": "structure, metadata, source bytes, and results separated",
+    "complexity": "fifteen object gates plus four family summary coordinates",
+    "family_transfer": "protocol spans three families; complete evaluation pending",
+    "temporal_stability": "not yet evaluated",
+    "predictive_calibration": "not aggregated while cohort incomplete",
+    "causal_fidelity": "not established"
+  }
+}

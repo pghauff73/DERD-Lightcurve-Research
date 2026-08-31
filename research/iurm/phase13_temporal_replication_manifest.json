@@ -1,0 +1,26 @@
+{
+  "active_dimensions": [
+    "cumulative verified target count: 2 to 3",
+    "controlled temporal drift severity"
+  ],
+  "frozen_dimensions": [
+    "fifteen-object cohort identities",
+    "five-object family denominators",
+    "Phase-08 target-level scientific coordinates",
+    "signed h1-h8 extraction",
+    "common period and reference epoch",
+    "three chronological blocks",
+    "stationary threshold quantile",
+    "population firewall"
+  ],
+  "gate": "PHASE13_TEMPORAL_REPLICATION_LEDGER_UPDATED_POPULATION_GATE_CLOSED",
+  "implementation_id": "DERD-v1.3-phase13-temporal-replication-ledger",
+  "manifest_id": "IURM-PHASE13-TEMPORAL-REPLICATION-LEDGER-V1",
+  "result": {
+    "cumulative_record_count": 3,
+    "first_sustained_detectable_severity": 0.75,
+    "new_record_count": 1,
+    "population_outputs_allowed": false,
+    "temporal_disposition": "TEMPORAL_REPLICATION_NOT_SUPPORTED"
+  }
+}

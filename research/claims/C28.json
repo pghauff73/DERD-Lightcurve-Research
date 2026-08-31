@@ -1,0 +1,29 @@
+{
+  "claim_id": "C28",
+  "claim": "At the median observed error-to-amplitude ratio and under optimistic uniform phase coverage, 160 observations per star is the first tested count passing the frozen Phase-05 minimum viable harmonic-evidence gates.",
+  "evidence_level": "E2_SIMULATION_BASED_ACQUISITION_DESIGN",
+  "active_dimension": "observation_count",
+  "tested_counts": [24, 40, 60, 80, 120, 160, 240, 400],
+  "frozen_dimensions": [
+    "uniform phase coverage",
+    "noise ratio 0.021728521173083562",
+    "eight-harmonic weighted Fourier extraction",
+    "four fit and four forecast harmonics",
+    "generic Fourier and phase-scrambled null mixture",
+    "five deterministic replications per count"
+  ],
+  "gate": {
+    "median_roc_auc_minimum": 0.8,
+    "roc_auc_q10_minimum": 0.75,
+    "median_balanced_accuracy_minimum": 0.75,
+    "balanced_accuracy_q10_minimum": 0.7
+  },
+  "result_at_160": {
+    "median_roc_auc": 0.8564814814814815,
+    "roc_auc_q10": 0.8217784604881379,
+    "median_balanced_accuracy": 0.828042328042328,
+    "balanced_accuracy_q10": 0.733321941216678
+  },
+  "scope": "An optimistic lower-bound design target, not a universal sample-size theorem.",
+  "status": "PROVISIONAL_MINIMUM_VIABLE_EVIDENCE_TARGET_ESTABLISHED"
+}

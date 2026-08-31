@@ -1,0 +1,9 @@
+{
+  "claim": "The fresh OGLE-LMC-CEP-0002 scientific result and harmonic exchange reproduce its frozen Phase-08 development result.",
+  "claim_id": "C67",
+  "evidence": [
+    "artifacts/phase14/phase14_replay_audit.csv"
+  ],
+  "sha256_canonical_json": "5a96bb4722c7f8ee480818b86ebe85d8834df24fef4a24ac473840967fbfc98b",
+  "status": "VERIFIED_EXACT_SCIENTIFIC_REPLAY"
+}

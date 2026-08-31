@@ -1,0 +1,23 @@
+{
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "contradictory_or_limiting_evidence": [
+    "one archival comparison changes coefficients, SNR values, evidence stage, disposition, score, and threshold under a different configuration",
+    "one object has only a single retained analysis version and therefore no replay edge",
+    "there is no independent observing source or external research-group replication",
+    "the frozen fifteen-object denominator remains incomplete and population outputs remain suppressed"
+  ],
+  "implementation_id": "DERD-v1.6-phase16-reproducibility-graph",
+  "manifest_id": "EDOV1-PHASE16-REPRODUCIBILITY-GRAPH-EVIDENCE-V1",
+  "rights_and_provenance": {
+    "graph": "artifacts/phase16/phase16_reproducibility_graph.json",
+    "graph_scope": "computational reproducibility and evidence multiplicity",
+    "parent_ledger": "artifacts/phase15/phase15_cumulative_ledger.json",
+    "raw_bytes_redistributed": false
+  },
+  "supporting_evidence": [
+    "three same-source same-configuration replay edges are exact at the scientific projection and exchange level",
+    "one same-source configuration-sensitive drift edge is explicitly retained",
+    "the graph distinguishes nine analysis-version nodes from five astronomical objects",
+    "the multiplicity guard prevents four duplicate denominator increments"
+  ]
+}

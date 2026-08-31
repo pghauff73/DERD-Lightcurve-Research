@@ -1,0 +1,14 @@
+{
+  "claim": "The geometric elliptical focus-radius function has an absolutely convergent Fourier series, and nonzero DERD harmonics obey a two-root second-order recurrence.",
+  "claim_id": "C21",
+  "falsifier": "A valid e in [0,1) for which the series identity or recurrence fails under the declared phase convention.",
+  "objects": [
+    "DERD-G-0.1",
+    "DERD-SPECTRAL-0.1"
+  ],
+  "scope": "Geometric-phase model; DERD-K has a different time-mapping spectrum.",
+  "status": "FORMAL_IDENTITY_IMPLEMENTED_AND_NUMERICALLY_TESTED_E3",
+  "tests": [
+    "tests/test_spectral.py"
+  ]
+}

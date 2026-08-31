@@ -1,0 +1,5 @@
+{
+  "algorithm": "SHA-256 over canonical JSON (sorted keys, compact separators, UTF-8)",
+  "protocol_id": "DERD-PHASE10-AUTHORITATIVE-METADATA-SOURCE-LOCK-1.0",
+  "sha256_canonical_json": "541e7997457e71bfcc2a83e164fee0335d54bb6a5be5e532a117c1f4cbcffa51"
+}

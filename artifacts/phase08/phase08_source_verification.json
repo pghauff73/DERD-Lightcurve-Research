@@ -1,0 +1,74 @@
+{
+  "all_verified": true,
+  "manifest_id": "PHASE08-MULTIFAMILY-RAW-COHORT-V1",
+  "raw_bytes_bundled": false,
+  "targets": [
+    {
+      "byte_count": 8784,
+      "byte_count_matches": true,
+      "git_blob_matches": true,
+      "git_blob_sha1": "1602e53ada1ee586b6a9c7c0b7b09f4c967c144d",
+      "object_id": "OGLE-LMC-CEP-0002",
+      "observation_count": 366,
+      "observation_count_matches": true,
+      "sha256": "65fba2e0da1b6ecc213d5f485bb20a2fb7793971a8065c09506ac5632ca630a8",
+      "sha256_matches": true
+    },
+    {
+      "byte_count": 8928,
+      "byte_count_matches": true,
+      "git_blob_matches": true,
+      "git_blob_sha1": "fd82c05bb3a62ba9a8c614ac51eb315124090381",
+      "object_id": "OGLE-LMC-CEP-0010",
+      "observation_count": 372,
+      "observation_count_matches": true,
+      "sha256": "574d7252996f5ee71169a97f2d7b52a8acbdb0898df65a7b61f5419ae9f063e0",
+      "sha256_matches": true
+    },
+    {
+      "byte_count": 7968,
+      "byte_count_matches": true,
+      "git_blob_matches": true,
+      "git_blob_sha1": "526305a302055b946fb274b75a06d086b1cd917b",
+      "object_id": "OGLE-LMC-RRLYR-00001",
+      "observation_count": 332,
+      "observation_count_matches": true,
+      "sha256": "798e885aa64d3fa2827b165239cccf5463794735ec82a891d52c242cb4d2eb6a",
+      "sha256_matches": true
+    },
+    {
+      "byte_count": 8640,
+      "byte_count_matches": true,
+      "git_blob_matches": true,
+      "git_blob_sha1": "ae00877e19a2303419308a23edb24417518a147d",
+      "object_id": "OGLE-LMC-RRLYR-00004",
+      "observation_count": 360,
+      "observation_count_matches": true,
+      "sha256": "2fe24c62103faefdac684110dd6f89f1bccede7237485703b9c2d9f35a0c1405",
+      "sha256_matches": true
+    },
+    {
+      "byte_count": 6552,
+      "byte_count_matches": true,
+      "git_blob_matches": true,
+      "git_blob_sha1": "f09022c9300bd62d61b97ca1aaa3607e6198aeb3",
+      "object_id": "OGLE-LMC-DSCT-0001",
+      "observation_count": 273,
+      "observation_count_matches": true,
+      "sha256": "69a76309a63f113a75650abb135494fedfe9f0d2898cdf1e29a8468429778979",
+      "sha256_matches": true
+    },
+    {
+      "byte_count": 10440,
+      "byte_count_matches": true,
+      "git_blob_matches": true,
+      "git_blob_sha1": "2b0a01aab5af7076d0d6124aead86328dbde7e3a",
+      "object_id": "OGLE-LMC-DSCT-0003",
+      "observation_count": 435,
+      "observation_count_matches": true,
+      "sha256": "0d0405a8b9e120f2602b9602e71c513f2dca8741f065da2e65b0de05b9b63cd7",
+      "sha256_matches": true
+    }
+  ],
+  "verified_count": 6
+}

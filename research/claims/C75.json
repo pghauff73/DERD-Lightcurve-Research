@@ -1,0 +1,11 @@
+{
+  "claim": "Three same-source, same-configuration analysis pairs reproduce their scientific projection and signed harmonic exchange exactly, apart from permitted metadata transport differences.",
+  "claim_id": "C75",
+  "evidence": [
+    "artifacts/phase16/phase16_reproducibility_edges.csv",
+    "artifacts/phase16/phase16_reproducibility_graph.json"
+  ],
+  "physical_claim_scope": "computational reproducibility only",
+  "sha256_canonical_json": "e92e6e403b271b719f6fecf46c62f5943f717266f39f22001f5afee116d51ab3",
+  "status": "VERIFIED"
+}

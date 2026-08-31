@@ -1,0 +1,16 @@
+{
+  "claim_id": "C26",
+  "claim": "Under non-degenerate exact conditions, the Phase-05 algebraic screen recovers a geometric DERD parameter candidate up to observational epoch, real scale, and declared root assignment, and predicts higher harmonics.",
+  "evidence_level": "E3_REPRODUCIBLE_COMPUTATION",
+  "evidence": [
+    "src/derd/harmonic_screen.py",
+    "tests/test_phase05_harmonic_screen.py",
+    "artifacts/phase05/phase05_summary.json"
+  ],
+  "limits": [
+    "Noisy roots can be unstable.",
+    "Catalog phase convention must be known.",
+    "Recovered waveform parameters are not automatically physical orbital parameters."
+  ],
+  "status": "PROVED_AS_ALGORITHM_PROPERTY"
+}

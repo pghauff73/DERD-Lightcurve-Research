@@ -1,0 +1,19 @@
+{
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "claim": "The Phase-21 denominator is exactly the unchanged 5+5+5 exposed-development cohort.",
+  "claim_id": "C97",
+  "evidence": [
+    "artifacts/phase21/PHASE21_RESULT.md",
+    "artifacts/phase21/phase21_summary.json"
+  ],
+  "metrics": {
+    "family_counts": {
+      "classical_cepheid": 5,
+      "delta_scuti": 5,
+      "rr_lyrae": 5
+    }
+  },
+  "physical_claim_scope": "metadata and development-cohort readiness only",
+  "sha256_canonical_json": "38a156f096a9e4f250d6c599ef3c6995a23c8f76a8f72c1a8ad73d1c7eee1cd2",
+  "status": "VERIFIED_FROZEN_DENOMINATOR"
+}

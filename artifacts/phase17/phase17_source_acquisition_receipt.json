@@ -1,0 +1,26 @@
+{
+  "all_checks_passed": true,
+  "attribution_requirement_reviewed": true,
+  "band": "V",
+  "byte_count": 792,
+  "commit": "55836b58345b9507bfbd98c5fabbac82c83605e3",
+  "git_blob_sha1": "9424f38e5ce9326a5e5b4f0fcf4fe158cc02cbf2",
+  "limitations": [
+    "The published external workflow excluded objects with fewer than 50 measurements.",
+    "The publication may merge OGLE-III and OGLE-IV V-band observations, while this mirror contains 33 rows.",
+    "The exact publication input bytes are not known, so source-byte identity cannot be claimed."
+  ],
+  "object_id": "OGLE-LMC-CEP-0002",
+  "observation_count": 33,
+  "raw_source_redistributed": false,
+  "repository": "bksim/OutlierDetection",
+  "repository_path": "Cluster/cep/phot/V/OGLE-LMC-CEP-0002.dat",
+  "source_sha256": "bc36f947e8e3d36d197498345b83aa24f9e1a0d9010a99f4fe8a0bab4ccdb855",
+  "status": "VERIFIED_FROM_CONNECTED_OR_SUPPLIED_FROZEN_SOURCE",
+  "verification": {
+    "byte_count": true,
+    "git_blob_sha1": true,
+    "observation_count": true,
+    "sha256": true
+  }
+}

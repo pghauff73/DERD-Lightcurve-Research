@@ -1,0 +1,6 @@
+phase_id=DERD-v2.0-phase20-multiband-mechanism-falsification
+decision=PHASE20_MULTIBAND_AND_MECHANISM_TESTS_COMPLETE_STRICT_PASSBAND_INVARIANCE_REJECTED_DERD_UNIQUENESS_REJECTED_GRAVITY_ONLY_PERIODIC_MOTION_FORMALLY_REJECTED
+I_vs_V_p=1.076436e-25
+V_epoch_p=9.922786e-01
+shared_component_wins=62/64
+summary=/mnt/data/lightcurve-trainer-roadmap/phase20-work/derd-v2.0/artifacts/phase20/phase20_summary.json

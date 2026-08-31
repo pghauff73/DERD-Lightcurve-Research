@@ -1,0 +1,30 @@
+{
+  "alternative_mechanisms_retained": [
+    "DERD as an approximate reduced harmonic coordinate system",
+    "gravity-restored nonlinear hydrodynamics",
+    "band-dependent radius-temperature-opacity-atmosphere projection",
+    "subclass mechanisms such as mode coupling, tides, shocks, rotation, and circumstellar reprocessing"
+  ],
+  "blocked_promotions": [
+    "C17",
+    "UNIQUE_INTERNAL_MECHANISM",
+    "TRANSPARENT_OUTER_SHELL",
+    "SHELL_MASS"
+  ],
+  "contradictions_and_nulls": [
+    "several non-DERD synthetic families pass the joint DERD gates",
+    "strict shared DERD is the worst of the three passband projection models",
+    "all nonconstant periodic effective-mass controls fail the gravity-only gate",
+    "the synthetic tournament uses reduced surrogates rather than full stellar models",
+    "one exposed-development Cepheid cannot establish a population rule"
+  ],
+  "decision": "PHASE20_MULTIBAND_AND_MECHANISM_TESTS_COMPLETE_STRICT_PASSBAND_INVARIANCE_REJECTED_DERD_UNIQUENESS_REJECTED_GRAVITY_ONLY_PERIODIC_MOTION_FORMALLY_REJECTED",
+  "manifest_id": "DERD-PHASE20-EDOV1-1.0",
+  "sha256_canonical_json": "a03ad1710863057f1d6a043dce66be7c2efa83d8d5b66a6858ca0ccf9f3b4297",
+  "supporting_evidence": [
+    "I/V invariant difference is highly significant",
+    "V/V epoch control is consistent",
+    "shared latent components win 62 of 64 representation bootstraps",
+    "ballistic inverse-square positive control passes"
+  ]
+}

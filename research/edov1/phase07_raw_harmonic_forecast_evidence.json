@@ -1,0 +1,79 @@
+{
+  "blocked_promotions": [
+    "C17",
+    "physical-mechanism",
+    "transparent-shell-prevalence",
+    "shell-mass"
+  ],
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "claim_ids": [
+    "C34",
+    "C35",
+    "C36",
+    "C37",
+    "C38"
+  ],
+  "claim_map": {
+    "C34": "research/claims/C34.json",
+    "C35": "research/claims/C35.json",
+    "C36": "research/claims/C36.json",
+    "C37": "research/claims/C37.json",
+    "C38": "research/claims/C38.json"
+  },
+  "contradiction_and_limit_evidence": [
+    "zero of four forecast harmonics reaches Wald SNR >= 2",
+    "nominal recurrence score 1.9052 is above development threshold 1.4701",
+    "residue sign and phase constraints fail",
+    "only 0.415 percent of covariance draws pass structural constraints",
+    "only 12.598 percent of covariance draws remain below threshold",
+    "actual-cadence holdout ROC AUC 0.7963 is below the 0.80 gate",
+    "the 24-observation excerpt is radically underpowered for higher harmonics"
+  ],
+  "date": "2026-08-15",
+  "implementation_id": "DERD-v0.7-phase07-raw-harmonic-forecast-gate",
+  "iurm_manifest": "research/iurm/phase07_raw_harmonic_forecast_manifest.json",
+  "method": "EDOv1",
+  "next_evidence_needed": [
+    "additional complete byte-frozen development stars across preregistered strata",
+    "at least two significant forecast harmonics per target",
+    "actual-cadence calibration passing both AUC and balanced-accuracy gates",
+    "prospective sealed population evaluation before confirmatory language"
+  ],
+  "primary_objects": [
+    {
+      "id": "A001",
+      "role": "origin of four-parameter waveform and physical hypotheses",
+      "type": "source_paper"
+    },
+    {
+      "id": "A002",
+      "role": "historical software provenance",
+      "type": "source_repository"
+    },
+    {
+      "id": "A007",
+      "role": "complete exposed development evidence",
+      "sha1": "fd82c05bb3a62ba9a8c614ac51eb315124090381",
+      "sha256": "574d7252996f5ee71169a97f2d7b52a8acbdb0898df65a7b61f5419ae9f063e0",
+      "type": "frozen_photometry_blob"
+    },
+    {
+      "id": "D005",
+      "role": "lossless eight-harmonic evidence with HC3 covariance",
+      "type": "signed_harmonic_exchange"
+    }
+  ],
+  "promotion_decision": "ABSTAIN_OR_REJECT_INSUFFICIENT_HARMONIC_EVIDENCE",
+  "rights_and_use": {
+    "downstream_use": "research evidence capsule; verify original survey/mirror terms before redistribution beyond this project",
+    "sealed_holdout": "not used; identity was previously exposed",
+    "source_status": "PUBLIC_MIRROR; REDISTRIBUTION_TERMS_NOT_VERIFIED"
+  },
+  "source_manifest": "data/manifests/phase07_source_manifest.json",
+  "supporting_evidence": [
+    "byte-verified complete 372-observation source",
+    "12 of 12 phase bins occupied and low design condition number",
+    "four recovery harmonics at Wald SNR >= 3",
+    "generic-harmonic period refinement changes period by only -2.831e-6 relative"
+  ]
+}

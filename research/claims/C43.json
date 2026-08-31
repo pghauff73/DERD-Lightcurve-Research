@@ -1,0 +1,14 @@
+{
+  "claim": "The Phase-08 cohort is insufficient for cross-family population inference because it contains two objects per family and two Delta Scuti period coordinates remain legacy diagnostic evidence.",
+  "claim_id": "C43",
+  "date": "2026-08-15",
+  "evidence": [
+    "data/manifests/phase08_cohort_sources.json",
+    "artifacts/phase08/phase08_family_summary.csv",
+    "src/derd/validation_phase08.py"
+  ],
+  "implementation_id": "DERD-v0.8-phase08-multifamily-harmonic-forecast-cohort",
+  "physical_claim_certificate": false,
+  "scope": "Promotion-rule and provenance result.",
+  "status": "PROVED_BY_FROZEN_GATE_COUNTS"
+}

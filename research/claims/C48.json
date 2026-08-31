@@ -1,0 +1,15 @@
+{
+  "claim": "The OGLE-IV LMC Delta Scuti identity and parameter fixed-width contracts can be parsed deterministically into exact catalogue identities, subtypes, OGLE-III cross-references, primary periods and period uncertainties.",
+  "claim_id": "C48",
+  "date": "2026-08-18",
+  "evidence": [
+    "src/derd/ogle_catalog.py",
+    "tests/test_phase10_ogle_catalog.py",
+    "data/manifests/phase10_authoritative_catalog_contract.json",
+    "data/evidence/phase10_authoritative_sources.json"
+  ],
+  "implementation_id": "DERD-v1.0-phase10-authoritative-metadata-source-lock",
+  "physical_claim_certificate": false,
+  "scope": "Catalogue parsing and transport only.",
+  "status": "PROVED_BY_IMPLEMENTATION_AND_SYNTHETIC_CONTROL"
+}

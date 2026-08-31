@@ -1,0 +1,104 @@
+{
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "compileall": "PASS",
+  "decision": "PHASE12_CUMULATIVE_LEDGER_UPDATED_REPLAY_AUDIT_PASSED_POPULATION_GATE_CLOSED",
+  "evidence_boundary": "Two exposed-development waveform records are cumulative; C17, family fractions, mechanism, transparent-shell, and mass claims remain unpromoted.",
+  "implementation_id": "DERD-v1.2-phase12-cumulative-replay-ledger",
+  "ledger": {
+    "cumulative_count": 2,
+    "new_record_count": 1,
+    "prior_record_count": 1,
+    "seal_sha256_canonical_json": "5a1e582967576e72985c1b15200a4852eff1044f553e1e0fb3ae937ddab46211"
+  },
+  "manifests": {
+    "code_entries": 214,
+    "code_verification": "artifacts/release/verify-code-phase12.txt",
+    "repository_entries": 734,
+    "repository_verification": "artifacts/release/verify-repository-phase12.txt"
+  },
+  "new_result": {
+    "acquisition_priority_score": 80.78797253823407,
+    "calibration_auc": 0.6898148148148148,
+    "calibration_balanced_accuracy": 0.6429398148148149,
+    "derd_score": 2.6510276961103805,
+    "disposition": "ABSTAIN_INSUFFICIENT_MEASURED_FORECAST_HARMONICS",
+    "family": "rr_lyrae",
+    "forecast_harmonics_snr_pass": false,
+    "h1_snr": 22.289248981531745,
+    "h2_snr": 11.493158025132322,
+    "h3_snr": 6.2962113343415504,
+    "h4_snr": 4.497271530990679,
+    "h5_snr": 1.9174919460133684,
+    "h6_snr": 1.2507856558848889,
+    "h7_snr": 0.1408754298800289,
+    "h8_snr": 0.5360709436418737,
+    "mode": "RRab",
+    "object_id": "OGLE-LMC-RRLYR-00001",
+    "observation_count": 332,
+    "propagation_below_threshold_fraction": 0.01025390625,
+    "propagation_structural_pass_fraction": 0.0,
+    "recovery_harmonics_snr_pass": true,
+    "score_minus_threshold": 0.5063925532182494,
+    "stage_reached": "FORECAST_HARMONICS",
+    "structural_constraints_pass": false,
+    "target_threshold": 2.144635142892131
+  },
+  "population_outputs_allowed": false,
+  "protocol": {
+    "actual_sha256": "aeef392c3110385a68f46a974f85f7a11142b00decdf41babe56b1c42bba3a50",
+    "expected_sha256": "aeef392c3110385a68f46a974f85f7a11142b00decdf41babe56b1c42bba3a50",
+    "parent_summary_actual_sha256": "df843a5445a7616b4d7e0a2604e1da84c2b94e5c821005454cbb926bbfb4db6e",
+    "parent_summary_expected_sha256": "df843a5445a7616b4d7e0a2604e1da84c2b94e5c821005454cbb926bbfb4db6e",
+    "parent_summary_path": "artifacts/phase11/phase11_summary.json",
+    "parent_summary_valid": true,
+    "valid": true
+  },
+  "release_exclusions": {
+    "authoritative_catalog_bytes_bundled": false,
+    "complete_raw_photometry_bundled": false
+  },
+  "replay_audit": {
+    "comparable": true,
+    "disposition_match": true,
+    "exchange_match": true,
+    "fresh_record_sha256": "9de44e8340390c3efdf3cf430799732b224819713f4ab2f9c95b7bef95de30ff",
+    "fresh_scientific_sha256": "7d95d3e7f5678bbe0c7197c448ec9d4bc60650f72428cf023d83c269753c4585",
+    "full_record_match": false,
+    "maximum_harmonic_snr_absolute_difference": 0.0,
+    "object_id": "OGLE-LMC-RRLYR-00001",
+    "phase08_record_sha256": "e8e20f92295810dd3b97fcb107b8815c86f07c1d3e2887efdd93f4f0ccf68cca",
+    "phase08_scientific_sha256": "7d95d3e7f5678bbe0c7197c448ec9d4bc60650f72428cf023d83c269753c4585",
+    "scientific_match": true,
+    "screen_score_difference": 0.0,
+    "stage_match": true,
+    "status": "SCIENTIFIC_REPLAY_MATCH_METADATA_TRANSPORT_DRIFT",
+    "threshold_difference": 0.0,
+    "transport_metadata_differences": {
+      "period_source": {
+        "fresh": "OGLE LMC RR Lyrae catalog cross-check",
+        "phase08": "OGLE LMC RR Lyrae catalog cross-check; 0.6347522 d"
+      },
+      "source_relative_path": {
+        "fresh": "data/raw/phase09_cohort/OGLE-LMC-RRLYR-00001.complete.dat",
+        "phase08": "data/raw/phase08_cohort/OGLE-LMC-RRLYR-00001.complete.dat"
+      }
+    }
+  },
+  "source_receipt": {
+    "historically_verified_count": 1,
+    "invalid_count": 0,
+    "newly_verified_count": 1,
+    "pending_count": 13,
+    "raw_bytes_redistributed_in_release": false,
+    "verified_count": 2
+  },
+  "status": "CUMULATIVE_LEDGER_UPDATED_REPLAY_AUDIT_PASSED_POPULATION_GATE_CLOSED",
+  "tests": {
+    "errors": 0,
+    "failed": 0,
+    "junit": "artifacts/release/pytest-phase12.xml",
+    "log": "artifacts/release/pytest-phase12.txt",
+    "passed": 210,
+    "skipped": 0
+  }
+}

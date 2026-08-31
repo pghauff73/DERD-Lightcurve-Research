@@ -1,0 +1,33 @@
+{
+  "active_dimension": "analysis_operator",
+  "frozen_dimensions": [
+    "task inputs",
+    "task order",
+    "scientific configuration",
+    "software wheel",
+    "numerical tolerance",
+    "answer commitment",
+    "astronomical denominator"
+  ],
+  "gate": "All seven projections match after a pre-answer-key submission hash is frozen and operator independence is documented.",
+  "levels": [
+    {
+      "counts_as_external_replication": false,
+      "executed": true,
+      "level": "internal_reference"
+    },
+    {
+      "counts_as_external_replication": false,
+      "executed": true,
+      "level": "internal_isolated_process"
+    },
+    {
+      "counts_as_external_replication": true,
+      "executed": false,
+      "level": "external_research_group"
+    }
+  ],
+  "manifest_id": "DERD-PHASE19-IURM-INTERVENTIONS-1.0",
+  "result": "INTERNAL_PORTABILITY_PASS_EXTERNAL_OPERATOR_PENDING",
+  "sha256_canonical_json": "276d31a0b47b79e7a2fdee045d5749d7f93f106006a9d468bb2a5b7929c8f0b9"
+}

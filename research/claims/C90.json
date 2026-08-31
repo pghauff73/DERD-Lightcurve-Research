@@ -1,0 +1,11 @@
+{
+  "claim": "The Phase-18 reconstruction adds no astronomical denominator item and is not an independent astrophysical replication.",
+  "claim_id": "C90",
+  "evidence": [
+    "artifacts/phase18/phase18_reproducibility_graph.json",
+    "artifacts/phase18/phase18_cumulative_ledger.json"
+  ],
+  "physical_claim_scope": "external Fourier input reconstruction and normalized waveform provenance only",
+  "sha256_canonical_json": "0056c2a368be0d637b203670825d520f960be962497db1356e030811e8e3f550",
+  "status": "ENFORCED_BY_REPRODUCIBILITY_GRAPH"
+}

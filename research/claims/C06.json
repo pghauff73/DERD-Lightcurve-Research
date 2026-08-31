@@ -1,0 +1,14 @@
+{
+  "claim": "The corrected phase dimension is evaluated continuously and is not quantized to integer sample offsets.",
+  "claim_id": "C06",
+  "falsifier": "An interval of nonzero phase changes produces identical output solely because of sample-index rounding.",
+  "objects": [
+    "DERD-G-0.1",
+    "DERD-K-0.1"
+  ],
+  "scope": "Corrected reference implementation.",
+  "status": "IMPLEMENTED_AND_TESTED_E3",
+  "tests": [
+    "tests/test_model.py::test_phase_shift_is_continuous_not_integer_quantized"
+  ]
+}

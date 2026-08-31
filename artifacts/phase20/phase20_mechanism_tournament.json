@@ -1,0 +1,3605 @@
+{
+  "holdout_family_summary": [
+    {
+      "family": "derd_geometric",
+      "fit_pass_fraction": 1.0,
+      "forecast_pass_fraction": 1.0,
+      "holdout_count": 11,
+      "joint_fit_and_screen_pass_fraction": 0.7272727272727273,
+      "median_forecast_residual": 0.28547320215941785,
+      "median_harmonic_screen_score": 1.2438964965538826,
+      "median_heldout_rmse": 0.01735462428048306,
+      "screen_pass_fraction": 0.7272727272727273
+    },
+    {
+      "family": "generic_fourier",
+      "fit_pass_fraction": 0.0,
+      "forecast_pass_fraction": 0.0,
+      "holdout_count": 8,
+      "joint_fit_and_screen_pass_fraction": 0.0,
+      "median_forecast_residual": 1.1028642618923392,
+      "median_harmonic_screen_score": 2.9845689669436,
+      "median_heldout_rmse": 0.1741940280889528,
+      "screen_pass_fraction": 0.0
+    },
+    {
+      "family": "two_pole_transfer",
+      "fit_pass_fraction": 0.14285714285714285,
+      "forecast_pass_fraction": 0.5714285714285714,
+      "holdout_count": 7,
+      "joint_fit_and_screen_pass_fraction": 0.0,
+      "median_forecast_residual": 0.654852210448616,
+      "median_harmonic_screen_score": 2.122684802161905,
+      "median_heldout_rmse": 0.06407712472208392,
+      "screen_pass_fraction": 0.14285714285714285
+    },
+    {
+      "family": "radius_temperature_projection",
+      "fit_pass_fraction": 0.875,
+      "forecast_pass_fraction": 1.0,
+      "holdout_count": 8,
+      "joint_fit_and_screen_pass_fraction": 0.375,
+      "median_forecast_residual": 0.15847333439252426,
+      "median_harmonic_screen_score": 1.7476119438438298,
+      "median_heldout_rmse": 0.01382297323349304,
+      "screen_pass_fraction": 0.375
+    },
+    {
+      "family": "vdp_hydrodynamic_surrogate",
+      "fit_pass_fraction": 0.45454545454545453,
+      "forecast_pass_fraction": 0.6363636363636364,
+      "holdout_count": 11,
+      "joint_fit_and_screen_pass_fraction": 0.2727272727272727,
+      "median_forecast_residual": 0.5141050912799078,
+      "median_harmonic_screen_score": 1.76552323449942,
+      "median_heldout_rmse": 0.04024097990568369,
+      "screen_pass_fraction": 0.45454545454545453
+    },
+    {
+      "family": "two_zone_surrogate",
+      "fit_pass_fraction": 0.16666666666666666,
+      "forecast_pass_fraction": 0.16666666666666666,
+      "holdout_count": 6,
+      "joint_fit_and_screen_pass_fraction": 0.16666666666666666,
+      "median_forecast_residual": 0.9148677824272147,
+      "median_harmonic_screen_score": 1.9667595611893818,
+      "median_heldout_rmse": 0.15754569896818046,
+      "screen_pass_fraction": 0.16666666666666666
+    },
+    {
+      "family": "shock_modified",
+      "fit_pass_fraction": 0.3,
+      "forecast_pass_fraction": 0.3,
+      "holdout_count": 10,
+      "joint_fit_and_screen_pass_fraction": 0.2,
+      "median_forecast_residual": 0.9169031440940167,
+      "median_harmonic_screen_score": 1.9803519653652772,
+      "median_heldout_rmse": 0.11414007864077261,
+      "screen_pass_fraction": 0.4
+    },
+    {
+      "family": "tidal_kepler_response",
+      "fit_pass_fraction": 0.4444444444444444,
+      "forecast_pass_fraction": 0.5555555555555556,
+      "holdout_count": 9,
+      "joint_fit_and_screen_pass_fraction": 0.0,
+      "median_forecast_residual": 0.6488904730099109,
+      "median_harmonic_screen_score": 2.218058099407166,
+      "median_heldout_rmse": 0.040809572150576005,
+      "screen_pass_fraction": 0.1111111111111111
+    },
+    {
+      "family": "spot_rotation",
+      "fit_pass_fraction": 0.75,
+      "forecast_pass_fraction": 1.0,
+      "holdout_count": 4,
+      "joint_fit_and_screen_pass_fraction": 0.5,
+      "median_forecast_residual": 0.19178960951174262,
+      "median_harmonic_screen_score": 1.1572912039099412,
+      "median_heldout_rmse": 0.01667085134615027,
+      "screen_pass_fraction": 0.75
+    },
+    {
+      "family": "cse_reprocessing",
+      "fit_pass_fraction": 0.9166666666666666,
+      "forecast_pass_fraction": 1.0,
+      "holdout_count": 12,
+      "joint_fit_and_screen_pass_fraction": 0.5,
+      "median_forecast_residual": 0.1578905891360702,
+      "median_harmonic_screen_score": 1.6983875510736497,
+      "median_heldout_rmse": 0.016706772315919147,
+      "screen_pass_fraction": 0.5
+    }
+  ],
+  "interpretation_limit": "The generators are controlled mechanism surrogates, not full stellar-evolution models. Passing a gate disproves uniqueness; it does not establish astrophysical prevalence.",
+  "records": [
+    {
+      "case_id": "derd_geometric:000",
+      "family": "derd_geometric",
+      "flags": [],
+      "forecast_residual": 0.3331486973472816,
+      "harmonic_screen_score": 0.538681048673426,
+      "heldout_rmse": 0.01395242929587281,
+      "split": "holdout"
+    },
+    {
+      "case_id": "derd_geometric:001",
+      "family": "derd_geometric",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.34546878476904697,
+      "harmonic_screen_score": 1.5038802339699109,
+      "heldout_rmse": 0.03130370628978681,
+      "split": "holdout"
+    },
+    {
+      "case_id": "derd_geometric:002",
+      "family": "derd_geometric",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.3382361884824272,
+      "harmonic_screen_score": 1.2438964965538826,
+      "heldout_rmse": 0.01879450208039809,
+      "split": "holdout"
+    },
+    {
+      "case_id": "derd_geometric:003",
+      "family": "derd_geometric",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.2787246941488436,
+      "harmonic_screen_score": 1.1020145789720999,
+      "heldout_rmse": 0.014166160386522462,
+      "split": "development"
+    },
+    {
+      "case_id": "derd_geometric:004",
+      "family": "derd_geometric",
+      "flags": [],
+      "forecast_residual": 0.30525271136170096,
+      "harmonic_screen_score": 0.5250899999742926,
+      "heldout_rmse": 0.01582905565591626,
+      "split": "holdout"
+    },
+    {
+      "case_id": "derd_geometric:005",
+      "family": "derd_geometric",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.2662592150501476,
+      "harmonic_screen_score": 1.019188744621886,
+      "heldout_rmse": 0.01350700757887086,
+      "split": "development"
+    },
+    {
+      "case_id": "derd_geometric:006",
+      "family": "derd_geometric",
+      "flags": [],
+      "forecast_residual": 0.22679129164048628,
+      "harmonic_screen_score": 0.49305453208053407,
+      "heldout_rmse": 0.020903132736065148,
+      "split": "development"
+    },
+    {
+      "case_id": "derd_geometric:007",
+      "family": "derd_geometric",
+      "flags": [],
+      "forecast_residual": 0.263329179662244,
+      "harmonic_screen_score": 0.2769951576859014,
+      "heldout_rmse": 0.01123290539148706,
+      "split": "development"
+    },
+    {
+      "case_id": "derd_geometric:008",
+      "family": "derd_geometric",
+      "flags": [],
+      "forecast_residual": 0.13195278460788404,
+      "harmonic_screen_score": 0.17908046308812506,
+      "heldout_rmse": 0.009811465763143314,
+      "split": "development"
+    },
+    {
+      "case_id": "derd_geometric:009",
+      "family": "derd_geometric",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.19172687592287452,
+      "harmonic_screen_score": 1.0214675839741005,
+      "heldout_rmse": 0.009486420494339549,
+      "split": "development"
+    },
+    {
+      "case_id": "derd_geometric:010",
+      "family": "derd_geometric",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.1927770210342995,
+      "harmonic_screen_score": 0.546971308474756,
+      "heldout_rmse": 0.01585742297786203,
+      "split": "development"
+    },
+    {
+      "case_id": "derd_geometric:011",
+      "family": "derd_geometric",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED"
+      ],
+      "forecast_residual": 0.18819545270817511,
+      "harmonic_screen_score": 0.7836091380383519,
+      "heldout_rmse": 0.016204447846371088,
+      "split": "development"
+    },
+    {
+      "case_id": "derd_geometric:012",
+      "family": "derd_geometric",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.1504357168932384,
+      "harmonic_screen_score": 1.0220800634645657,
+      "heldout_rmse": 0.021518549379263403,
+      "split": "holdout"
+    },
+    {
+      "case_id": "derd_geometric:013",
+      "family": "derd_geometric",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.2454017845630259,
+      "harmonic_screen_score": 0.7579730174225295,
+      "heldout_rmse": 0.015072046547835545,
+      "split": "development"
+    },
+    {
+      "case_id": "derd_geometric:014",
+      "family": "derd_geometric",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.2592638053261299,
+      "harmonic_screen_score": 1.3537223215397838,
+      "heldout_rmse": 0.049036961054478544,
+      "split": "development"
+    },
+    {
+      "case_id": "derd_geometric:015",
+      "family": "derd_geometric",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.49257374465119713,
+      "harmonic_screen_score": 1.39204098913592,
+      "heldout_rmse": 0.02050695394157365,
+      "split": "development"
+    },
+    {
+      "case_id": "derd_geometric:016",
+      "family": "derd_geometric",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.13224834126113474,
+      "harmonic_screen_score": 0.8149978210798663,
+      "heldout_rmse": 0.009979268781879068,
+      "split": "development"
+    },
+    {
+      "case_id": "derd_geometric:017",
+      "family": "derd_geometric",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.16715178487350443,
+      "harmonic_screen_score": 0.4081858858211309,
+      "heldout_rmse": 0.012020078898829844,
+      "split": "development"
+    },
+    {
+      "case_id": "derd_geometric:018",
+      "family": "derd_geometric",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 0.21772905178278773,
+      "harmonic_screen_score": 5.168362704777595,
+      "heldout_rmse": 0.01735462428048306,
+      "split": "holdout"
+    },
+    {
+      "case_id": "derd_geometric:019",
+      "family": "derd_geometric",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.2347013670379629,
+      "harmonic_screen_score": 1.8880858925514181,
+      "heldout_rmse": 0.03020254747903177,
+      "split": "holdout"
+    },
+    {
+      "case_id": "derd_geometric:020",
+      "family": "derd_geometric",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.17311949246936176,
+      "harmonic_screen_score": 0.5122588379163586,
+      "heldout_rmse": 0.034729025923150046,
+      "split": "development"
+    },
+    {
+      "case_id": "derd_geometric:021",
+      "family": "derd_geometric",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.11353699732324551,
+      "harmonic_screen_score": 1.3882078539641831,
+      "heldout_rmse": 0.014863214408716026,
+      "split": "development"
+    },
+    {
+      "case_id": "derd_geometric:022",
+      "family": "derd_geometric",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.44505568879433177,
+      "harmonic_screen_score": 0.7229171747997652,
+      "heldout_rmse": 0.01884122251273968,
+      "split": "holdout"
+    },
+    {
+      "case_id": "derd_geometric:023",
+      "family": "derd_geometric",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.2685394174628519,
+      "harmonic_screen_score": 0.6092489743552527,
+      "heldout_rmse": 0.0139186859032188,
+      "split": "development"
+    },
+    {
+      "case_id": "derd_geometric:024",
+      "family": "derd_geometric",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.5302713316312695,
+      "harmonic_screen_score": 0.7973140290028219,
+      "heldout_rmse": 0.017609088700987634,
+      "split": "development"
+    },
+    {
+      "case_id": "derd_geometric:025",
+      "family": "derd_geometric",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 0.26543174122620644,
+      "harmonic_screen_score": 9.862376788111987,
+      "heldout_rmse": 0.01455341049472623,
+      "split": "holdout"
+    },
+    {
+      "case_id": "derd_geometric:026",
+      "family": "derd_geometric",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.10329634579477827,
+      "harmonic_screen_score": 0.8333765197077285,
+      "heldout_rmse": 0.009016915334577453,
+      "split": "development"
+    },
+    {
+      "case_id": "derd_geometric:027",
+      "family": "derd_geometric",
+      "flags": [],
+      "forecast_residual": 0.2546413314029149,
+      "harmonic_screen_score": 0.33237728674104433,
+      "heldout_rmse": 0.014089501830225488,
+      "split": "holdout"
+    },
+    {
+      "case_id": "derd_geometric:028",
+      "family": "derd_geometric",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 0.1388302650807981,
+      "harmonic_screen_score": 25.770670475717516,
+      "heldout_rmse": 0.019443452712306717,
+      "split": "development"
+    },
+    {
+      "case_id": "derd_geometric:029",
+      "family": "derd_geometric",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.28547320215941785,
+      "harmonic_screen_score": 1.2947992888990036,
+      "heldout_rmse": 0.013546157023594733,
+      "split": "holdout"
+    },
+    {
+      "case_id": "generic_fourier:000",
+      "family": "generic_fourier",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 1.0389897671368515,
+      "harmonic_screen_score": 14.248560847219668,
+      "heldout_rmse": 0.09354851142767737,
+      "split": "development"
+    },
+    {
+      "case_id": "generic_fourier:001",
+      "family": "generic_fourier",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 0.9945802961737212,
+      "harmonic_screen_score": 10.119861833988201,
+      "heldout_rmse": 0.12291432055649527,
+      "split": "holdout"
+    },
+    {
+      "case_id": "generic_fourier:002",
+      "family": "generic_fourier",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 1.298786054391591,
+      "harmonic_screen_score": 2.799321694821644,
+      "heldout_rmse": 0.06050501407722211,
+      "split": "development"
+    },
+    {
+      "case_id": "generic_fourier:003",
+      "family": "generic_fourier",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 1.8873574993654831,
+      "harmonic_screen_score": 6.553846264454815,
+      "heldout_rmse": 0.08342754667166946,
+      "split": "development"
+    },
+    {
+      "case_id": "generic_fourier:004",
+      "family": "generic_fourier",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.8261541058469385,
+      "harmonic_screen_score": 2.1709497832225,
+      "heldout_rmse": 0.21715738046422417,
+      "split": "holdout"
+    },
+    {
+      "case_id": "generic_fourier:005",
+      "family": "generic_fourier",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 1.077517024630737,
+      "harmonic_screen_score": 2.460526916151132,
+      "heldout_rmse": 0.5405469998025774,
+      "split": "holdout"
+    },
+    {
+      "case_id": "generic_fourier:006",
+      "family": "generic_fourier",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 1.709277547418493,
+      "harmonic_screen_score": 7.2306012243897655,
+      "heldout_rmse": 0.14241160882634352,
+      "split": "development"
+    },
+    {
+      "case_id": "generic_fourier:007",
+      "family": "generic_fourier",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 1.2818604027142642,
+      "harmonic_screen_score": 4.701294902155923,
+      "heldout_rmse": 0.07502084102626903,
+      "split": "development"
+    },
+    {
+      "case_id": "generic_fourier:008",
+      "family": "generic_fourier",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 1.1399976124439406,
+      "harmonic_screen_score": 2.898499447767134,
+      "heldout_rmse": 0.14562826601399897,
+      "split": "development"
+    },
+    {
+      "case_id": "generic_fourier:009",
+      "family": "generic_fourier",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 1.0893494797531889,
+      "harmonic_screen_score": 3.004880181381466,
+      "heldout_rmse": 0.4485208099093683,
+      "split": "holdout"
+    },
+    {
+      "case_id": "generic_fourier:010",
+      "family": "generic_fourier",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 1.046620791388255,
+      "harmonic_screen_score": 4.431711100603172,
+      "heldout_rmse": 0.3493407189526858,
+      "split": "development"
+    },
+    {
+      "case_id": "generic_fourier:011",
+      "family": "generic_fourier",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 1.1009582865075394,
+      "harmonic_screen_score": 2.3232191379756597,
+      "heldout_rmse": 0.04894413426101208,
+      "split": "development"
+    },
+    {
+      "case_id": "generic_fourier:012",
+      "family": "generic_fourier",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9462564159476352,
+      "harmonic_screen_score": 2.641022212076487,
+      "heldout_rmse": 0.2532813128362663,
+      "split": "development"
+    },
+    {
+      "case_id": "generic_fourier:013",
+      "family": "generic_fourier",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.794173254798167,
+      "harmonic_screen_score": 2.14844190440356,
+      "heldout_rmse": 0.11178521790283628,
+      "split": "development"
+    },
+    {
+      "case_id": "generic_fourier:014",
+      "family": "generic_fourier",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9994100707713749,
+      "harmonic_screen_score": 2.844949954017639,
+      "heldout_rmse": 0.045006566825949924,
+      "split": "development"
+    },
+    {
+      "case_id": "generic_fourier:015",
+      "family": "generic_fourier",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 1.2928594491331635,
+      "harmonic_screen_score": 9.16622986169157,
+      "heldout_rmse": 0.038926851110066704,
+      "split": "development"
+    },
+    {
+      "case_id": "generic_fourier:016",
+      "family": "generic_fourier",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 2.908349194526291,
+      "harmonic_screen_score": 4.082303133012268,
+      "heldout_rmse": 0.28082636015453893,
+      "split": "development"
+    },
+    {
+      "case_id": "generic_fourier:017",
+      "family": "generic_fourier",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 1.1853035756120573,
+      "harmonic_screen_score": 5.886462676392871,
+      "heldout_rmse": 0.16119714717408617,
+      "split": "holdout"
+    },
+    {
+      "case_id": "generic_fourier:018",
+      "family": "generic_fourier",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 1.8099245325526079,
+      "harmonic_screen_score": 3.3436932123616896,
+      "heldout_rmse": 0.17347787369891537,
+      "split": "development"
+    },
+    {
+      "case_id": "generic_fourier:019",
+      "family": "generic_fourier",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 1.20721502268294,
+      "harmonic_screen_score": 7.839891584888674,
+      "heldout_rmse": 0.19877429933421276,
+      "split": "development"
+    },
+    {
+      "case_id": "generic_fourier:020",
+      "family": "generic_fourier",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 1.087466252921352,
+      "harmonic_screen_score": 2.0682516943897915,
+      "heldout_rmse": 0.08903015940739926,
+      "split": "development"
+    },
+    {
+      "case_id": "generic_fourier:021",
+      "family": "generic_fourier",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9736669608402444,
+      "harmonic_screen_score": 2.022744270128366,
+      "heldout_rmse": 0.17892693328745857,
+      "split": "development"
+    },
+    {
+      "case_id": "generic_fourier:022",
+      "family": "generic_fourier",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 2.352042050095823,
+      "harmonic_screen_score": 2.9642577525057345,
+      "heldout_rmse": 0.06754343811019942,
+      "split": "holdout"
+    },
+    {
+      "case_id": "generic_fourier:023",
+      "family": "generic_fourier",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 1.1531770768222072,
+      "harmonic_screen_score": 1.8614412548860402,
+      "heldout_rmse": 0.1295013483485915,
+      "split": "development"
+    },
+    {
+      "case_id": "generic_fourier:024",
+      "family": "generic_fourier",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 1.0031181682635522,
+      "harmonic_screen_score": 5.132851301400794,
+      "heldout_rmse": 0.28270283080898556,
+      "split": "development"
+    },
+    {
+      "case_id": "generic_fourier:025",
+      "family": "generic_fourier",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 1.861643661955405,
+      "harmonic_screen_score": 3.299568504487956,
+      "heldout_rmse": 0.21355115735359284,
+      "split": "development"
+    },
+    {
+      "case_id": "generic_fourier:026",
+      "family": "generic_fourier",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED"
+      ],
+      "forecast_residual": 2.2019116223416284,
+      "harmonic_screen_score": 3.5968804199961957,
+      "heldout_rmse": 0.15719843465212252,
+      "split": "development"
+    },
+    {
+      "case_id": "generic_fourier:027",
+      "family": "generic_fourier",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 1.1163790440314898,
+      "harmonic_screen_score": 2.144289854023561,
+      "heldout_rmse": 0.14658796535608623,
+      "split": "holdout"
+    },
+    {
+      "case_id": "generic_fourier:028",
+      "family": "generic_fourier",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 1.1919377165318616,
+      "harmonic_screen_score": 2.1570557439765827,
+      "heldout_rmse": 0.058258322847589916,
+      "split": "development"
+    },
+    {
+      "case_id": "generic_fourier:029",
+      "family": "generic_fourier",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 1.4677586700317053,
+      "harmonic_screen_score": 12.853680927253288,
+      "heldout_rmse": 0.18719090900381943,
+      "split": "holdout"
+    },
+    {
+      "case_id": "two_pole_transfer:000",
+      "family": "two_pole_transfer",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.7179239900883638,
+      "harmonic_screen_score": 1.3834426750904893,
+      "heldout_rmse": 0.034298772209049526,
+      "split": "development"
+    },
+    {
+      "case_id": "two_pole_transfer:001",
+      "family": "two_pole_transfer",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 1.0408247761838998,
+      "harmonic_screen_score": 2.96335629500153,
+      "heldout_rmse": 0.10415822955788681,
+      "split": "holdout"
+    },
+    {
+      "case_id": "two_pole_transfer:002",
+      "family": "two_pole_transfer",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.1660930685203227,
+      "harmonic_screen_score": 0.4525647085350864,
+      "heldout_rmse": 0.04659668244342278,
+      "split": "development"
+    },
+    {
+      "case_id": "two_pole_transfer:003",
+      "family": "two_pole_transfer",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.6755542640122131,
+      "harmonic_screen_score": 1.5790154896743318,
+      "heldout_rmse": 0.06516605475853347,
+      "split": "development"
+    },
+    {
+      "case_id": "two_pole_transfer:004",
+      "family": "two_pole_transfer",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.5191131542062016,
+      "harmonic_screen_score": 1.4130139739372776,
+      "heldout_rmse": 0.06137446078516824,
+      "split": "development"
+    },
+    {
+      "case_id": "two_pole_transfer:005",
+      "family": "two_pole_transfer",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.5188268434690048,
+      "harmonic_screen_score": 2.3365070511936143,
+      "heldout_rmse": 0.2592751361152359,
+      "split": "development"
+    },
+    {
+      "case_id": "two_pole_transfer:006",
+      "family": "two_pole_transfer",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.5239170440358383,
+      "harmonic_screen_score": 2.089418016695639,
+      "heldout_rmse": 0.01260503836475505,
+      "split": "holdout"
+    },
+    {
+      "case_id": "two_pole_transfer:007",
+      "family": "two_pole_transfer",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.5827998793179253,
+      "harmonic_screen_score": 0.9925355651142294,
+      "heldout_rmse": 0.021253418748804858,
+      "split": "development"
+    },
+    {
+      "case_id": "two_pole_transfer:008",
+      "family": "two_pole_transfer",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.654852210448616,
+      "harmonic_screen_score": 1.825429802194159,
+      "heldout_rmse": 0.06407712472208392,
+      "split": "holdout"
+    },
+    {
+      "case_id": "two_pole_transfer:009",
+      "family": "two_pole_transfer",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.49407941394378824,
+      "harmonic_screen_score": 1.6067172746022325,
+      "heldout_rmse": 0.026562913474013773,
+      "split": "development"
+    },
+    {
+      "case_id": "two_pole_transfer:010",
+      "family": "two_pole_transfer",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 0.2678102998503428,
+      "harmonic_screen_score": 9.6339522380176,
+      "heldout_rmse": 0.30464136962221056,
+      "split": "development"
+    },
+    {
+      "case_id": "two_pole_transfer:011",
+      "family": "two_pole_transfer",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9451860312993717,
+      "harmonic_screen_score": 2.8337223272561913,
+      "heldout_rmse": 0.19152002068866236,
+      "split": "development"
+    },
+    {
+      "case_id": "two_pole_transfer:012",
+      "family": "two_pole_transfer",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.1824244900857263,
+      "harmonic_screen_score": 0.5545673020138736,
+      "heldout_rmse": 0.04355739825237547,
+      "split": "development"
+    },
+    {
+      "case_id": "two_pole_transfer:013",
+      "family": "two_pole_transfer",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.5070229231848765,
+      "harmonic_screen_score": 1.5245184092728759,
+      "heldout_rmse": 0.14612188402179674,
+      "split": "development"
+    },
+    {
+      "case_id": "two_pole_transfer:014",
+      "family": "two_pole_transfer",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.39183564940179444,
+      "harmonic_screen_score": 1.880267555622611,
+      "heldout_rmse": 0.05908039473807132,
+      "split": "development"
+    },
+    {
+      "case_id": "two_pole_transfer:015",
+      "family": "two_pole_transfer",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 1.6542533994328534,
+      "harmonic_screen_score": 2.7405301984370274,
+      "heldout_rmse": 0.05799386150466197,
+      "split": "holdout"
+    },
+    {
+      "case_id": "two_pole_transfer:016",
+      "family": "two_pole_transfer",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED"
+      ],
+      "forecast_residual": 0.22190965575713853,
+      "harmonic_screen_score": 1.6580684276847362,
+      "heldout_rmse": 0.019406337539041085,
+      "split": "development"
+    },
+    {
+      "case_id": "two_pole_transfer:017",
+      "family": "two_pole_transfer",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9678844262358385,
+      "harmonic_screen_score": 2.3100382467979994,
+      "heldout_rmse": 0.10454491365524175,
+      "split": "holdout"
+    },
+    {
+      "case_id": "two_pole_transfer:018",
+      "family": "two_pole_transfer",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.526137673567583,
+      "harmonic_screen_score": 1.7451898623431388,
+      "heldout_rmse": 0.05008327477166566,
+      "split": "development"
+    },
+    {
+      "case_id": "two_pole_transfer:019",
+      "family": "two_pole_transfer",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.6155692781389224,
+      "harmonic_screen_score": 1.9059598777697637,
+      "heldout_rmse": 0.5654691395159862,
+      "split": "development"
+    },
+    {
+      "case_id": "two_pole_transfer:020",
+      "family": "two_pole_transfer",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.4158325720220923,
+      "harmonic_screen_score": 2.122684802161905,
+      "heldout_rmse": 0.09298344934395782,
+      "split": "holdout"
+    },
+    {
+      "case_id": "two_pole_transfer:021",
+      "family": "two_pole_transfer",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.5312551352742428,
+      "harmonic_screen_score": 1.5381998946419801,
+      "heldout_rmse": 0.053285322407989985,
+      "split": "holdout"
+    },
+    {
+      "case_id": "two_pole_transfer:022",
+      "family": "two_pole_transfer",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.3435002402726326,
+      "harmonic_screen_score": 2.083674923553543,
+      "heldout_rmse": 0.028938813550339736,
+      "split": "development"
+    },
+    {
+      "case_id": "two_pole_transfer:023",
+      "family": "two_pole_transfer",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 1.00360255455054,
+      "harmonic_screen_score": 2.9355921111761045,
+      "heldout_rmse": 0.3479398697312512,
+      "split": "development"
+    },
+    {
+      "case_id": "two_pole_transfer:024",
+      "family": "two_pole_transfer",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.8701973946618683,
+      "harmonic_screen_score": 2.080114670516859,
+      "heldout_rmse": 0.1404898382213306,
+      "split": "development"
+    },
+    {
+      "case_id": "two_pole_transfer:025",
+      "family": "two_pole_transfer",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 1.006102359339569,
+      "harmonic_screen_score": 2.3994526055523115,
+      "heldout_rmse": 0.057545085375324725,
+      "split": "development"
+    },
+    {
+      "case_id": "two_pole_transfer:026",
+      "family": "two_pole_transfer",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.8886138982324915,
+      "harmonic_screen_score": 2.1066050591673693,
+      "heldout_rmse": 0.04403455427178896,
+      "split": "development"
+    },
+    {
+      "case_id": "two_pole_transfer:027",
+      "family": "two_pole_transfer",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.22928605971453597,
+      "harmonic_screen_score": 0.8223487196279018,
+      "heldout_rmse": 0.043277487651779536,
+      "split": "development"
+    },
+    {
+      "case_id": "two_pole_transfer:028",
+      "family": "two_pole_transfer",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 1.0061766201893325,
+      "harmonic_screen_score": 6.836281789626453,
+      "heldout_rmse": 0.03973896696106973,
+      "split": "development"
+    },
+    {
+      "case_id": "two_pole_transfer:029",
+      "family": "two_pole_transfer",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.37199572934585,
+      "harmonic_screen_score": 1.8170553662163145,
+      "heldout_rmse": 0.021975749747062883,
+      "split": "development"
+    },
+    {
+      "case_id": "radius_temperature_projection:000",
+      "family": "radius_temperature_projection",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.1860477973879908,
+      "harmonic_screen_score": 2.114432049490542,
+      "heldout_rmse": 0.013666604405015994,
+      "split": "holdout"
+    },
+    {
+      "case_id": "radius_temperature_projection:001",
+      "family": "radius_temperature_projection",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.15123557277290017,
+      "harmonic_screen_score": 2.0074302729998426,
+      "heldout_rmse": 0.013155837848892148,
+      "split": "holdout"
+    },
+    {
+      "case_id": "radius_temperature_projection:002",
+      "family": "radius_temperature_projection",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.18578759271660308,
+      "harmonic_screen_score": 1.6357401954956905,
+      "heldout_rmse": 0.015104048095450748,
+      "split": "development"
+    },
+    {
+      "case_id": "radius_temperature_projection:003",
+      "family": "radius_temperature_projection",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.19270614847521333,
+      "harmonic_screen_score": 1.8857537333392675,
+      "heldout_rmse": 0.01787706999650039,
+      "split": "development"
+    },
+    {
+      "case_id": "radius_temperature_projection:004",
+      "family": "radius_temperature_projection",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.1956524245963666,
+      "harmonic_screen_score": 1.3343450798262306,
+      "heldout_rmse": 0.06470927215380519,
+      "split": "development"
+    },
+    {
+      "case_id": "radius_temperature_projection:005",
+      "family": "radius_temperature_projection",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.1429553752841146,
+      "harmonic_screen_score": 1.3587830206732792,
+      "heldout_rmse": 0.013965677981545148,
+      "split": "holdout"
+    },
+    {
+      "case_id": "radius_temperature_projection:006",
+      "family": "radius_temperature_projection",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.18894750183555792,
+      "harmonic_screen_score": 1.6327738994651462,
+      "heldout_rmse": 0.01312898311933388,
+      "split": "development"
+    },
+    {
+      "case_id": "radius_temperature_projection:007",
+      "family": "radius_temperature_projection",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED"
+      ],
+      "forecast_residual": 0.23797069347234043,
+      "harmonic_screen_score": 1.5915545387630634,
+      "heldout_rmse": 0.015283111954436194,
+      "split": "development"
+    },
+    {
+      "case_id": "radius_temperature_projection:008",
+      "family": "radius_temperature_projection",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.15853534940529673,
+      "harmonic_screen_score": 2.0169498285963976,
+      "heldout_rmse": 0.016229127546160845,
+      "split": "development"
+    },
+    {
+      "case_id": "radius_temperature_projection:009",
+      "family": "radius_temperature_projection",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.20495933885130627,
+      "harmonic_screen_score": 1.848519564002284,
+      "heldout_rmse": 0.011194189980243035,
+      "split": "development"
+    },
+    {
+      "case_id": "radius_temperature_projection:010",
+      "family": "radius_temperature_projection",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.12054228916079254,
+      "harmonic_screen_score": 1.9941489033778061,
+      "heldout_rmse": 0.012638905626865576,
+      "split": "development"
+    },
+    {
+      "case_id": "radius_temperature_projection:011",
+      "family": "radius_temperature_projection",
+      "flags": [],
+      "forecast_residual": 0.22172049141736366,
+      "harmonic_screen_score": 0.3284045140362622,
+      "heldout_rmse": 0.012596111569692462,
+      "split": "development"
+    },
+    {
+      "case_id": "radius_temperature_projection:012",
+      "family": "radius_temperature_projection",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.1503263036231758,
+      "harmonic_screen_score": 1.8326082389353118,
+      "heldout_rmse": 0.012807441361428678,
+      "split": "holdout"
+    },
+    {
+      "case_id": "radius_temperature_projection:013",
+      "family": "radius_temperature_projection",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.11539536073911957,
+      "harmonic_screen_score": 1.8934776444203556,
+      "heldout_rmse": 0.024092206081389327,
+      "split": "development"
+    },
+    {
+      "case_id": "radius_temperature_projection:014",
+      "family": "radius_temperature_projection",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.15187563668535856,
+      "harmonic_screen_score": 2.122825161972021,
+      "heldout_rmse": 0.011480365144269691,
+      "split": "development"
+    },
+    {
+      "case_id": "radius_temperature_projection:015",
+      "family": "radius_temperature_projection",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.20202189523838945,
+      "harmonic_screen_score": 1.0460003471775248,
+      "heldout_rmse": 0.013653889706772037,
+      "split": "development"
+    },
+    {
+      "case_id": "radius_temperature_projection:016",
+      "family": "radius_temperature_projection",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.19929741774055776,
+      "harmonic_screen_score": 1.2850713207610933,
+      "heldout_rmse": 0.05680474570648009,
+      "split": "development"
+    },
+    {
+      "case_id": "radius_temperature_projection:017",
+      "family": "radius_temperature_projection",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.19596924384972825,
+      "harmonic_screen_score": 1.3913970196329888,
+      "heldout_rmse": 0.011215746378127046,
+      "split": "development"
+    },
+    {
+      "case_id": "radius_temperature_projection:018",
+      "family": "radius_temperature_projection",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.13436442162866902,
+      "harmonic_screen_score": 1.2179586561492948,
+      "heldout_rmse": 0.017695804391888222,
+      "split": "development"
+    },
+    {
+      "case_id": "radius_temperature_projection:019",
+      "family": "radius_temperature_projection",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.22410916782215154,
+      "harmonic_screen_score": 1.176712812030537,
+      "heldout_rmse": 0.06551584784905633,
+      "split": "development"
+    },
+    {
+      "case_id": "radius_temperature_projection:020",
+      "family": "radius_temperature_projection",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.2813894687749957,
+      "harmonic_screen_score": 1.9545586484049795,
+      "heldout_rmse": 0.018056479412738892,
+      "split": "development"
+    },
+    {
+      "case_id": "radius_temperature_projection:021",
+      "family": "radius_temperature_projection",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.17890739627948954,
+      "harmonic_screen_score": 1.3175781647967693,
+      "heldout_rmse": 0.02460329689917267,
+      "split": "holdout"
+    },
+    {
+      "case_id": "radius_temperature_projection:022",
+      "family": "radius_temperature_projection",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.15873817581522706,
+      "harmonic_screen_score": 2.005464552468247,
+      "heldout_rmse": 0.013680268485440933,
+      "split": "holdout"
+    },
+    {
+      "case_id": "radius_temperature_projection:023",
+      "family": "radius_temperature_projection",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.16640673098972733,
+      "harmonic_screen_score": 1.7850749282796006,
+      "heldout_rmse": 0.03755276271148102,
+      "split": "development"
+    },
+    {
+      "case_id": "radius_temperature_projection:024",
+      "family": "radius_temperature_projection",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.1954177128003651,
+      "harmonic_screen_score": 1.662615648752348,
+      "heldout_rmse": 0.03942466421995073,
+      "split": "holdout"
+    },
+    {
+      "case_id": "radius_temperature_projection:025",
+      "family": "radius_temperature_projection",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.24088633649124636,
+      "harmonic_screen_score": 1.5969418129113704,
+      "heldout_rmse": 0.017779225205088085,
+      "split": "development"
+    },
+    {
+      "case_id": "radius_temperature_projection:026",
+      "family": "radius_temperature_projection",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.15179136364756576,
+      "harmonic_screen_score": 1.7267711702147064,
+      "heldout_rmse": 0.038066551445494826,
+      "split": "development"
+    },
+    {
+      "case_id": "radius_temperature_projection:027",
+      "family": "radius_temperature_projection",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.2405734432367802,
+      "harmonic_screen_score": 1.6590368124898147,
+      "heldout_rmse": 0.0308077761959117,
+      "split": "development"
+    },
+    {
+      "case_id": "radius_temperature_projection:028",
+      "family": "radius_temperature_projection",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.15820849296982148,
+      "harmonic_screen_score": 1.5556641461415133,
+      "heldout_rmse": 0.01834312421937681,
+      "split": "holdout"
+    },
+    {
+      "case_id": "radius_temperature_projection:029",
+      "family": "radius_temperature_projection",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.17821901574545332,
+      "harmonic_screen_score": 1.8574441321616153,
+      "heldout_rmse": 0.017120718750412788,
+      "split": "development"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:000",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9527606754362969,
+      "harmonic_screen_score": 2.3549183866511516,
+      "heldout_rmse": 0.04317373567662293,
+      "split": "development"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:001",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9103655145876806,
+      "harmonic_screen_score": 2.2557682686841525,
+      "heldout_rmse": 0.06620144437453229,
+      "split": "development"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:002",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.6763054617691525,
+      "harmonic_screen_score": 1.9320599317162948,
+      "heldout_rmse": 0.05345655782112188,
+      "split": "development"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:003",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9599541479342293,
+      "harmonic_screen_score": 2.3627216943507494,
+      "heldout_rmse": 0.15500802608141764,
+      "split": "development"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:004",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9596406480100278,
+      "harmonic_screen_score": 2.3788297468440374,
+      "heldout_rmse": 0.15388662545717124,
+      "split": "development"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:005",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.5698477065143681,
+      "harmonic_screen_score": 1.8328046297872669,
+      "heldout_rmse": 0.07957715279716347,
+      "split": "development"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:006",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9552714558553125,
+      "harmonic_screen_score": 2.36655870030916,
+      "heldout_rmse": 0.12516036273209336,
+      "split": "development"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:007",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.5488642558448703,
+      "harmonic_screen_score": 1.8176310772287694,
+      "heldout_rmse": 0.03942763909364036,
+      "split": "development"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:008",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9517014404750529,
+      "harmonic_screen_score": 2.3631063475894085,
+      "heldout_rmse": 0.07891145656686246,
+      "split": "development"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:009",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9317934382591924,
+      "harmonic_screen_score": 2.2893999790695414,
+      "heldout_rmse": 0.2185150331660076,
+      "split": "development"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:010",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.2494007301995614,
+      "harmonic_screen_score": 1.420822951417404,
+      "heldout_rmse": 0.03745107616408455,
+      "split": "development"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:011",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.5141050912799078,
+      "harmonic_screen_score": 1.76552323449942,
+      "heldout_rmse": 0.02619494394414949,
+      "split": "holdout"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:012",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.1918281060268406,
+      "harmonic_screen_score": 1.3751121913724145,
+      "heldout_rmse": 0.02780849749892491,
+      "split": "holdout"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:013",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.3140103612515352,
+      "harmonic_screen_score": 1.4575420464822608,
+      "heldout_rmse": 0.031701927292397444,
+      "split": "holdout"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:014",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9649522168582816,
+      "harmonic_screen_score": 2.3728784793285937,
+      "heldout_rmse": 0.12834895465794527,
+      "split": "development"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:015",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.1901824947406196,
+      "harmonic_screen_score": 1.3350890035388978,
+      "heldout_rmse": 0.03299668100394028,
+      "split": "holdout"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:016",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.6427640100879436,
+      "harmonic_screen_score": 1.9115273976149503,
+      "heldout_rmse": 0.06271957501917981,
+      "split": "holdout"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:017",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9554914373090294,
+      "harmonic_screen_score": 2.3660281241205676,
+      "heldout_rmse": 0.23518916717098437,
+      "split": "holdout"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:018",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.32288041839290654,
+      "harmonic_screen_score": 1.4458727861325016,
+      "heldout_rmse": 0.04024097990568369,
+      "split": "holdout"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:019",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.615527684521411,
+      "harmonic_screen_score": 1.865857802446225,
+      "heldout_rmse": 0.05329526072745672,
+      "split": "development"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:020",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.17668459945982268,
+      "harmonic_screen_score": 1.3538919594100418,
+      "heldout_rmse": 0.0808426970110973,
+      "split": "holdout"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:021",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9672653211743415,
+      "harmonic_screen_score": 2.385412923533367,
+      "heldout_rmse": 0.12881539184726776,
+      "split": "holdout"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:022",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.6135417878172046,
+      "harmonic_screen_score": 1.8907514746680139,
+      "heldout_rmse": 0.037517909061966385,
+      "split": "development"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:023",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9397775955781943,
+      "harmonic_screen_score": 2.2933901709646443,
+      "heldout_rmse": 0.046345696143300114,
+      "split": "development"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:024",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9293169254455614,
+      "harmonic_screen_score": 2.278792722749096,
+      "heldout_rmse": 0.026039828110063657,
+      "split": "holdout"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:025",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.14361878617859153,
+      "harmonic_screen_score": 1.248478845387046,
+      "heldout_rmse": 0.04679975599626307,
+      "split": "development"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:026",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9427504583878843,
+      "harmonic_screen_score": 2.302834992168003,
+      "heldout_rmse": 0.1483775050411571,
+      "split": "holdout"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:027",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9448483511721882,
+      "harmonic_screen_score": 2.30919575010335,
+      "heldout_rmse": 0.10522291686620387,
+      "split": "development"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:028",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9707855686918607,
+      "harmonic_screen_score": 2.3886879913403516,
+      "heldout_rmse": 0.14496730510114833,
+      "split": "development"
+    },
+    {
+      "case_id": "vdp_hydrodynamic_surrogate:029",
+      "family": "vdp_hydrodynamic_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9384503484721926,
+      "harmonic_screen_score": 2.2965409689562835,
+      "heldout_rmse": 0.07907382047494714,
+      "split": "development"
+    },
+    {
+      "case_id": "two_zone_surrogate:000",
+      "family": "two_zone_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.8032744944683003,
+      "harmonic_screen_score": 1.8911407015404618,
+      "heldout_rmse": 0.07343691478578208,
+      "split": "development"
+    },
+    {
+      "case_id": "two_zone_surrogate:001",
+      "family": "two_zone_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.3289494250917935,
+      "harmonic_screen_score": 0.6945635895181588,
+      "heldout_rmse": 0.03276055361206379,
+      "split": "development"
+    },
+    {
+      "case_id": "two_zone_surrogate:002",
+      "family": "two_zone_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 1.0711730130557875,
+      "harmonic_screen_score": 2.22914546292973,
+      "heldout_rmse": 0.18647111599799532,
+      "split": "development"
+    },
+    {
+      "case_id": "two_zone_surrogate:003",
+      "family": "two_zone_surrogate",
+      "flags": [],
+      "forecast_residual": 0.967789429056069,
+      "harmonic_screen_score": 1.30704062952728,
+      "heldout_rmse": 0.08528252792193586,
+      "split": "development"
+    },
+    {
+      "case_id": "two_zone_surrogate:004",
+      "family": "two_zone_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9020453118308047,
+      "harmonic_screen_score": 2.1037907642113143,
+      "heldout_rmse": 0.09578122274405187,
+      "split": "holdout"
+    },
+    {
+      "case_id": "two_zone_surrogate:005",
+      "family": "two_zone_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 1.2473521975738486,
+      "harmonic_screen_score": 1.6979386910690284,
+      "heldout_rmse": 0.06984903715300168,
+      "split": "development"
+    },
+    {
+      "case_id": "two_zone_surrogate:006",
+      "family": "two_zone_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.8262701859691204,
+      "harmonic_screen_score": 1.492248090894276,
+      "heldout_rmse": 0.09465765670380259,
+      "split": "development"
+    },
+    {
+      "case_id": "two_zone_surrogate:007",
+      "family": "two_zone_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9787795540779008,
+      "harmonic_screen_score": 1.6946588074616973,
+      "heldout_rmse": 0.08497907974437179,
+      "split": "holdout"
+    },
+    {
+      "case_id": "two_zone_surrogate:008",
+      "family": "two_zone_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9533724294769941,
+      "harmonic_screen_score": 2.1299243226634124,
+      "heldout_rmse": 0.01918542098903384,
+      "split": "development"
+    },
+    {
+      "case_id": "two_zone_surrogate:009",
+      "family": "two_zone_surrogate",
+      "flags": [],
+      "forecast_residual": 0.6703287562444425,
+      "harmonic_screen_score": 0.9988512084791865,
+      "heldout_rmse": 0.07683063115447471,
+      "split": "development"
+    },
+    {
+      "case_id": "two_zone_surrogate:010",
+      "family": "two_zone_surrogate",
+      "flags": [],
+      "forecast_residual": 0.22303494710308155,
+      "harmonic_screen_score": 0.4041837681301794,
+      "heldout_rmse": 0.016153199321772744,
+      "split": "development"
+    },
+    {
+      "case_id": "two_zone_surrogate:011",
+      "family": "two_zone_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.8828967136951985,
+      "harmonic_screen_score": 1.813788506370347,
+      "heldout_rmse": 0.030143316981316552,
+      "split": "development"
+    },
+    {
+      "case_id": "two_zone_surrogate:012",
+      "family": "two_zone_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9965664616123284,
+      "harmonic_screen_score": 2.202480618148939,
+      "heldout_rmse": 0.04357512903588099,
+      "split": "development"
+    },
+    {
+      "case_id": "two_zone_surrogate:013",
+      "family": "two_zone_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9299082826389776,
+      "harmonic_screen_score": 1.5264240177667507,
+      "heldout_rmse": 0.030092397958583775,
+      "split": "development"
+    },
+    {
+      "case_id": "two_zone_surrogate:014",
+      "family": "two_zone_surrogate",
+      "flags": [],
+      "forecast_residual": 0.8630565060239684,
+      "harmonic_screen_score": 0.9363459932787214,
+      "heldout_rmse": 0.03162194446617542,
+      "split": "holdout"
+    },
+    {
+      "case_id": "two_zone_surrogate:015",
+      "family": "two_zone_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9643945964119033,
+      "harmonic_screen_score": 2.166778321068491,
+      "heldout_rmse": 0.37975162974672455,
+      "split": "development"
+    },
+    {
+      "case_id": "two_zone_surrogate:016",
+      "family": "two_zone_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9839436808112286,
+      "harmonic_screen_score": 2.4607074728297307,
+      "heldout_rmse": 0.28621415111506165,
+      "split": "holdout"
+    },
+    {
+      "case_id": "two_zone_surrogate:017",
+      "family": "two_zone_surrogate",
+      "flags": [],
+      "forecast_residual": 0.21533561185614508,
+      "harmonic_screen_score": 0.5074975024991052,
+      "heldout_rmse": 0.034700127784151345,
+      "split": "development"
+    },
+    {
+      "case_id": "two_zone_surrogate:018",
+      "family": "two_zone_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.6027837961492424,
+      "harmonic_screen_score": 1.829728358167449,
+      "heldout_rmse": 0.23899723961638933,
+      "split": "holdout"
+    },
+    {
+      "case_id": "two_zone_surrogate:019",
+      "family": "two_zone_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.8767232973304316,
+      "harmonic_screen_score": 2.3552660362612854,
+      "heldout_rmse": 0.25812733215151196,
+      "split": "development"
+    },
+    {
+      "case_id": "two_zone_surrogate:020",
+      "family": "two_zone_surrogate",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 1.0013000519567639,
+      "harmonic_screen_score": 2.9950410184769165,
+      "heldout_rmse": 0.04327992753337948,
+      "split": "development"
+    },
+    {
+      "case_id": "two_zone_surrogate:021",
+      "family": "two_zone_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.26819394252173534,
+      "harmonic_screen_score": 1.72817056253426,
+      "heldout_rmse": 0.03296308592506935,
+      "split": "development"
+    },
+    {
+      "case_id": "two_zone_surrogate:022",
+      "family": "two_zone_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.30937709160758453,
+      "harmonic_screen_score": 1.7679243662408795,
+      "heldout_rmse": 0.024127955528042977,
+      "split": "development"
+    },
+    {
+      "case_id": "two_zone_surrogate:023",
+      "family": "two_zone_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.897891686354815,
+      "harmonic_screen_score": 1.4694099363170499,
+      "heldout_rmse": 0.03635758608895993,
+      "split": "development"
+    },
+    {
+      "case_id": "two_zone_surrogate:024",
+      "family": "two_zone_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.42689358112587517,
+      "harmonic_screen_score": 1.319113313182943,
+      "heldout_rmse": 0.17835519228029342,
+      "split": "development"
+    },
+    {
+      "case_id": "two_zone_surrogate:025",
+      "family": "two_zone_surrogate",
+      "flags": [],
+      "forecast_residual": 0.685922788236076,
+      "harmonic_screen_score": 1.0176083580084836,
+      "heldout_rmse": 0.0787122552043665,
+      "split": "development"
+    },
+    {
+      "case_id": "two_zone_surrogate:026",
+      "family": "two_zone_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 1.0526889296445423,
+      "harmonic_screen_score": 2.24361145640295,
+      "heldout_rmse": 0.08786052371591294,
+      "split": "development"
+    },
+    {
+      "case_id": "two_zone_surrogate:027",
+      "family": "two_zone_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9276902530236246,
+      "harmonic_screen_score": 2.3473447860668584,
+      "heldout_rmse": 0.21931017519230905,
+      "split": "holdout"
+    },
+    {
+      "case_id": "two_zone_surrogate:028",
+      "family": "two_zone_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.26654871765497745,
+      "harmonic_screen_score": 1.5846564788956468,
+      "heldout_rmse": 0.0652227332732933,
+      "split": "development"
+    },
+    {
+      "case_id": "two_zone_surrogate:029",
+      "family": "two_zone_surrogate",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.34781279398435505,
+      "harmonic_screen_score": 1.570685815235488,
+      "heldout_rmse": 0.02842758307761021,
+      "split": "development"
+    },
+    {
+      "case_id": "shock_modified:000",
+      "family": "shock_modified",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.6904476625063066,
+      "harmonic_screen_score": 1.8253608978925693,
+      "heldout_rmse": 0.0908094814814259,
+      "split": "development"
+    },
+    {
+      "case_id": "shock_modified:001",
+      "family": "shock_modified",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.44510248185688045,
+      "harmonic_screen_score": 1.4629365179199738,
+      "heldout_rmse": 0.09259647232311435,
+      "split": "development"
+    },
+    {
+      "case_id": "shock_modified:002",
+      "family": "shock_modified",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 1.8524511060404676,
+      "harmonic_screen_score": 5.445932375751549,
+      "heldout_rmse": 0.10217736808651429,
+      "split": "development"
+    },
+    {
+      "case_id": "shock_modified:003",
+      "family": "shock_modified",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.4262531113835857,
+      "harmonic_screen_score": 1.8131482342121612,
+      "heldout_rmse": 0.04906959446904966,
+      "split": "development"
+    },
+    {
+      "case_id": "shock_modified:004",
+      "family": "shock_modified",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.37573147686962016,
+      "harmonic_screen_score": 1.6341714636226188,
+      "heldout_rmse": 0.01887048386056351,
+      "split": "development"
+    },
+    {
+      "case_id": "shock_modified:005",
+      "family": "shock_modified",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9483930593407145,
+      "harmonic_screen_score": 1.527631548812317,
+      "heldout_rmse": 0.021641741005368687,
+      "split": "development"
+    },
+    {
+      "case_id": "shock_modified:006",
+      "family": "shock_modified",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.769376860550478,
+      "harmonic_screen_score": 1.7111427134547343,
+      "heldout_rmse": 0.04657659203153919,
+      "split": "development"
+    },
+    {
+      "case_id": "shock_modified:007",
+      "family": "shock_modified",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 0.7787939752005231,
+      "harmonic_screen_score": 7.316837915080554,
+      "heldout_rmse": 0.041731448545492024,
+      "split": "development"
+    },
+    {
+      "case_id": "shock_modified:008",
+      "family": "shock_modified",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.8956157747035614,
+      "harmonic_screen_score": 2.601125101910509,
+      "heldout_rmse": 0.1758341027537936,
+      "split": "holdout"
+    },
+    {
+      "case_id": "shock_modified:009",
+      "family": "shock_modified",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.46693766972237144,
+      "harmonic_screen_score": 1.525273569948842,
+      "heldout_rmse": 0.02370968517941336,
+      "split": "development"
+    },
+    {
+      "case_id": "shock_modified:010",
+      "family": "shock_modified",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9403371444158732,
+      "harmonic_screen_score": 2.858177423041383,
+      "heldout_rmse": 0.18424363503284702,
+      "split": "development"
+    },
+    {
+      "case_id": "shock_modified:011",
+      "family": "shock_modified",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 0.3914123555708959,
+      "harmonic_screen_score": 5.203715605710314,
+      "heldout_rmse": 0.03932251147195696,
+      "split": "development"
+    },
+    {
+      "case_id": "shock_modified:012",
+      "family": "shock_modified",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.274510904958734,
+      "harmonic_screen_score": 1.2212975797270296,
+      "heldout_rmse": 0.08963031926588458,
+      "split": "development"
+    },
+    {
+      "case_id": "shock_modified:013",
+      "family": "shock_modified",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.21954582210618395,
+      "harmonic_screen_score": 0.7223853785980197,
+      "heldout_rmse": 0.11020031585740796,
+      "split": "holdout"
+    },
+    {
+      "case_id": "shock_modified:014",
+      "family": "shock_modified",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.6558108605192037,
+      "harmonic_screen_score": 1.7486948435069785,
+      "heldout_rmse": 0.11807984142413727,
+      "split": "holdout"
+    },
+    {
+      "case_id": "shock_modified:015",
+      "family": "shock_modified",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 1.0138533311263114,
+      "harmonic_screen_score": 1.5772953685419053,
+      "heldout_rmse": 0.03593024435787936,
+      "split": "holdout"
+    },
+    {
+      "case_id": "shock_modified:016",
+      "family": "shock_modified",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 1.1303973312345725,
+      "harmonic_screen_score": 2.2120578738130137,
+      "heldout_rmse": 0.02959783896347232,
+      "split": "development"
+    },
+    {
+      "case_id": "shock_modified:017",
+      "family": "shock_modified",
+      "flags": [],
+      "forecast_residual": 2.3821810551730382,
+      "harmonic_screen_score": 2.757941111656348,
+      "heldout_rmse": 0.029519399470362473,
+      "split": "holdout"
+    },
+    {
+      "case_id": "shock_modified:018",
+      "family": "shock_modified",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9336907265774242,
+      "harmonic_screen_score": 2.112278296814888,
+      "heldout_rmse": 0.2441731501668951,
+      "split": "development"
+    },
+    {
+      "case_id": "shock_modified:019",
+      "family": "shock_modified",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9709780174984386,
+      "harmonic_screen_score": 1.5349779199961486,
+      "heldout_rmse": 0.1397863626300387,
+      "split": "development"
+    },
+    {
+      "case_id": "shock_modified:020",
+      "family": "shock_modified",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 1.4360757370347825,
+      "harmonic_screen_score": 8.991820764942126,
+      "heldout_rmse": 0.1491904704994514,
+      "split": "development"
+    },
+    {
+      "case_id": "shock_modified:021",
+      "family": "shock_modified",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9513191623758085,
+      "harmonic_screen_score": 2.2558769589221472,
+      "heldout_rmse": 0.13112908061855372,
+      "split": "holdout"
+    },
+    {
+      "case_id": "shock_modified:022",
+      "family": "shock_modified",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.2915446573524904,
+      "harmonic_screen_score": 2.040116935055275,
+      "heldout_rmse": 0.03003450728038279,
+      "split": "development"
+    },
+    {
+      "case_id": "shock_modified:023",
+      "family": "shock_modified",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9381905134844722,
+      "harmonic_screen_score": 2.212009087223576,
+      "heldout_rmse": 0.14489987735770363,
+      "split": "holdout"
+    },
+    {
+      "case_id": "shock_modified:024",
+      "family": "shock_modified",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 1.1861960002500695,
+      "harmonic_screen_score": 5.151093518218066,
+      "heldout_rmse": 0.08026718766034244,
+      "split": "development"
+    },
+    {
+      "case_id": "shock_modified:025",
+      "family": "shock_modified",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.6410005758440114,
+      "harmonic_screen_score": 1.4829659304146354,
+      "heldout_rmse": 0.15145161310638985,
+      "split": "holdout"
+    },
+    {
+      "case_id": "shock_modified:026",
+      "family": "shock_modified",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.7626680325103308,
+      "harmonic_screen_score": 1.2564935738382477,
+      "heldout_rmse": 0.018673786644680647,
+      "split": "holdout"
+    },
+    {
+      "case_id": "shock_modified:027",
+      "family": "shock_modified",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 1.5838232701262487,
+      "harmonic_screen_score": 4.611253348839185,
+      "heldout_rmse": 0.05154279888172652,
+      "split": "development"
+    },
+    {
+      "case_id": "shock_modified:028",
+      "family": "shock_modified",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED"
+      ],
+      "forecast_residual": 1.6725089733357754,
+      "harmonic_screen_score": 2.3862270339781473,
+      "heldout_rmse": 0.10533439435543611,
+      "split": "holdout"
+    },
+    {
+      "case_id": "shock_modified:029",
+      "family": "shock_modified",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 1.2135189442630279,
+      "harmonic_screen_score": 56.70613619154346,
+      "heldout_rmse": 0.02342610011863525,
+      "split": "development"
+    },
+    {
+      "case_id": "tidal_kepler_response:000",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 0.3021483671798721,
+      "harmonic_screen_score": 15.247725945024358,
+      "heldout_rmse": 0.1029088486790383,
+      "split": "development"
+    },
+    {
+      "case_id": "tidal_kepler_response:001",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.2747026084717163,
+      "harmonic_screen_score": 0.6420094729439216,
+      "heldout_rmse": 0.2043521209716597,
+      "split": "development"
+    },
+    {
+      "case_id": "tidal_kepler_response:002",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.7466496652434804,
+      "harmonic_screen_score": 2.401968330148499,
+      "heldout_rmse": 0.077232454632949,
+      "split": "holdout"
+    },
+    {
+      "case_id": "tidal_kepler_response:003",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9776234928794822,
+      "harmonic_screen_score": 2.500004988734158,
+      "heldout_rmse": 0.3122943880639619,
+      "split": "holdout"
+    },
+    {
+      "case_id": "tidal_kepler_response:004",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.5133892211999933,
+      "harmonic_screen_score": 2.2201165651854953,
+      "heldout_rmse": 0.015443432821599901,
+      "split": "development"
+    },
+    {
+      "case_id": "tidal_kepler_response:005",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9048904765737306,
+      "harmonic_screen_score": 1.998797867876815,
+      "heldout_rmse": 0.02134499275604391,
+      "split": "holdout"
+    },
+    {
+      "case_id": "tidal_kepler_response:006",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED"
+      ],
+      "forecast_residual": 0.9649352226287998,
+      "harmonic_screen_score": 2.429461908464514,
+      "heldout_rmse": 0.0171436982350267,
+      "split": "development"
+    },
+    {
+      "case_id": "tidal_kepler_response:007",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 0.25005228026556264,
+      "harmonic_screen_score": 25.147625353516265,
+      "heldout_rmse": 0.1440521877547821,
+      "split": "development"
+    },
+    {
+      "case_id": "tidal_kepler_response:008",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 0.21029634666242844,
+      "harmonic_screen_score": 2.196460797799437,
+      "heldout_rmse": 0.28040875212746136,
+      "split": "holdout"
+    },
+    {
+      "case_id": "tidal_kepler_response:009",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.6488904730099109,
+      "harmonic_screen_score": 2.1280846661750386,
+      "heldout_rmse": 0.0457864331012552,
+      "split": "holdout"
+    },
+    {
+      "case_id": "tidal_kepler_response:010",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED"
+      ],
+      "forecast_residual": 0.6023421953600785,
+      "harmonic_screen_score": 1.833494468588947,
+      "heldout_rmse": 0.05869484754651592,
+      "split": "development"
+    },
+    {
+      "case_id": "tidal_kepler_response:011",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.4397495724022972,
+      "harmonic_screen_score": 1.4166015565638317,
+      "heldout_rmse": 0.06486334306699469,
+      "split": "development"
+    },
+    {
+      "case_id": "tidal_kepler_response:012",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.4598920821096511,
+      "harmonic_screen_score": 1.5617955577013785,
+      "heldout_rmse": 0.045841673209275124,
+      "split": "development"
+    },
+    {
+      "case_id": "tidal_kepler_response:013",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9272456754946761,
+      "harmonic_screen_score": 2.40299124885492,
+      "heldout_rmse": 0.28720889470997296,
+      "split": "development"
+    },
+    {
+      "case_id": "tidal_kepler_response:014",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 0.31469163337326533,
+      "harmonic_screen_score": 1.1536974011715888,
+      "heldout_rmse": 0.040809572150576005,
+      "split": "holdout"
+    },
+    {
+      "case_id": "tidal_kepler_response:015",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.5712132554720876,
+      "harmonic_screen_score": 1.9856325759568565,
+      "heldout_rmse": 0.03896520779495412,
+      "split": "development"
+    },
+    {
+      "case_id": "tidal_kepler_response:016",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 1.174985144953854,
+      "harmonic_screen_score": 2.796540785647281,
+      "heldout_rmse": 0.05398993830231411,
+      "split": "development"
+    },
+    {
+      "case_id": "tidal_kepler_response:017",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.1611420836937018,
+      "harmonic_screen_score": 1.107819395502121,
+      "heldout_rmse": 0.019364680795653445,
+      "split": "development"
+    },
+    {
+      "case_id": "tidal_kepler_response:018",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED"
+      ],
+      "forecast_residual": 0.8730095584757883,
+      "harmonic_screen_score": 2.2609291536335667,
+      "heldout_rmse": 0.015637990527598886,
+      "split": "holdout"
+    },
+    {
+      "case_id": "tidal_kepler_response:019",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 0.12451254403479152,
+      "harmonic_screen_score": 17.52609073463393,
+      "heldout_rmse": 0.027973501857418235,
+      "split": "development"
+    },
+    {
+      "case_id": "tidal_kepler_response:020",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED"
+      ],
+      "forecast_residual": 0.5722780709911871,
+      "harmonic_screen_score": 2.0078968624985696,
+      "heldout_rmse": 0.24875153468988703,
+      "split": "development"
+    },
+    {
+      "case_id": "tidal_kepler_response:021",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.17561534530104914,
+      "harmonic_screen_score": 0.587757220479766,
+      "heldout_rmse": 0.07392632687710184,
+      "split": "development"
+    },
+    {
+      "case_id": "tidal_kepler_response:022",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED"
+      ],
+      "forecast_residual": 0.23230145436848396,
+      "harmonic_screen_score": 1.781482556458604,
+      "heldout_rmse": 0.04258550382129808,
+      "split": "development"
+    },
+    {
+      "case_id": "tidal_kepler_response:023",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.3178857739118618,
+      "harmonic_screen_score": 1.9544272987627422,
+      "heldout_rmse": 0.059438184876006744,
+      "split": "development"
+    },
+    {
+      "case_id": "tidal_kepler_response:024",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.9049140490636602,
+      "harmonic_screen_score": 2.5961857956064094,
+      "heldout_rmse": 0.12388784393529534,
+      "split": "development"
+    },
+    {
+      "case_id": "tidal_kepler_response:025",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED"
+      ],
+      "forecast_residual": 0.12427322157299141,
+      "harmonic_screen_score": 0.7586917314203115,
+      "heldout_rmse": 0.031187611910530308,
+      "split": "development"
+    },
+    {
+      "case_id": "tidal_kepler_response:026",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.7417352655286479,
+      "harmonic_screen_score": 2.2563274828631568,
+      "heldout_rmse": 0.20543711384462376,
+      "split": "development"
+    },
+    {
+      "case_id": "tidal_kepler_response:027",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 0.8867853569075176,
+      "harmonic_screen_score": 11.564909322295614,
+      "heldout_rmse": 0.0545641376967084,
+      "split": "development"
+    },
+    {
+      "case_id": "tidal_kepler_response:028",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 0.6435540886556966,
+      "harmonic_screen_score": 3.20334296010938,
+      "heldout_rmse": 0.019237846997304124,
+      "split": "holdout"
+    },
+    {
+      "case_id": "tidal_kepler_response:029",
+      "family": "tidal_kepler_response",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED"
+      ],
+      "forecast_residual": 0.6192838907307893,
+      "harmonic_screen_score": 2.218058099407166,
+      "heldout_rmse": 0.022455390477484814,
+      "split": "holdout"
+    },
+    {
+      "case_id": "spot_rotation:000",
+      "family": "spot_rotation",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.15888452851772822,
+      "harmonic_screen_score": 1.292240349504363,
+      "heldout_rmse": 0.01613373462554758,
+      "split": "development"
+    },
+    {
+      "case_id": "spot_rotation:001",
+      "family": "spot_rotation",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.2139620283184005,
+      "harmonic_screen_score": 1.6733750671959313,
+      "heldout_rmse": 0.016766066996290154,
+      "split": "development"
+    },
+    {
+      "case_id": "spot_rotation:002",
+      "family": "spot_rotation",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.20282182373387508,
+      "harmonic_screen_score": 1.952923946419233,
+      "heldout_rmse": 0.014249895344590372,
+      "split": "holdout"
+    },
+    {
+      "case_id": "spot_rotation:003",
+      "family": "spot_rotation",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.2170638882712453,
+      "harmonic_screen_score": 1.7419693500110494,
+      "heldout_rmse": 0.015047163561135926,
+      "split": "development"
+    },
+    {
+      "case_id": "spot_rotation:004",
+      "family": "spot_rotation",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.1724758161647066,
+      "harmonic_screen_score": 1.6024523775172494,
+      "heldout_rmse": 0.02136542438292589,
+      "split": "development"
+    },
+    {
+      "case_id": "spot_rotation:005",
+      "family": "spot_rotation",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.20666293352168758,
+      "harmonic_screen_score": 1.1353925211138358,
+      "heldout_rmse": 0.019091807347710165,
+      "split": "holdout"
+    },
+    {
+      "case_id": "spot_rotation:006",
+      "family": "spot_rotation",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.12464150204911618,
+      "harmonic_screen_score": 1.1593100604714235,
+      "heldout_rmse": 0.026876237839796657,
+      "split": "development"
+    },
+    {
+      "case_id": "spot_rotation:007",
+      "family": "spot_rotation",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.11637884406963125,
+      "harmonic_screen_score": 1.1437200891677317,
+      "heldout_rmse": 0.06033562342915606,
+      "split": "holdout"
+    },
+    {
+      "case_id": "spot_rotation:008",
+      "family": "spot_rotation",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED"
+      ],
+      "forecast_residual": 0.24003675821481626,
+      "harmonic_screen_score": 1.0194429899732251,
+      "heldout_rmse": 0.013308095082851393,
+      "split": "development"
+    },
+    {
+      "case_id": "spot_rotation:009",
+      "family": "spot_rotation",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.21677079280807882,
+      "harmonic_screen_score": 1.671633453150148,
+      "heldout_rmse": 0.011554527871740614,
+      "split": "development"
+    },
+    {
+      "case_id": "spot_rotation:010",
+      "family": "spot_rotation",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.17600032887450084,
+      "harmonic_screen_score": 2.02082721091404,
+      "heldout_rmse": 0.012359958998713791,
+      "split": "development"
+    },
+    {
+      "case_id": "spot_rotation:011",
+      "family": "spot_rotation",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.1857379106727138,
+      "harmonic_screen_score": 1.7682896671723691,
+      "heldout_rmse": 0.018380796926347292,
+      "split": "development"
+    },
+    {
+      "case_id": "spot_rotation:012",
+      "family": "spot_rotation",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.2617709532746926,
+      "harmonic_screen_score": 1.7655366749369414,
+      "heldout_rmse": 0.01593216802327077,
+      "split": "development"
+    },
+    {
+      "case_id": "spot_rotation:013",
+      "family": "spot_rotation",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.17293914777442174,
+      "harmonic_screen_score": 1.9894905041794764,
+      "heldout_rmse": 0.018293682560240044,
+      "split": "development"
+    },
+    {
+      "case_id": "spot_rotation:014",
+      "family": "spot_rotation",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.14743025386767386,
+      "harmonic_screen_score": 1.8736984293110996,
+      "heldout_rmse": 0.1011227425799332,
+      "split": "development"
+    },
+    {
+      "case_id": "spot_rotation:015",
+      "family": "spot_rotation",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.1292610066895928,
+      "harmonic_screen_score": 1.8126461627398438,
+      "heldout_rmse": 0.0180500647126004,
+      "split": "development"
+    },
+    {
+      "case_id": "spot_rotation:016",
+      "family": "spot_rotation",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.22480464315595694,
+      "harmonic_screen_score": 1.9550017899851972,
+      "heldout_rmse": 0.015998981406073132,
+      "split": "development"
+    },
+    {
+      "case_id": "spot_rotation:017",
+      "family": "spot_rotation",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED"
+      ],
+      "forecast_residual": 0.15319032824753778,
+      "harmonic_screen_score": 1.0271777098981263,
+      "heldout_rmse": 0.008677697126986484,
+      "split": "development"
+    },
+    {
+      "case_id": "spot_rotation:018",
+      "family": "spot_rotation",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.15185959585490055,
+      "harmonic_screen_score": 1.6472359472766427,
+      "heldout_rmse": 0.018426630239856055,
+      "split": "development"
+    },
+    {
+      "case_id": "spot_rotation:019",
+      "family": "spot_rotation",
+      "flags": [
+        "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK",
+        "AMPLITUDE_RATIO_EXTREME"
+      ],
+      "forecast_residual": 0.2754504022859198,
+      "harmonic_screen_score": 16.50412518953849,
+      "heldout_rmse": 0.022835794885637837,
+      "split": "development"
+    },
+    {
+      "case_id": "spot_rotation:020",
+      "family": "spot_rotation",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.2022798698466447,
+      "harmonic_screen_score": 1.2627469549032886,
+      "heldout_rmse": 0.022787756124250946,
+      "split": "development"
+    },
+    {
+      "case_id": "spot_rotation:021",
+      "family": "spot_rotation",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.18075739528961016,
+      "harmonic_screen_score": 1.170862318652151,
+      "heldout_rmse": 0.013816002065718536,
+      "split": "holdout"
+    },
+    {
+      "case_id": "spot_rotation:022",
+      "family": "spot_rotation",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.17433564921297168,
+      "harmonic_screen_score": 1.9379281838900955,
+      "heldout_rmse": 0.0384829663480904,
+      "split": "development"
+    },
+    {
+      "case_id": "spot_rotation:023",
+      "family": "spot_rotation",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.18028301897503893,
+      "harmonic_screen_score": 0.7646490947809296,
+      "heldout_rmse": 0.01674545512987267,
+      "split": "development"
+    },
+    {
+      "case_id": "spot_rotation:024",
+      "family": "spot_rotation",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.09882237678363322,
+      "harmonic_screen_score": 1.7864319998754976,
+      "heldout_rmse": 0.013254246294339028,
+      "split": "development"
+    },
+    {
+      "case_id": "spot_rotation:025",
+      "family": "spot_rotation",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.14065310052785684,
+      "harmonic_screen_score": 1.2848232060973144,
+      "heldout_rmse": 0.014384933167478806,
+      "split": "development"
+    },
+    {
+      "case_id": "spot_rotation:026",
+      "family": "spot_rotation",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.12880921328838058,
+      "harmonic_screen_score": 1.472950912599141,
+      "heldout_rmse": 0.010948033033233218,
+      "split": "development"
+    },
+    {
+      "case_id": "spot_rotation:027",
+      "family": "spot_rotation",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.22281850589509697,
+      "harmonic_screen_score": 2.084525963949323,
+      "heldout_rmse": 0.014625317998085866,
+      "split": "development"
+    },
+    {
+      "case_id": "spot_rotation:028",
+      "family": "spot_rotation",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.1253559190644437,
+      "harmonic_screen_score": 1.321698624481748,
+      "heldout_rmse": 0.028813438631061675,
+      "split": "development"
+    },
+    {
+      "case_id": "spot_rotation:029",
+      "family": "spot_rotation",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.12957976859826434,
+      "harmonic_screen_score": 1.6111906856899374,
+      "heldout_rmse": 0.012654323107164462,
+      "split": "development"
+    },
+    {
+      "case_id": "cse_reprocessing:000",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.14460520022816306,
+      "harmonic_screen_score": 1.4058022380061268,
+      "heldout_rmse": 0.010695382838506509,
+      "split": "holdout"
+    },
+    {
+      "case_id": "cse_reprocessing:001",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.2035465041578937,
+      "harmonic_screen_score": 2.0185334641554666,
+      "heldout_rmse": 0.047338316578309315,
+      "split": "development"
+    },
+    {
+      "case_id": "cse_reprocessing:002",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.2536071976611677,
+      "harmonic_screen_score": 1.2278728812832398,
+      "heldout_rmse": 0.01518303927168297,
+      "split": "development"
+    },
+    {
+      "case_id": "cse_reprocessing:003",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.18092978854381153,
+      "harmonic_screen_score": 2.0551594350662503,
+      "heldout_rmse": 0.022093840230686834,
+      "split": "development"
+    },
+    {
+      "case_id": "cse_reprocessing:004",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.14854903747100093,
+      "harmonic_screen_score": 1.6687221918728616,
+      "heldout_rmse": 0.016579208581688945,
+      "split": "development"
+    },
+    {
+      "case_id": "cse_reprocessing:005",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.18935155436160855,
+      "harmonic_screen_score": 2.11662433385834,
+      "heldout_rmse": 0.039997384317504166,
+      "split": "development"
+    },
+    {
+      "case_id": "cse_reprocessing:006",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.11574939494494293,
+      "harmonic_screen_score": 1.9028262674718066,
+      "heldout_rmse": 0.017696390622107133,
+      "split": "holdout"
+    },
+    {
+      "case_id": "cse_reprocessing:007",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.152555033191195,
+      "harmonic_screen_score": 0.7877165371957737,
+      "heldout_rmse": 0.013564645255919393,
+      "split": "development"
+    },
+    {
+      "case_id": "cse_reprocessing:008",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.16086779831304113,
+      "harmonic_screen_score": 1.2751237211247362,
+      "heldout_rmse": 0.016827911617437272,
+      "split": "holdout"
+    },
+    {
+      "case_id": "cse_reprocessing:009",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.18133291860776055,
+      "harmonic_screen_score": 1.6522139540062382,
+      "heldout_rmse": 0.015123563530456305,
+      "split": "development"
+    },
+    {
+      "case_id": "cse_reprocessing:010",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.26727570082299035,
+      "harmonic_screen_score": 1.4784038741831862,
+      "heldout_rmse": 0.013847206060694273,
+      "split": "development"
+    },
+    {
+      "case_id": "cse_reprocessing:011",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.11796166653242633,
+      "harmonic_screen_score": 2.0786767348785804,
+      "heldout_rmse": 0.020187833055127807,
+      "split": "development"
+    },
+    {
+      "case_id": "cse_reprocessing:012",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.16013178850768534,
+      "harmonic_screen_score": 2.0175035277373996,
+      "heldout_rmse": 0.013370212673545288,
+      "split": "holdout"
+    },
+    {
+      "case_id": "cse_reprocessing:013",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.2191886010630921,
+      "harmonic_screen_score": 1.558092339613439,
+      "heldout_rmse": 0.02275693475036397,
+      "split": "development"
+    },
+    {
+      "case_id": "cse_reprocessing:014",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.16992374746042707,
+      "harmonic_screen_score": 1.1662252167439193,
+      "heldout_rmse": 0.009583201248623194,
+      "split": "holdout"
+    },
+    {
+      "case_id": "cse_reprocessing:015",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.1885965188307021,
+      "harmonic_screen_score": 1.4011663110741033,
+      "heldout_rmse": 0.010863111025628681,
+      "split": "holdout"
+    },
+    {
+      "case_id": "cse_reprocessing:016",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.09938261756351517,
+      "harmonic_screen_score": 1.9235083222196296,
+      "heldout_rmse": 0.021275800243315095,
+      "split": "holdout"
+    },
+    {
+      "case_id": "cse_reprocessing:017",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.2259423108424371,
+      "harmonic_screen_score": 1.9283339804210529,
+      "heldout_rmse": 0.0377331351768983,
+      "split": "holdout"
+    },
+    {
+      "case_id": "cse_reprocessing:018",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.24564222523465892,
+      "harmonic_screen_score": 1.1171127568644967,
+      "heldout_rmse": 0.01169970570780537,
+      "split": "development"
+    },
+    {
+      "case_id": "cse_reprocessing:019",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED"
+      ],
+      "forecast_residual": 0.21057867740464173,
+      "harmonic_screen_score": 0.9611245419268153,
+      "heldout_rmse": 0.021692219286604975,
+      "split": "development"
+    },
+    {
+      "case_id": "cse_reprocessing:020",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.19429352150493562,
+      "harmonic_screen_score": 2.16123785899601,
+      "heldout_rmse": 0.025929979874793164,
+      "split": "development"
+    },
+    {
+      "case_id": "cse_reprocessing:021",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.12471653913210398,
+      "harmonic_screen_score": 2.074201689229495,
+      "heldout_rmse": 0.02061197164824383,
+      "split": "development"
+    },
+    {
+      "case_id": "cse_reprocessing:022",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.16004226532022678,
+      "harmonic_screen_score": 1.484626658572707,
+      "heldout_rmse": 0.01658563301440102,
+      "split": "holdout"
+    },
+    {
+      "case_id": "cse_reprocessing:023",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.1894724136076827,
+      "harmonic_screen_score": 2.034042239705747,
+      "heldout_rmse": 0.024688437794570594,
+      "split": "development"
+    },
+    {
+      "case_id": "cse_reprocessing:024",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.12431086244861643,
+      "harmonic_screen_score": 1.397459367143934,
+      "heldout_rmse": 0.013885534952861319,
+      "split": "development"
+    },
+    {
+      "case_id": "cse_reprocessing:025",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.1367545789828895,
+      "harmonic_screen_score": 1.779611060883955,
+      "heldout_rmse": 0.01779392549472855,
+      "split": "holdout"
+    },
+    {
+      "case_id": "cse_reprocessing:026",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.12437800494180976,
+      "harmonic_screen_score": 1.6171640412633441,
+      "heldout_rmse": 0.02207067781173676,
+      "split": "holdout"
+    },
+    {
+      "case_id": "cse_reprocessing:027",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.1192924436770416,
+      "harmonic_screen_score": 1.797436304630209,
+      "heldout_rmse": 0.02069098954923127,
+      "split": "development"
+    },
+    {
+      "case_id": "cse_reprocessing:028",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.15573891295191364,
+      "harmonic_screen_score": 1.9196333976558695,
+      "heldout_rmse": 0.009376569580063882,
+      "split": "holdout"
+    },
+    {
+      "case_id": "cse_reprocessing:029",
+      "family": "cse_reprocessing",
+      "flags": [
+        "RESIDUE_SIGN_CONSTRAINT_FAILED",
+        "RESIDUE_PHASE_CONSTRAINT_WEAK"
+      ],
+      "forecast_residual": 0.23254192471618906,
+      "harmonic_screen_score": 1.982439005242175,
+      "heldout_rmse": 0.02262166035462245,
+      "split": "development"
+    }
+  ],
+  "threshold_development_metrics": {
+    "forecast_residual": {
+      "balanced_accuracy": 1.0,
+      "false_negative": 0.0,
+      "false_positive": 0.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0,
+      "true_negative": 22.0,
+      "true_positive": 19.0
+    },
+    "harmonic_screen_score": {
+      "balanced_accuracy": 0.9736842105263157,
+      "false_negative": 1.0,
+      "false_positive": 0.0,
+      "sensitivity": 0.9473684210526315,
+      "specificity": 1.0,
+      "true_negative": 22.0,
+      "true_positive": 18.0
+    },
+    "heldout_rmse": {
+      "balanced_accuracy": 0.9736842105263157,
+      "false_negative": 1.0,
+      "false_positive": 0.0,
+      "sensitivity": 0.9473684210526315,
+      "specificity": 1.0,
+      "true_negative": 22.0,
+      "true_positive": 18.0
+    }
+  },
+  "thresholds": {
+    "forecast_residual": 0.6622222932147183,
+    "harmonic_screen_score": 1.62674112201098,
+    "heldout_rmse": 0.03682793851660837
+  }
+}

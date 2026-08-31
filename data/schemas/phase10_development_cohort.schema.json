@@ -1,0 +1,43 @@
+{
+  "$id": "https://xoiam.example/derd/phase10-development-cohort.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "catalog_contract_id": {
+      "const": "DERD-PHASE10-OGLE-AUTHORITATIVE-CATALOG-CONTRACT-1.0"
+    },
+    "manifest_id": {
+      "type": "string"
+    },
+    "protocol_id": {
+      "const": "DERD-PHASE10-AUTHORITATIVE-METADATA-SOURCE-LOCK-1.0"
+    },
+    "targets": {
+      "items": {
+        "required": [
+          "object_id",
+          "family",
+          "metadata_lock_required",
+          "source_repository",
+          "source_commit",
+          "source_repository_path",
+          "source_git_blob_sha1",
+          "source_byte_count",
+          "source_observation_count",
+          "source_relative_path"
+        ],
+        "type": "object"
+      },
+      "maxItems": 15,
+      "minItems": 15,
+      "type": "array"
+    }
+  },
+  "required": [
+    "manifest_id",
+    "protocol_id",
+    "catalog_contract_id",
+    "targets"
+  ],
+  "title": "DERD Phase-10 authoritative metadata/source-lock cohort",
+  "type": "object"
+}

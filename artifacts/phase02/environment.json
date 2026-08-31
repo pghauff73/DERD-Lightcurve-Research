@@ -1,0 +1,35 @@
+{
+  "configuration": {
+    "fit_seed": 20260807,
+    "matched_fourier_order": 2,
+    "maximum_function_evaluations": 180,
+    "normalization_grid_size": 512,
+    "peak_grid_size": 256,
+    "period_grid_count": 101,
+    "period_relative_span": 0.001,
+    "selectable_fourier_orders": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "split_seed": 20260807,
+    "starts": 4,
+    "test_fraction": 0.2
+  },
+  "cwd": "/mnt/data/lightcurve-trainer-roadmap/phase02-work/derd-phase02",
+  "figure_files": [
+    "heldout_rmse_by_star.png",
+    "model_win_counts.png",
+    "condition_numbers.png",
+    "derd_fourier_rmse_delta.png",
+    "derd_best_case_OGLE-LMC-CEP-0006.png",
+    "derd_worst_case_OGLE-LMC-CEP-0021.png"
+  ],
+  "matplotlib": "3.10.8",
+  "numpy": "2.3.5",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "python": "3.13.5 (main, May  5 2026, 21:05:52) [GCC 14.2.0]",
+  "scipy": "1.17.0"
+}

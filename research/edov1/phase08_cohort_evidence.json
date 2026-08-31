@@ -1,0 +1,36 @@
+{
+  "artifacts": [
+    "artifacts/phase08/PHASE08_RESULT.md",
+    "artifacts/phase08/phase08_summary.json",
+    "data/manifests/phase08_cohort_sources.json"
+  ],
+  "contradicting_or_limiting_findings": [
+    "No target measured two forecast harmonics at Wald SNR >= 2.",
+    "No target passed every DERD structural constraint.",
+    "No target qualified as a development harmonic forecast.",
+    "Both Delta Scuti period coordinates are legacy diagnostic evidence.",
+    "Two objects per family is below the frozen population-inference minimum.",
+    "All targets are exposed development identities and cannot become pristine confirmation."
+  ],
+  "date": "2026-08-15",
+  "evidence_role": "EXPOSED_DEVELOPMENT_ONLY",
+  "manifest_id": "EDOV1-PHASE08-COHORT-EVIDENCE-V1",
+  "promotion_decision": "DENIED_INSUFFICIENT_FORECAST_SIGNAL_STRUCTURAL_COMPATIBILITY_AND_COHORT_SIZE",
+  "provenance_clusters": [
+    {
+      "cluster": "raw photometry",
+      "independence_note": "single mirror lineage",
+      "source": "bksim/OutlierDetection frozen Git commit"
+    },
+    {
+      "cluster": "period and mode",
+      "independence_note": "mixed authority; grades retained per object",
+      "source": "external catalog mirrors/cross-checks plus legacy feature table"
+    }
+  ],
+  "supporting_findings": [
+    "All six raw sources passed byte-level provenance verification.",
+    "The common signed eight-harmonic pipeline executed across three families.",
+    "One RRab target measured all four recovery harmonics."
+  ]
+}

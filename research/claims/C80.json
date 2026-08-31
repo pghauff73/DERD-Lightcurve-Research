@@ -1,0 +1,11 @@
+{
+  "claim": "The 33-row OGLE V-band mirror used locally passes SHA-256, Git-blob SHA-1, byte-count, and observation-count verification.",
+  "claim_id": "C80",
+  "evidence": [
+    "data/manifests/phase17_external_v_source_manifest.json",
+    "artifacts/phase17/phase17_source_verification.json"
+  ],
+  "physical_claim_scope": "source provenance only",
+  "sha256_canonical_json": "54503daf6c4f3f4c075089bfde531dd82a96ba925ee9ec8aa0b49c844486c388",
+  "status": "VERIFIED"
+}

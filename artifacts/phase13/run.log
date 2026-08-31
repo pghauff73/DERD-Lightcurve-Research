@@ -1,0 +1,14 @@
+{
+  "actual_temporal_score": 3.4326544455250376,
+  "cumulative_records": 3,
+  "decision": "PHASE13_TEMPORAL_REPLICATION_LEDGER_UPDATED_POPULATION_GATE_CLOSED",
+  "new_records": 1,
+  "population_outputs_allowed": false,
+  "prior_records": 2,
+  "replay_pass": true,
+  "selected_object_id": "OGLE-LMC-RRLYR-00004",
+  "stationary_threshold": 2.9151015296131146,
+  "temporal_disposition": "TEMPORAL_REPLICATION_NOT_SUPPORTED"
+}
+
+ELAPSED=5.86 MAXRSS=245348

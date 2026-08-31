@@ -1,0 +1,68 @@
+{
+  "protocol_id": "DERD-PHASE12-CUMULATIVE-REPLAY-LEDGER-1.0",
+  "date_frozen": "2026-08-18",
+  "research_role": "exposed-development-only",
+  "parent_phase11_summary": {
+    "path": "artifacts/phase11/phase11_summary.json",
+    "sha256": "df843a5445a7616b4d7e0a2604e1da84c2b94e5c821005454cbb926bbfb4db6e"
+  },
+  "frozen_cohort": {
+    "manifest_path": "data/manifests/phase10_development_cohort.json",
+    "manifest_file_sha256": "b55ccd572aeac2a042e9e187d20c6cc47f6170e5d87f71da6167b4cca97485ae",
+    "family_count": 3,
+    "objects_per_family": 5,
+    "total_objects": 15,
+    "replacement_after_result_inspection": false
+  },
+  "execution_policy": {
+    "execute_only_targets_absent_from_verified_ledger": true,
+    "metadata_and_source_locks_required": true,
+    "scientific_coordinates": {
+      "synthetic_samples_per_class": 96,
+      "propagation_draws": 2048,
+      "period_grid_count": 101,
+      "minimum_observations": 240
+    },
+    "conflicting_duplicate_records": "HARD_FAIL",
+    "missing_or_mismatched_record_hashes": "HARD_FAIL"
+  },
+  "replay_policy": {
+    "compare_with_inherited_phase08_record_when_available": true,
+    "require_scientific_match": true,
+    "permit_non_scientific_transport_metadata_drift": [
+      "target.source_relative_path",
+      "target.period_source",
+      "harmonic_exchange.metadata.phase",
+      "harmonic_exchange.metadata.period_source"
+    ],
+    "scientific_or_harmonic_exchange_drift": "BLOCK_PHASE12_PROMOTION"
+  },
+  "denominator_firewall": {
+    "family_count": 3,
+    "objects_per_family": 5,
+    "total_fresh_or_verified_records_required": 15,
+    "partial_family_fractions": "SUPPRESSED",
+    "partial_wilson_intervals": "SUPPRESSED",
+    "population_claims": "SUPPRESSED"
+  },
+  "claim_boundary": {
+    "supported": [
+      "source-lock verification",
+      "target-level normalized waveform evidence",
+      "cumulative evidence retention",
+      "deterministic cross-phase replay"
+    ],
+    "not_supported": [
+      "unique internal stellar mechanism",
+      "literal internal Keplerian motion",
+      "universal transparent outer shell",
+      "shell prevalence",
+      "shell mass or mass fraction"
+    ]
+  },
+  "rights_policy": {
+    "raw_source_bytes_in_release": false,
+    "attribution_acknowledgement_required": true,
+    "source_digests_and_retrieval_coordinates_retained": true
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "object_model_id": "DERD-PHASE19-OURD-OBJECTS-1.0",
+  "objects": [
+    {
+      "object_id": "P19_PROTOCOL",
+      "path": "research/preregistration/phase19_external_group_replay_protocol.json",
+      "type": "sealed_protocol"
+    },
+    {
+      "object_id": "P19_PUBLIC_KIT",
+      "sha256": "965b3d4228ccfbac8e9a605460349f425ca3d42bbaae22eebc108a83d2b57891",
+      "type": "blind_replication_kit"
+    },
+    {
+      "object_id": "P19_PRIVATE_EVALUATOR",
+      "sha256": "c53d547002bb938916f398685ce5810c8219e7e1f90dd6d903eec6412789f555",
+      "type": "withheld_evaluator"
+    },
+    {
+      "object_id": "P19_LOCAL_CONTROL",
+      "path": "artifacts/phase19/phase19_local_cleanroom_control.json",
+      "type": "internal_cleanroom_control"
+    },
+    {
+      "object_id": "P19_EXTERNAL_SUBMISSION",
+      "status": "ABSENT",
+      "type": "external_operator_submission"
+    },
+    {
+      "object_id": "P19_REPRO_GRAPH",
+      "path": "artifacts/phase19/phase19_reproducibility_graph.json",
+      "type": "reproducibility_graph"
+    },
+    {
+      "object_id": "C17",
+      "status": "OPEN_NOT_PROMOTED",
+      "type": "claim"
+    }
+  ],
+  "relations": [
+    {
+      "relation": "GOVERNS",
+      "source": "P19_PROTOCOL",
+      "target": "P19_PUBLIC_KIT"
+    },
+    {
+      "relation": "COMMITS_TO",
+      "source": "P19_PRIVATE_EVALUATOR",
+      "target": "P19_PUBLIC_KIT"
+    },
+    {
+      "relation": "VALIDATES_PACKAGING_OF",
+      "source": "P19_LOCAL_CONTROL",
+      "target": "P19_PUBLIC_KIT"
+    },
+    {
+      "relation": "DOES_NOT_SATISFY",
+      "source": "P19_LOCAL_CONTROL",
+      "target": "P19_EXTERNAL_SUBMISSION"
+    },
+    {
+      "relation": "BLOCKS_PROMOTION_OF",
+      "source": "P19_REPRO_GRAPH",
+      "target": "C17"
+    }
+  ],
+  "sha256_canonical_json": "2aeecc88037dd7e94b6a39d2dd5d1d73d02fb846e7ec371c85941a466e1d68f7"
+}

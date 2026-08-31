@@ -1,0 +1,14 @@
+{
+  "capsule_state": "REMOTE_COMMIT_FROZEN_METADATA",
+  "commit": "a0d93a2e95cbe9287326897efc419255c1f39610",
+  "key_blobs": {
+    "README.md": "065b78bfb4354d669163912adf321dab5402833b",
+    "kepler-feature-counter.py": "10e82ecf32b59e2eda1b6008850142a4f61c0392",
+    "lightcurve-generator.ipynb": "e7b0d91cdded16573e70b57cf3edab2a17628c46",
+    "lightcurve-trainer-start.py": "f2a7015c0a343b5c0fe32fdc0c57c92e7e674e75",
+    "lightcurve-trainer.py": "d60523227abe0296364f32ce889a832f49a4ea6c"
+  },
+  "note": "Large FITS, Keras, image, notebook, and PDF blobs are not duplicated in this patch. Their commit-tree identity remains the evidence boundary.",
+  "repository": "pghauff55/lightcurve-trainer",
+  "tree_frozen": true
+}

@@ -1,0 +1,106 @@
+{
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "object_model_id": "DERD-PHASE20-OURD-OBJECTS-1.0",
+  "objects": [
+    {
+      "object_id": "P20_PROTOCOL",
+      "path": "research/preregistration/phase20_multiband_mechanism_falsification_protocol.json",
+      "type": "sealed_protocol"
+    },
+    {
+      "band": "I",
+      "object_id": "P20_I_SERIES",
+      "path": "artifacts/phase14/harmonic_exchange/OGLE-LMC-CEP-0002.json",
+      "type": "signed_harmonic_series"
+    },
+    {
+      "band": "V",
+      "object_id": "P20_V_SERIES",
+      "path": "artifacts/phase20/harmonic_exchange/OGLE-LMC-CEP-0002_merged_v.json",
+      "type": "signed_harmonic_series"
+    },
+    {
+      "object_id": "P20_PASSBAND_TEST",
+      "path": "artifacts/phase20/phase20_harmonic_invariant_comparisons.csv",
+      "type": "covariance_aware_invariant_comparison"
+    },
+    {
+      "object_id": "P20_PROJECTION_TEST",
+      "path": "artifacts/phase20/phase20_passband_shape_worker.json",
+      "type": "representation_model_tournament"
+    },
+    {
+      "object_id": "P20_MECHANISM_TOURNAMENT",
+      "path": "artifacts/phase20/phase20_mechanism_tournament.json",
+      "type": "synthetic_mechanism_tournament"
+    },
+    {
+      "object_id": "P20_GRAVITY_THEOREM",
+      "path": "artifacts/phase20/phase20_gravity_only_theorem.json",
+      "type": "formal_falsifier"
+    },
+    {
+      "object_id": "C91",
+      "status": "REJECTED_STRICT_PASSBAND_INVARIANCE",
+      "type": "claim"
+    },
+    {
+      "object_id": "C94",
+      "status": "NONUNIQUE_SIGNATURE",
+      "type": "claim"
+    },
+    {
+      "object_id": "C95",
+      "status": "FORMALLY_PROVED",
+      "type": "claim"
+    },
+    {
+      "object_id": "C17",
+      "status": "OPEN_NOT_PROMOTED",
+      "type": "claim"
+    }
+  ],
+  "relations": [
+    {
+      "relation": "GOVERNS",
+      "source": "P20_PROTOCOL",
+      "target": "P20_PASSBAND_TEST"
+    },
+    {
+      "relation": "COMPARED_WITH",
+      "source": "P20_I_SERIES",
+      "target": "P20_V_SERIES"
+    },
+    {
+      "relation": "SUPPORTS",
+      "source": "P20_PASSBAND_TEST",
+      "target": "C91"
+    },
+    {
+      "relation": "NARROWS_INTERPRETATION_OF",
+      "source": "P20_PROJECTION_TEST",
+      "target": "C91"
+    },
+    {
+      "relation": "SUPPORTS",
+      "source": "P20_MECHANISM_TOURNAMENT",
+      "target": "C94"
+    },
+    {
+      "relation": "SUPPORTS",
+      "source": "P20_GRAVITY_THEOREM",
+      "target": "C95"
+    },
+    {
+      "relation": "DOES_NOT_PROMOTE",
+      "source": "C91",
+      "target": "C17"
+    },
+    {
+      "relation": "BLOCKS_UNIQUE_MECHANISM_INFERENCE_FOR",
+      "source": "C94",
+      "target": "C17"
+    }
+  ],
+  "sha256_canonical_json": "14340ef94a79dbb629f39521649f8a5a9c71c56b4e1e757d961261eca4f69f93"
+}

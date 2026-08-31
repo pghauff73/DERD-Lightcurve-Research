@@ -1,0 +1,37 @@
+{
+  "cleaning": {
+    "error_threshold": 0.025,
+    "input_count": 372,
+    "output_count": 372,
+    "removed_count": 0
+  },
+  "date": "2026-08-15",
+  "local_working_path": "data/raw/ogle/OGLE-LMC-CEP-0010.complete.dat",
+  "manifest_id": "PHASE07-OGLE-LMC-CEP-0010-COMPLETE",
+  "mode": "1O",
+  "object_id": "OGLE-LMC-CEP-0010",
+  "period_metadata": {
+    "catalog_period_days": 2.5655853,
+    "commit": "2d5f05d5c20d8c4c1c1e8811d502398232f14316",
+    "mode": "1O",
+    "repository": "dubbatee/ScienceExtensionCode",
+    "use": "development metadata; generic-harmonic profile is an upstream diagnostic"
+  },
+  "research_role": "exposed-development-only",
+  "scope": "Complete exposed development light curve. Not a pristine sealed identity and not physical-mechanism evidence.",
+  "source": {
+    "byte_count": 8928,
+    "commit": "55836b58345b9507bfbd98c5fabbac82c83605e3",
+    "git_blob_sha1": "fd82c05bb3a62ba9a8c614ac51eb315124090381",
+    "git_blob_verified": true,
+    "local_sha256": "574d7252996f5ee71169a97f2d7b52a8acbdb0898df65a7b61f5419ae9f063e0",
+    "locator": "https://github.com/bksim/OutlierDetection/blob/55836b58345b9507bfbd98c5fabbac82c83605e3/Cluster/cep/phot/I/OGLE-LMC-CEP-0010.dat",
+    "observation_count": 372,
+    "path": "Cluster/cep/phot/I/OGLE-LMC-CEP-0010.dat",
+    "raw_redistribution_policy": "DO_NOT_BUNDLE_RAW_BYTES_PENDING_TERMS_VERIFICATION",
+    "repository": "bksim/OutlierDetection",
+    "retrieval_script": "experiments/fetch_phase07_source.py",
+    "rights_status": "PUBLIC_MIRROR; REDISTRIBUTION_TERMS_NOT_VERIFIED",
+    "source_complete_semantics": "Exact byte match to the frozen public mirror blob, not an independent official-authority cross-check."
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "canonical_exchange_positive_control": {
+    "evidence_level": "HARMONIC_FORECAST",
+    "flags": [],
+    "forecast_harmonics": 4,
+    "harmonic_count": 8,
+    "path": "data/examples/phase06_canonical_harmonic_exchange.json",
+    "record_sha256": "7b8c1b7f5bdea8a54a7f657821617d4645d990059c1458d22c21f41bd8804209",
+    "screen_score": 2.856463321256154e-15
+  },
+  "config": {
+    "ambiguity_grid_size": 17,
+    "development_fraction": 0.7,
+    "fit_harmonics": 4,
+    "harmonics": 8,
+    "samples_per_class": 100,
+    "seed": 20260815
+  },
+  "environment": {
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]"
+  },
+  "figures": [
+    "phase06_information_preservation.png",
+    "phase06_epoch_sensitivity.png",
+    "phase06_ambiguity_score_overlap.png"
+  ],
+  "frozen_source_catalog_audit": [
+    {
+      "ambiguity_best_score": 1.2443894741758417,
+      "ambiguity_median_score": 7.003503246988155,
+      "ambiguity_worst_score": 15.224060064297744,
+      "catalog_blob_sha1": "2051440f2ca4662b65e011b479884d9159bbc238",
+      "catalog_path": "Cluster/out/cep_I.csv",
+      "feasible_fundamental_phase_width": 2.0729066944797934,
+      "flags": "ONE_ARGUMENT_ARCTAN_LOSES_QUADRANT;ABSOLUTE_FUNDAMENTAL_PHASE_NOT_REPORTED;COMMON_PHASE_SUBTRACTION_IS_NOT_EPOCH_INVARIANT_FOR_N_GT_1;FOUR_HARMONICS_HAVE_ZERO_RECURRENCE_FORECAST_DEGREES_OF_FREEDOM;INSUFFICIENT_HARMONICS_FOR_TWO_COEFFICIENT_FORECAST",
+      "frozen_source_repeat_invariant": false,
+      "maximum_absolute_relative_phase_block_change": 3.2994848468699995,
+      "maximum_relative_amplitude_block_change": 0.9344005575428399,
+      "object_id": "OGLE-LMC-CEP-0001",
+      "quadrant_branch_count": 8,
+      "qualifies_for_harmonic_forecast": false,
+      "qualifies_for_unique_complex_screen": false,
+      "recoverability": "continuous_and_branch_ambiguous",
+      "recurrence_overidentifying_real_dof": 0
+    },
+    {
+      "ambiguity_best_score": 0.42875975877088446,
+      "ambiguity_median_score": 3.296201944006191,
+      "ambiguity_worst_score": 41.40132071236118,
+      "catalog_blob_sha1": "eb5e136201674e2571a319eedfbff71515531dd5",
+      "catalog_path": "Cluster/out/rrlyr_I.csv",
+      "feasible_fundamental_phase_width": 0.6808503295857931,
+      "flags": "ONE_ARGUMENT_ARCTAN_LOSES_QUADRANT;ABSOLUTE_FUNDAMENTAL_PHASE_NOT_REPORTED;COMMON_PHASE_SUBTRACTION_IS_NOT_EPOCH_INVARIANT_FOR_N_GT_1;FOUR_HARMONICS_HAVE_ZERO_RECURRENCE_FORECAST_DEGREES_OF_FREEDOM;INSUFFICIENT_HARMONICS_FOR_TWO_COEFFICIENT_FORECAST",
+      "frozen_source_repeat_invariant": false,
+      "maximum_absolute_relative_phase_block_change": 2.32636883006,
+      "maximum_relative_amplitude_block_change": 0.8548462749910667,
+      "object_id": "OGLE-LMC-RRLYR-00001",
+      "quadrant_branch_count": 8,
+      "qualifies_for_harmonic_forecast": false,
+      "qualifies_for_unique_complex_screen": false,
+      "recoverability": "continuous_and_branch_ambiguous",
+      "recurrence_overidentifying_real_dof": 0
+    },
+    {
+      "ambiguity_best_score": 32.407462949731766,
+      "ambiguity_median_score": 60.39244842676976,
+      "ambiguity_worst_score": 89.66666017600782,
+      "catalog_blob_sha1": "9baba79171d5dbc8ec5a6925fa1eb56dfda0812c",
+      "catalog_path": "Cluster/out/dsct_I.csv",
+      "feasible_fundamental_phase_width": 0.34604450307979295,
+      "flags": "ONE_ARGUMENT_ARCTAN_LOSES_QUADRANT;ABSOLUTE_FUNDAMENTAL_PHASE_NOT_REPORTED;COMMON_PHASE_SUBTRACTION_IS_NOT_EPOCH_INVARIANT_FOR_N_GT_1;FOUR_HARMONICS_HAVE_ZERO_RECURRENCE_FORECAST_DEGREES_OF_FREEDOM;INSUFFICIENT_HARMONICS_FOR_TWO_COEFFICIENT_FORECAST",
+      "frozen_source_repeat_invariant": false,
+      "maximum_absolute_relative_phase_block_change": 2.28768671969,
+      "maximum_relative_amplitude_block_change": 0.5025501665263237,
+      "object_id": "OGLE-LMC-DSCT-0001",
+      "quadrant_branch_count": 8,
+      "qualifies_for_harmonic_forecast": false,
+      "qualifies_for_unique_complex_screen": false,
+      "recoverability": "continuous_and_branch_ambiguous",
+      "recurrence_overidentifying_real_dof": 0
+    }
+  ],
+  "gate_decision": "LEGACY_FEATURE_TABLES_BLOCKED_FROM_EXACT_DERD_HARMONIC_PROOF",
+  "generated_at_utc": "2026-08-14T21:13:11.814026+00:00",
+  "implementation_id": "DERD-v0.6-phase06-phase-convention-gate",
+  "phase_invariance_demo": {
+    "epoch_shift_cycles": 0.071,
+    "source_max_change": 2.249380339970292,
+    "source_relative_after": [
+      0.0,
+      -0.5338938431902491,
+      -1.2693803399702919,
+      -0.8916815295707481
+    ],
+    "source_relative_before": [
+      0.0,
+      -0.98,
+      0.98,
+      0.9115926535897931
+    ],
+    "standard_max_change": 4.440892098500626e-16,
+    "standard_relative_after": [
+      0.0,
+      -1.19,
+      0.5599999999999996,
+      -2.8600000000000003
+    ],
+    "standard_relative_before": [
+      0.0,
+      -1.19,
+      0.56,
+      -2.86
+    ]
+  },
+  "physical_claim_certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "representation_calibration": {
+    "ambiguity_best_score": {
+      "development_metrics": {
+        "balanced_accuracy": 0.9575396825396825,
+        "false_negative": 2,
+        "false_positive": 4,
+        "negative_count": 70,
+        "positive_count": 72,
+        "roc_auc": 0.984920634920635,
+        "sample_count": 142,
+        "sensitivity": 0.9722222222222222,
+        "specificity": 0.9428571428571428,
+        "true_negative": 66,
+        "true_positive": 70
+      },
+      "holdout_metrics": {
+        "balanced_accuracy": 0.930952380952381,
+        "false_negative": 2,
+        "false_positive": 2,
+        "negative_count": 30,
+        "positive_count": 28,
+        "roc_auc": 0.9821428571428571,
+        "sample_count": 58,
+        "sensitivity": 0.9285714285714286,
+        "specificity": 0.9333333333333333,
+        "true_negative": 28,
+        "true_positive": 26
+      },
+      "score_field": "ambiguity_best_score",
+      "threshold": 0.08219753322262655
+    },
+    "canonical_four_score": {
+      "development_metrics": {
+        "balanced_accuracy": 1.0,
+        "false_negative": 0,
+        "false_positive": 0,
+        "negative_count": 70,
+        "positive_count": 72,
+        "roc_auc": 1.0,
+        "sample_count": 142,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "true_negative": 70,
+        "true_positive": 72
+      },
+      "holdout_metrics": {
+        "balanced_accuracy": 1.0,
+        "false_negative": 0,
+        "false_positive": 0,
+        "negative_count": 30,
+        "positive_count": 28,
+        "roc_auc": 1.0,
+        "sample_count": 58,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "true_negative": 30,
+        "true_positive": 28
+      },
+      "score_field": "canonical_four_score",
+      "threshold": 0.20581728596731766
+    },
+    "canonical_full_score": {
+      "development_metrics": {
+        "balanced_accuracy": 1.0,
+        "false_negative": 0,
+        "false_positive": 0,
+        "negative_count": 70,
+        "positive_count": 72,
+        "roc_auc": 1.0,
+        "sample_count": 142,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "true_negative": 70,
+        "true_positive": 72
+      },
+      "holdout_metrics": {
+        "balanced_accuracy": 1.0,
+        "false_negative": 0,
+        "false_positive": 0,
+        "negative_count": 30,
+        "positive_count": 28,
+        "roc_auc": 1.0,
+        "sample_count": 58,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "true_negative": 30,
+        "true_positive": 28
+      },
+      "score_field": "canonical_full_score",
+      "threshold": 0.31342086471264
+    },
+    "unsafe_relative_score": {
+      "development_metrics": {
+        "balanced_accuracy": 0.5888888888888889,
+        "false_negative": 16,
+        "false_positive": 42,
+        "negative_count": 70,
+        "positive_count": 72,
+        "roc_auc": 0.5640873015873016,
+        "sample_count": 142,
+        "sensitivity": 0.7777777777777778,
+        "specificity": 0.4,
+        "true_negative": 28,
+        "true_positive": 56
+      },
+      "holdout_metrics": {
+        "balanced_accuracy": 0.6107142857142858,
+        "false_negative": 5,
+        "false_positive": 18,
+        "negative_count": 30,
+        "positive_count": 28,
+        "roc_auc": 0.6535714285714286,
+        "sample_count": 58,
+        "sensitivity": 0.8214285714285714,
+        "specificity": 0.4,
+        "true_negative": 12,
+        "true_positive": 23
+      },
+      "score_field": "unsafe_relative_score",
+      "threshold": 1.810445882935578
+    }
+  },
+  "source_code_findings": {
+    "amplitude": "sqrt(a^2+b^2)",
+    "catalog_proof_qualification": false,
+    "fit_model": "a*sin(2*pi*f*t)+b*cos(2*pi*f*t)+c",
+    "frozen_three_pass_data_update": "data2 is computed but never assigned back to data",
+    "stored_phase": "arctan(b/a)",
+    "stored_relative_phase": "stored_phase_n-stored_phase_1"
+  },
+  "status": "PHASE06_PHASE_CONVENTION_GATE_COMPLETE_LEGACY_TABLES_NONQUALIFYING"
+}

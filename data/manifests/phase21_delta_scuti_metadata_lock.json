@@ -1,0 +1,99 @@
+{
+  "claim_boundary": "metadata identity/period/subtype only; no waveform, mechanism, shell, or mass promotion",
+  "implementation_id": "DERD-v2.1-phase21-authoritative-dsct-pilot",
+  "lock_id": "PHASE21-LMC-DSCT-AUTHORITATIVE-METADATA-LOCK-V1",
+  "locked_count": 3,
+  "records": [
+    {
+      "authoritative_identity_row_sha256": "4c2cae41e9d13811a5772e71c9706e766d787c428ff2f46cfcfb4c50c1bc9998",
+      "authoritative_parameter_row_sha256": "6fdd875a19b3b307316ca4aa84edccdc751d1156acdb31f9ffc8f8c85f43a8a5",
+      "authority": "OGLE/CDS VizieR J/AcA/73/105 row-level query receipt",
+      "catalogue_release": "OGLE-IV LMC Delta Scuti current table, query receipt dated 2026-08-25",
+      "current_catalog_source": "J/AcA/73/105",
+      "current_object_id": "OGLE-LMC-DSCT-00003",
+      "identity_source_url": "https://www.astrouw.edu.pl/ogle/ogle3/OIII-CVS/lmc/dsct/ident.dat",
+      "lock_scope": "ROW_LEVEL_AUTHORITATIVE_QUERY_LOCK_NOT_FULL_CATALOG_BYTE_LOCK",
+      "lock_sha256": "109c800e32be60b11fc9d9d3719f02094e2d7fe536e4b406024ee486eb85e362",
+      "match_basis": "EXACT_TWO_HOP_OGLE3_FIELD_ID_CROSSWALK",
+      "mode_label": "singlemode_radial_order_unresolved",
+      "old_identity_row_sha256": "0ef00ae397e094fffd0ea84e7896f850cfdfe7d7a6d16e85c4b039eed4ae88dd",
+      "old_ogle3_field_id": "LMC158.5.3261",
+      "primary_period_days": 0.06644253,
+      "primary_period_error_days": 1.2e-07,
+      "query_receipt_record_sha256": "9bd787ae78ce768e5a4c01b90b41ce3fb710045c8d9585752bbdecd83d2cc6af",
+      "requested_object_id": "OGLE-LMC-DSCT-0003",
+      "subtype": "singlemode"
+    },
+    {
+      "authoritative_identity_row_sha256": "ba7127c14a3a4d0413d181f7c54d502785a4805d2ad3b1213d6b7bf9c6248e98",
+      "authoritative_parameter_row_sha256": "0fe880da924fa30069b9eefc5eeeff8b1401e981ae314ae60029e3845ce60534",
+      "authority": "OGLE/CDS VizieR J/AcA/73/105 row-level query receipt",
+      "catalogue_release": "OGLE-IV LMC Delta Scuti current table, query receipt dated 2026-08-25",
+      "current_catalog_source": "J/AcA/73/105",
+      "current_object_id": "OGLE-LMC-DSCT-00005",
+      "identity_source_url": "https://www.astrouw.edu.pl/ogle/ogle3/OIII-CVS/lmc/dsct/ident.dat",
+      "lock_scope": "ROW_LEVEL_AUTHORITATIVE_QUERY_LOCK_NOT_FULL_CATALOG_BYTE_LOCK",
+      "lock_sha256": "888472c043e64eb0b5a434dfc2a59cc7a338f781890c4f6a16c6b3ff975f42c7",
+      "match_basis": "EXACT_TWO_HOP_OGLE3_FIELD_ID_CROSSWALK",
+      "mode_label": "singlemode_radial_order_unresolved",
+      "old_identity_row_sha256": "a4ee626d4b8ceb78d8447d71a8e08eea849509569e255b0dcc5f21730cff8542",
+      "old_ogle3_field_id": "LMC156.6.844",
+      "primary_period_days": 0.0676865,
+      "primary_period_error_days": 1e-07,
+      "query_receipt_record_sha256": "6678900cfad8789b782df952e33a4ba1933e6578538faad33c45dd546cd67938",
+      "requested_object_id": "OGLE-LMC-DSCT-0005",
+      "subtype": "singlemode"
+    },
+    {
+      "authoritative_identity_row_sha256": "2fe13ac96d73a6209eebaba7117bb3ea63c07ab3af325cbe36f7c72a8bb330ac",
+      "authoritative_parameter_row_sha256": "42e411da82a5ee591a482ea5c1e9e7efa6ed2da73b9951bbd1e2e3e342f2a0de",
+      "authority": "OGLE/CDS VizieR J/AcA/73/105 row-level query receipt",
+      "catalogue_release": "OGLE-IV LMC Delta Scuti current table, query receipt dated 2026-08-25",
+      "current_catalog_source": "J/AcA/73/105",
+      "current_object_id": "OGLE-LMC-DSCT-00006",
+      "identity_source_url": "https://www.astrouw.edu.pl/ogle/ogle3/OIII-CVS/lmc/dsct/ident.dat",
+      "lock_scope": "ROW_LEVEL_AUTHORITATIVE_QUERY_LOCK_NOT_FULL_CATALOG_BYTE_LOCK",
+      "lock_sha256": "71169d1c5d999032ad13ce3dc3e5eccc706986d5eea9456851b98906834efcff",
+      "match_basis": "EXACT_TWO_HOP_OGLE3_FIELD_ID_CROSSWALK",
+      "mode_label": "singlemode_radial_order_unresolved",
+      "old_identity_row_sha256": "ba80ebcd1eb72182fcca722bbfa2e52a770b6dbf09eeca7a24af1da260ba4e9d",
+      "old_ogle3_field_id": "LMC157.6.2706",
+      "primary_period_days": 0.12224786,
+      "primary_period_error_days": 1.2e-07,
+      "query_receipt_record_sha256": "5fd3f14ee89e93032676f221846e9eeb12b712aede72459f4b8af3d7e8254a02",
+      "requested_object_id": "OGLE-LMC-DSCT-0006",
+      "subtype": "singlemode"
+    }
+  ],
+  "requested_object_ids": [
+    "OGLE-LMC-DSCT-0003",
+    "OGLE-LMC-DSCT-0004",
+    "OGLE-LMC-DSCT-0005",
+    "OGLE-LMC-DSCT-0006",
+    "OGLE-LMC-DSCT-0007"
+  ],
+  "row_receipt_sha256": "0d942d6ed87a092c7a3783dbf1d540ec340ce39dc2662cc33e9eea9cd42b958e",
+  "sha256_canonical_json": "505c9312d8c75aad7c90544cebda7f18c5678a59e9ff2f32b98a36ae102bec3c",
+  "status": "PARTIAL_AUTHORITATIVE_UNLOCK_3_OF_5",
+  "unresolved_count": 2,
+  "unresolved_records": [
+    {
+      "old_ogle3_field_id": "LMC157.5.3394",
+      "prohibition": "do not infer a current ID from numeric suffix or sky proximity",
+      "query_receipt_record_sha256": "22b735bed30a28e2337d098641f53122cddae214a10ca1d716e9c3355e4f314e",
+      "record_sha256": "f7c70cac9a84a9dd34934941c9de5d356e43579f795505e165de3ce96d31f105",
+      "requested_object_id": "OGLE-LMC-DSCT-0004",
+      "required_next_action": "authoritative reclassification, retirement, or cross-catalog identity evidence",
+      "status": "UNRESOLVED_NO_EXACT_CURRENT_CATALOG_CROSSWALK"
+    },
+    {
+      "old_ogle3_field_id": "LMC155.8.353",
+      "prohibition": "do not infer a current ID from numeric suffix or sky proximity",
+      "query_receipt_record_sha256": "723d09f572349cfc1a90fdca689d21398ff2057667ab6b809047358c2d744cff",
+      "record_sha256": "375d81c1025554eac561bc8b32127b8b38367308fe4f168b4f7df0e62c667648",
+      "requested_object_id": "OGLE-LMC-DSCT-0007",
+      "required_next_action": "authoritative reclassification, retirement, or cross-catalog identity evidence",
+      "status": "UNRESOLVED_NO_EXACT_CURRENT_CATALOG_CROSSWALK"
+    }
+  ]
+}

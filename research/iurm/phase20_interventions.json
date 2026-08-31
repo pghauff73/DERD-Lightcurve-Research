@@ -1,0 +1,89 @@
+{
+  "experiments": [
+    {
+      "active_dimension": "passband",
+      "experiment_id": "P20-IURM-01",
+      "frozen": [
+        "object identity",
+        "period",
+        "reference epoch",
+        "harmonic order",
+        "covariance method"
+      ],
+      "levels": [
+        "I",
+        "V"
+      ]
+    },
+    {
+      "active_dimension": "V-band observing epoch",
+      "experiment_id": "P20-IURM-02",
+      "frozen": [
+        "passband",
+        "object identity",
+        "period",
+        "reference epoch",
+        "harmonic order"
+      ],
+      "levels": [
+        "OGLE-III",
+        "OGLE-IV"
+      ]
+    },
+    {
+      "active_dimension": "projection model",
+      "experiment_id": "P20-IURM-03",
+      "frozen": [
+        "harmonic reconstructions",
+        "bootstrap draws",
+        "BIC formula"
+      ],
+      "levels": [
+        "shared DERD",
+        "separate DERD",
+        "shared components with band weights"
+      ]
+    },
+    {
+      "active_dimension": "generating mechanism",
+      "experiment_id": "P20-IURM-04",
+      "frozen": [
+        "sample count",
+        "noise",
+        "split",
+        "fit gate",
+        "harmonic screen"
+      ],
+      "levels": [
+        "derd_geometric",
+        "generic_fourier",
+        "two_pole_transfer",
+        "radius_temperature_projection",
+        "vdp_hydrodynamic_surrogate",
+        "two_zone_surrogate",
+        "shock_modified",
+        "tidal_kepler_response",
+        "spot_rotation",
+        "cse_reprocessing"
+      ]
+    },
+    {
+      "active_dimension": "radial trajectory model",
+      "experiment_id": "P20-IURM-05",
+      "frozen": [
+        "effective-mass formula",
+        "positive-mass threshold",
+        "CV threshold"
+      ],
+      "levels": [
+        "inverse_square_ballistic_segment",
+        "harmonic_breathing_mode",
+        "derd_waveform_interpreted_as_radius",
+        "pressure_supported_hydrodynamic_surrogate"
+      ]
+    }
+  ],
+  "manifest_id": "DERD-PHASE20-IURM-1.0",
+  "minimal_viable_rule": "one active dimension, frozen constants, one output vector, one gate, contradiction retained",
+  "sha256_canonical_json": "a1037ce49bc38e991294efeb3a14436f6492fee4ec875bcb817c38e9d153443e"
+}

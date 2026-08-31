@@ -1,0 +1,10 @@
+{
+  "claim": "OGLE-LMC-CEP-0004 does not pass the frozen four-recovery-harmonic evidence gate in the Phase-11 fresh execution.",
+  "claim_id": "C56",
+  "evidence": [
+    "artifacts/phase11/phase11_fresh_execution.csv"
+  ],
+  "physical_claim_scope": "waveform-only",
+  "sha256_canonical_json": "55f15ed33f9bfbaa0d3d037360cab0d8e8a3ce5b127679d6381ec87ab95e4cc3",
+  "status": "VERIFIED_FOR_EXPOSED_DEVELOPMENT_TARGET"
+}

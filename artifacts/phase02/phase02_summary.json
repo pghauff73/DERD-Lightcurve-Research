@@ -1,0 +1,215 @@
+{
+  "best_derd_beats_best_fourier_count": 12,
+  "best_fourier_beats_or_ties_best_derd_count": 8,
+  "bootstrap_spot_checks": {
+    "OGLE-LMC-CEP-0001": {
+      "condition_number_median": 122.30680326643768,
+      "parameter_mean": {
+        "amplitude_ratio": 1.2426615903419067,
+        "e1": 0.5901590509425971,
+        "e2": 0.27226288006900146,
+        "phase_ratio": 0.8571647894509097
+      },
+      "parameter_std": {
+        "amplitude_ratio": 0.1484673798314982,
+        "e1": 0.14433268455797058,
+        "e2": 0.09369950518064486,
+        "phase_ratio": 0.08730079585658469
+      },
+      "phase_circular_std": 0.08897955005691983,
+      "repetitions_requested": 3,
+      "repetitions_succeeded": 3
+    },
+    "OGLE-LMC-CEP-0002": {
+      "condition_number_median": 87.90673556875072,
+      "parameter_mean": {
+        "amplitude_ratio": 0.7504559851869801,
+        "e1": 0.6901568914285168,
+        "e2": 0.1163620965021509,
+        "phase_ratio": 0.8150676795390505
+      },
+      "parameter_std": {
+        "amplitude_ratio": 0.1443168690130327,
+        "e1": 0.2453431285391637,
+        "e2": 0.16456085501950868,
+        "phase_ratio": 0.1073023013322598
+      },
+      "phase_circular_std": 0.11044167434997305,
+      "repetitions_requested": 3,
+      "repetitions_succeeded": 3
+    },
+    "OGLE-LMC-CEP-0006": {
+      "condition_number_median": 545.6562714631579,
+      "parameter_mean": {
+        "amplitude_ratio": 1.8230934206747322,
+        "e1": 0.5102583264758025,
+        "e2": 0.6080401856777028,
+        "phase_ratio": 0.5694350902516016
+      },
+      "parameter_std": {
+        "amplitude_ratio": 0.25018368375482525,
+        "e1": 0.06959614950957359,
+        "e2": 0.05265114242132596,
+        "phase_ratio": 0.0006996042551252604
+      },
+      "phase_circular_std": 0.000699605100012483,
+      "repetitions_requested": 3,
+      "repetitions_succeeded": 3
+    },
+    "OGLE-LMC-CEP-0023": {
+      "condition_number_median": 36.04717512613824,
+      "parameter_mean": {
+        "amplitude_ratio": 1.3723845473668546,
+        "e1": 0.7042605034062367,
+        "e2": 0.4114187926425396,
+        "phase_ratio": 0.8332259716225995
+      },
+      "parameter_std": {
+        "amplitude_ratio": 0.12672320706438087,
+        "e1": 0.01815082532507849,
+        "e2": 0.07494952109384015,
+        "phase_ratio": 0.015200162686877301
+      },
+      "phase_circular_std": 0.015208835479761113,
+      "repetitions_requested": 3,
+      "repetitions_succeeded": 3
+    }
+  },
+  "configuration": {
+    "fit_seed": 20260807,
+    "matched_fourier_order": 2,
+    "maximum_function_evaluations": 180,
+    "normalization_grid_size": 512,
+    "peak_grid_size": 256,
+    "period_grid_count": 101,
+    "period_relative_span": 0.001,
+    "selectable_fourier_orders": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "split_seed": 20260807,
+    "starts": 4,
+    "test_fraction": 0.2
+  },
+  "derd_minus_fourier_rmse": {
+    "maximum": 0.326593360579407,
+    "mean": 0.006926376279833923,
+    "median": -0.005018150889447959,
+    "minimum": -0.2246170023127896
+  },
+  "evidence_boundary": {
+    "not_in_scope": [
+      "complete OGLE light curves",
+      "Delta Scuti or RR Lyrae strata",
+      "sealed confirmatory holdout",
+      "transparent-shell detection",
+      "stellar or shell mass inference"
+    ],
+    "photometry": "first 24 mirrored I-band observations per target",
+    "sample": "20 LMC classical Cepheids, balanced 10 fundamental and 10 first-overtone"
+  },
+  "fourier_bic_order_counts": {
+    "2": 8,
+    "3": 7,
+    "4": 1,
+    "5": 4
+  },
+  "fourier_bic_raw_order_counts": {
+    "2": 7,
+    "3": 5,
+    "4": 1,
+    "5": 7
+  },
+  "fourier_stability_gate": {
+    "raw_bic_maximum_test_rmse": 58.793157317713536,
+    "raw_bic_test_rmse_over_1": 3,
+    "targets_with_rejected_orders": 5
+  },
+  "heldout_rmse": {
+    "derd_g": {
+      "maximum": 0.5836528869181071,
+      "mean": 0.16505882451700932,
+      "median": 0.08106601265861291,
+      "minimum": 0.02476416512463123
+    },
+    "derd_k": {
+      "maximum": 0.4969767550577662,
+      "mean": 0.15356438523128277,
+      "median": 0.0810469699533874,
+      "minimum": 0.008218899952969252
+    },
+    "fourier_bic": {
+      "maximum": 0.9495188936793212,
+      "mean": 0.21991494156354344,
+      "median": 0.11593353357764627,
+      "minimum": 0.02106190030515151
+    },
+    "fourier_order2": {
+      "maximum": 0.5738596820369883,
+      "mean": 0.1472843442606196,
+      "median": 0.1068320082950659,
+      "minimum": 0.03268816896430825
+    }
+  },
+  "identifiability": {
+    "derd_g_condition_median": 84.44113156547989,
+    "derd_g_condition_over_1e5": 0,
+    "derd_g_condition_over_1e8": 0,
+    "derd_k_condition_median": 26.365589354922975,
+    "derd_k_condition_over_1e5": 1,
+    "derd_k_condition_over_1e8": 0,
+    "warning_stars": [
+      "OGLE-LMC-CEP-0003"
+    ]
+  },
+  "mode_counts": {
+    "1O": 10,
+    "F": 10
+  },
+  "mode_summary": {
+    "1O": {
+      "best_derd_beats_best_fourier_count": 5,
+      "median_best_derd_rmse": 0.08810366701519072,
+      "median_best_fourier_rmse": 0.07475510207941496,
+      "median_derd_minus_fourier_rmse": 0.003488967638353966,
+      "target_count": 10
+    },
+    "F": {
+      "best_derd_beats_best_fourier_count": 7,
+      "median_best_derd_rmse": 0.06822401990309668,
+      "median_best_fourier_rmse": 0.10588860560786997,
+      "median_derd_minus_fourier_rmse": -0.033965403707489746,
+      "target_count": 10
+    }
+  },
+  "observation_count_total": 480,
+  "period_check": {
+    "grid_boundary_hits": 4,
+    "grid_boundary_stars": [
+      "OGLE-LMC-CEP-0004",
+      "OGLE-LMC-CEP-0005",
+      "OGLE-LMC-CEP-0025",
+      "OGLE-LMC-CEP-0026"
+    ],
+    "maximum_absolute_relative_delta": 0.0010000000000000716,
+    "median_absolute_relative_delta": 0.0005299999999999582
+  },
+  "source_manifest_sha256": "40e0abc14bbf37e442ccd8ea2d0ba921610292e0e2346f1323034093e56046b0",
+  "status": "PHASE02_ENGINEERING_SHAKEDOWN_COMPLETE_C17_NOT_PROMOTED",
+  "target_count": 20,
+  "test_count_total": 100,
+  "time_law_comparison": {
+    "derd_g_lower_rmse_count": 8,
+    "derd_k_lower_or_equal_rmse_count": 12
+  },
+  "train_count_total": 380,
+  "winner_counts": {
+    "derd_g": 6,
+    "derd_k": 6,
+    "fourier_bic": 1,
+    "fourier_order2": 7
+  }
+}

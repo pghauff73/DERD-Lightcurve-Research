@@ -1,0 +1,14 @@
+{
+  "claim": "A deterministic five-object fixed-width positive control resolves all five synthetic OGLE-III identities through explicit crosswalk fields, verifies every metadata lock, and never invents a radial order for single-mode objects.",
+  "claim_id": "C53",
+  "date": "2026-08-18",
+  "evidence": [
+    "artifacts/phase10/phase10_synthetic_catalog_lock_control.json",
+    "tests/test_phase10_ogle_catalog.py",
+    "tests/test_phase10_gate.py"
+  ],
+  "implementation_id": "DERD-v1.0-phase10-authoritative-metadata-source-lock",
+  "physical_claim_certificate": false,
+  "scope": "Software correctness control, not astronomical evidence.",
+  "status": "VERIFIED_SYNTHETIC_GOVERNANCE_CONTROL"
+}

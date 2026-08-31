@@ -1,0 +1,162 @@
+{
+  "archival_lineage_audit": {
+    "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+    "claim_scope": "archival computational lineage and normalized waveform evidence only",
+    "classification": "ARCHIVAL_LINEAGE_CONFIGURATION_SENSITIVE_SCIENTIFIC_DRIFT",
+    "configuration_equal": false,
+    "disposition_match": false,
+    "exchange_exact": false,
+    "interpretation": "The source identity is exact, but the Phase-07 and Phase-08 scientific configurations produce different signed coefficients, SNR values, stage labels, or thresholds.  They are retained as separate analysis versions and are not counted as independent astrophysical replications.",
+    "maximum_cosine_coefficient_absolute_difference": 1.2339939117353427e-05,
+    "maximum_harmonic_snr_absolute_difference": 49.547143337515905,
+    "maximum_sine_coefficient_absolute_difference": 1.929826687688263e-06,
+    "object_id": "OGLE-LMC-CEP-0010",
+    "phase07_disposition": "INSUFFICIENT_MEASURED_FORECAST_HARMONICS",
+    "phase07_exchange_file_sha256": "c2d36709662557168f87423b51a44bbdfd1645810c14548b01c6df21d7b93d21",
+    "phase07_screen_score": 1.9052202501405278,
+    "phase07_source_verified": true,
+    "phase07_stage": "FORECAST_HARMONICS",
+    "phase07_threshold": 1.470081839858064,
+    "phase08_disposition": "ABSTAIN_INSUFFICIENT_RECOVERY_HARMONIC_SIGNAL",
+    "phase08_exchange_file_sha256": "84f1089012721da639ed59fd5f454fd27443bf9d64d165e88827ca7c58c5ba78",
+    "phase08_exchange_hash_verified": true,
+    "phase08_record_hash_verified": true,
+    "phase08_screen_score": 1.9286175842661761,
+    "phase08_stage": "RECOVERY_HARMONICS",
+    "phase08_threshold": 1.4511012072009963,
+    "screen_score_difference": 0.023397334125648372,
+    "sha256_canonical_json": "faa3ac3fb1046c132f6ebb145a380ee7fed757d71661888efd6ede555c6f41c5",
+    "source_coordinates_match": true,
+    "stage_match": false,
+    "threshold_difference": -0.01898063265706762
+  },
+  "c17_promoted": false,
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "claims": [
+    {
+      "claim": "A previously source-verified target can be promoted into the cumulative ledger without redistributing its raw photometry when all source and artifact digests agree.",
+      "claim_id": "C71",
+      "status": "VERIFIED_FOR_OGLE-LMC-CEP-0010"
+    },
+    {
+      "claim": "The Phase-07 and Phase-08 analyses use the same frozen source coordinates but do not produce an exact scientific replay.",
+      "claim_id": "C72",
+      "status": "VERIFIED"
+    },
+    {
+      "claim": "Configuration-sensitive analyses of the same observations are not independent astrophysical replications.",
+      "claim_id": "C73",
+      "status": "ENFORCED_BY_LEDGER_POLICY"
+    },
+    {
+      "claim": "Five cumulative records remain insufficient for any frozen family or population output.",
+      "claim_id": "C74",
+      "status": "VERIFIED"
+    }
+  ],
+  "configuration": {
+    "allow_configuration_sensitive_drift": true,
+    "parent_record_count": 4,
+    "require_phase08_record_hash": true,
+    "require_source_coordinate_identity": true,
+    "selected_object_id": "OGLE-LMC-CEP-0010"
+  },
+  "cumulative_ledger": {
+    "cumulative_count": 5,
+    "relative_path": "artifacts/phase15/phase15_cumulative_ledger.json",
+    "seal_relative_path": "artifacts/phase15/phase15_cumulative_ledger.seal.json",
+    "seal_sha256_canonical_json": "ae99d378fda8412b5136decc0cfd2d2871c7a51f5760e1cfcfa726da5fdb7c56"
+  },
+  "date": "2026-08-19T03:59:47.425657+00:00",
+  "decision": "PHASE15_ARCHIVAL_LINEAGE_PROMOTED_LEDGER_UPDATED_POPULATION_GATE_CLOSED",
+  "environment": {
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+    "python": "3.13.5"
+  },
+  "figures": [
+    "artifacts/phase15/phase15_archival_lineage_drift.png",
+    "artifacts/phase15/phase15_cumulative_family_coverage.png"
+  ],
+  "implementation_id": "DERD-v1.5-phase15-archival-lineage-promotion",
+  "locked_physical_gates": [
+    "UNIQUE_INTERNAL_MECHANISM",
+    "LITERAL_INTERNAL_KEPLERIAN_MOTION",
+    "UNIVERSAL_TRANSPARENT_OUTER_SHELL",
+    "SHELL_PREVALENCE",
+    "SHELL_MASS_OR_MASS_FRACTION"
+  ],
+  "population_firewall": {
+    "complete_cohort_denominator": false,
+    "cumulative_record_count": 5,
+    "family_coverage": [
+      {
+        "cumulative_record_count": 3,
+        "declared_count": 5,
+        "family": "classical_cepheid",
+        "family_denominator_complete": false,
+        "fractions_suppressed": true
+      },
+      {
+        "cumulative_record_count": 0,
+        "declared_count": 5,
+        "family": "delta_scuti",
+        "family_denominator_complete": false,
+        "fractions_suppressed": true
+      },
+      {
+        "cumulative_record_count": 2,
+        "declared_count": 5,
+        "family": "rr_lyrae",
+        "family_denominator_complete": false,
+        "fractions_suppressed": true
+      }
+    ],
+    "firewall_rule": "No family fraction, Wilson interval, or population claim is emitted until all fifteen declared targets have verified cumulative evidence records.",
+    "primary_family_outputs_allowed": false
+  },
+  "promoted_record": {
+    "exchange_sha256": "84f1089012721da639ed59fd5f454fd27443bf9d64d165e88827ca7c58c5ba78",
+    "input_lock_sha256": "cb7311044934ff1ac6e1467d202e48b0a5c0440577744de036816dfe68c58310",
+    "ledger_record_sha256": "9440fa104403ad76b9942fe0a231dcfc7fbb7dc6ae72a4143446c6e0dcbf3dd4",
+    "object_id": "OGLE-LMC-CEP-0010",
+    "result_sha256": "fe7d7cb579346d597790b9258259ca3b41b022b4ae1c3040c6eaa8ad20904f6b"
+  },
+  "protocol": {
+    "actual_sha256": "0253d5a04ccc0cc160264ff5d1881af8e971b81c5fd28662c8522c92255fe93a",
+    "checks": {
+      "canonical_protocol_seal": true,
+      "configuration": true,
+      "configuration_sha256": true,
+      "implementation_id": true,
+      "parent_summary": true,
+      "phase07_exchange": true,
+      "phase07_source_manifest": true,
+      "phase07_summary": true,
+      "phase08_exchange": true,
+      "phase08_summary": true,
+      "promotion_order": true
+    },
+    "configuration_sha256": "825bcf373a1451ca3d0f7fb406c4b181c2232143879a2b55afa1fda93b824697",
+    "expected_sha256": "0253d5a04ccc0cc160264ff5d1881af8e971b81c5fd28662c8522c92255fe93a",
+    "protocol_id": "DERD-PHASE15-ARCHIVAL-LINEAGE-PROMOTION-1.0",
+    "valid": true
+  },
+  "selected_target": {
+    "catalog_period_days": 2.5655853,
+    "evidence_role": "exposed-development-only",
+    "family": "classical_cepheid",
+    "mode": "1O",
+    "object_id": "OGLE-LMC-CEP-0010",
+    "period_evidence_grade": "EXTERNAL_CATALOG_MIRROR",
+    "period_source": "dubbatee/ScienceExtensionCode@2d5f05d5c20d8c4c1c1e8811d502398232f14316",
+    "source_byte_count": 8928,
+    "source_commit": "55836b58345b9507bfbd98c5fabbac82c83605e3",
+    "source_git_blob_sha1": "fd82c05bb3a62ba9a8c614ac51eb315124090381",
+    "source_locator": "https://github.com/bksim/OutlierDetection/blob/55836b58345b9507bfbd98c5fabbac82c83605e3/Cluster/cep/phot/I/OGLE-LMC-CEP-0010.dat",
+    "source_relative_path": "data/raw/phase08_cohort/OGLE-LMC-CEP-0010.complete.dat",
+    "source_repository": "bksim/OutlierDetection",
+    "source_repository_path": "Cluster/cep/phot/I/OGLE-LMC-CEP-0010.dat",
+    "source_sha256": "574d7252996f5ee71169a97f2d7b52a8acbdb0898df65a7b61f5419ae9f063e0"
+  }
+}

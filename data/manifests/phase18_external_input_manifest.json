@@ -1,0 +1,57 @@
+{
+  "band": "V",
+  "components": [
+    {
+      "byte_count": 792,
+      "connected_mirror_commit": "55836b58345b9507bfbd98c5fabbac82c83605e3",
+      "connected_mirror_path": "Cluster/cep/phot/V/OGLE-LMC-CEP-0002.dat",
+      "connected_mirror_repository": "bksim/OutlierDetection",
+      "first_time": 3032.76066,
+      "git_blob_sha1": "9424f38e5ce9326a5e5b4f0fcf4fe158cc02cbf2",
+      "last_time": 4487.70058,
+      "observation_count": 33,
+      "sha256": "bc36f947e8e3d36d197498345b83aa24f9e1a0d9010a99f4fe8a0bab4ccdb855",
+      "source_id": "ogleiii_v",
+      "source_relative_path": "data/raw/phase18_external/OGLE-LMC-CEP-0002_OGLEIII_V.dat",
+      "survey": "OGLE-III",
+      "url": "https://www.astrouw.edu.pl/ogle/ogle3/OIII-CVS/lmc/cep/phot/V/OGLE-LMC-CEP-0002.dat"
+    },
+    {
+      "byte_count": 768,
+      "connected_mirror_commit": null,
+      "connected_mirror_path": null,
+      "connected_mirror_repository": null,
+      "first_time": 5275.51614,
+      "git_blob_sha1": "c815d569ca8b8e644e06d01577075c585dbebb4d",
+      "last_time": 7446.61441,
+      "observation_count": 32,
+      "sha256": "ef8975b4bed903433ae3b8e66072cafaa5671d2c085eb88d32bd33eaa049067c",
+      "source_id": "ogleiv_v",
+      "source_relative_path": "data/raw/phase18_external/OGLE-LMC-CEP-0002_OGLEIV_V.dat",
+      "survey": "OGLE-IV",
+      "url": "https://www.astrouw.edu.pl/ogle/ogle4/OCVS/lmc/cep/phot/V/OGLE-LMC-CEP-0002.dat"
+    }
+  ],
+  "date_frozen": "2026-08-24",
+  "manifest_id": "DERD-PHASE18-EXTERNAL-INPUT-MANIFEST-1.0",
+  "merged": {
+    "byte_count": 1560,
+    "construction": "strict chronological concatenation of the verified OGLE-III and OGLE-IV rows with no duplicate times",
+    "first_time": 3032.76066,
+    "git_blob_sha1": "d6fd2d3f505c33d544476a4d8f1e5e34b77de967",
+    "last_time": 7446.61441,
+    "meets_publication_minimum": true,
+    "observation_count": 65,
+    "publication_minimum_measurement_count": 50,
+    "sha256": "420871872497c8fccd8afe273a6548d079f59028f1067dcc1cd9c5f56711729d",
+    "source_relative_path": "data/raw/phase18_external/OGLE-LMC-CEP-0002_merged_V.dat"
+  },
+  "object_id": "OGLE-LMC-CEP-0002",
+  "publication_input_byte_identity_known": false,
+  "publication_input_byte_identity_reason": "The external article publishes no source-file hashes or exact row list; the official current OGLE files are frozen here as the publication-compatible source scope.",
+  "redistribution_status": "RAW_BYTES_EXCLUDED_FROM_RELEASE; manifest and acknowledgement-gated retrieval script included",
+  "required_attribution": "Any scientific use should acknowledge and cite the appropriate OGLE catalogue papers.",
+  "sha256_canonical_json": "4d27b11e619e13e357a12e42bfa191e1eb2218a2e873aff3c508b1c73ab558b0",
+  "source_role": "authoritative current OGLE-III plus OGLE-IV V-band input-scope reconstruction",
+  "time_system": "HJD-2450000"
+}

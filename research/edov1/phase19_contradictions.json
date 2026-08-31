@@ -1,0 +1,27 @@
+{
+  "promotion_blocked": true,
+  "record_id": "DERD-PHASE19-EDOV1-CONTRADICTIONS-1.0",
+  "records": [
+    {
+      "effect": "Cannot add an external computational replication edge.",
+      "finding": "A local clean-room replay remains part of the same implementation lineage.",
+      "id": "P19-X1"
+    },
+    {
+      "effect": "Phase-19 external gate remains open.",
+      "finding": "No signed external submission exists.",
+      "id": "P19-X2"
+    },
+    {
+      "effect": "Raw extraction and observing-source independence are not tested.",
+      "finding": "Three observational tasks use derived harmonic exchanges.",
+      "id": "P19-X3"
+    },
+    {
+      "effect": "Private evaluator is distributed separately.",
+      "finding": "Public disclosure of the private evaluator before submission would invalidate blinding.",
+      "id": "P19-X4"
+    }
+  ],
+  "sha256_canonical_json": "5c8bcf970e923838385a09cd6f413e2e08fc450df2dd72b5c38402644049f6a8"
+}

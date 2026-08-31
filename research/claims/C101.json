@@ -1,0 +1,17 @@
+{
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "claim": "Family fractions and Wilson intervals remain suppressed until all fifteen frozen denominator records are complete.",
+  "claim_id": "C101",
+  "evidence": [
+    "artifacts/phase21/PHASE21_RESULT.md",
+    "artifacts/phase21/phase21_summary.json"
+  ],
+  "metrics": {
+    "fresh_results": 0,
+    "metadata_ready": 13,
+    "source_ready": 0
+  },
+  "physical_claim_scope": "metadata and development-cohort readiness only",
+  "sha256_canonical_json": "9b8549b283502f1f68b164b720be36675b65310af3399510b73112d26d13a525",
+  "status": "FORMALLY_ENFORCED_POPULATION_FIREWALL"
+}

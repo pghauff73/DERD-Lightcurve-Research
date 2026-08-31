@@ -1,0 +1,161 @@
+{
+  "authority": "OGLE source catalogues with CDS VizieR J/AcA/73/105 current-table queries",
+  "catalogue_version_note": "Current identity table titled 26 Aug 2025 version in VizieR response",
+  "evidence_form": "row-level exact query receipt; not a full-catalog byte lock",
+  "full_catalog_bytes_locally_frozen": false,
+  "implementation_id": "DERD-v2.1-phase21-authoritative-dsct-pilot",
+  "prohibitions": [
+    "no numeric-suffix inference",
+    "no nearest-coordinate inference",
+    "no silent reclassification",
+    "no legacy PeriodLS substitution"
+  ],
+  "receipt_id": "DERD-PHASE21-AUTHORITATIVE-DSCT-ROW-RECEIPT-1.0",
+  "records": [
+    {
+      "current_identity": {
+        "current_object_id": "OGLE-LMC-DSCT-00003",
+        "dec_dms": "-70:12:54.7",
+        "ogle3_field_id": "LMC158.5.3261",
+        "ogle4_field_id": null,
+        "ra_hms": "04:30:21.19",
+        "subtype": "singlemode"
+      },
+      "current_identity_source": "VizieR J/AcA/73/105/ident, OGLE-IV LMC Delta Scuti identification table",
+      "current_parameter_source": "VizieR J/AcA/73/105/dsct, OGLE-IV LMC Delta Scuti parameter table",
+      "current_parameters": {
+        "current_object_id": "OGLE-LMC-DSCT-00003",
+        "primary_epoch_hjd_minus_2450000": 7000.01068,
+        "primary_i_amplitude_mag": 0.286,
+        "primary_period_days": 0.06644253,
+        "primary_period_error_days": 1.2e-07
+      },
+      "match_basis": "OGLE_III_OBJECT_ID_TO_OGLE_III_FIELD_ID_TO_CURRENT_IDENT_OGLE_III_FIELD",
+      "old_identity": {
+        "dec_dms": "-70:12:54.7",
+        "object_id": "OGLE-LMC-DSCT-0003",
+        "ogle3_field_id": "LMC158.5.3261",
+        "ra_hms": "04:30:21.19",
+        "raw_row_sha256": "0ef00ae397e094fffd0ea84e7896f850cfdfe7d7a6d16e85c4b039eed4ae88dd",
+        "subtype": "singlemode"
+      },
+      "old_identity_source_url": "https://www.astrouw.edu.pl/ogle/ogle3/OIII-CVS/lmc/dsct/ident.dat",
+      "query_status": "ONE_EXACT_CURRENT_IDENTITY_ROW_AND_ONE_PARAMETER_ROW",
+      "record_sha256": "9bd787ae78ce768e5a4c01b90b41ce3fb710045c8d9585752bbdecd83d2cc6af",
+      "requested_object_id": "OGLE-LMC-DSCT-0003",
+      "resolution_status": "LOCKED_EXACT_TWO_HOP_CROSSWALK",
+      "retrieval_date_utc": "2026-08-25"
+    },
+    {
+      "current_identity": null,
+      "current_identity_source": "VizieR J/AcA/73/105/ident, OGLE-IV LMC Delta Scuti identification table",
+      "current_parameter_source": "VizieR J/AcA/73/105/dsct, OGLE-IV LMC Delta Scuti parameter table",
+      "current_parameters": null,
+      "match_basis": "OGLE_III_OBJECT_ID_TO_OGLE_III_FIELD_ID_TO_CURRENT_IDENT_OGLE_III_FIELD",
+      "old_identity": {
+        "dec_dms": "-69:35:42.2",
+        "object_id": "OGLE-LMC-DSCT-0004",
+        "ogle3_field_id": "LMC157.5.3394",
+        "ra_hms": "04:30:52.40",
+        "raw_row_sha256": "04d738e0df392d0d3a21f3523623764ba64f37c19fb31016b188de8ecf934a86",
+        "subtype": "singlemode"
+      },
+      "old_identity_source_url": "https://www.astrouw.edu.pl/ogle/ogle3/OIII-CVS/lmc/dsct/ident.dat",
+      "query_status": "ZERO_EXACT_CURRENT_IDENTITY_ROWS",
+      "record_sha256": "22b735bed30a28e2337d098641f53122cddae214a10ca1d716e9c3355e4f314e",
+      "requested_object_id": "OGLE-LMC-DSCT-0004",
+      "resolution_status": "NO_EXACT_CURRENT_CATALOG_CROSSWALK",
+      "retrieval_date_utc": "2026-08-25"
+    },
+    {
+      "current_identity": {
+        "current_object_id": "OGLE-LMC-DSCT-00005",
+        "dec_dms": "-69:11:34.8",
+        "ogle3_field_id": "LMC156.6.844",
+        "ogle4_field_id": "LMC546.19.1770",
+        "ra_hms": "04:31:08.07",
+        "subtype": "singlemode"
+      },
+      "current_identity_source": "VizieR J/AcA/73/105/ident, OGLE-IV LMC Delta Scuti identification table",
+      "current_parameter_source": "VizieR J/AcA/73/105/dsct, OGLE-IV LMC Delta Scuti parameter table",
+      "current_parameters": {
+        "current_object_id": "OGLE-LMC-DSCT-00005",
+        "primary_epoch_hjd_minus_2450000": 7000.00518,
+        "primary_i_amplitude_mag": 0.167,
+        "primary_period_days": 0.0676865,
+        "primary_period_error_days": 1e-07
+      },
+      "match_basis": "OGLE_III_OBJECT_ID_TO_OGLE_III_FIELD_ID_TO_CURRENT_IDENT_OGLE_III_FIELD",
+      "old_identity": {
+        "dec_dms": "-69:11:34.8",
+        "object_id": "OGLE-LMC-DSCT-0005",
+        "ogle3_field_id": "LMC156.6.844",
+        "ra_hms": "04:31:08.06",
+        "raw_row_sha256": "a4ee626d4b8ceb78d8447d71a8e08eea849509569e255b0dcc5f21730cff8542",
+        "subtype": "singlemode"
+      },
+      "old_identity_source_url": "https://www.astrouw.edu.pl/ogle/ogle3/OIII-CVS/lmc/dsct/ident.dat",
+      "query_status": "ONE_EXACT_CURRENT_IDENTITY_ROW_AND_ONE_PARAMETER_ROW",
+      "record_sha256": "6678900cfad8789b782df952e33a4ba1933e6578538faad33c45dd546cd67938",
+      "requested_object_id": "OGLE-LMC-DSCT-0005",
+      "resolution_status": "LOCKED_EXACT_TWO_HOP_CROSSWALK",
+      "retrieval_date_utc": "2026-08-25"
+    },
+    {
+      "current_identity": {
+        "current_object_id": "OGLE-LMC-DSCT-00006",
+        "dec_dms": "-69:46:08.3",
+        "ogle3_field_id": "LMC157.6.2706",
+        "ogle4_field_id": "LMC538.25.1005",
+        "ra_hms": "04:31:37.72",
+        "subtype": "singlemode"
+      },
+      "current_identity_source": "VizieR J/AcA/73/105/ident, OGLE-IV LMC Delta Scuti identification table",
+      "current_parameter_source": "VizieR J/AcA/73/105/dsct, OGLE-IV LMC Delta Scuti parameter table",
+      "current_parameters": {
+        "current_object_id": "OGLE-LMC-DSCT-00006",
+        "primary_epoch_hjd_minus_2450000": 7000.11723,
+        "primary_i_amplitude_mag": 0.204,
+        "primary_period_days": 0.12224786,
+        "primary_period_error_days": 1.2e-07
+      },
+      "match_basis": "OGLE_III_OBJECT_ID_TO_OGLE_III_FIELD_ID_TO_CURRENT_IDENT_OGLE_III_FIELD",
+      "old_identity": {
+        "dec_dms": "-69:46:08.2",
+        "object_id": "OGLE-LMC-DSCT-0006",
+        "ogle3_field_id": "LMC157.6.2706",
+        "ra_hms": "04:31:37.71",
+        "raw_row_sha256": "ba80ebcd1eb72182fcca722bbfa2e52a770b6dbf09eeca7a24af1da260ba4e9d",
+        "subtype": "singlemode"
+      },
+      "old_identity_source_url": "https://www.astrouw.edu.pl/ogle/ogle3/OIII-CVS/lmc/dsct/ident.dat",
+      "query_status": "ONE_EXACT_CURRENT_IDENTITY_ROW_AND_ONE_PARAMETER_ROW",
+      "record_sha256": "5fd3f14ee89e93032676f221846e9eeb12b712aede72459f4b8af3d7e8254a02",
+      "requested_object_id": "OGLE-LMC-DSCT-0006",
+      "resolution_status": "LOCKED_EXACT_TWO_HOP_CROSSWALK",
+      "retrieval_date_utc": "2026-08-25"
+    },
+    {
+      "current_identity": null,
+      "current_identity_source": "VizieR J/AcA/73/105/ident, OGLE-IV LMC Delta Scuti identification table",
+      "current_parameter_source": "VizieR J/AcA/73/105/dsct, OGLE-IV LMC Delta Scuti parameter table",
+      "current_parameters": null,
+      "match_basis": "OGLE_III_OBJECT_ID_TO_OGLE_III_FIELD_ID_TO_CURRENT_IDENT_OGLE_III_FIELD",
+      "old_identity": {
+        "dec_dms": "-68:56:37.1",
+        "object_id": "OGLE-LMC-DSCT-0007",
+        "ogle3_field_id": "LMC155.8.353",
+        "ra_hms": "04:31:44.38",
+        "raw_row_sha256": "19f21d69699ff04e61af2694ce6a1da9dc0171ea96b6f2716c6b892d19a1be87",
+        "subtype": "singlemode"
+      },
+      "old_identity_source_url": "https://www.astrouw.edu.pl/ogle/ogle3/OIII-CVS/lmc/dsct/ident.dat",
+      "query_status": "ZERO_EXACT_CURRENT_IDENTITY_ROWS",
+      "record_sha256": "723d09f572349cfc1a90fdca689d21398ff2057667ab6b809047358c2d744cff",
+      "requested_object_id": "OGLE-LMC-DSCT-0007",
+      "resolution_status": "NO_EXACT_CURRENT_CATALOG_CROSSWALK",
+      "retrieval_date_utc": "2026-08-25"
+    }
+  ],
+  "sha256_canonical_json": "0d942d6ed87a092c7a3783dbf1d540ec340ce39dc2662cc33e9eea9cd42b958e"
+}

@@ -1,0 +1,117 @@
+{
+  "anti_leakage": [
+    "outer phase-block holdout fixed before preprocessing",
+    "epoch and scaler use outer training observations only",
+    "DERD law and baseline family selected by training-only OOF error",
+    "interval radius uses training-only OOF residuals",
+    "period widening uses outer training observations only",
+    "test values do not choose kernel hyperparameters, model family, or interval radius"
+  ],
+  "experiments": [
+    {
+      "active_dimension": "baseline family",
+      "experiment_id": "IURM-P03-BASELINE-FAMILY",
+      "frozen": [
+        "star",
+        "catalog period",
+        "outer split",
+        "training-only scaler",
+        "weights",
+        "held-out metric"
+      ],
+      "output": "held-out RMSE, residual metrics, selected-family count",
+      "selection": "four-fold circular phase OOF weighted RMSE on outer training observations",
+      "values": [
+        "Fourier order 2",
+        "periodic squared-exponential kernel ridge"
+      ]
+    },
+    {
+      "active_dimension": "DERD time law",
+      "experiment_id": "IURM-P03-DERD-TIME-LAW",
+      "frozen": [
+        "four DERD dimensions",
+        "optimizer budget",
+        "bounds",
+        "training folds",
+        "test block"
+      ],
+      "output": "selected law, held-out metrics, Jacobian condition",
+      "selection": "four-fold circular phase OOF weighted RMSE",
+      "values": [
+        "geometric phase",
+        "Kepler time"
+      ]
+    },
+    {
+      "active_dimension": "conformal residual scale",
+      "experiment_id": "IURM-P03-INTERVAL-SCALE",
+      "frozen": [
+        "OOF predictions",
+        "nominal coverage 0.90",
+        "finite-sample rank rule",
+        "held-out observations"
+      ],
+      "output": "pooled empirical coverage, width, interval score",
+      "values": [
+        "absolute residual",
+        "photometric-error standardized residual"
+      ]
+    },
+    {
+      "active_dimension": "relative period-search span",
+      "experiment_id": "IURM-P03-PERIOD-SPAN",
+      "frozen": [
+        "catalog period",
+        "training observations",
+        "PDM score",
+        "grid count",
+        "phase bins"
+      ],
+      "output": "resolved status, stages, best relative period delta",
+      "stopping_rule": "stop when optimum is interior; widen only after a boundary hit",
+      "values": [
+        0.001,
+        0.005,
+        0.02
+      ]
+    },
+    {
+      "active_dimension": "periodic-kernel length scale",
+      "experiment_id": "IURM-P03-KERNEL-LENGTH-RANGE",
+      "frozen": [
+        "ridge grid",
+        "phase folds",
+        "target scaling",
+        "stability gates"
+      ],
+      "output": "selected length scale, boundary flag, held-out performance",
+      "reason": "first pass selected former upper boundary 0.35 for all 20 targets",
+      "values": [
+        0.05,
+        0.1,
+        0.2,
+        0.35,
+        0.5,
+        0.7,
+        1.0,
+        1.5,
+        2.0
+      ]
+    }
+  ],
+  "manifest_id": "IURM-PHASE03-METHODS-0.3",
+  "result_snapshot": {
+    "kernel_boundary_hit_count": 3,
+    "noninferiority_pass": false,
+    "period_resolved_count": 20,
+    "primary_mean_95_ci": [
+      -0.06740318726178679,
+      0.04671440409893052
+    ],
+    "primary_mean_difference": -0.009684556061524354,
+    "promotion": false
+  },
+  "rule": "one active dimension, one frozen constant set, one output bundle, one gate decision",
+  "status": "EXECUTED_ON_EXPOSED_20_STAR_ENGINEERING_POPULATION"
+}

@@ -1,0 +1,50 @@
+{
+  "current_result": "One target-level execution is unlocked. The fresh object does not pass the four-recovery-harmonic gate; family fractions and Wilson intervals remain suppressed.",
+  "implementation_id": "DERD-v1.1-phase11-progressive-evidence-unlock",
+  "manifest_id": "IURM-PHASE11-PROGRESSIVE-EVIDENCE-UNLOCK-V1",
+  "minimal_viable_dimensions": {
+    "families": 3,
+    "minimum_measured_forecast_harmonics": 2,
+    "minimum_observations_per_executed_object": 240,
+    "objects_per_family": 5,
+    "partial_family_fractions_allowed": false,
+    "partial_target_results_allowed": true,
+    "recovery_harmonics": 4,
+    "total_declared_objects": 15
+  },
+  "one_dimension_intervention": {
+    "active_dimension": "available cryptographically verified source locks",
+    "current_value": 1,
+    "held_constant": [
+      "frozen fifteen-object denominator",
+      "metadata policy",
+      "harmonic extraction",
+      "target-specific calibration",
+      "covariance propagation",
+      "family aggregation thresholds"
+    ],
+    "previous_value": 0,
+    "result": "PHASE11_TARGET_LEVEL_EXECUTION_UNLOCKED_POPULATION_GATE_CLOSED"
+  },
+  "orthogonal_gates": [
+    {
+      "current_count": 10,
+      "dimension": "metadata lock",
+      "required_for_target_execution": true
+    },
+    {
+      "current_count": 1,
+      "dimension": "source lock",
+      "required_for_target_execution": true
+    },
+    {
+      "current_count": 1,
+      "dimension": "fresh target execution",
+      "required_for_population_output": 15
+    },
+    {
+      "dimension": "population denominator",
+      "open": false
+    }
+  ]
+}

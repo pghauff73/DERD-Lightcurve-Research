@@ -1,0 +1,56 @@
+{
+  "analysis": {
+    "covariance_draws": 2048,
+    "forecast_harmonics": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "harmonic_order": 8,
+    "maximum_design_condition_number": 10000.0,
+    "minimum_cadence_auc": 0.8,
+    "minimum_cadence_balanced_accuracy": 0.75,
+    "minimum_forecast_wald_snr": 2.0,
+    "minimum_recovery_wald_snr": 3.0,
+    "minimum_significant_forecast_harmonics": 2,
+    "minimum_structural_stability": 0.8,
+    "minimum_threshold_stability": 0.8,
+    "recovery_harmonics": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "target_specific_synthetic_controls_per_class": 96
+  },
+  "data_requirements": {
+    "external_period_and_mode_source_required": true,
+    "legacy_feature_table_periods_allowed": "engineering-only, excluded from claim-grade family statistic",
+    "minimum_clean_observations": 240,
+    "minimum_phase_bins": 10,
+    "phase_bin_count": 12,
+    "source_git_blob_or_authority_digest_required": true,
+    "source_sha256_required": true,
+    "uncertainty_column_required": true
+  },
+  "date_frozen": "2026-08-15",
+  "identity_rule": "Every identity must be declared exposed development before score inspection; no object may later enter the pristine sealed holdout.",
+  "minimum_population": {
+    "classical_cepheid": 5,
+    "delta_scuti": 5,
+    "rr_lyrae": 5,
+    "total": 15
+  },
+  "physical_claim_boundary": "No normalized-photometry result identifies mass, an internal orbital mechanism, a universal transparent shell, or shell mass.",
+  "primary_outputs": [
+    "fraction reaching recovery stage by family",
+    "fraction measuring two forecast harmonics by family",
+    "fraction structurally compatible by family",
+    "fraction qualifying under the complete gate by family",
+    "exact object-level blockers and covariance diagnostics"
+  ],
+  "promotion_boundary": "Phase 09 may refine or reject C17 for exposed development data but cannot provide E5 independent replication or physical shell evidence.",
+  "protocol_id": "DERD-PHASE09-CLAIM-GRADE-MULTIFAMILY-DEVELOPMENT-1.0",
+  "purpose": "Evaluate cross-family DERD harmonic compatibility on a larger exposed development cohort before any pristine sealed identity is opened."
+}

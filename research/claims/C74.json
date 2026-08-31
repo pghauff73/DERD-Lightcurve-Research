@@ -1,0 +1,10 @@
+{
+  "claim": "Five cumulative target records remain insufficient for any frozen family fraction, Wilson interval, or population-level conclusion.",
+  "claim_id": "C74",
+  "evidence": [
+    "artifacts/phase15/phase15_family_coverage.csv",
+    "artifacts/phase15/phase15_summary.json"
+  ],
+  "sha256_canonical_json": "4e40f3784a7e070cda0fb5a746e8b4cbbc2c42c4b164924a0955d165b8227b53",
+  "status": "VERIFIED_BY_DENOMINATOR_FIREWALL"
+}

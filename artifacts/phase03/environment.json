@@ -1,0 +1,54 @@
+{
+  "config": {
+    "cv_maximum_function_evaluations": 60,
+    "cv_starts": 1,
+    "fit_seed": 20260808,
+    "interval_coverage": 0.9,
+    "kernel_inner_folds": 3,
+    "kernel_length_scales": [
+      0.05,
+      0.1,
+      0.2,
+      0.35,
+      0.5,
+      0.7,
+      1.0,
+      1.5,
+      2.0
+    ],
+    "kernel_ridges": [
+      0.0001,
+      0.001,
+      0.01,
+      0.1
+    ],
+    "matched_fourier_order": 2,
+    "maximum_function_evaluations": 100,
+    "normalization_grid_size": 256,
+    "outer_cv_folds": 4,
+    "peak_grid_size": 128,
+    "period_grid_count": 101,
+    "period_relative_spans": [
+      0.001,
+      0.005,
+      0.02
+    ],
+    "split_seed": 20260807,
+    "starts": 2,
+    "test_fraction": 0.2
+  },
+  "cwd": "/mnt/data/lightcurve-trainer-roadmap/phase03-release-work/derd-v0.3",
+  "figures": [
+    "phase03_heldout_rmse_by_star.png",
+    "phase03_primary_rmse_delta.png",
+    "phase03_interval_coverage.png",
+    "phase03_adaptive_period_offsets.png",
+    "phase03_cv_vs_test.png"
+  ],
+  "implementation_id": "DERD-v0.3-phase03",
+  "manifest": "data/manifests/phase02_targets.csv",
+  "manifest_sha256": "f26826a7656ee0eec65262b748e85ac87b0f0ffa95b4c60f8adf2c2b23ae21db",
+  "numpy": "2.3.5",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "python": "3.13.5 (main, May  5 2026, 21:05:52) [GCC 14.2.0]"
+}

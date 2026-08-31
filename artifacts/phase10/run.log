@@ -1,0 +1,6 @@
+decision=PHASE10_IMPLEMENTED_CATALOG_CONTRACT_LOCKED_EXECUTION_BLOCKED_BY_AUTHORITATIVE_ROWS_AND_RAW_SOURCE_BYTES
+metadata_ready=10/15
+source_ready=0/15
+cached_results=5/15
+execution_ready=0/15
+primary_outputs_suppressed=True

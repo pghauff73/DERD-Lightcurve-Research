@@ -1,0 +1,96 @@
+{
+  "contract_id": "DERD-PHASE04-POPULATION-EXPANSION-0.3",
+  "current_data_boundary": "Phase 03 contains only 20 already-examined LMC classical Cepheid excerpts and cannot satisfy this contract.",
+  "minimum_counts": {
+    "development": 100,
+    "sealed_holdout": 50
+  },
+  "multimode_rule": "Period and mode policy must be class-specific and frozen before fitting. A dominant-mode fold is not silently treated as a single-mode physical model.",
+  "purpose": "Freeze minimum viable dimensions and population strata before Phase-04 data inspection.",
+  "required_fields": [
+    "star_id",
+    "stratum",
+    "survey",
+    "band",
+    "period_days",
+    "relative_path",
+    "source_sha256",
+    "source_authority",
+    "license_or_reuse_basis"
+  ],
+  "rights_rule": "Raw files are redistributed only when source terms permit; otherwise manifests contain lawful retrieval instructions and checksums.",
+  "star_identity_rule": "All observations for one star remain in one role. No sectors, epochs, or bands from a sealed star may enter development.",
+  "status": "CONTRACT_ONLY_NO_NEW_CLASS_DATA_ACQUIRED",
+  "strata": [
+    {
+      "description": "single-dominant-mode Delta Scuti",
+      "development_minimum": 10,
+      "family": "Delta Scuti",
+      "sealed_minimum": 5,
+      "stratum_id": "DSCT-SINGLE"
+    },
+    {
+      "description": "high-amplitude Delta Scuti",
+      "development_minimum": 10,
+      "family": "Delta Scuti",
+      "sealed_minimum": 5,
+      "stratum_id": "DSCT-HADS"
+    },
+    {
+      "description": "multimode or rotationally complex Delta Scuti",
+      "development_minimum": 10,
+      "family": "Delta Scuti",
+      "sealed_minimum": 5,
+      "stratum_id": "DSCT-COMPLEX"
+    },
+    {
+      "description": "RRab without identified Blazhko modulation",
+      "development_minimum": 10,
+      "family": "RR Lyrae",
+      "sealed_minimum": 5,
+      "stratum_id": "RRL-RRAB-STABLE"
+    },
+    {
+      "description": "RRab with Blazhko modulation",
+      "development_minimum": 10,
+      "family": "RR Lyrae",
+      "sealed_minimum": 5,
+      "stratum_id": "RRL-RRAB-BLAZHKO"
+    },
+    {
+      "description": "first-overtone RRc",
+      "development_minimum": 10,
+      "family": "RR Lyrae",
+      "sealed_minimum": 5,
+      "stratum_id": "RRL-RRC"
+    },
+    {
+      "description": "double-mode RRd",
+      "development_minimum": 10,
+      "family": "RR Lyrae",
+      "sealed_minimum": 5,
+      "stratum_id": "RRL-RRD"
+    },
+    {
+      "description": "fundamental-mode classical Cepheid",
+      "development_minimum": 10,
+      "family": "Classical Cepheid",
+      "sealed_minimum": 5,
+      "stratum_id": "CEP-F"
+    },
+    {
+      "description": "first-overtone classical Cepheid",
+      "development_minimum": 10,
+      "family": "Classical Cepheid",
+      "sealed_minimum": 5,
+      "stratum_id": "CEP-1O"
+    },
+    {
+      "description": "suspected or measured circumstellar emission",
+      "development_minimum": 10,
+      "family": "Classical Cepheid",
+      "sealed_minimum": 5,
+      "stratum_id": "CEP-CSE"
+    }
+  ]
+}

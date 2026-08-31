@@ -1,0 +1,11 @@
+{
+  "claim": "The Phase-07 and Phase-08 analyses use the same frozen observational source coordinates for OGLE-LMC-CEP-0010 but do not produce an exact scientific replay.",
+  "claim_id": "C72",
+  "evidence": [
+    "artifacts/phase15/phase15_archival_lineage_OGLE-LMC-CEP-0010.json",
+    "artifacts/phase15/phase15_archival_lineage_audit.csv"
+  ],
+  "physical_claim_scope": "computational reproducibility only",
+  "sha256_canonical_json": "86376bb4c8963091df125217df29ba8aeb415aca38dabdfb7162e1a41ce4571d",
+  "status": "VERIFIED_CONFIGURATION_SENSITIVE_DRIFT"
+}

@@ -1,0 +1,77 @@
+{
+  "claim": "Nominal prediction-interval coverage must be tested separately from point-fit accuracy.",
+  "claim_id": "C24",
+  "evidence_level": "E2_ENGINEERING_REANALYSIS",
+  "result": {
+    "absolute": {
+      "derd_g": {
+        "absolute_calibration_error": 0.20000000000000007,
+        "nominal_coverage": 0.9,
+        "pooled_empirical_coverage": 0.7,
+        "pooled_interval_score": 1.8249398334286215,
+        "pooled_mean_width": 0.4293516683614941,
+        "stars_at_or_above_nominal": 10
+      },
+      "derd_k": {
+        "absolute_calibration_error": 0.20000000000000007,
+        "nominal_coverage": 0.9,
+        "pooled_empirical_coverage": 0.7,
+        "pooled_interval_score": 1.763342783167903,
+        "pooled_mean_width": 0.3651063712558072,
+        "stars_at_or_above_nominal": 11
+      },
+      "fourier_order2": {
+        "absolute_calibration_error": 0.040000000000000036,
+        "nominal_coverage": 0.9,
+        "pooled_empirical_coverage": 0.86,
+        "pooled_interval_score": 1.4267895071293062,
+        "pooled_mean_width": 1.023837207460377,
+        "stars_at_or_above_nominal": 13
+      },
+      "periodic_krr": {
+        "absolute_calibration_error": 0.12,
+        "nominal_coverage": 0.9,
+        "pooled_empirical_coverage": 0.78,
+        "pooled_interval_score": 1.2328897947188224,
+        "pooled_mean_width": 0.5867618872655467,
+        "stars_at_or_above_nominal": 12
+      }
+    },
+    "error_standardized": {
+      "derd_g": {
+        "absolute_calibration_error": 0.21999999999999997,
+        "nominal_coverage": 0.9,
+        "pooled_empirical_coverage": 0.68,
+        "pooled_interval_score": 1.816274919693362,
+        "pooled_mean_width": 0.46979285317465275,
+        "stars_at_or_above_nominal": 8
+      },
+      "derd_k": {
+        "absolute_calibration_error": 0.20000000000000007,
+        "nominal_coverage": 0.9,
+        "pooled_empirical_coverage": 0.7,
+        "pooled_interval_score": 1.7609178307799127,
+        "pooled_mean_width": 0.4009346646288134,
+        "stars_at_or_above_nominal": 11
+      },
+      "fourier_order2": {
+        "absolute_calibration_error": 0.030000000000000027,
+        "nominal_coverage": 0.9,
+        "pooled_empirical_coverage": 0.87,
+        "pooled_interval_score": 1.4757365352190674,
+        "pooled_mean_width": 1.0530509476843255,
+        "stars_at_or_above_nominal": 14
+      },
+      "periodic_krr": {
+        "absolute_calibration_error": 0.10999999999999999,
+        "nominal_coverage": 0.9,
+        "pooled_empirical_coverage": 0.79,
+        "pooled_interval_score": 1.237834791174418,
+        "pooled_mean_width": 0.5822136358746498,
+        "stars_at_or_above_nominal": 12
+      }
+    }
+  },
+  "scope": "Coverage estimates are noisy because only 100 held-out observations and 20 exposed stars are available.",
+  "status": "SUPPORTED_AND_DERD_CALIBRATION_WARNING_TRIGGERED"
+}

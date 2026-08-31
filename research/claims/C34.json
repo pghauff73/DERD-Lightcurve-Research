@@ -1,0 +1,17 @@
+{
+  "claim": "The complete exposed-development light curve for OGLE-LMC-CEP-0010 contains 372 three-column I-band observations and is byte-identical to Git blob fd82c05bb3a62ba9a8c614ac51eb315124090381 at the frozen mirror commit.",
+  "claim_id": "C34",
+  "evidence_level": "E3_REPRODUCIBLE_PROVENANCE_PROPERTY",
+  "result": {
+    "git_blob_verified": true,
+    "local_sha256": "574d7252996f5ee71169a97f2d7b52a8acbdb0898df65a7b61f5419ae9f063e0",
+    "observation_count": 372
+  },
+  "scope": "This proves file identity and count, not the astrophysical interpretation of the light curve.",
+  "software_evidence": [
+    "src/derd/harmonic_extraction.py",
+    "tests/test_phase07_harmonic_extraction.py"
+  ],
+  "source_evidence": "data/manifests/phase07_source_manifest.json",
+  "status": "PROVED_AS_FROZEN_PROVENANCE_PROPERTY"
+}

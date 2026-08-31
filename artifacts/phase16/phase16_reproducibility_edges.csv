@@ -1,0 +1,5 @@
+object_id,source_version,comparison_version,same_observational_source,same_scientific_configuration,scientific_match,exchange_match,stage_match,disposition_match,maximum_harmonic_snr_absolute_difference,screen_score_difference,threshold_difference,classification,counts_as_independent_astrophysical_replication
+OGLE-LMC-CEP-0002,phase08,phase14,True,True,True,True,True,True,0.0,0.0,0.0,EXACT_SCIENTIFIC_REPLAY_METADATA_TRANSPORT_DRIFT,False
+OGLE-LMC-CEP-0010,phase07,phase08,True,False,False,False,False,False,49.547143337515905,0.023397334125648372,-0.01898063265706762,CONFIGURATION_SENSITIVE_SCIENTIFIC_DRIFT,False
+OGLE-LMC-RRLYR-00001,phase08,phase12,True,True,True,True,True,True,0.0,0.0,0.0,EXACT_SCIENTIFIC_REPLAY_METADATA_TRANSPORT_DRIFT,False
+OGLE-LMC-RRLYR-00004,phase08,phase13,True,True,True,True,True,True,0.0,0.0,0.0,EXACT_SCIENTIFIC_REPLAY_METADATA_TRANSPORT_DRIFT,False

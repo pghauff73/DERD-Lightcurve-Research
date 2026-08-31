@@ -1,0 +1,553 @@
+{
+  "objects": [
+    {
+      "name": "Cephids Pulsating Stars - Transparent Outer Shell",
+      "object_id": "A001",
+      "sha256": "61454058ca99aec855c9558490778eec19776f7f0c7b50d0037cbc5741609712",
+      "type": "source_paper"
+    },
+    {
+      "commit": "a0d93a2e95cbe9287326897efc419255c1f39610",
+      "name": "pghauff55/lightcurve-trainer",
+      "object_id": "A002",
+      "type": "source_repository"
+    },
+    {
+      "name": "OGLE LMC classical Cepheid collection",
+      "object_id": "A003",
+      "type": "official_data_authority",
+      "url": "https://www.astrouw.edu.pl/ogle/ogle4/OCVS/lmc/cep/"
+    },
+    {
+      "commit": "55836b58345b9507bfbd98c5fabbac82c83605e3",
+      "name": "bksim/OutlierDetection OGLE photometry mirror",
+      "object_id": "A004",
+      "type": "data_mirror"
+    },
+    {
+      "commit": "2d5f05d5c20d8c4c1c1e8811d502398232f14316",
+      "name": "dubbatee/ScienceExtensionCode period-mode table",
+      "object_id": "A005",
+      "type": "metadata_mirror"
+    },
+    {
+      "manifest": "data/manifests/phase02_source_manifest.json",
+      "name": "PHASE02-OGLE-20x24",
+      "object_id": "D001",
+      "type": "dataset_excerpt"
+    },
+    {
+      "implementation": "derd.historical",
+      "name": "PAPER-2024",
+      "object_id": "M001",
+      "type": "model"
+    },
+    {
+      "implementation": "derd.model + derd.geometric",
+      "name": "DERD-G-0.2",
+      "object_id": "M002",
+      "type": "model"
+    },
+    {
+      "implementation": "derd.model + derd.kepler",
+      "name": "DERD-K-0.2",
+      "object_id": "M003",
+      "type": "model"
+    },
+    {
+      "implementation": "derd.baselines.fit_fourier(order=2)",
+      "name": "FOURIER-ORDER2-0.2",
+      "object_id": "M004",
+      "type": "baseline"
+    },
+    {
+      "implementation": "derd.baselines.select_stable_fourier_order",
+      "name": "FOURIER-STABLE-BIC-0.2",
+      "object_id": "M005",
+      "type": "baseline"
+    },
+    {
+      "implementation": "experiments/run_phase01.py",
+      "name": "PHASE01-SYNTHETIC-AUDIT",
+      "object_id": "E001",
+      "type": "experiment"
+    },
+    {
+      "implementation": "experiments/run_phase02.py",
+      "name": "PHASE02-20-CEPHEID-SHAKEDOWN",
+      "object_id": "E002",
+      "result": "artifacts/phase02/phase02_summary.json",
+      "type": "experiment"
+    },
+    {
+      "name": "EH-LIB-REPRODUCTION-CONTRACT",
+      "object_id": "G001",
+      "status": "BLOCKED_EXACT_DATA_AND_METRIC",
+      "type": "gate"
+    },
+    {
+      "implementation": "derd.shell",
+      "name": "TRANSPARENT-SHELL-DIMENSIONAL-GATE",
+      "object_id": "G002",
+      "type": "gate"
+    },
+    {
+      "implementation": "derd.kernels",
+      "name": "PERIODIC-KRR-0.3",
+      "object_id": "M006",
+      "type": "baseline"
+    },
+    {
+      "implementation": "experiments/run_phase03.py",
+      "name": "PHASE03-METHODS-CALIBRATION",
+      "object_id": "E003",
+      "result": "artifacts/phase03/phase03_summary.json",
+      "type": "experiment"
+    },
+    {
+      "implementation": "derd.uncertainty",
+      "name": "OOF-SYMMETRIC-INTERVAL-0.3",
+      "object_id": "U001",
+      "type": "uncertainty_system"
+    },
+    {
+      "manifest": "research/preregistration/phase04_holdout_protocol.json",
+      "name": "PHASE04-PROSPECTIVE-HOLDOUT",
+      "object_id": "P001",
+      "seal": "research/preregistration/phase04_holdout_protocol.seal.json",
+      "type": "preregistration_protocol"
+    },
+    {
+      "manifest": "research/edov1/phase03_data_acquisition_receipt.json",
+      "name": "OFFICIAL-OGLE-NETWORK-FAILURE",
+      "object_id": "B001",
+      "type": "blocker_receipt"
+    },
+    {
+      "manifest": "data/manifests/phase04_population_contract_v1.json",
+      "name": "PHASE04-POPULATION-CONTRACT-V1",
+      "object_id": "P002",
+      "type": "population_contract"
+    },
+    {
+      "manifest": "research/preregistration/phase04_analysis_plan.json",
+      "name": "PHASE04-CONFIRMATORY-ANALYSIS-PLAN",
+      "object_id": "P003",
+      "seal": "research/preregistration/phase04_analysis_plan.seal.json",
+      "type": "preregistration_protocol"
+    },
+    {
+      "implementation": "derd.population",
+      "name": "PHASE04-POPULATION-AUDITOR",
+      "object_id": "M007",
+      "type": "governance_model"
+    },
+    {
+      "implementation": "experiments/guard_phase04_evaluation.py",
+      "name": "SEALED-IDENTITY-EVALUATION-GUARD",
+      "object_id": "G003",
+      "type": "gate"
+    },
+    {
+      "implementation": "experiments/prepare_phase04_population.py",
+      "name": "PHASE04-CURRENT-PILOT-READINESS-AUDIT",
+      "object_id": "E004",
+      "result": "artifacts/phase04_readiness/phase04_readiness.json",
+      "type": "experiment"
+    },
+    {
+      "name": "MVHE-160",
+      "object_id": "G004",
+      "result": "artifacts/phase05/phase05_minimum_evidence_summary.csv",
+      "status": "PROVISIONAL_OPTIMISTIC_ACQUISITION_TARGET",
+      "type": "minimum_viable_evidence_gate"
+    },
+    {
+      "manifest": "data/manifests/phase05_harmonic_catalog_sources.json",
+      "name": "PHASE05-HARMONIC-CATALOG-DISCOVERY",
+      "object_id": "D004",
+      "status": "NOT_BYTE_FROZEN",
+      "type": "source_manifest"
+    },
+    {
+      "blob_sha1": "957823bc6e305dc3d3e96811e7be35c3e0e1260e",
+      "commit": "55836b58345b9507bfbd98c5fabbac82c83605e3",
+      "name": "bksim frozen harmonic extractor",
+      "object_id": "A006",
+      "type": "source_code"
+    },
+    {
+      "manifest": "data/evidence/phase06_frozen_catalog_samples.json",
+      "name": "PHASE06-COMPACT-CATALOG-SAMPLES",
+      "object_id": "D003",
+      "type": "provenance_sample"
+    },
+    {
+      "implementation": "src/derd/phase_convention.py",
+      "name": "LEGACY-ARCTAN-RELATIVE-PHASE",
+      "object_id": "M009",
+      "type": "information_losing_representation"
+    },
+    {
+      "name": "DERD-HARMONIC-EXCHANGE-1.0",
+      "object_id": "M010",
+      "schema": "data/schemas/derd_harmonic_exchange_v1.schema.json",
+      "type": "lossless_exchange_schema"
+    },
+    {
+      "implementation": "experiments/run_phase06.py",
+      "name": "PHASE06-PHASE-CONVENTION-GATE",
+      "object_id": "E006",
+      "result": "artifacts/phase06/phase06_summary.json",
+      "type": "experiment"
+    },
+    {
+      "name": "LEGACY-CATALOG-COMPLEX-COEFFICIENT-GATE",
+      "object_id": "G006",
+      "status": "FAIL_NON_UNIQUE_AND_INCOMPLETE_PROVENANCE",
+      "type": "gate"
+    },
+    {
+      "manifest": "data/manifests/phase07_source_manifest.json",
+      "name": "OGLE-LMC-CEP-0010 complete public-mirror development photometry",
+      "object_id": "D005",
+      "status": "EXPOSED_DEVELOPMENT_ONLY",
+      "type": "dataset"
+    },
+    {
+      "implementation": "src/derd/harmonic_extraction.py",
+      "name": "WEIGHTED-SIGNED-HARMONIC-EXTRACTOR-0.7",
+      "object_id": "M011",
+      "type": "model"
+    },
+    {
+      "implementation": "src/derd/recurrence_uncertainty.py",
+      "name": "FULL-COEFFICIENT-COVARIANCE-PROPAGATION-0.7",
+      "object_id": "U002",
+      "type": "uncertainty_system"
+    },
+    {
+      "implementation": "experiments/run_phase07.py",
+      "name": "PHASE07-RAW-HARMONIC-FORECAST-GATE",
+      "object_id": "E007",
+      "result": "artifacts/phase07/phase07_summary.json",
+      "type": "experiment"
+    },
+    {
+      "name": "ACTUAL-CADENCE-MVHE-240",
+      "object_id": "G007",
+      "result": "artifacts/phase07/phase07_actual_cadence_mvhe_summary.csv",
+      "status": "PROVISIONAL_TARGET_SPECIFIC",
+      "type": "minimum_viable_evidence_gate"
+    },
+    {
+      "name": "INTEGRATED-HARMONIC-EVIDENCE-GATE",
+      "object_id": "G008",
+      "result": "artifacts/phase07/phase07_summary.json",
+      "status": "ABSTAIN_OR_REJECT_INSUFFICIENT_HARMONIC_EVIDENCE",
+      "type": "gate"
+    },
+    {
+      "blob_sha1": "fd82c05bb3a62ba9a8c614ac51eb315124090381",
+      "commit": "55836b58345b9507bfbd98c5fabbac82c83605e3",
+      "name": "OGLE-LMC-CEP-0010 complete mirror blob",
+      "object_id": "A007",
+      "sha256": "574d7252996f5ee71169a97f2d7b52a8acbdb0898df65a7b61f5419ae9f063e0",
+      "type": "frozen_photometry_blob"
+    }
+  ],
+  "promotion_rule": "No score in waveform reconstruction can promote a physical-mechanism, shell-prevalence, or shell-mass claim.",
+  "relations": [
+    {
+      "object": "A001",
+      "predicate": "reconstructs",
+      "subject": "M001"
+    },
+    {
+      "object": "M001",
+      "predicate": "corrects_software_defects_in",
+      "subject": "M002"
+    },
+    {
+      "object": "M002",
+      "predicate": "separates_time_law_from",
+      "subject": "M003"
+    },
+    {
+      "object": "A003",
+      "predicate": "is_excerpt_of",
+      "subject": "D001"
+    },
+    {
+      "object": "A004",
+      "predicate": "has_executable_provenance",
+      "subject": "D001"
+    },
+    {
+      "object": "A005",
+      "predicate": "cross_checks_period_mode_with",
+      "subject": "D001"
+    },
+    {
+      "object": "M002",
+      "predicate": "evaluates",
+      "subject": "E002"
+    },
+    {
+      "object": "M003",
+      "predicate": "evaluates",
+      "subject": "E002"
+    },
+    {
+      "object": "M004",
+      "predicate": "evaluates",
+      "subject": "E002"
+    },
+    {
+      "object": "M005",
+      "predicate": "evaluates",
+      "subject": "E002"
+    },
+    {
+      "object": "D001",
+      "predicate": "uses",
+      "subject": "E002"
+    },
+    {
+      "object": "E002",
+      "predicate": "corrects_instability_discovered_in",
+      "subject": "M005"
+    },
+    {
+      "object": "C-EH-LIB-99.6",
+      "predicate": "blocks_promotion_of",
+      "subject": "G001"
+    },
+    {
+      "object": "C-SHELL-MASS",
+      "predicate": "requires_external_dimensions_for",
+      "subject": "G002"
+    },
+    {
+      "object": "D001",
+      "predicate": "reuses_exposed_engineering_dataset",
+      "subject": "E003"
+    },
+    {
+      "object": "M002",
+      "predicate": "evaluates",
+      "subject": "E003"
+    },
+    {
+      "object": "M003",
+      "predicate": "evaluates",
+      "subject": "E003"
+    },
+    {
+      "object": "M004",
+      "predicate": "evaluates",
+      "subject": "E003"
+    },
+    {
+      "object": "M006",
+      "predicate": "evaluates",
+      "subject": "E003"
+    },
+    {
+      "object": "E003",
+      "predicate": "calibrates_training_only_intervals_for",
+      "subject": "U001"
+    },
+    {
+      "object": "C17",
+      "predicate": "blocks_unsealed_promotion_of",
+      "subject": "P001"
+    },
+    {
+      "object": "D-OFFICIAL-OGLE-COMPLETE",
+      "predicate": "blocks_completion_of",
+      "subject": "B001"
+    },
+    {
+      "object": "C-SHELL-MASS",
+      "predicate": "does_not_promote",
+      "subject": "E003"
+    },
+    {
+      "object": "P003",
+      "predicate": "constrains_population_for",
+      "subject": "P002"
+    },
+    {
+      "object": "P002",
+      "predicate": "audits_against",
+      "subject": "M007"
+    },
+    {
+      "object": "M007",
+      "predicate": "executes",
+      "subject": "E004"
+    },
+    {
+      "object": "E004",
+      "predicate": "fails_pristine_eligibility_in",
+      "subject": "D001"
+    },
+    {
+      "object": "P003",
+      "predicate": "protects_sealed_roles_defined_by",
+      "subject": "G003"
+    },
+    {
+      "object": "C17",
+      "predicate": "blocks_unsealed_promotion_of",
+      "subject": "P003"
+    },
+    {
+      "object": "C-SHELL-MASS",
+      "predicate": "does_not_promote",
+      "subject": "E004"
+    },
+    {
+      "object": "C25",
+      "predicate": "tests_formal_claim",
+      "subject": "M007"
+    },
+    {
+      "object": "D001",
+      "predicate": "uses",
+      "subject": "E004"
+    },
+    {
+      "object": "G004",
+      "predicate": "produces",
+      "subject": "E004"
+    },
+    {
+      "object": "M007",
+      "predicate": "is_future_input_to",
+      "subject": "D004"
+    },
+    {
+      "object": "G002",
+      "predicate": "does_not_promote",
+      "subject": "G004"
+    },
+    {
+      "from": "A006",
+      "relation": "defines",
+      "to": "M009"
+    },
+    {
+      "from": "D003",
+      "relation": "fails_exact_reproduction_invariant_of",
+      "to": "A006"
+    },
+    {
+      "from": "E006",
+      "relation": "audits",
+      "to": "M009"
+    },
+    {
+      "from": "E006",
+      "relation": "produces",
+      "to": "M010"
+    },
+    {
+      "from": "M009",
+      "relation": "fails",
+      "to": "G006"
+    },
+    {
+      "from": "M010",
+      "relation": "passes_information_preservation_requirement_of",
+      "to": "G006"
+    },
+    {
+      "from": "G006",
+      "relation": "blocks_promotion_of",
+      "to": "C17"
+    },
+    {
+      "from": "A004",
+      "relation": "provides_frozen_mirror_blob_for",
+      "to": "D005"
+    },
+    {
+      "from": "D005",
+      "relation": "is_exposed_input_to",
+      "to": "E007"
+    },
+    {
+      "from": "M011",
+      "relation": "extracts",
+      "to": "D005"
+    },
+    {
+      "from": "M011",
+      "relation": "serializes_with",
+      "to": "M010"
+    },
+    {
+      "from": "U002",
+      "relation": "propagates_covariance_for",
+      "to": "E007"
+    },
+    {
+      "from": "E007",
+      "relation": "produces",
+      "to": "G007"
+    },
+    {
+      "from": "E007",
+      "relation": "evaluated_by",
+      "to": "G008"
+    },
+    {
+      "from": "G008",
+      "relation": "blocks_promotion_of",
+      "to": "C17"
+    },
+    {
+      "from": "G008",
+      "relation": "does_not_promote",
+      "to": "G002"
+    },
+    {
+      "object": "A007",
+      "predicate": "is_byte_identical_to",
+      "subject": "D005"
+    },
+    {
+      "object": "D005",
+      "predicate": "estimates_uncertainty_for",
+      "subject": "U002"
+    },
+    {
+      "object": "D005",
+      "predicate": "evaluates",
+      "subject": "E007"
+    },
+    {
+      "object": "M010",
+      "predicate": "uses",
+      "subject": "E007"
+    },
+    {
+      "object": "E007",
+      "predicate": "governs_promotion_from",
+      "subject": "G007"
+    },
+    {
+      "object": "E007",
+      "predicate": "is_IURM_intervention_within",
+      "subject": "G008"
+    },
+    {
+      "object": "G002",
+      "predicate": "does_not_promote",
+      "subject": "G007"
+    }
+  ],
+  "schema_version": "OURD-implementation-0.7"
+}

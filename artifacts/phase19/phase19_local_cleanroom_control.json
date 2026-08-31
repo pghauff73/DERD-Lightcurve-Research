@@ -1,0 +1,39 @@
+{
+  "all_tasks_passed": true,
+  "answer_key_disclosed": false,
+  "answer_labels_redacted": true,
+  "classification": "INTERNAL_ISOLATED_PROCESS_CONTROL_NOT_EXTERNAL_REPLICATION",
+  "commitment_verified": true,
+  "control_id": "DERD-PHASE19-LOCAL-CLEANROOM-CONTROL-1.0",
+  "counts_as_external_computational_replication": false,
+  "counts_as_independent_astrophysical_replication": false,
+  "environment": {
+    "derd_version": "1.9.0",
+    "machine": "x86_64",
+    "numpy_version": "2.3.5",
+    "pid": 2714,
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+    "python_executable": "/mnt/data/lightcurve-trainer-roadmap/phase19-work/local-cleanroom/venv/bin/python",
+    "python_implementation": "CPython",
+    "python_version": "3.13.5",
+    "scipy_version": "1.17.0",
+    "wheel_sha256": "75ccd83c5d3a3e9d3c1bc848af2eea1d756e3a68315bce2c72366cd8b2009c01"
+  },
+  "operator_attestation_present": true,
+  "operator_id": "internal-cleanroom-control",
+  "organization": "OpenAI-isolated-process-control",
+  "private_verification_file_sha256": "6fd9e18b70f0eeb282a64d9a24671dd8734303c5dcdd174747ae8b2b3c5fc0a0",
+  "submission_file_sha256": "ddf8281504dac3ee45887e401f7995cf63e5eb3a6be1fb6c7af1967e03eeef74",
+  "submission_self_hash_verified": true,
+  "submission_sha256": "b3401df5287b0cbc829e2f0b256b82373826b830a9b8aaeedfd1639484a4ab30",
+  "task_count": 7,
+  "task_ids": [
+    "P19-3BD812",
+    "P19-5E08B7",
+    "P19-7A31F2",
+    "P19-94C05A",
+    "P19-A4F663",
+    "P19-C91D44",
+    "P19-E2710C"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "claim_boundary": "computational reproducibility and evidence multiplicity only; not mechanism, shell, prevalence, or mass evidence",
+  "classification_policy": {
+    "configuration_sensitive_drift": "same observational source but scientific configuration differs and at least one scientific output differs",
+    "exact_replay": "same observational source, same scientific configuration, scientific projection match, and harmonic-exchange match",
+    "external_independent_replication": "requires an independent observing source or external research group; none is currently present",
+    "single_version": "one retained analysis version and no replay edge"
+  },
+  "date_frozen": "2026-08-19",
+  "expected_counts": {
+    "configuration_sensitive_drift_edges": 1,
+    "exact_replay_edges": 3,
+    "external_independent_replications": 0,
+    "single_version_objects": 1,
+    "unique_objects": 5
+  },
+  "implementation_id": "DERD-v1.6-phase16-reproducibility-graph",
+  "multiplicity_guard": {
+    "family_denominator_required": 5,
+    "multiple_software_analyses_of_same_source_increase_denominator": false,
+    "one_denominator_record_per_astronomical_object": true,
+    "total_denominator_required": 15
+  },
+  "parent_phase15_ledger": {
+    "path": "artifacts/phase15/phase15_cumulative_ledger.json",
+    "record_count": 5,
+    "sha256_canonical_json": "ae99d378fda8412b5136decc0cfd2d2871c7a51f5760e1cfcfa726da5fdb7c56"
+  },
+  "parent_phase15_summary": {
+    "path": "artifacts/phase15/phase15_summary.json",
+    "sha256": "b0ed39acfecc517bcad50bf3890a3f6333d60bdf92d4395caffb5ffaf6079bca"
+  },
+  "protocol_id": "DERD-PHASE16-CROSS-VERSION-REPRODUCIBILITY-GRAPH-1.0",
+  "required_replay_inputs": [
+    {
+      "path": "artifacts/phase12/phase12_replay_audit.csv",
+      "sha256": "a22038b9d5031c78aefcc32604941e6cb99a29cb36b57509fa13e451ab1c2ec8"
+    },
+    {
+      "path": "artifacts/phase13/phase13_replay_audit.csv",
+      "sha256": "5f6c10853052006f59ce4a2f364e7f5b3aa5ed18c69f164e70b83df7ba98c712"
+    },
+    {
+      "path": "artifacts/phase14/phase14_replay_audit.csv",
+      "sha256": "3e64c73b6fe32d0f3c4b4d3d6832a0fbf71e4d70a17e0d47012dc60d04a6da69"
+    },
+    {
+      "path": "artifacts/phase15/phase15_archival_lineage_OGLE-LMC-CEP-0010.json",
+      "sha256": "fd70a9ddcca72f3b478a5cd7b79b6c527839f78bf4a11aac581a1d677fd60528"
+    }
+  ]
+}

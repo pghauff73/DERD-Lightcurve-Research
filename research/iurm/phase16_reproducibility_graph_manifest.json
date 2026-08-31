@@ -1,0 +1,24 @@
+{
+  "active_dimensions": [
+    "analysis-version multiplicity per astronomical object",
+    "replay classification: exact, configuration-sensitive drift, single-version, external-independent"
+  ],
+  "frozen_dimensions": [
+    "five cumulative astronomical target identities",
+    "same-source and same-configuration definitions",
+    "one denominator record per astronomical object",
+    "fifteen-object population firewall",
+    "physical-claim gates remain locked"
+  ],
+  "gate": "PHASE16_REPRODUCIBILITY_GRAPH_SEALED_POPULATION_GATE_CLOSED",
+  "implementation_id": "DERD-v1.6-phase16-reproducibility-graph",
+  "manifest_id": "IURM-PHASE16-REPRODUCIBILITY-GRAPH-V1",
+  "result": {
+    "analysis_version_nodes": 9,
+    "configuration_sensitive_drift_edges": 1,
+    "exact_replay_edges": 3,
+    "external_independent_replications": 0,
+    "population_outputs_allowed": false,
+    "unique_astronomical_objects": 5
+  }
+}

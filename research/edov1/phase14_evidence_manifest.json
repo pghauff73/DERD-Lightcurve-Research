@@ -1,0 +1,24 @@
+{
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "contradictory_or_limiting_evidence": [
+    "not every chronological block measures h1-h4 above SNR 3",
+    "the temporal stationarity gate fails at both catalog and refined periods",
+    "the base DERD score remains above its target-specific threshold",
+    "eleven cohort targets still lack cumulative records",
+    "five authoritative Delta Scuti metadata locks remain absent",
+    "family and population estimates remain suppressed"
+  ],
+  "implementation_id": "DERD-v1.4-phase14-period-coordinate-robustness-ledger",
+  "manifest_id": "EDOV1-PHASE14-PERIOD-COORDINATE-EVIDENCE-V1",
+  "rights_and_provenance": {
+    "raw_bytes_redistributed": false,
+    "source_commit": "55836b58345b9507bfbd98c5fabbac82c83605e3",
+    "source_receipt": "artifacts/phase14/phase14_source_acquisition_receipt.json"
+  },
+  "supporting_evidence": [
+    "the selected source passes byte, observation, Git-blob, and SHA-256 checks",
+    "the fresh target-level result reproduces the frozen Phase-08 scientific record",
+    "the period is refined by a generic phase-dispersion objective independent of DERD compatibility",
+    "the cumulative ledger retains four conflict-free verified target records"
+  ]
+}

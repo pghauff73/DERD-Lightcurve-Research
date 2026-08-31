@@ -1,0 +1,13 @@
+{
+  "claim": "A periodic nonlinear kernel baseline can be selected and evaluated without using held-out values.",
+  "claim_id": "C22",
+  "evidence": [
+    "src/derd/kernels.py",
+    "src/derd/cross_validation.py",
+    "tests/test_phase03_kernels.py",
+    "artifacts/phase03/phase03_summary.json"
+  ],
+  "evidence_level": "E3_REPRODUCIBLE_COMPUTATION",
+  "scope": "Does not establish astrophysical superiority of the kernel or DERD.",
+  "status": "PROVED_AS_SOFTWARE_AND_PIPELINE_PROPERTY"
+}

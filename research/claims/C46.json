@@ -1,0 +1,14 @@
+{
+  "claim": "Phase-09 family-level recovery, forecast, structural, and qualification fractions are suppressed unless all fifteen declared identities have claim-grade metadata, replayable source bytes, and completed object-level results.",
+  "claim_id": "C46",
+  "date": "2026-08-17",
+  "evidence": [
+    "src/derd/validation_phase09.py",
+    "tests/test_phase09_cohort.py",
+    "artifacts/phase09/phase09_summary.json"
+  ],
+  "implementation_id": "DERD-v0.9-phase09-claim-grade-development-cohort",
+  "physical_claim_certificate": false,
+  "scope": "Statistical promotion and denominator-integrity rule.",
+  "status": "PROVED_BY_IMPLEMENTATION_AND_TESTS"
+}

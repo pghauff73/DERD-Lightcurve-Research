@@ -1,0 +1,25 @@
+{
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "contradictory_or_limiting_evidence": [
+    "not every chronological block measures h1-h4 above SNR 3",
+    "the observed temporal coefficient score exceeds the stationary threshold",
+    "the base DERD score remains above its target-specific threshold",
+    "twelve cohort targets still lack cumulative records",
+    "five authoritative Delta Scuti metadata locks remain absent",
+    "family and population estimates remain suppressed"
+  ],
+  "implementation_id": "DERD-v1.3-phase13-temporal-replication-ledger",
+  "manifest_id": "EDOV1-PHASE13-TEMPORAL-REPLICATION-EVIDENCE-V1",
+  "rights_and_provenance": {
+    "raw_bytes_redistributed": false,
+    "source_commit": "55836b58345b9507bfbd98c5fabbac82c83605e3",
+    "source_receipt": "artifacts/phase13/phase13_source_acquisition_receipt.json"
+  },
+  "supporting_evidence": [
+    "the selected source passes byte, observation, Git-blob, and SHA-256 checks",
+    "the fresh target-level result reproduces the frozen Phase-08 scientific record",
+    "three chronological blocks pass the frozen block-quality gate",
+    "the cadence calibration detects sufficiently large controlled drift",
+    "the cumulative ledger retains three conflict-free verified target records"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "claim": "The cumulative ledger can grow from two to three verified target records while all partial family and population outputs remain suppressed.",
+  "claim_id": "C65",
+  "evidence": [
+    "artifacts/phase13/phase13_cumulative_ledger.json",
+    "artifacts/phase13/phase13_summary.json"
+  ],
+  "sha256_canonical_json": "ebd5250b94d922c67a178f7ae23baa717e91ee8eb2612f5bc92925f652e066a9",
+  "status": "VERIFIED_BY_DENOMINATOR_FIREWALL"
+}

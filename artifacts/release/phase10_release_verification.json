@@ -1,0 +1,62 @@
+{
+  "catalog_contract_sha256": "45745ea2b1ecd641a0caf71f2a473d9d645b41228c86c0dd7f9726e3ac9e8df7",
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "compileall_exit_code": 0,
+  "date": "2026-08-18",
+  "decision": "PHASE10_IMPLEMENTED_CATALOG_CONTRACT_LOCKED_EXECUTION_BLOCKED_BY_AUTHORITATIVE_ROWS_AND_RAW_SOURCE_BYTES",
+  "input_gates": {
+    "cached_result_count": 5,
+    "catalog_contract_valid": true,
+    "cohort_structure_ready": true,
+    "execution_ready_count": 0,
+    "metadata_ready_count": 10,
+    "primary_outputs_suppressed": true,
+    "protocol_valid": true,
+    "source_ready_count": 0
+  },
+  "json_validation": {
+    "checked": 160,
+    "failures": 0
+  },
+  "manifests": {
+    "code": {
+      "entries": 193,
+      "sha256": "70ffe63a4b4ad790bdaeaacb776018e7c25823e366ea7f43a0b95d6998436abf",
+      "verification": {
+        "checked": 193,
+        "malformed": 0,
+        "mismatched": 0,
+        "missing": 0
+      }
+    },
+    "repository": {
+      "entries": 666,
+      "integrity_note": "The repository-manifest SHA-256 is reported outside the repository to avoid a self-referential hash cycle.",
+      "path": "research/MANIFEST_SHA256.txt",
+      "verification": {
+        "checked": 666,
+        "malformed": 0,
+        "mismatched": 0,
+        "missing": 0
+      }
+    }
+  },
+  "notes": [
+    "Authoritative catalogue acquisition failed at runtime DNS resolution.",
+    "Source acquisition receipt is a dry-run declaration; no third-party raw bytes were accepted.",
+    "Family-level scientific outputs remain suppressed."
+  ],
+  "protocol_sha256": "541e7997457e71bfcc2a83e164fee0335d54bb6a5be5e532a117c1f4cbcffa51",
+  "raw_authoritative_catalog_bytes_bundled": false,
+  "raw_complete_photometry_bundled": false,
+  "release_id": "DERD-v1.0-phase10-authoritative-metadata-source-lock",
+  "remote_repository_modified": false,
+  "tests": {
+    "count": 192,
+    "errors": 0,
+    "failures": 0,
+    "junit": "artifacts/release/pytest-phase10.xml",
+    "passed": 192,
+    "skipped": 0
+  }
+}

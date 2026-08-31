@@ -1,0 +1,10 @@
+{
+  "decision": "PHASE18_AUTHORITATIVE_OGLEIII_IV_INPUT_SCOPE_RECONSTRUCTED_PUBLISHED_VECTOR_REPRODUCED_EXACT_PUBLICATION_CODE_AND_BYTE_IDENTITY_UNAVAILABLE",
+  "classification": "PUBLICATION_COMPATIBLE_RECONSTRUCTION_AUTHORITATIVE_INPUT_SCOPE_EXACT_CODE_AND_PUBLICATION_BYTE_IDENTITY_UNAVAILABLE",
+  "merged_observations": 65,
+  "primary_variant": "merged_ogleiii_iv_unweighted_free",
+  "primary_joint_p_value": 0.9418783392731293,
+  "primary_max_abs_z": 0.8066912972796184,
+  "all_merged_variants_consistent": true,
+  "ledger_sha256": "3f8f0c8d0dc06ae385c55e1fcdd12425fbd7ab5bccedbaea80de84dfd3951ea1"
+}

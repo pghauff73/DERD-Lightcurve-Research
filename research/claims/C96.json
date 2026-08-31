@@ -1,0 +1,20 @@
+{
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "claim": "Phase 20 does not identify one unique surviving stellar mechanism; gravity-restored hydrodynamics with band-dependent thermodynamic and atmospheric projection remains a leading composite interpretation.",
+  "claim_id": "C96",
+  "evidence": [
+    "artifacts/phase20/PHASE20_RESULT.md",
+    "artifacts/phase20/phase20_summary.json"
+  ],
+  "metrics": {
+    "survives": [
+      "DERD as an approximate reduced harmonic coordinate system",
+      "gravity-restored nonlinear hydrodynamics",
+      "band-dependent radius-temperature-opacity-atmosphere projection",
+      "subclass mechanisms such as mode coupling, tides, shocks, rotation, and circumstellar reprocessing"
+    ]
+  },
+  "physical_claim_scope": "waveform and force-law discrimination only",
+  "sha256_canonical_json": "10db9df0763c7acc6420f24c7286338d59ba765419bc902ec5b92dffddb0de60",
+  "status": "OPEN_COMPOSITE_MECHANISM_NOT_UNIQUELY_IDENTIFIED"
+}

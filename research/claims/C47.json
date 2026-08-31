@@ -1,0 +1,14 @@
+{
+  "claim": "Five inherited Phase-08 object records are cryptographically reproducible from their unique summary records and harmonic-exchange file hashes, but they do not complete the fifteen-object Phase-09 cohort.",
+  "claim_id": "C47",
+  "date": "2026-08-17",
+  "evidence": [
+    "data/manifests/phase09_development_cohort.json",
+    "artifacts/phase08/phase08_summary.json",
+    "artifacts/phase09/phase09_target_readiness.csv"
+  ],
+  "implementation_id": "DERD-v0.9-phase09-claim-grade-development-cohort",
+  "physical_claim_certificate": false,
+  "scope": "Evidence reuse and completeness boundary.",
+  "status": "VERIFIED_FOR_FROZEN_ARTIFACTS"
+}

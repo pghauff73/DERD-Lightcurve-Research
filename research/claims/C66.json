@@ -1,0 +1,9 @@
+{
+  "claim": "The next Phase-14 acquisition target is selected deterministically from the frozen Phase-08 priority ranking after excluding Phase-13 ledger identities.",
+  "claim_id": "C66",
+  "evidence": [
+    "data/manifests/phase14_acquisition_order.json"
+  ],
+  "sha256_canonical_json": "02e2ffd69b9f1cb020a5d85781759afe5df1a76c7de8a7b536b983b35086ab0e",
+  "status": "VERIFIED_BY_FROZEN_ACQUISITION_ORDER"
+}

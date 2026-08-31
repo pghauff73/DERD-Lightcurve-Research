@@ -1,0 +1,31 @@
+{
+  "manifest_id": "PHASE05-HARMONIC-CATALOG-DISCOVERY-001",
+  "status": "DISCOVERED_NOT_BYTE_FROZEN_FOR_SCIENTIFIC_SCREENING",
+  "repository": "bksim/OutlierDetection",
+  "commit": "55836b58345b9507bfbd98c5fabbac82c83605e3",
+  "candidate_tables": [
+    {
+      "class": "classical_cepheid",
+      "path": "Cluster/out/cep_I.csv"
+    },
+    {
+      "class": "rr_lyrae",
+      "path": "Cluster/out/rrlyr_I.csv"
+    },
+    {
+      "class": "delta_scuti",
+      "path": "Cluster/out/dsct_I.csv"
+    }
+  ],
+  "observed_columns": [
+    "LC",
+    "freq1_harmonics_amplitude_0..3",
+    "freq1_harmonics_rel_phase_0..3"
+  ],
+  "qualification_blocks": [
+    "full files are not mounted in the isolated runtime",
+    "sine-versus-cosine and relative-phase conventions require direct source verification",
+    "four harmonics provide shape-only evidence and no default forecast holdout"
+  ],
+  "intended_use": "development-only candidate triage after lawful byte freezing; never unseal Phase04 holdout identities"
+}

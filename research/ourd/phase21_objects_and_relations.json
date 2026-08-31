@@ -1,0 +1,73 @@
+{
+  "implementation_id": "DERD-v2.1-phase21-authoritative-dsct-pilot",
+  "invariants": [
+    "one astronomical identity contributes at most one denominator record",
+    "metadata readiness cannot compensate for missing source bytes",
+    "inherited results cannot substitute for fresh execution under corrected periods"
+  ],
+  "objects": [
+    {
+      "id": "O21_PROTOCOL",
+      "path": "research/preregistration/phase21_authoritative_dsct_pilot_protocol.json",
+      "type": "sealed_protocol"
+    },
+    {
+      "id": "O21_COHORT",
+      "path": "data/manifests/phase21_development_cohort.json",
+      "type": "frozen_denominator"
+    },
+    {
+      "id": "O21_ROW_RECEIPT",
+      "path": "data/manifests/phase21_authoritative_catalog_row_receipt.json",
+      "type": "authoritative_row_query_receipt"
+    },
+    {
+      "id": "O21_LOCKS",
+      "path": "data/manifests/phase21_delta_scuti_metadata_lock.json",
+      "type": "delta_scuti_metadata_lock_manifest"
+    },
+    {
+      "id": "O21_SOURCE_RECEIPT",
+      "path": "artifacts/phase21/phase21_source_acquisition_receipt.json",
+      "type": "raw_source_receipt"
+    },
+    {
+      "id": "O21_LEDGER",
+      "path": "artifacts/phase21/phase21_execution_ledger.json",
+      "type": "development_evidence_ledger"
+    },
+    {
+      "id": "O21_FIREWALL",
+      "state": "closed",
+      "type": "population_output_firewall"
+    }
+  ],
+  "relations": [
+    {
+      "object": "O21_COHORT",
+      "predicate": "freezes",
+      "subject": "O21_PROTOCOL"
+    },
+    {
+      "object": "O21_LOCKS",
+      "predicate": "supports",
+      "subject": "O21_ROW_RECEIPT"
+    },
+    {
+      "object": "O21_COHORT",
+      "predicate": "updates_metadata_coordinates_for",
+      "subject": "O21_LOCKS"
+    },
+    {
+      "object": "O21_COHORT",
+      "predicate": "must_complete_before_execution_of",
+      "subject": "O21_SOURCE_RECEIPT"
+    },
+    {
+      "object": "O21_FIREWALL",
+      "predicate": "cannot_open_until_complete",
+      "subject": "O21_LEDGER"
+    }
+  ],
+  "sha256_canonical_json": "988d17667d7505e6016c5a433cee95eb79674e24e75f68e75f571d819e69b11c"
+}

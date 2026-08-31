@@ -1,0 +1,34 @@
+{
+  "manifest_id": "IURM-PHASE09-CLAIM-GRADE-COHORT-V1",
+  "implementation_id": "DERD-v0.9-phase09-claim-grade-development-cohort",
+  "minimal_viable_dimensions": {
+    "families": 3,
+    "objects_per_family": 5,
+    "total_objects": 15,
+    "minimum_observations_per_object": 240,
+    "recovery_harmonics": 4,
+    "minimum_forecast_harmonics": 2,
+    "claim_grade_period_mode_identity": true,
+    "source_byte_replay": true,
+    "complete_object_results_before_family_fraction": true
+  },
+  "orthogonal_gates": [
+    {
+      "dimension": "cohort structure",
+      "pass_condition": "exactly 5+5+5 unique exposed-development identities"
+    },
+    {
+      "dimension": "metadata provenance",
+      "pass_condition": "external catalog period and mode plus resolved exact identity"
+    },
+    {
+      "dimension": "source replay",
+      "pass_condition": "bytes, observations, Git blob SHA-1 and SHA-256 all match"
+    },
+    {
+      "dimension": "result completeness",
+      "pass_condition": "one completed object gate result for all fifteen identities"
+    }
+  ],
+  "result": "The structure gate passes. Metadata and source gates block complete execution. Family fractions remain suppressed."
+}

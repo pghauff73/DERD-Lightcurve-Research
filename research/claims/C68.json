@@ -1,0 +1,10 @@
+{
+  "claim": "OGLE-LMC-CEP-0002 does not measure all four recovery harmonics above SNR 3 in every chronological block.",
+  "claim_id": "C68",
+  "evidence": [
+    "artifacts/phase14/phase14_temporal_blocks.csv"
+  ],
+  "physical_claim_scope": "waveform-only",
+  "sha256_canonical_json": "a911e88f72b31ebe42c64c896dbac411423181164a66ee8853187f4669dda2f1",
+  "status": "VERIFIED_FOR_EXPOSED_DEVELOPMENT_TARGET"
+}

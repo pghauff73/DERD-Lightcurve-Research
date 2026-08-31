@@ -1,0 +1,7 @@
+object_id,family,mode,priority_score,approximate_recovery_observations,approximate_forecast_observations,stage_reached,disposition,warning
+OGLE-LMC-RRLYR-00004,rr_lyrae,RRab,89.16131173931177,477,490,RECOVERY_HARMONICS,ABSTAIN_INSUFFICIENT_RECOVERY_HARMONIC_SIGNAL,engineering queue only; not a DERD probability
+OGLE-LMC-CEP-0002,classical_cepheid,F,81.6781222419053,812,875,RECOVERY_HARMONICS,ABSTAIN_INSUFFICIENT_RECOVERY_HARMONIC_SIGNAL,engineering queue only; not a DERD probability
+OGLE-LMC-RRLYR-00001,rr_lyrae,RRab,80.78797253823407,148,849,FORECAST_HARMONICS,ABSTAIN_INSUFFICIENT_MEASURED_FORECAST_HARMONICS,engineering queue only; not a DERD probability
+OGLE-LMC-CEP-0010,classical_cepheid,1O,76.16485551300921,712,1027,RECOVERY_HARMONICS,ABSTAIN_INSUFFICIENT_RECOVERY_HARMONIC_SIGNAL,engineering queue only; not a DERD probability
+OGLE-LMC-DSCT-0003,delta_scuti,unresolved,53.75019678050641,4754,1982,PERIOD_PROVENANCE,ENGINEERING_ONLY_PERIOD_NOT_CLAIM_GRADE,engineering queue only; not a DERD probability
+OGLE-LMC-DSCT-0001,delta_scuti,unresolved,45.83899590890771,2899,9019,PERIOD_PROVENANCE,ENGINEERING_ONLY_PERIOD_NOT_CLAIM_GRADE,engineering queue only; not a DERD probability

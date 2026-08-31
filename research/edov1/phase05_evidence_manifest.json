@@ -1,0 +1,47 @@
+{
+  "manifest_id": "EDOV1-PHASE05-HARMONIC-SCREEN-0.5",
+  "precision_objective": "Convert the exact geometric DERD harmonic recurrence into a fast falsifiable screen and determine the minimum evidence required before catalog-scale use.",
+  "source_basis": [
+    {
+      "artifact": "source paper",
+      "role": "four-parameter difference-of-radii proposal and normalization boundary",
+      "sha256": "61454058ca99aec855c9558490778eec19776f7f0c7b50d0037cbc5741609712"
+    },
+    {
+      "artifact": "pghauff55/lightcurve-trainer",
+      "commit": "a0d93a2e95cbe9287326897efc419255c1f39610",
+      "role": "historical implementation provenance"
+    },
+    {
+      "artifact": "PHASE02-OGLE-20x24",
+      "path": "data/manifests/phase02_source_manifest.json",
+      "role": "exposed cadence and noise templates"
+    }
+  ],
+  "supporting_results": [
+    "Exact synthetic DERD harmonics pass recurrence, residue, recovery, and forecast tests near floating-point precision.",
+    "The catalog adapter preserves an explicit sine-versus-cosine convention rather than silently guessing it.",
+    "The uniform-phase observation-count sweep first passes all frozen robustness gates at 160 observations."
+  ],
+  "contradiction_and_null_results": [
+    "The 24-point cadence-aware holdout ROC AUC was 0.4764, so the current excerpt cannot validate the screen.",
+    "No current real pilot star passed the combined score, SNR, conditioning, and stability gate.",
+    "Sixteen of twenty real pilot stars had fewer than four harmonics at SNR >= 3 or otherwise remained evidence-insufficient.",
+    "Period-coordinate changes produced large score changes for some sparse stars.",
+    "Four-harmonic feature catalogs cannot supply the default higher-harmonic forecast test.",
+    "The exact phase convention of discovered third-party feature tables has not yet been byte-frozen and independently verified."
+  ],
+  "new_evidence_objects": [
+    "docs/IMPLEMENTATION_PHASE_05_HARMONIC_SCREEN.md",
+    "src/derd/harmonic_screen.py",
+    "src/derd/catalog_harmonics.py",
+    "src/derd/validation_phase05.py",
+    "artifacts/phase05/PHASE05_RESULT.md",
+    "artifacts/phase05/phase05_summary.json",
+    "artifacts/phase05/phase05_candidate_ranking.csv",
+    "artifacts/phase05/phase05_minimum_evidence_summary.csv"
+  ],
+  "promotion_decision": "C17_NOT_PROMOTED_MINIMUM_EVIDENCE_TARGET_ESTABLISHED",
+  "physical_claim_boundary": "Harmonic compatibility cannot identify internal Kepler motion, transparent shells, absolute mass, or shell mass.",
+  "status": "HIGH_GAIN_SCREEN_IMPLEMENTED_CURRENT_DATA_INSUFFICIENT"
+}

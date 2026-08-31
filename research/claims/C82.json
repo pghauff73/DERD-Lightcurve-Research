@@ -1,0 +1,12 @@
+{
+  "claim": "The local 33-row mirror does not meet the external workflow minimum of 50 measurements, and exact publication input-byte identity is unavailable.",
+  "claim_id": "C82",
+  "evidence": [
+    "data/evidence/phase17_jurkovic2022_vband_anchor.json",
+    "data/manifests/phase17_external_v_source_manifest.json",
+    "artifacts/phase17/phase17_external_analysis_audit.json"
+  ],
+  "physical_claim_scope": "replication completeness only",
+  "sha256_canonical_json": "d5f92b893bd3498ebf4becc40d5cdb36f775e8270aa836e50cf3cd4558c2550e",
+  "status": "VERIFIED_LIMITATION"
+}

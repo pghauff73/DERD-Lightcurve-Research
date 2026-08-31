@@ -1,0 +1,60 @@
+{
+  "authority": "OGLE Collection of Variable Stars / VizieR J/AcA/73/105",
+  "catalogue_release": "OGLE-IV LMC DSCT 2023; VizieR file description updated 2025-08-26",
+  "claim_boundary": "Metadata coordinates only; no DERD compatibility, physical mechanism, transparent-shell, or mass inference.",
+  "contract_id": "DERD-PHASE10-OGLE-AUTHORITATIVE-CATALOG-CONTRACT-1.0",
+  "date": "2026-08-18",
+  "hash_policy": {
+    "catalog_file_sha256": "required before lock promotion",
+    "lock_sha256": "canonical JSON SHA-256 required",
+    "row_sha256": "required for both joined rows"
+  },
+  "identity_policy": {
+    "direct_current_id": "allowed when exact and unique",
+    "numeric_suffix_assumption": "forbidden",
+    "ogle3_crosswalk": "allowed only through explicit OGLE-III identifier field",
+    "string_similarity": "forbidden"
+  },
+  "mode_policy": {
+    "multimode": "multimode",
+    "prohibition": "DO_NOT_INFER_F_OR_1O_FOR_SINGLEMODE_FROM_CATALOG_SUBTYPE_ALONE",
+    "singlemode": "singlemode_radial_order_unresolved"
+  },
+  "record_count": 15256,
+  "rights_and_citation": {
+    "citation_required": "Soszynski et al. 2023, Acta Astronomica 73, 105; VizieR acknowledgement when used",
+    "raw_catalog_bundling": "excluded from release unless redistribution basis is recorded"
+  },
+  "scope": "LMC delta Scuti identity crosswalk, subtype, primary period, and period uncertainty",
+  "sha256_canonical_json": "45745ea2b1ecd641a0caf71f2a473d9d645b41228c86c0dd7f9726e3ac9e8df7",
+  "sources": [
+    {
+      "filename": "ident.dat",
+      "official_url": "https://www.astrouw.edu.pl/ogle/ogle4/OCVS/lmc/dsct/ident.dat",
+      "required_fields": [
+        "object_id",
+        "subtype",
+        "ogle4_id",
+        "ogle3_id",
+        "ogle2_id"
+      ],
+      "required_match_policy": "EXACTLY_ONE_DIRECT_CURRENT_ID_OR_EXPLICIT_OGLE3_ID_MATCH",
+      "role": "identity_crosswalk",
+      "vizier_url": "https://cdsarc.cds.unistra.fr/ftp/J/AcA/73/105/ident.dat"
+    },
+    {
+      "filename": "dsct.dat",
+      "official_url": "https://www.astrouw.edu.pl/ogle/ogle4/OCVS/lmc/dsct/dsct.dat",
+      "required_fields": [
+        "object_id",
+        "primary_period_days",
+        "primary_period_error_days",
+        "primary_epoch",
+        "primary_amplitude"
+      ],
+      "required_join_policy": "EXACT_CURRENT_OBJECT_ID",
+      "role": "primary_period",
+      "vizier_url": "https://cdsarc.cds.unistra.fr/ftp/J/AcA/73/105/dsct.dat"
+    }
+  ]
+}

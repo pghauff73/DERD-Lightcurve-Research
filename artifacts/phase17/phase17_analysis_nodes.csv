@@ -1,0 +1,12 @@
+analysis_version,denominator_record,family,ledger_origin_phase,node_id,object_id,analysis_kind,research_group_independent,observational_source_family
+phase08,False,classical_cepheid,phase14,OGLE-LMC-CEP-0002:phase08,OGLE-LMC-CEP-0002,,,
+phase14,True,classical_cepheid,phase14,OGLE-LMC-CEP-0002:phase14,OGLE-LMC-CEP-0002,,,
+phase11,True,classical_cepheid,phase11,OGLE-LMC-CEP-0004:phase11,OGLE-LMC-CEP-0004,,,
+phase07,False,classical_cepheid,phase15_archival_promotion,OGLE-LMC-CEP-0010:phase07,OGLE-LMC-CEP-0010,,,
+phase08,False,classical_cepheid,phase15_archival_promotion,OGLE-LMC-CEP-0010:phase08,OGLE-LMC-CEP-0010,,,
+phase08,False,rr_lyrae,phase12,OGLE-LMC-RRLYR-00001:phase08,OGLE-LMC-RRLYR-00001,,,
+phase12,True,rr_lyrae,phase12,OGLE-LMC-RRLYR-00001:phase12,OGLE-LMC-RRLYR-00001,,,
+phase08,False,rr_lyrae,phase13,OGLE-LMC-RRLYR-00004:phase08,OGLE-LMC-RRLYR-00004,,,
+phase13,True,rr_lyrae,phase13,OGLE-LMC-RRLYR-00004:phase13,OGLE-LMC-RRLYR-00004,,,
+jurkovic2022_ogle_v_fourier,,,,,OGLE-LMC-CEP-0002,external_published_fourier_anchor,True,OGLE V-band
+phase17_partial_v_fourier_reanalysis,,,,,OGLE-LMC-CEP-0002,local_partial_source_fourier_reanalysis,False,OGLE V-band mirror

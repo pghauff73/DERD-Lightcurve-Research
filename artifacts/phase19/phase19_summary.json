@@ -1,0 +1,438 @@
+{
+  "blind_answer_commitment": "8512a7041f7f665db83bd458824a9775d43115f9df3d25501a948b7506292988",
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "claim_boundary": "Computational portability of a frozen DERD workflow only; no population, unique mechanism, transparent-shell, prevalence, or mass claim.",
+  "classification": "EXTERNAL_REPLICATION_READY_INTERNAL_CLEANROOM_VALIDATED_NO_EXTERNAL_REPLICATION_EDGE_YET",
+  "cumulative_ledger": {
+    "path": "artifacts/phase19/phase19_cumulative_ledger.json",
+    "seal_sha256": "2d9bb0c809e2d541c715e368ece284591aeb7122351f5c77701817270db433ee"
+  },
+  "date": "2026-08-24",
+  "decision": "PHASE19_EXTERNAL_REPLICATION_KIT_SEALED_LOCAL_CLEANROOM_CONTROL_PASSED_EXTERNAL_GROUP_SUBMISSION_PENDING",
+  "environment": {
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+    "python": "3.13.5"
+  },
+  "external_operator": {
+    "external_computational_replication_edge_added": false,
+    "status": "AWAITING_EXTERNAL_OPERATOR",
+    "verified_submission_count": 0
+  },
+  "generated_utc": "2026-08-24T12:49:10.729972+00:00",
+  "implementation_id": "DERD-v1.9-phase19-external-group-replay-kit",
+  "local_cleanroom_control": {
+    "all_tasks_passed": true,
+    "answer_key_disclosed": false,
+    "answer_labels_redacted": true,
+    "classification": "INTERNAL_ISOLATED_PROCESS_CONTROL_NOT_EXTERNAL_REPLICATION",
+    "commitment_verified": true,
+    "control_id": "DERD-PHASE19-LOCAL-CLEANROOM-CONTROL-1.0",
+    "counts_as_external_computational_replication": false,
+    "counts_as_independent_astrophysical_replication": false,
+    "environment": {
+      "derd_version": "1.9.0",
+      "machine": "x86_64",
+      "numpy_version": "2.3.5",
+      "pid": 2714,
+      "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+      "python_executable": "/mnt/data/lightcurve-trainer-roadmap/phase19-work/local-cleanroom/venv/bin/python",
+      "python_implementation": "CPython",
+      "python_version": "3.13.5",
+      "scipy_version": "1.17.0",
+      "wheel_sha256": "75ccd83c5d3a3e9d3c1bc848af2eea1d756e3a68315bce2c72366cd8b2009c01"
+    },
+    "operator_attestation_present": true,
+    "operator_id": "internal-cleanroom-control",
+    "organization": "OpenAI-isolated-process-control",
+    "private_verification_file_sha256": "6fd9e18b70f0eeb282a64d9a24671dd8734303c5dcdd174747ae8b2b3c5fc0a0",
+    "submission_file_sha256": "ddf8281504dac3ee45887e401f7995cf63e5eb3a6be1fb6c7af1967e03eeef74",
+    "submission_self_hash_verified": true,
+    "submission_sha256": "b3401df5287b0cbc829e2f0b256b82373826b830a9b8aaeedfd1639484a4ab30",
+    "task_count": 7,
+    "task_ids": [
+      "P19-3BD812",
+      "P19-5E08B7",
+      "P19-7A31F2",
+      "P19-94C05A",
+      "P19-A4F663",
+      "P19-C91D44",
+      "P19-E2710C"
+    ]
+  },
+  "population_firewall": {
+    "c17_promoted": false,
+    "external_computational_replication_count": 0,
+    "external_independent_replication_count": 0,
+    "family_outputs_allowed": false,
+    "unique_astronomical_objects": 5
+  },
+  "private_evaluator": {
+    "included_in_public_bundle": false,
+    "sha256": "c53d547002bb938916f398685ce5810c8219e7e1f90dd6d903eec6412789f555",
+    "withhold_until_external_submission_hash_frozen": true
+  },
+  "protocol": {
+    "canonical_sha256": "d5b3d1367b3c2b444521a9f22cbcd2a30e60da26c09a3b488fb0725757a6591b",
+    "path": "research/preregistration/phase19_external_group_replay_protocol.json"
+  },
+  "public_kit": {
+    "contains_complete_third_party_raw_photometry": false,
+    "contains_private_answer_key": false,
+    "file_count_excluding_checksum": 20,
+    "sha256": "965b3d4228ccfbac8e9a605460349f425ca3d42bbaae22eebc108a83d2b57891"
+  },
+  "readiness_gates": {
+    "blind_commitment_frozen": true,
+    "external_computational_edge_added": false,
+    "external_operator_submission_verified": false,
+    "independent_observing_source_added": false,
+    "local_cleanroom_passed": true,
+    "protocol_sealed": true,
+    "public_kit_integrity": true,
+    "task_manifest_sealed": true
+  },
+  "reproducibility_graph": {
+    "analysis_nodes": [
+      {
+        "analysis_version": "phase08",
+        "denominator_record": false,
+        "family": "classical_cepheid",
+        "ledger_origin_phase": "phase14",
+        "node_id": "OGLE-LMC-CEP-0002:phase08",
+        "object_id": "OGLE-LMC-CEP-0002"
+      },
+      {
+        "analysis_version": "phase14",
+        "denominator_record": true,
+        "family": "classical_cepheid",
+        "ledger_origin_phase": "phase14",
+        "node_id": "OGLE-LMC-CEP-0002:phase14",
+        "object_id": "OGLE-LMC-CEP-0002"
+      },
+      {
+        "analysis_version": "phase11",
+        "denominator_record": true,
+        "family": "classical_cepheid",
+        "ledger_origin_phase": "phase11",
+        "node_id": "OGLE-LMC-CEP-0004:phase11",
+        "object_id": "OGLE-LMC-CEP-0004"
+      },
+      {
+        "analysis_version": "phase07",
+        "denominator_record": false,
+        "family": "classical_cepheid",
+        "ledger_origin_phase": "phase15_archival_promotion",
+        "node_id": "OGLE-LMC-CEP-0010:phase07",
+        "object_id": "OGLE-LMC-CEP-0010"
+      },
+      {
+        "analysis_version": "phase08",
+        "denominator_record": false,
+        "family": "classical_cepheid",
+        "ledger_origin_phase": "phase15_archival_promotion",
+        "node_id": "OGLE-LMC-CEP-0010:phase08",
+        "object_id": "OGLE-LMC-CEP-0010"
+      },
+      {
+        "analysis_version": "phase08",
+        "denominator_record": false,
+        "family": "rr_lyrae",
+        "ledger_origin_phase": "phase12",
+        "node_id": "OGLE-LMC-RRLYR-00001:phase08",
+        "object_id": "OGLE-LMC-RRLYR-00001"
+      },
+      {
+        "analysis_version": "phase12",
+        "denominator_record": true,
+        "family": "rr_lyrae",
+        "ledger_origin_phase": "phase12",
+        "node_id": "OGLE-LMC-RRLYR-00001:phase12",
+        "object_id": "OGLE-LMC-RRLYR-00001"
+      },
+      {
+        "analysis_version": "phase08",
+        "denominator_record": false,
+        "family": "rr_lyrae",
+        "ledger_origin_phase": "phase13",
+        "node_id": "OGLE-LMC-RRLYR-00004:phase08",
+        "object_id": "OGLE-LMC-RRLYR-00004"
+      },
+      {
+        "analysis_version": "phase13",
+        "denominator_record": true,
+        "family": "rr_lyrae",
+        "ledger_origin_phase": "phase13",
+        "node_id": "OGLE-LMC-RRLYR-00004:phase13",
+        "object_id": "OGLE-LMC-RRLYR-00004"
+      },
+      {
+        "analysis_kind": "external_published_fourier_anchor",
+        "analysis_version": "jurkovic2022_ogle_v_fourier",
+        "object_id": "OGLE-LMC-CEP-0002",
+        "observational_source_family": "OGLE V-band",
+        "research_group_independent": true
+      },
+      {
+        "analysis_kind": "local_partial_source_fourier_reanalysis",
+        "analysis_version": "phase17_partial_v_fourier_reanalysis",
+        "object_id": "OGLE-LMC-CEP-0002",
+        "observational_source_family": "OGLE V-band mirror",
+        "research_group_independent": false
+      },
+      {
+        "analysis_kind": "publication_input_scope_reconstruction",
+        "analysis_version": "phase18_authoritative_ogleiii_iv_curvefit",
+        "counts_as_astronomical_denominator_increment": false,
+        "object_id": "OGLE-LMC-CEP-0002",
+        "observational_source_family": "OGLE-III+IV V-band official files",
+        "research_group_independent": false
+      },
+      {
+        "analysis_kind": "blind_external_replication_kit",
+        "analysis_version": "phase19_public_replication_kit",
+        "counts_as_astronomical_denominator_increment": false,
+        "kit_id": "DERD-PHASE19-BLIND-REPLICATION-KIT-1.0",
+        "research_group_independent": false,
+        "task_count": 7
+      },
+      {
+        "analysis_kind": "internal_isolated_process_control",
+        "analysis_version": "phase19_local_cleanroom_control",
+        "counts_as_astronomical_denominator_increment": false,
+        "counts_as_external_computational_replication": false,
+        "kit_id": "DERD-PHASE19-BLIND-REPLICATION-KIT-1.0",
+        "research_group_independent": false,
+        "scientific_projection_reproduced": true
+      }
+    ],
+    "analysis_version_count": 14,
+    "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+    "claim_scope": "Computational portability, blinding, and replication provenance only; no population or physical mechanism inference.",
+    "configuration_drift_count": 1,
+    "duplicate_analysis_inflation_prevented": 6,
+    "edges": [
+      {
+        "classification": "EXACT_SCIENTIFIC_REPLAY_METADATA_TRANSPORT_DRIFT",
+        "comparison_version": "phase14",
+        "counts_as_independent_astrophysical_replication": false,
+        "disposition_match": true,
+        "exchange_match": true,
+        "maximum_harmonic_snr_absolute_difference": 0.0,
+        "object_id": "OGLE-LMC-CEP-0002",
+        "same_observational_source": true,
+        "same_scientific_configuration": true,
+        "scientific_match": true,
+        "screen_score_difference": 0.0,
+        "source_version": "phase08",
+        "stage_match": true,
+        "threshold_difference": 0.0
+      },
+      {
+        "classification": "CONFIGURATION_SENSITIVE_SCIENTIFIC_DRIFT",
+        "comparison_version": "phase08",
+        "counts_as_independent_astrophysical_replication": false,
+        "disposition_match": false,
+        "exchange_match": false,
+        "maximum_harmonic_snr_absolute_difference": 49.547143337515905,
+        "object_id": "OGLE-LMC-CEP-0010",
+        "same_observational_source": true,
+        "same_scientific_configuration": false,
+        "scientific_match": false,
+        "screen_score_difference": 0.023397334125648372,
+        "source_version": "phase07",
+        "stage_match": false,
+        "threshold_difference": -0.01898063265706762
+      },
+      {
+        "classification": "EXACT_SCIENTIFIC_REPLAY_METADATA_TRANSPORT_DRIFT",
+        "comparison_version": "phase12",
+        "counts_as_independent_astrophysical_replication": false,
+        "disposition_match": true,
+        "exchange_match": true,
+        "maximum_harmonic_snr_absolute_difference": 0.0,
+        "object_id": "OGLE-LMC-RRLYR-00001",
+        "same_observational_source": true,
+        "same_scientific_configuration": true,
+        "scientific_match": true,
+        "screen_score_difference": 0.0,
+        "source_version": "phase08",
+        "stage_match": true,
+        "threshold_difference": 0.0
+      },
+      {
+        "classification": "EXACT_SCIENTIFIC_REPLAY_METADATA_TRANSPORT_DRIFT",
+        "comparison_version": "phase13",
+        "counts_as_independent_astrophysical_replication": false,
+        "disposition_match": true,
+        "exchange_match": true,
+        "maximum_harmonic_snr_absolute_difference": 0.0,
+        "object_id": "OGLE-LMC-RRLYR-00004",
+        "same_observational_source": true,
+        "same_scientific_configuration": true,
+        "scientific_match": true,
+        "screen_score_difference": 0.0,
+        "source_version": "phase08",
+        "stage_match": true,
+        "threshold_difference": 0.0
+      },
+      {
+        "classification": "EXTERNAL_ANALYSIS_CONSISTENT_PARTIAL_SOURCE_OVERLAP",
+        "comparison_version": "phase17_partial_v_fourier_reanalysis",
+        "counts_as_astronomical_denominator_increment": false,
+        "counts_as_external_analysis_consistency": true,
+        "counts_as_independent_astrophysical_replication": false,
+        "disposition_match": null,
+        "exchange_match": false,
+        "maximum_harmonic_snr_absolute_difference": null,
+        "object_id": "OGLE-LMC-CEP-0002",
+        "overlapping_observational_source_family": true,
+        "same_observational_source": false,
+        "same_scientific_configuration": false,
+        "scientific_match": true,
+        "screen_score_difference": null,
+        "source_version": "jurkovic2022_ogle_v_fourier",
+        "stage_match": null,
+        "threshold_difference": null
+      },
+      {
+        "comparison_version": "phase18_authoritative_ogleiii_iv_curvefit",
+        "counts_as_astronomical_denominator_increment": false,
+        "counts_as_independent_astrophysical_replication": false,
+        "edge_type": "PUBLICATION_COMPATIBLE_RECONSTRUCTION_AUTHORITATIVE_INPUT_SCOPE_EXACT_CODE_AND_PUBLICATION_BYTE_IDENTITY_UNAVAILABLE",
+        "exact_publication_code_available": false,
+        "exact_publication_source_byte_identity_known": false,
+        "joint_consistency": true,
+        "marginal_consistency": true,
+        "object_id": "OGLE-LMC-CEP-0002",
+        "publication_minimum_measurements_met": true,
+        "source_scope_matches_publication_description": true,
+        "source_version": "jurkovic2022_ogle_v_fourier"
+      },
+      {
+        "all_task_projections_match": true,
+        "comparison_version": "phase19_local_cleanroom_control",
+        "counts_as_external_computational_replication": false,
+        "counts_as_independent_astrophysical_replication": false,
+        "edge_type": "LOCAL_CLEANROOM_KIT_REPLAY",
+        "reason": "operator and execution remain within the implementation environment",
+        "scientific_match": true,
+        "source_version": "phase19_public_replication_kit"
+      }
+    ],
+    "exact_replay_count": 3,
+    "external_analysis_consistency_count": 1,
+    "external_computational_replication_count": 0,
+    "external_independent_replication_count": 0,
+    "external_input_reconstruction_count": 1,
+    "local_cleanroom_control_count": 1,
+    "multiplicity_guard": "External publications and local reanalyses of the same astronomical identity do not increase the astronomical denominator. Only an independent source-and-analysis replication may count as an independent astrophysical edge, and even that does not create a new object identity.",
+    "object_ids": [
+      "OGLE-LMC-CEP-0002",
+      "OGLE-LMC-CEP-0004",
+      "OGLE-LMC-CEP-0010",
+      "OGLE-LMC-RRLYR-00001",
+      "OGLE-LMC-RRLYR-00004"
+    ],
+    "phase17_external_anchor": {
+      "all_marginal_absolute_z_below_two": true,
+      "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+      "claim_scope": "external Fourier-coordinate consistency and provenance only",
+      "classification": "EXTERNAL_ANALYSIS_CONSISTENT_PARTIAL_SOURCE_OVERLAP",
+      "combined_covariance": [
+        [
+          0.0005367181949792127,
+          0.00018991188760019285,
+          9.396468384876089e-05,
+          0.0018099184445315565
+        ],
+        [
+          0.00018991188760019285,
+          0.007039409610976634,
+          0.00013381051347315554,
+          0.007812825409336333
+        ],
+        [
+          9.396468384876089e-05,
+          0.00013381051347315554,
+          0.0004026751640681617,
+          0.0005104130404487426
+        ],
+        [
+          0.0018099184445315565,
+          0.007812825409336333,
+          0.0005104130404487426,
+          0.044807780692151786
+        ]
+      ],
+      "counts_as_astronomical_denominator_increment": false,
+      "counts_as_independent_astrophysical_replication": false,
+      "degrees_of_freedom": 4,
+      "difference_local_minus_external": {
+        "phi21": 0.016403547830196707,
+        "phi31": 0.17176359300117872,
+        "r21": 0.02954951443762177,
+        "r31": 0.006400138744270076
+      },
+      "external_research_group_independent": true,
+      "external_vector": {
+        "phi21": 4.238,
+        "phi31": 2.283,
+        "r21": 0.314,
+        "r31": 0.117
+      },
+      "joint_consistency_at_5_percent": true,
+      "local_source_meets_external_minimum_count": false,
+      "local_vector": {
+        "phi21": 4.254403547830197,
+        "phi31": 2.4547635930011786,
+        "r21": 0.3435495144376218,
+        "r31": 0.12340013874427008
+      },
+      "mahalanobis_chi_square": 1.773349307327351,
+      "marginal_z": {
+        "phi21": 0.1955103129597751,
+        "phi31": 0.811436238378321,
+        "r21": 1.2754903867600589,
+        "r31": 0.31894218614154196
+      },
+      "object_id": "OGLE-LMC-CEP-0002",
+      "observational_source_independent": false,
+      "p_value": 0.7773544797654233,
+      "parameter_order": [
+        "r21",
+        "phi21",
+        "r31",
+        "phi31"
+      ],
+      "source_byte_identity_known": false
+    },
+    "phase18_multiplicity_guard": {
+      "external_input_reconstruction_does_not_increment_denominator": true,
+      "inherited_policy": "External publications and local reanalyses of the same astronomical identity do not increase the astronomical denominator. Only an independent source-and-analysis replication may count as an independent astrophysical edge, and even that does not create a new object identity."
+    },
+    "phase19_external_group_gate": {
+      "answer_commitment": "8512a7041f7f665db83bd458824a9775d43115f9df3d25501a948b7506292988",
+      "external_replication_edge_added": false,
+      "external_submission_verified": false,
+      "local_cleanroom_passed": true,
+      "private_evaluator_sha256": "c53d547002bb938916f398685ce5810c8219e7e1f90dd6d903eec6412789f555",
+      "public_kit_sha256": "965b3d4228ccfbac8e9a605460349f425ca3d42bbaae22eebc108a83d2b57891"
+    },
+    "replication_kit_ready_count": 1,
+    "sha256_canonical_json": "3c6c36948e38d7e163451b6a4eeeeb8cb8d4251ac400498dcea3825dc50f5528",
+    "single_version_objects": [
+      "OGLE-LMC-CEP-0004"
+    ],
+    "unique_object_denominator": 5
+  },
+  "research_role": "external replication readiness; no external operator result yet",
+  "task_manifest": {
+    "canonical_sha256": "bead42fa49f6b1f552d6ff2fa47661398addfd330d60b7b655797a280a568205",
+    "path": "data/manifests/phase19_replication_tasks.json",
+    "task_count": 7,
+    "task_types": {
+      "observational_exchange": 3,
+      "synthetic_photometry": 4
+    }
+  }
+}

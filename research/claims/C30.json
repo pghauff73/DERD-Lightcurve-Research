@@ -1,0 +1,17 @@
+{
+  "claim": "The frozen stored relative phase p_n-p_1 is not invariant to a change of reference epoch for harmonics n>1; phi_n-n*phi_1 is invariant.",
+  "claim_id": "C30",
+  "evidence_level": "E4_FORMAL_AND_REPRODUCIBLE_COMPUTATIONAL_PROOF",
+  "formal_basis": "docs/IMPLEMENTATION_PHASE_06_PHASE_CONVENTION.md",
+  "result": {
+    "demonstration_epoch_shift_cycles": 0.071,
+    "source_relative_max_change_radians": 2.249380339970292,
+    "standard_invariant_max_change_radians": 4.440892098500626e-16
+  },
+  "software_evidence": [
+    "src/derd/phase_convention.py",
+    "artifacts/phase06/phase06_summary.json",
+    "tests/test_phase06_phase_convention.py"
+  ],
+  "status": "PROVED_FOR_HARMONIC_PHASES"
+}

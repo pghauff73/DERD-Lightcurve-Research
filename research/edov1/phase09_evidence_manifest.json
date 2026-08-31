@@ -1,0 +1,45 @@
+{
+  "manifest_id": "EDOV1-PHASE09-CLAIM-GRADE-COHORT-EVIDENCE-V1",
+  "date": "2026-08-17",
+  "evidence_role": "EXPOSED_DEVELOPMENT_ONLY",
+  "supporting_findings": [
+    "The protocol seal verifies.",
+    "The cohort contains exactly five identities per family and fifteen total.",
+    "Five inherited Phase-08 records and exchanges pass their frozen hash checks.",
+    "The source retriever verifies repository commit, path, Git blob SHA-1, byte count, observation count, and SHA-256 before accepting bytes.",
+    "A deterministic non-astrophysical control verifies complete-cohort fraction and Wilson interval calculations."
+  ],
+  "contradicting_or_limiting_findings": [
+    "The five selected Delta Scuti metadata records are not claim-grade under the frozen rule.",
+    "Third-party raw bytes are absent from the redistributable release.",
+    "Ten target SHA-256 coordinates await verified acquisition receipts.",
+    "Only five of fifteen object results are inherited and cryptographically verified.",
+    "No family-level population fraction is estimable from the incomplete cohort.",
+    "All identities are exposed development cases and are ineligible for a pristine confirmatory holdout."
+  ],
+  "provenance_clusters": [
+    {
+      "cluster": "paper hypothesis",
+      "source": "Cephids Pulsating Stars - Transparent Outer Shell",
+      "independence_note": "originating research claim, not independent replication"
+    },
+    {
+      "cluster": "raw photometry mirror",
+      "source": "bksim/OutlierDetection frozen Git commit",
+      "independence_note": "single mirror lineage; raw bytes excluded from release"
+    },
+    {
+      "cluster": "prior computational evidence",
+      "source": "DERD Phase-08 artifacts",
+      "independence_note": "same research programme; reused only after hash verification"
+    }
+  ],
+  "artifacts": [
+    "artifacts/phase09/PHASE09_RESULT.md",
+    "artifacts/phase09/phase09_summary.json",
+    "artifacts/phase09/phase09_target_readiness.csv",
+    "artifacts/phase09/phase09_blockers.csv",
+    "data/manifests/phase09_development_cohort.json"
+  ],
+  "promotion_decision": "DENIED_INCOMPLETE_METADATA_SOURCE_REPLAY_AND_RESULT_COVERAGE"
+}

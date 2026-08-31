@@ -1,0 +1,19 @@
+{
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "claim": "Three of five legacy Delta Scuti identities are authoritatively resolved through exact two-hop OGLE-III field-ID crosswalks.",
+  "claim_id": "C98",
+  "evidence": [
+    "artifacts/phase21/PHASE21_RESULT.md",
+    "artifacts/phase21/phase21_summary.json"
+  ],
+  "metrics": {
+    "locked_ids": [
+      "OGLE-LMC-DSCT-0003",
+      "OGLE-LMC-DSCT-0005",
+      "OGLE-LMC-DSCT-0006"
+    ]
+  },
+  "physical_claim_scope": "metadata and development-cohort readiness only",
+  "sha256_canonical_json": "7f402a0c3479e6eef1aa3f320698b86a4f462010ff725768ce3f1c6c90470c15",
+  "status": "VERIFIED_PARTIAL_AUTHORITATIVE_UNLOCK"
+}

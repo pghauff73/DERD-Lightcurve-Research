@@ -1,0 +1,47 @@
+{
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "code_manifest": {
+    "entry_count": 318,
+    "path": "research/CODE_MANIFEST_SHA256.txt",
+    "sha256": "f4057de6a060f90ffe70b1fb3a31e9d1730c89e63bf6a4bda0fb2e66c1b8b24b"
+  },
+  "decision": "PHASE20_MULTIBAND_AND_MECHANISM_TESTS_COMPLETE_STRICT_PASSBAND_INVARIANCE_REJECTED_DERD_UNIQUENESS_REJECTED_GRAVITY_ONLY_PERIODIC_MOTION_FORMALLY_REJECTED",
+  "key_results": {
+    "I_vs_V_p_value": 1.0764361533163735e-25,
+    "V_epoch_control_p_value": 0.9922785587669352,
+    "all_periodic_controls_failed": true,
+    "ballistic_positive_control_passed": true,
+    "shared_component_bootstrap_draws": 64,
+    "shared_component_bootstrap_wins": 62
+  },
+  "phase20_replay": {
+    "log_path": "artifacts/phase20/replay.log",
+    "script": "experiments/run_phase20_all.sh",
+    "status": "PASSED"
+  },
+  "protocol_seal": "PASSED",
+  "python_compile": "PASSED",
+  "raw_data_audit": {
+    "phase20_complete_raw_files_bundled": 0,
+    "raw_inputs_excluded": true,
+    "retrieval_script": "experiments/fetch_phase20_multiband_sources.py"
+  },
+  "release_id": "DERD-v2.0-phase20-multiband-mechanism-falsification",
+  "repository_manifest": {
+    "entry_count": 1040,
+    "path": "research/MANIFEST_SHA256.txt",
+    "sha256": "21fb47284d4f69309cc0088c95ec6b886cffc34cd7b2b87a545943cd6c30f693",
+    "verification": {
+      "checked": 1040,
+      "malformed": 0,
+      "mismatched": 0,
+      "missing": 0
+    }
+  },
+  "tests": {
+    "collection": "257 tests collected",
+    "failed": 0,
+    "log_path": "artifacts/phase20/pytest.txt",
+    "passed": 257
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "active_dimensions": [
+    "cumulative verified target count: 3 to 4",
+    "period coordinate: catalog to independent phase-dispersion refinement"
+  ],
+  "frozen_dimensions": [
+    "fifteen-object cohort identities",
+    "five-object family denominators",
+    "Phase-08 target-level scientific coordinates",
+    "signed h1-h8 extraction",
+    "three chronological blocks",
+    "stationary threshold quantile",
+    "population firewall"
+  ],
+  "gate": "PHASE14_PERIOD_ROBUSTNESS_LEDGER_UPDATED_POPULATION_GATE_CLOSED",
+  "implementation_id": "DERD-v1.4-phase14-period-coordinate-robustness-ledger",
+  "manifest_id": "IURM-PHASE14-PERIOD-COORDINATE-ROBUSTNESS-LEDGER-V1",
+  "result": {
+    "cumulative_record_count": 4,
+    "new_record_count": 1,
+    "period_classification": "TEMPORAL_STATIONARITY_FAILURE_ROBUST_TO_PERIOD_REFINEMENT",
+    "population_outputs_allowed": false
+  }
+}

@@ -1,0 +1,3 @@
+wrote 666 entries to research/MANIFEST_SHA256.txt
+excluded=BUNDLE_SHA256SUMS.txt
+excluded=declared third-party raw photometry and Phase-10 authoritative catalogue bytes

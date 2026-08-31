@@ -1,0 +1,16 @@
+{
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "claim": "No nonconstant twice-differentiable positive periodic radius can satisfy R_ddot=-G*M/R^2 for constant positive G and M at every time.",
+  "claim_id": "C95",
+  "evidence": [
+    "artifacts/phase20/phase20_gravity_only_theorem.json",
+    "artifacts/phase20/phase20_effective_mass_controls.csv"
+  ],
+  "metrics": {
+    "all_periodic_controls_failed": true,
+    "ballistic_positive_control_passed": true
+  },
+  "physical_claim_scope": "waveform and force-law discrimination only",
+  "sha256_canonical_json": "780abb3b96d509f5769d79396bb6a09ed820f9609722fa06af9572834f121a06",
+  "status": "FORMALLY_PROVED_GRAVITY_ONLY_PERIODIC_IMPOSSIBILITY"
+}

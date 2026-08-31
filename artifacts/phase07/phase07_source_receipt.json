@@ -1,0 +1,19 @@
+{
+  "evidence_role": "exposed-development-only",
+  "expected_git_blob_sha1": "fd82c05bb3a62ba9a8c614ac51eb315124090381",
+  "git_blob_verified": true,
+  "local_byte_count": 8928,
+  "local_sha256": "574d7252996f5ee71169a97f2d7b52a8acbdb0898df65a7b61f5419ae9f063e0",
+  "median_magnitude_error": 0.005,
+  "mode": "1O",
+  "observation_count": 372,
+  "observed_git_blob_sha1": "fd82c05bb3a62ba9a8c614ac51eb315124090381",
+  "rights_status": "PUBLIC_MIRROR; REDISTRIBUTION_TERMS_NOT_VERIFIED",
+  "source_commit": "55836b58345b9507bfbd98c5fabbac82c83605e3",
+  "source_locator": "https://github.com/bksim/OutlierDetection/blob/55836b58345b9507bfbd98c5fabbac82c83605e3/Cluster/cep/phot/I/OGLE-LMC-CEP-0010.dat",
+  "source_repository": "bksim/OutlierDetection",
+  "star_id": "OGLE-LMC-CEP-0010",
+  "time_max_hjd_minus_2450000": 4540.50409,
+  "time_min_hjd_minus_2450000": 2162.88312,
+  "time_span_days": 2377.6209700000004
+}

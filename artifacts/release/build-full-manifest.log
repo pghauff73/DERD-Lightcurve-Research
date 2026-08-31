@@ -1,0 +1,24 @@
+wrote 608 entries to /mnt/data/lightcurve-trainer-roadmap/phase09-work/derd-v0.9/research/MANIFEST_SHA256.txt
+excluded=BUNDLE_SHA256SUMS.txt
+excluded=data/raw/ogle/OGLE-LMC-CEP-0010.complete.dat
+excluded=data/raw/phase08_cohort/OGLE-LMC-CEP-0002.complete.dat
+excluded=data/raw/phase08_cohort/OGLE-LMC-CEP-0010.complete.dat
+excluded=data/raw/phase08_cohort/OGLE-LMC-RRLYR-00001.complete.dat
+excluded=data/raw/phase08_cohort/OGLE-LMC-RRLYR-00004.complete.dat
+excluded=data/raw/phase08_cohort/OGLE-LMC-DSCT-0001.complete.dat
+excluded=data/raw/phase08_cohort/OGLE-LMC-DSCT-0003.complete.dat
+excluded=data/raw/phase09_cohort/OGLE-LMC-CEP-0002.complete.dat
+excluded=data/raw/phase09_cohort/OGLE-LMC-CEP-0004.complete.dat
+excluded=data/raw/phase09_cohort/OGLE-LMC-CEP-0005.complete.dat
+excluded=data/raw/phase09_cohort/OGLE-LMC-CEP-0006.complete.dat
+excluded=data/raw/phase09_cohort/OGLE-LMC-CEP-0010.complete.dat
+excluded=data/raw/phase09_cohort/OGLE-LMC-RRLYR-00001.complete.dat
+excluded=data/raw/phase09_cohort/OGLE-LMC-RRLYR-00003.complete.dat
+excluded=data/raw/phase09_cohort/OGLE-LMC-RRLYR-00004.complete.dat
+excluded=data/raw/phase09_cohort/OGLE-LMC-RRLYR-00005.complete.dat
+excluded=data/raw/phase09_cohort/OGLE-LMC-RRLYR-00006.complete.dat
+excluded=data/raw/phase09_cohort/OGLE-LMC-DSCT-0003.complete.dat
+excluded=data/raw/phase09_cohort/OGLE-LMC-DSCT-0004.complete.dat
+excluded=data/raw/phase09_cohort/OGLE-LMC-DSCT-0005.complete.dat
+excluded=data/raw/phase09_cohort/OGLE-LMC-DSCT-0006.complete.dat
+excluded=data/raw/phase09_cohort/OGLE-LMC-DSCT-0007.complete.dat

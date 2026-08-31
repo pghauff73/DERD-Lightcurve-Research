@@ -1,0 +1,114 @@
+{
+  "claim": "Under the frozen actual-cadence observation-count intervention, 120 observations passed pointwise, 160 failed, and 240 was the first sustained pass followed by passing 320- and 372-observation levels. The earlier MVHE-160 result is not a sufficient target-specific guarantee.",
+  "claim_id": "C38",
+  "evidence": [
+    "artifacts/phase07/phase07_actual_cadence_mvhe_replicates.csv",
+    "artifacts/phase07/phase07_actual_cadence_mvhe_summary.csv"
+  ],
+  "evidence_level": "E2_REPLICATED_SYNTHETIC_INTERVENTION",
+  "method": "IURMv1.1.1 one-active-dimension observation-count sweep",
+  "result": {
+    "first_pointwise_passing_observation_count": 120,
+    "first_sustained_passing_observation_count": 240,
+    "gate_assessment": {
+      "first_pointwise_pass": 120,
+      "first_sustained_pass": 240,
+      "minimum_sustained_levels": 3,
+      "non_monotonic_pointwise_pattern": true,
+      "pass_pattern": [
+        {
+          "observation_count": 80,
+          "passes_gate": false
+        },
+        {
+          "observation_count": 120,
+          "passes_gate": true
+        },
+        {
+          "observation_count": 160,
+          "passes_gate": false
+        },
+        {
+          "observation_count": 240,
+          "passes_gate": true
+        },
+        {
+          "observation_count": 320,
+          "passes_gate": true
+        },
+        {
+          "observation_count": 372,
+          "passes_gate": true
+        }
+      ],
+      "sustained_level_count": 3
+    },
+    "interpretation": "Use the sustained pass rather than an isolated pointwise pass because finite Monte-Carlo sweeps can be non-monotonic.",
+    "promoted_actual_cadence_mvhe": 240,
+    "summaries": [
+      {
+        "median_balanced_accuracy": 0.7972890786749482,
+        "median_roc_auc": 0.8329562594268477,
+        "median_threshold": 1.8078850970084306,
+        "observation_count": 80,
+        "passes_gate": false,
+        "q10_balanced_accuracy": 0.6517482517482518,
+        "q10_roc_auc": 0.6799465240641711,
+        "replicate_count": 24
+      },
+      {
+        "median_balanced_accuracy": 0.8158992763772175,
+        "median_roc_auc": 0.8774509803921569,
+        "median_threshold": 1.6247690178161802,
+        "observation_count": 120,
+        "passes_gate": true,
+        "q10_balanced_accuracy": 0.7100650452488688,
+        "q10_roc_auc": 0.8033333333333333,
+        "replicate_count": 24
+      },
+      {
+        "median_balanced_accuracy": 0.7998130341880342,
+        "median_roc_auc": 0.8861904761904762,
+        "median_threshold": 1.4561050863578942,
+        "observation_count": 160,
+        "passes_gate": false,
+        "q10_balanced_accuracy": 0.7144230769230769,
+        "q10_roc_auc": 0.7159090909090909,
+        "replicate_count": 24
+      },
+      {
+        "median_balanced_accuracy": 0.8186145510835914,
+        "median_roc_auc": 0.8826086956521739,
+        "median_threshold": 1.5564701329716957,
+        "observation_count": 240,
+        "passes_gate": true,
+        "q10_balanced_accuracy": 0.7286483253588516,
+        "q10_roc_auc": 0.7842307692307692,
+        "replicate_count": 24
+      },
+      {
+        "median_balanced_accuracy": 0.831845238095238,
+        "median_roc_auc": 0.8863636363636364,
+        "median_threshold": 1.3974628558161029,
+        "observation_count": 320,
+        "passes_gate": true,
+        "q10_balanced_accuracy": 0.7358522727272727,
+        "q10_roc_auc": 0.8210005358418672,
+        "replicate_count": 24
+      },
+      {
+        "median_balanced_accuracy": 0.8483455882352942,
+        "median_roc_auc": 0.9143772893772893,
+        "median_threshold": 1.378994240617561,
+        "observation_count": 372,
+        "passes_gate": true,
+        "q10_balanced_accuracy": 0.7674358974358975,
+        "q10_roc_auc": 0.8453296703296703,
+        "replicate_count": 24
+      }
+    ],
+    "uniform_phase_lower_bound_from_phase05": 160
+  },
+  "scope": "Provisional for this cadence/error template and frozen null families; not a universal observation-count law.",
+  "status": "SUPPORTED_AS_PROVISIONAL_ACQUISITION_DESIGN_RESULT"
+}

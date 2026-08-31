@@ -1,0 +1,117 @@
+{
+  "graph_id": "OURD-PHASE12-CUMULATIVE-REPLAY-LEDGER-GRAPH-V1",
+  "objects": [
+    {
+      "id": "P12-PROTOCOL",
+      "type": "sealed_protocol"
+    },
+    {
+      "count": 1,
+      "id": "P12-PRIOR-LEDGER",
+      "type": "verified_phase11_evidence"
+    },
+    {
+      "count": 1,
+      "id": "P12-NEW-SOURCE",
+      "type": "newly_verified_source_lock"
+    },
+    {
+      "count": 1,
+      "id": "P12-NEW-EXECUTION",
+      "type": "fresh_waveform_result"
+    },
+    {
+      "id": "P12-REPLAY-AUDIT",
+      "passed": true,
+      "type": "cross_phase_scientific_replay"
+    },
+    {
+      "count": 2,
+      "id": "P12-CUMULATIVE-LEDGER",
+      "type": "sealed_evidence_ledger"
+    },
+    {
+      "id": "P12-DENOMINATOR-FIREWALL",
+      "open": false,
+      "type": "population_output_guard"
+    },
+    {
+      "id": "C57",
+      "type": "claim"
+    },
+    {
+      "id": "C58",
+      "type": "claim"
+    },
+    {
+      "id": "C59",
+      "type": "claim"
+    },
+    {
+      "id": "C60",
+      "type": "claim"
+    }
+  ],
+  "relations": [
+    {
+      "relation": "governs",
+      "source": "P12-PROTOCOL",
+      "target": "P12-CUMULATIVE-LEDGER"
+    },
+    {
+      "relation": "chains_into",
+      "source": "P12-PRIOR-LEDGER",
+      "target": "P12-CUMULATIVE-LEDGER"
+    },
+    {
+      "relation": "enables",
+      "source": "P12-NEW-SOURCE",
+      "target": "P12-NEW-EXECUTION"
+    },
+    {
+      "relation": "is_audited_by",
+      "source": "P12-NEW-EXECUTION",
+      "target": "P12-REPLAY-AUDIT"
+    },
+    {
+      "relation": "appends_to",
+      "source": "P12-NEW-EXECUTION",
+      "target": "P12-CUMULATIVE-LEDGER"
+    },
+    {
+      "relation": "suppresses_partial_population_outputs_from",
+      "source": "P12-DENOMINATOR-FIREWALL",
+      "target": "P12-CUMULATIVE-LEDGER"
+    },
+    {
+      "relation": "supports",
+      "source": "P12-CUMULATIVE-LEDGER",
+      "target": "C57"
+    },
+    {
+      "relation": "supports",
+      "source": "P12-NEW-SOURCE",
+      "target": "C58"
+    },
+    {
+      "relation": "supports",
+      "source": "P12-REPLAY-AUDIT",
+      "target": "C59"
+    },
+    {
+      "relation": "supports",
+      "source": "P12-DENOMINATOR-FIREWALL",
+      "target": "C60"
+    }
+  ],
+  "score_vector": {
+    "causal_fidelity": "not established; normalized waveform-only boundary retained",
+    "complexity": "one chained ledger, one replay audit, and one denominator firewall",
+    "family_transfer": "not established; cumulative evidence covers one Cepheid and one RR Lyrae target",
+    "orthogonality": "raw-source availability, prior evidence retention, replay fidelity, and population aggregation are independent gates",
+    "predictive_calibration": "target-specific calibration reproduced exactly for the new target",
+    "reconstruction": "one prior record verified and one new target freshly executed",
+    "temporal_stability": "scientific Phase-08 replay is exact under the frozen algorithm",
+    "uniqueness": "conflicting duplicate target records are rejected"
+  }
+}

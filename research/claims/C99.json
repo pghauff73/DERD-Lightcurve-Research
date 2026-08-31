@@ -1,0 +1,18 @@
+{
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "claim": "No exact current-catalog crosswalk was accepted for OGLE-LMC-DSCT-0004 or OGLE-LMC-DSCT-0007.",
+  "claim_id": "C99",
+  "evidence": [
+    "artifacts/phase21/PHASE21_RESULT.md",
+    "artifacts/phase21/phase21_summary.json"
+  ],
+  "metrics": {
+    "unresolved_ids": [
+      "OGLE-LMC-DSCT-0004",
+      "OGLE-LMC-DSCT-0007"
+    ]
+  },
+  "physical_claim_scope": "metadata and development-cohort readiness only",
+  "sha256_canonical_json": "96bb50c6bfe0f808d076e74110c5b27a444fdf6b56b693d31e1ac030655cd79b",
+  "status": "VERIFIED_NO_EXACT_CROSSWALK_IN_FROZEN_QUERY_RECEIPT"
+}

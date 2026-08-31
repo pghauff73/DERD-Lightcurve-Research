@@ -1,0 +1,60 @@
+{
+  "claim_boundary": "Passband projection and signed-harmonic comparison only; no radius, mass, or unique mechanism inference.",
+  "date_frozen": "2026-08-25",
+  "i_harmonic_exchange": {
+    "band": "I",
+    "exchange_sha256": "befd48a88fc7fec642c9576e6528f0e7311ce60de5a906bf459fa6ad3ab5a638",
+    "observation_count": 366,
+    "relative_path": "artifacts/phase14/harmonic_exchange/OGLE-LMC-CEP-0002.json",
+    "source_role": "lossless signed h1-h8 representation of the complete Phase-14 I-band source",
+    "source_sha256": "65fba2e0da1b6ecc213d5f485bb20a2fb7793971a8065c09506ac5632ca630a8"
+  },
+  "manifest_id": "DERD-PHASE20-MULTIBAND-SOURCES-1.0",
+  "object_id": "OGLE-LMC-CEP-0002",
+  "period_coordinate": {
+    "period_days": 3.118149,
+    "policy": "frozen I-band catalog coordinate reused in all band comparisons",
+    "reference_epoch": 2171.85654
+  },
+  "redistribution_status": "V raw bytes used locally and excluded from redistributable bundle; source coordinates and digests retained.",
+  "required_attribution": "Scientific use of OGLE observations must cite the appropriate OGLE catalog papers.",
+  "sha256_canonical_json": "74c6f3bacde426db3d1e4bc126403bddac6a2a978d09941b38584fdbf4d9ea05",
+  "v_sources": [
+    {
+      "band": "V",
+      "byte_count": 792,
+      "first_time": 3032.76066,
+      "last_time": 4487.70058,
+      "observation_count": 33,
+      "sha256": "bc36f947e8e3d36d197498345b83aa24f9e1a0d9010a99f4fe8a0bab4ccdb855",
+      "source_id": "ogleiii_v",
+      "source_relative_path": "data/raw/phase20_external/OGLE-LMC-CEP-0002_OGLEIII_V.dat",
+      "survey": "OGLE-III",
+      "url": "https://www.astrouw.edu.pl/ogle/ogle3/OIII-CVS/lmc/cep/phot/V/OGLE-LMC-CEP-0002.dat"
+    },
+    {
+      "band": "V",
+      "byte_count": 768,
+      "first_time": 5275.51614,
+      "last_time": 7446.61441,
+      "observation_count": 32,
+      "sha256": "ef8975b4bed903433ae3b8e66072cafaa5671d2c085eb88d32bd33eaa049067c",
+      "source_id": "ogleiv_v",
+      "source_relative_path": "data/raw/phase20_external/OGLE-LMC-CEP-0002_OGLEIV_V.dat",
+      "survey": "OGLE-IV",
+      "url": "https://www.astrouw.edu.pl/ogle/ogle4/OCVS/lmc/cep/phot/V/OGLE-LMC-CEP-0002.dat"
+    },
+    {
+      "band": "V",
+      "byte_count": 1560,
+      "first_time": 3032.76066,
+      "last_time": 7446.61441,
+      "observation_count": 65,
+      "sha256": "420871872497c8fccd8afe273a6548d079f59028f1067dcc1cd9c5f56711729d",
+      "source_id": "merged_v",
+      "source_relative_path": "data/raw/phase20_external/OGLE-LMC-CEP-0002_merged_V.dat",
+      "survey": "OGLE-III+OGLE-IV",
+      "url": "deterministic chronological merge of the two official source URLs"
+    }
+  ]
+}

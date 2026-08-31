@@ -1,0 +1,4 @@
+family,verified_records,required_records,remaining,fractions_suppressed
+classical_cepheid,2,5,3,True
+rr_lyrae,2,5,3,True
+delta_scuti,0,5,5,True

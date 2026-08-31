@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "derd-lightcurve"
+version = "2.1.0"
+description = "Reproducible DERD models and leakage-resistant observational light-curve benchmarks"
+readme = "docs/MODEL_SPECIFICATION.md"
+requires-python = ">=3.10"
+authors = [{name = "Pamela G. Hauff"}]
+dependencies = [
+  "numpy>=1.23",
+  "scipy>=1.9",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+research = ["matplotlib>=3.7"]
+
+[project.scripts]
+derd = "derd.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+pythonpath = ["src"]

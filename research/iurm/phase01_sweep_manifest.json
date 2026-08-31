@@ -1,0 +1,58 @@
+{
+  "constant_set": {
+    "amplitude_ratio": 0.5,
+    "e1": 0.2,
+    "e2": 0.7,
+    "normalization_grid_size": 4096,
+    "phase_ratio": 0.3,
+    "samples": 512
+  },
+  "experiments": [
+    {
+      "active_dimension": "e1",
+      "count": 10,
+      "experiment_id": "IURM-DERD-E1-001",
+      "range": [
+        0.0,
+        0.9
+      ]
+    },
+    {
+      "active_dimension": "e2",
+      "count": 10,
+      "experiment_id": "IURM-DERD-E2-001",
+      "range": [
+        0.0,
+        0.9
+      ]
+    },
+    {
+      "active_dimension": "amplitude_ratio",
+      "count": 12,
+      "experiment_id": "IURM-DERD-A-001",
+      "range": [
+        0.1,
+        1.2
+      ]
+    },
+    {
+      "active_dimension": "phase_ratio",
+      "count": 20,
+      "experiment_id": "IURM-DERD-PHI-001",
+      "range": [
+        0.0,
+        0.95
+      ]
+    },
+    {
+      "active_dimension": "time_law",
+      "experiment_id": "IURM-DERD-TIMELAW-001",
+      "values": [
+        "geometric",
+        "kepler"
+      ]
+    }
+  ],
+  "gate": "For each parameter sweep, all non-active parameter values must remain byte-for-byte identical in the emitted row records.",
+  "schema_version": "IURMv1.1.1"
+}

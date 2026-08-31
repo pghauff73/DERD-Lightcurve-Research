@@ -1,0 +1,49 @@
+{
+  "analysis_thresholds_inherited_from_phase08": {
+    "covariance_structural_pass_fraction": 0.8,
+    "covariance_threshold_pass_fraction": 0.8,
+    "minimum_forecast_harmonics": 2,
+    "minimum_forecast_wald_snr": 2.0,
+    "minimum_recovery_wald_snr": 3.0,
+    "recovery_harmonics": 4
+  },
+  "catalog_contract_id": "DERD-PHASE10-OGLE-AUTHORITATIVE-CATALOG-CONTRACT-1.0",
+  "catalog_contract_sha256": "45745ea2b1ecd641a0caf71f2a473d9d645b41228c86c0dd7f9726e3ac9e8df7",
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "claim_boundary": "Waveform compatibility only. Normalized photometry cannot supply shell mass or prove literal internal Keplerian motion.",
+  "date_frozen": "2026-08-18",
+  "denominator": {
+    "classical_cepheid": 5,
+    "delta_scuti": 5,
+    "rr_lyrae": 5,
+    "total": 15
+  },
+  "execution_policy": {
+    "family_outputs": "SUPPRESSED_UNTIL_ALL_15_RESULTS_COMPLETE",
+    "identity_suffix_assumption": "FORBIDDEN",
+    "legacy_period_fallback": "FORBIDDEN",
+    "missing_source_substitution": "FORBIDDEN",
+    "sealed_identity_access": "FORBIDDEN"
+  },
+  "implementation_id": "DERD-v1.0-phase10-authoritative-metadata-source-lock",
+  "metadata_gates": [
+    "EXACT_IDENTITY_MATCH",
+    "EXPLICIT_OGLE3_TO_OGLE4_CROSSWALK_WHEN_NEEDED",
+    "POSITIVE_PRIMARY_PERIOD_WITH_UNCERTAINTY",
+    "CATALOG_SUBTYPE_PRESERVED_WITHOUT_RADIAL_MODE_INVENTION",
+    "IDENTITY_AND_PARAMETER_ROW_SHA256",
+    "CATALOG_FILE_SHA256",
+    "CANONICAL_LOCK_SHA256"
+  ],
+  "promotion_rule": "C17 cannot be promoted by Phase 10; Phase 10 only locks inputs and executes exposed development evidence.",
+  "protocol_id": "DERD-PHASE10-AUTHORITATIVE-METADATA-SOURCE-LOCK-1.0",
+  "research_role": "exposed-development-only",
+  "source_gates": [
+    "COMMIT_PINNED_REPOSITORY_PATH",
+    "GIT_BLOB_SHA1",
+    "BYTE_COUNT",
+    "OBSERVATION_COUNT",
+    "SHA256_FROZEN_BY_MANIFEST_OR_VERIFIED_RECEIPT",
+    "MINIMUM_240_RETAINABLE_OBSERVATIONS"
+  ]
+}

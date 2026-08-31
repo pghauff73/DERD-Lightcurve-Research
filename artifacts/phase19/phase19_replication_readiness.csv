@@ -1,0 +1,9 @@
+gate,closed,counts_as_external_replication
+protocol_sealed,True,False
+task_manifest_sealed,True,False
+public_kit_integrity,True,False
+blind_commitment_frozen,True,False
+local_cleanroom_passed,True,False
+external_operator_submission_verified,False,False
+external_computational_edge_added,False,False
+independent_observing_source_added,False,False

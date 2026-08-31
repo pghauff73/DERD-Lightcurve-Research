@@ -1,0 +1,4 @@
+requested_object_id,current_object_id,legacy_diagnostic_period_days,authoritative_period_days,absolute_difference_days,period_ratio_authoritative_to_legacy,mode_label
+OGLE-LMC-DSCT-0003,OGLE-LMC-DSCT-00003,0.192110098414,0.06644253,-0.125667568414,0.34585651950901297,singlemode_radial_order_unresolved
+OGLE-LMC-DSCT-0005,OGLE-LMC-DSCT-00005,0.152355140403,0.0676865,-0.084668640403,0.444267911282547,singlemode_radial_order_unresolved
+OGLE-LMC-DSCT-0006,OGLE-LMC-DSCT-00006,0.139272775228,0.12224786,-0.017024915227999995,0.8777584836653902,singlemode_radial_order_unresolved

@@ -1,0 +1,42 @@
+{
+  "all_sources_pass": true,
+  "manifest_id": "DERD-PHASE20-MULTIBAND-SOURCES-1.0",
+  "sources": [
+    {
+      "all_checks_pass": true,
+      "byte_count": 792,
+      "checks": {
+        "byte_count": true,
+        "observation_count": true,
+        "sha256": true
+      },
+      "observation_count": 33,
+      "path": "/mnt/data/lightcurve-trainer-roadmap/phase20-work/derd-v2.0/data/raw/phase20_external/OGLE-LMC-CEP-0002_OGLEIII_V.dat",
+      "sha256": "bc36f947e8e3d36d197498345b83aa24f9e1a0d9010a99f4fe8a0bab4ccdb855"
+    },
+    {
+      "all_checks_pass": true,
+      "byte_count": 768,
+      "checks": {
+        "byte_count": true,
+        "observation_count": true,
+        "sha256": true
+      },
+      "observation_count": 32,
+      "path": "/mnt/data/lightcurve-trainer-roadmap/phase20-work/derd-v2.0/data/raw/phase20_external/OGLE-LMC-CEP-0002_OGLEIV_V.dat",
+      "sha256": "ef8975b4bed903433ae3b8e66072cafaa5671d2c085eb88d32bd33eaa049067c"
+    },
+    {
+      "all_checks_pass": true,
+      "byte_count": 1560,
+      "checks": {
+        "byte_count": true,
+        "observation_count": true,
+        "sha256": true
+      },
+      "observation_count": 65,
+      "path": "/mnt/data/lightcurve-trainer-roadmap/phase20-work/derd-v2.0/data/raw/phase20_external/OGLE-LMC-CEP-0002_merged_V.dat",
+      "sha256": "420871872497c8fccd8afe273a6548d079f59028f1067dcc1cd9c5f56711729d"
+    }
+  ]
+}

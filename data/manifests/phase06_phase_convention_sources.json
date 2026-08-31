@@ -1,0 +1,38 @@
+{
+  "manifest_id": "PHASE06-PHASE-CONVENTION-SOURCES-V1",
+  "retrieved_date": "2026-08-15",
+  "source_repository": "bksim/OutlierDetection",
+  "source_commit": "55836b58345b9507bfbd98c5fabbac82c83605e3",
+  "artifacts": [
+    {
+      "role": "harmonic_extraction_source",
+      "path": "Cluster/code/FeatureFunctionLib.py",
+      "blob_sha1": "957823bc6e305dc3d3e96811e7be35c3e0e1260e",
+      "relevant_constructs": [
+        "a*sin(2*pi*f*x)+b*cos(2*pi*f*x)+c",
+        "sqrt(a^2+b^2)",
+        "arctan(b/a)",
+        "scaledPH = phase - phase[0]",
+        "three passes without assigning data2 back to data"
+      ]
+    },
+    {
+      "role": "cepheid_catalog_sample",
+      "path": "Cluster/out/cep_I.csv",
+      "blob_sha1": "2051440f2ca4662b65e011b479884d9159bbc238"
+    },
+    {
+      "role": "rr_lyrae_catalog_sample",
+      "path": "Cluster/out/rrlyr_I.csv",
+      "blob_sha1": "eb5e136201674e2571a319eedfbff71515531dd5"
+    },
+    {
+      "role": "delta_scuti_catalog_sample",
+      "path": "Cluster/out/dsct_I.csv",
+      "blob_sha1": "9baba79171d5dbc8ec5a6925fa1eb56dfda0812c"
+    }
+  ],
+  "local_compact_evidence": "data/evidence/phase06_frozen_catalog_samples.json",
+  "rights_basis": "Public GitHub source inspection; compact numerical propositions retained for reproducibility.",
+  "scope": "Source-convention and provenance audit only."
+}

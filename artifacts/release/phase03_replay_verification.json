@@ -1,0 +1,32 @@
+{
+  "PHASE03_RESULT.md": {
+    "byte_identical": true,
+    "release_exists": true,
+    "release_sha256": "08b0e19262e01fb11ca167da52b76516ae02ef1e594d5ac086037766ac6e60b0",
+    "source_exists": true,
+    "source_sha256": "08b0e19262e01fb11ca167da52b76516ae02ef1e594d5ac086037766ac6e60b0"
+  },
+  "all_core_artifacts_identical": true,
+  "phase03_details.json": {
+    "byte_identical": true,
+    "release_exists": true,
+    "release_sha256": "80d544ad122e1c24243ee1ee2dfa659316c8433f19261133b52601000e9cf468",
+    "source_exists": true,
+    "source_sha256": "80d544ad122e1c24243ee1ee2dfa659316c8433f19261133b52601000e9cf468"
+  },
+  "phase03_star_results.csv": {
+    "byte_identical": true,
+    "release_exists": true,
+    "release_sha256": "48e67c97171ba728b9a87533808353851aea454acf31283ea7485c1cbd93c667",
+    "source_exists": true,
+    "source_sha256": "48e67c97171ba728b9a87533808353851aea454acf31283ea7485c1cbd93c667"
+  },
+  "phase03_summary.json": {
+    "byte_identical": true,
+    "release_exists": true,
+    "release_sha256": "3f3db60447c4696f92a310cd74d4003c1034affbced2d35cc68eb3969a47c4e1",
+    "source_exists": true,
+    "source_sha256": "3f3db60447c4696f92a310cd74d4003c1034affbced2d35cc68eb3969a47c4e1"
+  },
+  "prediction_csv_count": 20
+}

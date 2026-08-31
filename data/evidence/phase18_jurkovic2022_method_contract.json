@@ -1,0 +1,52 @@
+{
+  "contract_id": "DERD-PHASE18-JURKOVIC2022-OGLE-V-METHOD-CONTRACT-1.0",
+  "date_frozen": "2026-08-24",
+  "model": {
+    "final_optimization": "all amplitudes, phases, mean magnitude, and frequency fine-tuned simultaneously",
+    "form": "m(t)=m0+sum_i A_i cos(2*pi*i*f*t+phi_i)",
+    "frequency_initialization": "Lomb-Scargle highest-amplitude frequency followed by consecutive harmonic pre-whitening",
+    "invariants": {
+      "phi_i1": "phi_i-i*phi_1",
+      "r_i1": "A_i/A_1"
+    }
+  },
+  "phase18_primary_variant": "merged_ogleiii_iv_unweighted_free",
+  "primary_variant_rationale": "The article names curve_fit but does not state that per-point sigma values were supplied. The unweighted free-frequency fit therefore uses the fewest undocumented assumptions. Weighted and fixed-period variants are retained as a method lattice rather than discarded.",
+  "publication": {
+    "arxiv_id": "2211.06461",
+    "citation": "Jurkovic et al. (2022/2023), Type II and anomalous Cepheids in the Kepler K2 mission, MNRAS 518, 642-663",
+    "doi": "10.1093/mnras/stac2957",
+    "object_id": "OGLE-LMC-CEP-0002",
+    "published_vector": {
+      "period_days": 3.118121,
+      "phi21": 4.238,
+      "phi21_error": 0.051,
+      "phi31": 2.283,
+      "phi31_error": 0.083,
+      "r21": 0.314,
+      "r21_error": 0.005,
+      "r31": 0.117,
+      "r31_error": 0.005
+    },
+    "target_table": "Appendix A, Table A1"
+  },
+  "sha256_canonical_json": "1dd1355cf0d6ba3d243e0d1cf304969dafd5555123acff186216e554cd9e206b",
+  "source_scope": {
+    "band": "V",
+    "minimum_total_measurements": 50,
+    "second_harmonic_signal_to_noise_required": true,
+    "surveys": "OGLE-III and OGLE-IV merged when both were available"
+  },
+  "uncertainty": {
+    "k2_sample_only": "100 bootstrap resamples using 60 percent of measurements",
+    "ogle_comparison": "square root of diagonal covariance returned by scipy.optimize.curve_fit",
+    "phase17_correction": "The Phase-17 anchor method_summary conflated the K2 bootstrap with the OGLE comparison. Phase 18 preserves Phase 17 historically and supplies this corrected method contract."
+  },
+  "unpublished_dimensions": [
+    "exact analysis source code",
+    "exact curve_fit call signature and weighting policy",
+    "source-file hashes and exact row membership",
+    "precise Lomb-Scargle frequency grid",
+    "pre-whitening implementation details"
+  ]
+}

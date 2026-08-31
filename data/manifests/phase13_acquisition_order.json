@@ -1,0 +1,71 @@
+{
+  "claim_boundary": "acquisition prioritization only; not a probability of DERD truth",
+  "date_frozen": "2026-08-18",
+  "manifest_id": "DERD-PHASE13-ACQUISITION-ORDER-1.0",
+  "parent_phase08_summary": {
+    "path": "artifacts/phase08/phase08_summary.json",
+    "sha256": "77b36f95a1afae5f68938f35170f7da9aa2adf9d4f314c194fe51e9e78f2136e"
+  },
+  "parent_phase12_ledger": {
+    "path": "artifacts/phase12/phase12_cumulative_ledger.json",
+    "record_count": 2,
+    "sha256_canonical_json": "5a1e582967576e72985c1b15200a4852eff1044f553e1e0fb3ae937ddab46211"
+  },
+  "parent_phase12_summary": {
+    "path": "artifacts/phase12/phase12_summary.json",
+    "sha256": "3a5efd6dd8353b06f46050cd8217e58c603b00784b2c9f5291dc7154d91ee994"
+  },
+  "ranked_candidates": [
+    {
+      "family": "rr_lyrae",
+      "mode": "RRab",
+      "object_id": "OGLE-LMC-RRLYR-00004",
+      "period_days": 0.5123745,
+      "period_evidence_grade": "EXTERNAL_CATALOG_CROSSCHECK",
+      "priority": 89.16131173931177,
+      "rank": 1,
+      "source_git_blob_sha1": "ae00877e19a2303419308a23edb24417518a147d",
+      "source_repository_path": "Cluster/rrlyr/phot/I/OGLE-LMC-RRLYR-00004.dat",
+      "source_sha256": "2fe24c62103faefdac684110dd6f89f1bccede7237485703b9c2d9f35a0c1405"
+    },
+    {
+      "family": "classical_cepheid",
+      "mode": "F",
+      "object_id": "OGLE-LMC-CEP-0002",
+      "period_days": 3.118149,
+      "period_evidence_grade": "EXTERNAL_CATALOG_MIRROR",
+      "priority": 81.6781222419053,
+      "rank": 2,
+      "source_git_blob_sha1": "1602e53ada1ee586b6a9c7c0b7b09f4c967c144d",
+      "source_repository_path": "Cluster/cep/phot/I/OGLE-LMC-CEP-0002.dat",
+      "source_sha256": "65fba2e0da1b6ecc213d5f485bb20a2fb7793971a8065c09506ac5632ca630a8"
+    },
+    {
+      "family": "classical_cepheid",
+      "mode": "1O",
+      "object_id": "OGLE-LMC-CEP-0010",
+      "period_days": 2.5655853,
+      "period_evidence_grade": "EXTERNAL_CATALOG_MIRROR",
+      "priority": 76.16485551300921,
+      "rank": 3,
+      "source_git_blob_sha1": "fd82c05bb3a62ba9a8c614ac51eb315124090381",
+      "source_repository_path": "Cluster/cep/phot/I/OGLE-LMC-CEP-0010.dat",
+      "source_sha256": "574d7252996f5ee71169a97f2d7b52a8acbdb0898df65a7b61f5419ae9f063e0"
+    }
+  ],
+  "result_blindness": "selection uses only already-frozen Phase-08 evidence and the Phase-12 exclusion set; no Phase-13 computation enters the ranking",
+  "selected_target": {
+    "family": "rr_lyrae",
+    "mode": "RRab",
+    "object_id": "OGLE-LMC-RRLYR-00004",
+    "period_days": 0.5123745,
+    "period_evidence_grade": "EXTERNAL_CATALOG_CROSSCHECK",
+    "priority": 89.16131173931177,
+    "rank": 1,
+    "source_git_blob_sha1": "ae00877e19a2303419308a23edb24417518a147d",
+    "source_repository_path": "Cluster/rrlyr/phot/I/OGLE-LMC-RRLYR-00004.dat",
+    "source_sha256": "2fe24c62103faefdac684110dd6f89f1bccede7237485703b9c2d9f35a0c1405"
+  },
+  "selection_basis": "descending frozen Phase-08 acquisition_priority_score among claim-grade exposed-development targets absent from the verified Phase-12 ledger",
+  "sha256_canonical_json": "f1af23dcc21bf67b3a87b4c3a109f5e9fcc7228b7b33793d3e83edfd89d4d48a"
+}

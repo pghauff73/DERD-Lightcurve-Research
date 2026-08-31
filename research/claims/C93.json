@@ -1,0 +1,30 @@
+{
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "claim": "At the representation level, shared latent components with band-specific linear weights outperform a single shared normalized DERD curve and separate DERD curves for the I/V harmonic reconstructions.",
+  "claim_id": "C93",
+  "evidence": [
+    "artifacts/phase20/phase20_passband_model_comparison.csv",
+    "artifacts/phase20/phase20_passband_shape_worker.json"
+  ],
+  "metrics": {
+    "bic": {
+      "separate_derd": -3601.384247453727,
+      "shared_components_band_weights": -4023.4026728419194,
+      "shared_derd": -2781.529456341556
+    },
+    "bootstrap_draws": 64,
+    "bootstrap_wins": {
+      "separate_derd": 2,
+      "shared_components_band_weights": 62,
+      "shared_derd": 0
+    },
+    "rmse": {
+      "separate_derd": 0.028276796698445992,
+      "shared_components_band_weights": 0.018499245868130076,
+      "shared_derd": 0.06452478823590153
+    }
+  },
+  "physical_claim_scope": "waveform and force-law discrimination only",
+  "sha256_canonical_json": "d4a67262d730cac2814f6b10bf9d6c0754da5c8808e90411a3d6ec93651f8cb7",
+  "status": "SUPPORTED_REPRESENTATION_LEVEL_ONLY"
+}

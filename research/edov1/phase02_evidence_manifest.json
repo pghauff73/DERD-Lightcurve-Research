@@ -1,0 +1,51 @@
+{
+  "manifest_id": "EDOV1-PHASE02-0.2",
+  "status": "EXECUTED_WITH_EXCERPT_DATA_NOT_CONFIRMATORY",
+  "precision_objective": "Test the observational pipeline and bounded C17 descriptor claim without promoting physical shell claims.",
+  "primary_source": {
+    "title": "Cephids Pulsating Stars - Transparent Outer Shell",
+    "role": "claim and historical algorithm source",
+    "sha256": "61454058ca99aec855c9558490778eec19776f7f0c7b50d0037cbc5741609712"
+  },
+  "official_data_authority": {
+    "name": "OGLE Collection of Variable Stars, LMC classical Cepheids",
+    "url": "https://www.astrouw.edu.pl/ogle/ogle4/OCVS/lmc/cep/",
+    "verified_properties": [
+      "target catalog structure",
+      "period metadata structure",
+      "I/V photometry directory",
+      "three-column HJD-2450000, magnitude, uncertainty format",
+      "attribution requirement"
+    ]
+  },
+  "executable_mirrors": [
+    {
+      "repository": "bksim/OutlierDetection",
+      "commit": "55836b58345b9507bfbd98c5fabbac82c83605e3",
+      "role": "photometry excerpt provenance",
+      "independence": "mirror, not an independent astrophysical replication"
+    },
+    {
+      "repository": "dubbatee/ScienceExtensionCode",
+      "commit": "2d5f05d5c20d8c4c1c1e8811d502398232f14316",
+      "role": "period and mode cross-check",
+      "independence": "metadata mirror, not an independent astrophysical replication"
+    }
+  ],
+  "evidence_objects": [
+    "data/manifests/phase02_source_manifest.json",
+    "data/manifests/phase02_targets.csv",
+    "artifacts/phase02/phase02_star_results.csv",
+    "artifacts/phase02/phase02_summary.json",
+    "research/diagnostics/phase02_first_pass_raw_bic_summary.json"
+  ],
+  "contradiction_search_results": [
+    "DERD did not win all stars",
+    "best Fourier won or tied on 8 of 20 targets",
+    "one DERD-K fit crossed the provisional 1e5 condition warning gate",
+    "ungated high-order Fourier BIC was numerically unstable on sparse phase blocks",
+    "bootstrap spot checks showed non-negligible parameter variation on some stars"
+  ],
+  "rights_and_reuse": "Retain OGLE acknowledgement and cite the appropriate OGLE collection paper. The local files are small executable excerpts, not a redistribution claim for the full survey.",
+  "promotion_decision": "C17 remains open; physical mechanism and shell claims remain locked."
+}

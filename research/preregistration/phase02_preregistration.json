@@ -1,0 +1,19 @@
+{
+  "preregistration_id": "DERD-PHASE02-PILOT-0.2",
+  "status": "POST_IMPLEMENTATION_RECORD_OF_FROZEN_PIPELINE",
+  "note": "This records the final shakedown pipeline. It is not presented as a prospective preregistration for the already executed pilot.",
+  "sample": "20 development Cepheids, 10 F and 10 1O, 24 I-band observations per target",
+  "primary_metric": "held-out RMSE on relative flux scaled using training observations only",
+  "primary_comparison": "minimum of DERD-G/DERD-K versus minimum of Fourier order 2/stability-gated BIC",
+  "split": "deterministic contiguous circular phase-rank block, 20 percent per star",
+  "seeds": {
+    "split": 20260807,
+    "fit": 20260807
+  },
+  "non_promotion": [
+    "no sealed holdout",
+    "no cross-class coverage",
+    "no physical interpretation",
+    "no shell inference"
+  ]
+}

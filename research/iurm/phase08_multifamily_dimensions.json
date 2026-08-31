@@ -1,0 +1,53 @@
+{
+  "active_dimensions": [
+    {
+      "constants": [
+        "harmonic order 8",
+        "h1-h4 recovery",
+        "h5-h8 forecast",
+        "SNR gates",
+        "structural gates"
+      ],
+      "experiment": "family transfer",
+      "levels": [
+        "classical_cepheid",
+        "rr_lyrae",
+        "delta_scuti"
+      ],
+      "varied_dimension": "pulsator family"
+    },
+    {
+      "constants": [
+        "synthetic families",
+        "96 controls per class",
+        "development split rule",
+        "score definition"
+      ],
+      "experiment": "target cadence",
+      "levels": "one per object",
+      "varied_dimension": "actual observation times and errors"
+    },
+    {
+      "constants": [
+        "raw source and harmonic extraction"
+      ],
+      "experiment": "period evidence",
+      "levels": [
+        "EXTERNAL_CATALOG_MIRROR",
+        "EXTERNAL_CATALOG_CROSSCHECK",
+        "LEGACY_FEATURE_TABLE_DIAGNOSTIC"
+      ],
+      "varied_dimension": "period provenance grade"
+    }
+  ],
+  "implementation_id": "DERD-v0.8-phase08-multifamily-harmonic-forecast-cohort",
+  "manifest_id": "IURM-PHASE08-MULTIFAMILY-COHORT-V1",
+  "minimal_viable_dimensions": {
+    "forecast_harmonics_measured": 2,
+    "objects_per_family_before_population_inference": 5,
+    "observations": 240,
+    "recovery_harmonics": 4,
+    "total_objects_before_population_inference": 15
+  },
+  "result": "No target qualified; period provenance is the first claim-grade blocker for both Delta Scuti objects."
+}

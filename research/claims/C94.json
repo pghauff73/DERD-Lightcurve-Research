@@ -1,0 +1,22 @@
+{
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "claim": "A good DERD fit plus a low DERD harmonic-screen score is not a unique gravitational signature because multiple non-DERD synthetic mechanism surrogates pass the frozen holdout gates.",
+  "claim_id": "C94",
+  "evidence": [
+    "artifacts/phase20/phase20_mechanism_tournament_summary.csv",
+    "artifacts/phase20/phase20_mechanism_tournament.json"
+  ],
+  "metrics": {
+    "non_derd_joint_pass_families": [
+      "radius_temperature_projection",
+      "vdp_hydrodynamic_surrogate",
+      "two_zone_surrogate",
+      "shock_modified",
+      "spot_rotation",
+      "cse_reprocessing"
+    ]
+  },
+  "physical_claim_scope": "waveform and force-law discrimination only",
+  "sha256_canonical_json": "53c3cbc141f356c3b49604e4a1dd97ef2a6c24b4d6f909672113d9f8d5735f32",
+  "status": "VERIFIED_NONUNIQUENESS_IN_CONTROLLED_TOURNAMENT"
+}

@@ -1,0 +1,123 @@
+{
+  "graph_id": "OURD-PHASE16-CROSS-VERSION-REPRODUCIBILITY-GRAPH-V1",
+  "objects": [
+    {
+      "id": "P16-PROTOCOL",
+      "type": "sealed_protocol"
+    },
+    {
+      "count": 5,
+      "id": "P16-PARENT-LEDGER",
+      "type": "verified_phase15_ledger"
+    },
+    {
+      "analysis_nodes": 9,
+      "astronomical_objects": 5,
+      "id": "P16-REPRODUCIBILITY-GRAPH",
+      "type": "cross_version_evidence_graph"
+    },
+    {
+      "count": 3,
+      "id": "P16-EXACT-EDGES",
+      "type": "exact_scientific_replays"
+    },
+    {
+      "count": 1,
+      "id": "P16-CONFIG-DRIFT",
+      "type": "configuration_sensitive_drift"
+    },
+    {
+      "count": 1,
+      "id": "P16-SINGLE-VERSION",
+      "type": "single_version_evidence"
+    },
+    {
+      "count": 0,
+      "id": "P16-EXTERNAL-REPLICATION",
+      "type": "external_independent_replication"
+    },
+    {
+      "duplicates_blocked": 4,
+      "id": "P16-MULTIPLICITY-GUARD",
+      "type": "denominator_guard"
+    },
+    {
+      "count": 5,
+      "id": "P16-LEDGER",
+      "type": "sealed_cumulative_evidence"
+    },
+    {
+      "id": "P16-FIREWALL",
+      "open": false,
+      "type": "population_output_guard"
+    },
+    {
+      "id": "C75",
+      "type": "claim"
+    },
+    {
+      "id": "C76",
+      "type": "claim"
+    },
+    {
+      "id": "C77",
+      "type": "claim"
+    },
+    {
+      "id": "C78",
+      "type": "claim"
+    }
+  ],
+  "relations": [
+    {
+      "relation": "governs",
+      "source": "P16-PROTOCOL",
+      "target": "P16-REPRODUCIBILITY-GRAPH"
+    },
+    {
+      "relation": "anchors",
+      "source": "P16-PARENT-LEDGER",
+      "target": "P16-REPRODUCIBILITY-GRAPH"
+    },
+    {
+      "relation": "contains",
+      "source": "P16-REPRODUCIBILITY-GRAPH",
+      "target": "P16-EXACT-EDGES"
+    },
+    {
+      "relation": "contains",
+      "source": "P16-REPRODUCIBILITY-GRAPH",
+      "target": "P16-CONFIG-DRIFT"
+    },
+    {
+      "relation": "contains",
+      "source": "P16-REPRODUCIBILITY-GRAPH",
+      "target": "P16-SINGLE-VERSION"
+    },
+    {
+      "relation": "records_absence_of",
+      "source": "P16-REPRODUCIBILITY-GRAPH",
+      "target": "P16-EXTERNAL-REPLICATION"
+    },
+    {
+      "relation": "constrains",
+      "source": "P16-MULTIPLICITY-GUARD",
+      "target": "P16-LEDGER"
+    },
+    {
+      "relation": "suppresses_partial_population_outputs_from",
+      "source": "P16-FIREWALL",
+      "target": "P16-LEDGER"
+    }
+  ],
+  "score_vector": {
+    "causal_fidelity": "not established; no external independent astrophysical replication",
+    "complexity": "nine analysis nodes, four replay edges, one multiplicity guard",
+    "family_transfer": "not established; no Delta Scuti ledger record and incomplete family denominators",
+    "orthogonality": "source identity, configuration identity, scientific replay, and external independence are separate edge dimensions",
+    "predictive_calibration": "replay comparisons preserve each phase-specific target calibration rather than merging them",
+    "reconstruction": "three same-source same-configuration replay edges are exact",
+    "temporal_stability": "inherited temporal sidecars remain distinct from software replay edges",
+    "uniqueness": "five astronomical identities remain five denominator records across nine analysis nodes"
+  }
+}

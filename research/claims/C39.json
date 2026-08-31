@@ -1,0 +1,14 @@
+{
+  "claim": "A byte-verified raw-photometry harmonic-forecast gate can be applied deterministically across classical Cepheid, RR Lyrae, and Delta Scuti development objects using a common eight-harmonic representation and target-specific cadence calibration.",
+  "claim_id": "C39",
+  "date": "2026-08-15",
+  "evidence": [
+    "artifacts/phase08/phase08_summary.json",
+    "artifacts/phase08/phase08_target_results.csv",
+    "tests/test_phase08_cohort.py"
+  ],
+  "implementation_id": "DERD-v0.8-phase08-multifamily-harmonic-forecast-cohort",
+  "physical_claim_certificate": false,
+  "scope": "Pipeline reproducibility only; not astrophysical population validity.",
+  "status": "VERIFIED_SOFTWARE_AND_DEVELOPMENT_EVIDENCE"
+}

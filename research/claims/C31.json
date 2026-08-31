@@ -1,0 +1,13 @@
+{
+  "claim": "A four-harmonic legacy row containing amplitudes and common-subtracted one-argument-arctangent phases does not uniquely identify the complex harmonic sequence and has zero overidentifying recurrence-forecast degrees of freedom.",
+  "claim_id": "C31",
+  "evidence_level": "E4_FORMAL_AND_REPRODUCIBLE_COMPUTATIONAL_PROOF",
+  "formal_result": {
+    "continuous_missing_dimension": "fundamental principal phase",
+    "discrete_branches_after_global_sign_quotient": 8,
+    "minimum_harmonics_for_two_complex_forecasts": 6,
+    "real_recurrence_overidentifying_degrees_of_freedom_at_N4": 0
+  },
+  "limits": "Root and residue constraints may still support exploratory shape triage, but a best ambiguity branch is not the measured branch.",
+  "status": "PROVED_NON_IDENTIFIABLE_AS_EXACT_COMPLEX_EVIDENCE"
+}

@@ -1,0 +1,200 @@
+{
+  "source_ready_count": 0,
+  "targets": [
+    {
+      "object_id": "OGLE-LMC-CEP-0002",
+      "source_checks": {
+        "source_byte_count": false,
+        "source_file_present": false,
+        "source_git_blob_sha1": false,
+        "source_observation_count": false,
+        "source_receipt_verified": true,
+        "source_sha256_frozen": true,
+        "source_sha256_matches": false
+      },
+      "source_ready": false
+    },
+    {
+      "object_id": "OGLE-LMC-CEP-0004",
+      "source_checks": {
+        "source_byte_count": false,
+        "source_file_present": false,
+        "source_git_blob_sha1": false,
+        "source_observation_count": false,
+        "source_receipt_verified": false,
+        "source_sha256_frozen": false,
+        "source_sha256_matches": false
+      },
+      "source_ready": false
+    },
+    {
+      "object_id": "OGLE-LMC-CEP-0005",
+      "source_checks": {
+        "source_byte_count": false,
+        "source_file_present": false,
+        "source_git_blob_sha1": false,
+        "source_observation_count": false,
+        "source_receipt_verified": false,
+        "source_sha256_frozen": false,
+        "source_sha256_matches": false
+      },
+      "source_ready": false
+    },
+    {
+      "object_id": "OGLE-LMC-CEP-0006",
+      "source_checks": {
+        "source_byte_count": false,
+        "source_file_present": false,
+        "source_git_blob_sha1": false,
+        "source_observation_count": false,
+        "source_receipt_verified": false,
+        "source_sha256_frozen": false,
+        "source_sha256_matches": false
+      },
+      "source_ready": false
+    },
+    {
+      "object_id": "OGLE-LMC-CEP-0010",
+      "source_checks": {
+        "source_byte_count": false,
+        "source_file_present": false,
+        "source_git_blob_sha1": false,
+        "source_observation_count": false,
+        "source_receipt_verified": true,
+        "source_sha256_frozen": true,
+        "source_sha256_matches": false
+      },
+      "source_ready": false
+    },
+    {
+      "object_id": "OGLE-LMC-RRLYR-00001",
+      "source_checks": {
+        "source_byte_count": false,
+        "source_file_present": false,
+        "source_git_blob_sha1": false,
+        "source_observation_count": false,
+        "source_receipt_verified": true,
+        "source_sha256_frozen": true,
+        "source_sha256_matches": false
+      },
+      "source_ready": false
+    },
+    {
+      "object_id": "OGLE-LMC-RRLYR-00003",
+      "source_checks": {
+        "source_byte_count": false,
+        "source_file_present": false,
+        "source_git_blob_sha1": false,
+        "source_observation_count": false,
+        "source_receipt_verified": false,
+        "source_sha256_frozen": false,
+        "source_sha256_matches": false
+      },
+      "source_ready": false
+    },
+    {
+      "object_id": "OGLE-LMC-RRLYR-00004",
+      "source_checks": {
+        "source_byte_count": false,
+        "source_file_present": false,
+        "source_git_blob_sha1": false,
+        "source_observation_count": false,
+        "source_receipt_verified": true,
+        "source_sha256_frozen": true,
+        "source_sha256_matches": false
+      },
+      "source_ready": false
+    },
+    {
+      "object_id": "OGLE-LMC-RRLYR-00005",
+      "source_checks": {
+        "source_byte_count": false,
+        "source_file_present": false,
+        "source_git_blob_sha1": false,
+        "source_observation_count": false,
+        "source_receipt_verified": false,
+        "source_sha256_frozen": false,
+        "source_sha256_matches": false
+      },
+      "source_ready": false
+    },
+    {
+      "object_id": "OGLE-LMC-RRLYR-00006",
+      "source_checks": {
+        "source_byte_count": false,
+        "source_file_present": false,
+        "source_git_blob_sha1": false,
+        "source_observation_count": false,
+        "source_receipt_verified": false,
+        "source_sha256_frozen": false,
+        "source_sha256_matches": false
+      },
+      "source_ready": false
+    },
+    {
+      "object_id": "OGLE-LMC-DSCT-0003",
+      "source_checks": {
+        "source_byte_count": false,
+        "source_file_present": false,
+        "source_git_blob_sha1": false,
+        "source_observation_count": false,
+        "source_receipt_verified": true,
+        "source_sha256_frozen": true,
+        "source_sha256_matches": false
+      },
+      "source_ready": false
+    },
+    {
+      "object_id": "OGLE-LMC-DSCT-0004",
+      "source_checks": {
+        "source_byte_count": false,
+        "source_file_present": false,
+        "source_git_blob_sha1": false,
+        "source_observation_count": false,
+        "source_receipt_verified": false,
+        "source_sha256_frozen": false,
+        "source_sha256_matches": false
+      },
+      "source_ready": false
+    },
+    {
+      "object_id": "OGLE-LMC-DSCT-0005",
+      "source_checks": {
+        "source_byte_count": false,
+        "source_file_present": false,
+        "source_git_blob_sha1": false,
+        "source_observation_count": false,
+        "source_receipt_verified": false,
+        "source_sha256_frozen": false,
+        "source_sha256_matches": false
+      },
+      "source_ready": false
+    },
+    {
+      "object_id": "OGLE-LMC-DSCT-0006",
+      "source_checks": {
+        "source_byte_count": false,
+        "source_file_present": false,
+        "source_git_blob_sha1": false,
+        "source_observation_count": false,
+        "source_receipt_verified": false,
+        "source_sha256_frozen": false,
+        "source_sha256_matches": false
+      },
+      "source_ready": false
+    },
+    {
+      "object_id": "OGLE-LMC-DSCT-0007",
+      "source_checks": {
+        "source_byte_count": false,
+        "source_file_present": false,
+        "source_git_blob_sha1": false,
+        "source_observation_count": false,
+        "source_receipt_verified": false,
+        "source_sha256_frozen": false,
+        "source_sha256_matches": false
+      },
+      "source_ready": false
+    }
+  ]
+}

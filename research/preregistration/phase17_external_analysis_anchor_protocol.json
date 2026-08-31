@@ -1,0 +1,63 @@
+{
+  "analysis": {
+    "band": "V",
+    "bootstrap_draws": 2000,
+    "bootstrap_fraction": 0.6,
+    "bootstrap_period_refit": true,
+    "bootstrap_sampling": "without replacement",
+    "bootstrap_seed": 1701,
+    "fit": "simultaneous weighted sine-cosine regression in magnitude space",
+    "harmonic_order": 3,
+    "period_selection": "generic Fourier weighted residual minimum within plus-or-minus 0.1 percent of the published period",
+    "phase_unwrapping": "nearest branch around the full-sample estimate"
+  },
+  "claim_boundary": "Fourier-coordinate consistency and evidence independence only; not a DERD population result, physical mechanism, shell, prevalence, or mass claim.",
+  "classification_policy": {
+    "external_analysis_consistent_partial_source_overlap": "joint p-value at least 0.05 and all marginal absolute z scores below 2, but source independence or source completeness is absent",
+    "external_analysis_inconsistent_partial_source_overlap": "joint or marginal consistency gate fails while source independence or completeness is absent",
+    "external_independent_astrophysical_replication": "requires external research-group independence, independent observing source, known source-byte identity, source completeness, and both consistency gates"
+  },
+  "consistency_gate": {
+    "joint_alpha": 0.05,
+    "joint_test": "Mahalanobis chi-square using local bootstrap covariance plus published diagonal covariance",
+    "marginal_absolute_z_max": 2.0,
+    "published_uncertainties_treated_as_independent": true
+  },
+  "date_frozen": "2026-08-19",
+  "external_anchor": {
+    "citation": "Jurkovic et al. 2022, MNRAS 518, 642-663, Appendix A Table A1",
+    "file_sha256": "80784477c41c624afe9d5a61b4b34b639f9eabef5903134f44cae142812f4172",
+    "formula_convention": "cosine series with R_i1=A_i/A_1 and phi_i1=phi_i-i*phi_1",
+    "path": "data/evidence/phase17_jurkovic2022_vband_anchor.json"
+  },
+  "implementation_id": "DERD-v1.7-phase17-external-analysis-anchor",
+  "independence_policy": {
+    "any_analysis_of_existing_object_increments_astronomical_denominator": false,
+    "consistent_partial_overlap_counts_as_independent_astrophysical_replication": false,
+    "external_research_group_independent": true,
+    "local_observation_count": 33,
+    "minimum_published_measurement_count": 50,
+    "observational_source_independent": false,
+    "source_byte_identity_known": false
+  },
+  "local_source": {
+    "manifest_path": "data/manifests/phase17_external_v_source_manifest.json",
+    "manifest_sha256": "587bc8f680f262dd36fc15a039c5154d8a31f5ba67d53d8357f8b38b4fdd7a87",
+    "required_checks": [
+      "source_sha256",
+      "git_blob_sha1",
+      "byte_count",
+      "observation_count"
+    ]
+  },
+  "parent_phase16": {
+    "graph_path": "artifacts/phase16/phase16_reproducibility_graph.json",
+    "graph_sha256": "8fbf11edfbed2260879687fec99f5f44920846f9953ac03ed8a426ab59a89962",
+    "ledger_path": "artifacts/phase16/phase16_cumulative_ledger.json",
+    "ledger_sha256": "6304b35eaac631e25232ebceeb75a84bc39def05bfa5cead11acf5c0a09814a2",
+    "summary_path": "artifacts/phase16/phase16_summary.json",
+    "summary_sha256": "3b7cba91947a1a9c1ab1b2f77f77228e7ea8f37b42b55971599e614f3ead6ee1"
+  },
+  "protocol_id": "DERD-PHASE17-EXTERNAL-ANALYSIS-ANCHOR-1.0",
+  "target": "OGLE-LMC-CEP-0002"
+}

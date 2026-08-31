@@ -1,0 +1,59 @@
+{
+  "artifact_id": "EH-LIB-REPRODUCTION-CONTRACT-0.2",
+  "status": "BLOCKED_EXACT_DATA_AND_METRIC",
+  "target": {
+    "common_name": "EH Lib",
+    "paper_period_days": 0.0879,
+    "paper_period_uncertainty_days": 0.0002,
+    "paper_location": "page 7 figure",
+    "repository_reported_match": "approximately 99.6 percent",
+    "repository_metric_definition": null
+  },
+  "required_before_execution": {
+    "observation_identity": [
+      "survey or observatory",
+      "target identifier",
+      "observation epoch",
+      "passband",
+      "cadence",
+      "raw file name",
+      "raw file SHA-256"
+    ],
+    "preprocessing": [
+      "quality flags",
+      "outlier policy",
+      "magnitude-to-flux policy",
+      "period estimator or frozen catalog period",
+      "epoch definition",
+      "phase folding",
+      "normalization fit set",
+      "train-test split"
+    ],
+    "model": [
+      "historical paper capsule or corrected DERD version",
+      "DERD-G or DERD-K time law",
+      "optimizer and deterministic seed",
+      "parameter bounds",
+      "uncertainty method"
+    ],
+    "metric": [
+      "exact mathematical definition of 99.6 percent",
+      "evaluation population",
+      "held-out or in-sample status",
+      "uncertainty interval",
+      "residual audit"
+    ],
+    "baselines": [
+      "Fourier matched-complexity baseline",
+      "training-only order selection",
+      "at least one non-Fourier periodic baseline in the confirmatory study"
+    ]
+  },
+  "prohibited_until_unblocked": [
+    "claiming reproduction of the 99.6 percent result",
+    "treating a visual overlay as a statistical metric",
+    "using EH Lib as the sole validation object",
+    "promoting fitted DERD dimensions to an internal stellar mechanism"
+  ],
+  "exit_condition": "All required fields are frozen, source files are checksummed, and the metric is implemented as an automated test."
+}

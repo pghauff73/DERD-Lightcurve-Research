@@ -1,0 +1,616 @@
+{
+  "assessment": {
+    "c17_promoted": false,
+    "cohort_valid": true,
+    "complete": false,
+    "decision": "PHASE21_AUTHORITATIVE_DSCT_CROSSWALK_PARTIALLY_UNLOCKED_COMPLETE_PILOT_BLOCKED_BY_METADATA_AND_SOURCE_BYTES",
+    "dsct_locked_count": 3,
+    "dsct_unresolved_count": 2,
+    "execution_inputs_ready": false,
+    "family_counts": {
+      "classical_cepheid": 5,
+      "delta_scuti": 5,
+      "rr_lyrae": 5
+    },
+    "fresh_result_count": 0,
+    "inherited_evidence_count": 5,
+    "metadata_lock_manifest_valid": true,
+    "metadata_ready_count": 13,
+    "primary_outputs_suppressed": true,
+    "protocol_valid": true,
+    "row_receipt_valid": true,
+    "source_ready_count": 0,
+    "targets": [
+      {
+        "blockers": [
+          "SOURCE_FILE_PRESENT_FAILED",
+          "SOURCE_BYTE_COUNT_FAILED",
+          "SOURCE_OBSERVATION_COUNT_FAILED",
+          "SOURCE_GIT_BLOB_SHA1_FAILED",
+          "SOURCE_SHA256_MATCHES_FAILED"
+        ],
+        "effective_mode": "F",
+        "effective_object_id": "OGLE-LMC-CEP-0002",
+        "effective_period_days": 3.118149,
+        "effective_period_error_days": null,
+        "family": "classical_cepheid",
+        "inherited_evidence": true,
+        "metadata_ready": true,
+        "metadata_status": "CARRIED_FORWARD_CLAIM_GRADE_METADATA",
+        "object_id": "OGLE-LMC-CEP-0002",
+        "source_checks": {
+          "source_byte_count": false,
+          "source_file_present": false,
+          "source_git_blob_sha1": false,
+          "source_observation_count": false,
+          "source_receipt_verified": true,
+          "source_sha256_frozen": true,
+          "source_sha256_matches": false
+        },
+        "source_ready": false
+      },
+      {
+        "blockers": [
+          "SOURCE_FILE_PRESENT_FAILED",
+          "SOURCE_BYTE_COUNT_FAILED",
+          "SOURCE_OBSERVATION_COUNT_FAILED",
+          "SOURCE_GIT_BLOB_SHA1_FAILED",
+          "SOURCE_RECEIPT_VERIFIED_FAILED",
+          "SOURCE_SHA256_FROZEN_FAILED",
+          "SOURCE_SHA256_MATCHES_FAILED"
+        ],
+        "effective_mode": "1O",
+        "effective_object_id": "OGLE-LMC-CEP-0004",
+        "effective_period_days": 2.2296385,
+        "effective_period_error_days": null,
+        "family": "classical_cepheid",
+        "inherited_evidence": true,
+        "metadata_ready": true,
+        "metadata_status": "CARRIED_FORWARD_CLAIM_GRADE_METADATA",
+        "object_id": "OGLE-LMC-CEP-0004",
+        "source_checks": {
+          "source_byte_count": false,
+          "source_file_present": false,
+          "source_git_blob_sha1": false,
+          "source_observation_count": false,
+          "source_receipt_verified": false,
+          "source_sha256_frozen": false,
+          "source_sha256_matches": false
+        },
+        "source_ready": false
+      },
+      {
+        "blockers": [
+          "SOURCE_FILE_PRESENT_FAILED",
+          "SOURCE_BYTE_COUNT_FAILED",
+          "SOURCE_OBSERVATION_COUNT_FAILED",
+          "SOURCE_GIT_BLOB_SHA1_FAILED",
+          "SOURCE_RECEIPT_VERIFIED_FAILED",
+          "SOURCE_SHA256_FROZEN_FAILED",
+          "SOURCE_SHA256_MATCHES_FAILED"
+        ],
+        "effective_mode": "F",
+        "effective_object_id": "OGLE-LMC-CEP-0005",
+        "effective_period_days": 5.6119491,
+        "effective_period_error_days": null,
+        "family": "classical_cepheid",
+        "inherited_evidence": false,
+        "metadata_ready": true,
+        "metadata_status": "CARRIED_FORWARD_CLAIM_GRADE_METADATA",
+        "object_id": "OGLE-LMC-CEP-0005",
+        "source_checks": {
+          "source_byte_count": false,
+          "source_file_present": false,
+          "source_git_blob_sha1": false,
+          "source_observation_count": false,
+          "source_receipt_verified": false,
+          "source_sha256_frozen": false,
+          "source_sha256_matches": false
+        },
+        "source_ready": false
+      },
+      {
+        "blockers": [
+          "SOURCE_FILE_PRESENT_FAILED",
+          "SOURCE_BYTE_COUNT_FAILED",
+          "SOURCE_OBSERVATION_COUNT_FAILED",
+          "SOURCE_GIT_BLOB_SHA1_FAILED",
+          "SOURCE_RECEIPT_VERIFIED_FAILED",
+          "SOURCE_SHA256_FROZEN_FAILED",
+          "SOURCE_SHA256_MATCHES_FAILED"
+        ],
+        "effective_mode": "1O",
+        "effective_object_id": "OGLE-LMC-CEP-0006",
+        "effective_period_days": 3.2947501,
+        "effective_period_error_days": null,
+        "family": "classical_cepheid",
+        "inherited_evidence": false,
+        "metadata_ready": true,
+        "metadata_status": "CARRIED_FORWARD_CLAIM_GRADE_METADATA",
+        "object_id": "OGLE-LMC-CEP-0006",
+        "source_checks": {
+          "source_byte_count": false,
+          "source_file_present": false,
+          "source_git_blob_sha1": false,
+          "source_observation_count": false,
+          "source_receipt_verified": false,
+          "source_sha256_frozen": false,
+          "source_sha256_matches": false
+        },
+        "source_ready": false
+      },
+      {
+        "blockers": [
+          "SOURCE_FILE_PRESENT_FAILED",
+          "SOURCE_BYTE_COUNT_FAILED",
+          "SOURCE_OBSERVATION_COUNT_FAILED",
+          "SOURCE_GIT_BLOB_SHA1_FAILED",
+          "SOURCE_SHA256_MATCHES_FAILED"
+        ],
+        "effective_mode": "1O",
+        "effective_object_id": "OGLE-LMC-CEP-0010",
+        "effective_period_days": 2.5655853,
+        "effective_period_error_days": null,
+        "family": "classical_cepheid",
+        "inherited_evidence": true,
+        "metadata_ready": true,
+        "metadata_status": "CARRIED_FORWARD_CLAIM_GRADE_METADATA",
+        "object_id": "OGLE-LMC-CEP-0010",
+        "source_checks": {
+          "source_byte_count": false,
+          "source_file_present": false,
+          "source_git_blob_sha1": false,
+          "source_observation_count": false,
+          "source_receipt_verified": true,
+          "source_sha256_frozen": true,
+          "source_sha256_matches": false
+        },
+        "source_ready": false
+      },
+      {
+        "blockers": [
+          "SOURCE_FILE_PRESENT_FAILED",
+          "SOURCE_BYTE_COUNT_FAILED",
+          "SOURCE_OBSERVATION_COUNT_FAILED",
+          "SOURCE_GIT_BLOB_SHA1_FAILED",
+          "SOURCE_SHA256_MATCHES_FAILED"
+        ],
+        "effective_mode": "RRab",
+        "effective_object_id": "OGLE-LMC-RRLYR-00001",
+        "effective_period_days": 0.6347522,
+        "effective_period_error_days": null,
+        "family": "rr_lyrae",
+        "inherited_evidence": true,
+        "metadata_ready": true,
+        "metadata_status": "CARRIED_FORWARD_CLAIM_GRADE_METADATA",
+        "object_id": "OGLE-LMC-RRLYR-00001",
+        "source_checks": {
+          "source_byte_count": false,
+          "source_file_present": false,
+          "source_git_blob_sha1": false,
+          "source_observation_count": false,
+          "source_receipt_verified": true,
+          "source_sha256_frozen": true,
+          "source_sha256_matches": false
+        },
+        "source_ready": false
+      },
+      {
+        "blockers": [
+          "SOURCE_FILE_PRESENT_FAILED",
+          "SOURCE_BYTE_COUNT_FAILED",
+          "SOURCE_OBSERVATION_COUNT_FAILED",
+          "SOURCE_GIT_BLOB_SHA1_FAILED",
+          "SOURCE_RECEIPT_VERIFIED_FAILED",
+          "SOURCE_SHA256_FROZEN_FAILED",
+          "SOURCE_SHA256_MATCHES_FAILED"
+        ],
+        "effective_mode": "RRab",
+        "effective_object_id": "OGLE-LMC-RRLYR-00003",
+        "effective_period_days": 0.6564971,
+        "effective_period_error_days": null,
+        "family": "rr_lyrae",
+        "inherited_evidence": false,
+        "metadata_ready": true,
+        "metadata_status": "CARRIED_FORWARD_CLAIM_GRADE_METADATA",
+        "object_id": "OGLE-LMC-RRLYR-00003",
+        "source_checks": {
+          "source_byte_count": false,
+          "source_file_present": false,
+          "source_git_blob_sha1": false,
+          "source_observation_count": false,
+          "source_receipt_verified": false,
+          "source_sha256_frozen": false,
+          "source_sha256_matches": false
+        },
+        "source_ready": false
+      },
+      {
+        "blockers": [
+          "SOURCE_FILE_PRESENT_FAILED",
+          "SOURCE_BYTE_COUNT_FAILED",
+          "SOURCE_OBSERVATION_COUNT_FAILED",
+          "SOURCE_GIT_BLOB_SHA1_FAILED",
+          "SOURCE_SHA256_MATCHES_FAILED"
+        ],
+        "effective_mode": "RRab",
+        "effective_object_id": "OGLE-LMC-RRLYR-00004",
+        "effective_period_days": 0.5123745,
+        "effective_period_error_days": null,
+        "family": "rr_lyrae",
+        "inherited_evidence": true,
+        "metadata_ready": true,
+        "metadata_status": "CARRIED_FORWARD_CLAIM_GRADE_METADATA",
+        "object_id": "OGLE-LMC-RRLYR-00004",
+        "source_checks": {
+          "source_byte_count": false,
+          "source_file_present": false,
+          "source_git_blob_sha1": false,
+          "source_observation_count": false,
+          "source_receipt_verified": true,
+          "source_sha256_frozen": true,
+          "source_sha256_matches": false
+        },
+        "source_ready": false
+      },
+      {
+        "blockers": [
+          "SOURCE_FILE_PRESENT_FAILED",
+          "SOURCE_BYTE_COUNT_FAILED",
+          "SOURCE_OBSERVATION_COUNT_FAILED",
+          "SOURCE_GIT_BLOB_SHA1_FAILED",
+          "SOURCE_RECEIPT_VERIFIED_FAILED",
+          "SOURCE_SHA256_FROZEN_FAILED",
+          "SOURCE_SHA256_MATCHES_FAILED"
+        ],
+        "effective_mode": "RRab",
+        "effective_object_id": "OGLE-LMC-RRLYR-00005",
+        "effective_period_days": 0.6433519,
+        "effective_period_error_days": null,
+        "family": "rr_lyrae",
+        "inherited_evidence": false,
+        "metadata_ready": true,
+        "metadata_status": "CARRIED_FORWARD_CLAIM_GRADE_METADATA",
+        "object_id": "OGLE-LMC-RRLYR-00005",
+        "source_checks": {
+          "source_byte_count": false,
+          "source_file_present": false,
+          "source_git_blob_sha1": false,
+          "source_observation_count": false,
+          "source_receipt_verified": false,
+          "source_sha256_frozen": false,
+          "source_sha256_matches": false
+        },
+        "source_ready": false
+      },
+      {
+        "blockers": [
+          "SOURCE_FILE_PRESENT_FAILED",
+          "SOURCE_BYTE_COUNT_FAILED",
+          "SOURCE_OBSERVATION_COUNT_FAILED",
+          "SOURCE_GIT_BLOB_SHA1_FAILED",
+          "SOURCE_RECEIPT_VERIFIED_FAILED",
+          "SOURCE_SHA256_FROZEN_FAILED",
+          "SOURCE_SHA256_MATCHES_FAILED"
+        ],
+        "effective_mode": "RRab",
+        "effective_object_id": "OGLE-LMC-RRLYR-00006",
+        "effective_period_days": 0.6000192,
+        "effective_period_error_days": null,
+        "family": "rr_lyrae",
+        "inherited_evidence": false,
+        "metadata_ready": true,
+        "metadata_status": "CARRIED_FORWARD_CLAIM_GRADE_METADATA",
+        "object_id": "OGLE-LMC-RRLYR-00006",
+        "source_checks": {
+          "source_byte_count": false,
+          "source_file_present": false,
+          "source_git_blob_sha1": false,
+          "source_observation_count": false,
+          "source_receipt_verified": false,
+          "source_sha256_frozen": false,
+          "source_sha256_matches": false
+        },
+        "source_ready": false
+      },
+      {
+        "blockers": [
+          "SOURCE_FILE_PRESENT_FAILED",
+          "SOURCE_BYTE_COUNT_FAILED",
+          "SOURCE_OBSERVATION_COUNT_FAILED",
+          "SOURCE_GIT_BLOB_SHA1_FAILED",
+          "SOURCE_SHA256_MATCHES_FAILED"
+        ],
+        "effective_mode": "singlemode_radial_order_unresolved",
+        "effective_object_id": "OGLE-LMC-DSCT-00003",
+        "effective_period_days": 0.06644253,
+        "effective_period_error_days": 1.2e-07,
+        "family": "delta_scuti",
+        "inherited_evidence": false,
+        "metadata_ready": true,
+        "metadata_status": "LOCKED_EXACT_TWO_HOP_CROSSWALK",
+        "object_id": "OGLE-LMC-DSCT-0003",
+        "source_checks": {
+          "source_byte_count": false,
+          "source_file_present": false,
+          "source_git_blob_sha1": false,
+          "source_observation_count": false,
+          "source_receipt_verified": true,
+          "source_sha256_frozen": true,
+          "source_sha256_matches": false
+        },
+        "source_ready": false
+      },
+      {
+        "blockers": [
+          "AUTHORITATIVE_IDENTITY_CROSSWALK_UNRESOLVED",
+          "AUTHORITATIVE_PERIOD_UNAVAILABLE",
+          "AUTHORITATIVE_SUBTYPE_UNAVAILABLE",
+          "SOURCE_FILE_PRESENT_FAILED",
+          "SOURCE_BYTE_COUNT_FAILED",
+          "SOURCE_OBSERVATION_COUNT_FAILED",
+          "SOURCE_GIT_BLOB_SHA1_FAILED",
+          "SOURCE_RECEIPT_VERIFIED_FAILED",
+          "SOURCE_SHA256_FROZEN_FAILED",
+          "SOURCE_SHA256_MATCHES_FAILED"
+        ],
+        "effective_mode": "unresolved",
+        "effective_object_id": "OGLE-LMC-DSCT-0004",
+        "effective_period_days": 360.213894783,
+        "effective_period_error_days": null,
+        "family": "delta_scuti",
+        "inherited_evidence": false,
+        "metadata_ready": false,
+        "metadata_status": "UNRESOLVED_NO_EXACT_CURRENT_CATALOG_CROSSWALK",
+        "object_id": "OGLE-LMC-DSCT-0004",
+        "source_checks": {
+          "source_byte_count": false,
+          "source_file_present": false,
+          "source_git_blob_sha1": false,
+          "source_observation_count": false,
+          "source_receipt_verified": false,
+          "source_sha256_frozen": false,
+          "source_sha256_matches": false
+        },
+        "source_ready": false
+      },
+      {
+        "blockers": [
+          "SOURCE_FILE_PRESENT_FAILED",
+          "SOURCE_BYTE_COUNT_FAILED",
+          "SOURCE_OBSERVATION_COUNT_FAILED",
+          "SOURCE_GIT_BLOB_SHA1_FAILED",
+          "SOURCE_RECEIPT_VERIFIED_FAILED",
+          "SOURCE_SHA256_FROZEN_FAILED",
+          "SOURCE_SHA256_MATCHES_FAILED"
+        ],
+        "effective_mode": "singlemode_radial_order_unresolved",
+        "effective_object_id": "OGLE-LMC-DSCT-00005",
+        "effective_period_days": 0.0676865,
+        "effective_period_error_days": 1e-07,
+        "family": "delta_scuti",
+        "inherited_evidence": false,
+        "metadata_ready": true,
+        "metadata_status": "LOCKED_EXACT_TWO_HOP_CROSSWALK",
+        "object_id": "OGLE-LMC-DSCT-0005",
+        "source_checks": {
+          "source_byte_count": false,
+          "source_file_present": false,
+          "source_git_blob_sha1": false,
+          "source_observation_count": false,
+          "source_receipt_verified": false,
+          "source_sha256_frozen": false,
+          "source_sha256_matches": false
+        },
+        "source_ready": false
+      },
+      {
+        "blockers": [
+          "SOURCE_FILE_PRESENT_FAILED",
+          "SOURCE_BYTE_COUNT_FAILED",
+          "SOURCE_OBSERVATION_COUNT_FAILED",
+          "SOURCE_GIT_BLOB_SHA1_FAILED",
+          "SOURCE_RECEIPT_VERIFIED_FAILED",
+          "SOURCE_SHA256_FROZEN_FAILED",
+          "SOURCE_SHA256_MATCHES_FAILED"
+        ],
+        "effective_mode": "singlemode_radial_order_unresolved",
+        "effective_object_id": "OGLE-LMC-DSCT-00006",
+        "effective_period_days": 0.12224786,
+        "effective_period_error_days": 1.2e-07,
+        "family": "delta_scuti",
+        "inherited_evidence": false,
+        "metadata_ready": true,
+        "metadata_status": "LOCKED_EXACT_TWO_HOP_CROSSWALK",
+        "object_id": "OGLE-LMC-DSCT-0006",
+        "source_checks": {
+          "source_byte_count": false,
+          "source_file_present": false,
+          "source_git_blob_sha1": false,
+          "source_observation_count": false,
+          "source_receipt_verified": false,
+          "source_sha256_frozen": false,
+          "source_sha256_matches": false
+        },
+        "source_ready": false
+      },
+      {
+        "blockers": [
+          "AUTHORITATIVE_IDENTITY_CROSSWALK_UNRESOLVED",
+          "AUTHORITATIVE_PERIOD_UNAVAILABLE",
+          "AUTHORITATIVE_SUBTYPE_UNAVAILABLE",
+          "SOURCE_FILE_PRESENT_FAILED",
+          "SOURCE_BYTE_COUNT_FAILED",
+          "SOURCE_OBSERVATION_COUNT_FAILED",
+          "SOURCE_GIT_BLOB_SHA1_FAILED",
+          "SOURCE_RECEIPT_VERIFIED_FAILED",
+          "SOURCE_SHA256_FROZEN_FAILED",
+          "SOURCE_SHA256_MATCHES_FAILED"
+        ],
+        "effective_mode": "unresolved",
+        "effective_object_id": "OGLE-LMC-DSCT-0007",
+        "effective_period_days": 0.36834967544,
+        "effective_period_error_days": null,
+        "family": "delta_scuti",
+        "inherited_evidence": false,
+        "metadata_ready": false,
+        "metadata_status": "UNRESOLVED_NO_EXACT_CURRENT_CATALOG_CROSSWALK",
+        "object_id": "OGLE-LMC-DSCT-0007",
+        "source_checks": {
+          "source_byte_count": false,
+          "source_file_present": false,
+          "source_git_blob_sha1": false,
+          "source_observation_count": false,
+          "source_receipt_verified": false,
+          "source_sha256_frozen": false,
+          "source_sha256_matches": false
+        },
+        "source_ready": false
+      }
+    ]
+  },
+  "authoritative_row_receipt_sha256": "0d942d6ed87a092c7a3783dbf1d540ec340ce39dc2662cc33e9eea9cd42b958e",
+  "blockers": [
+    {
+      "blocker": "SOURCE_BYTE_COUNT_FAILED",
+      "count": 15
+    },
+    {
+      "blocker": "SOURCE_FILE_PRESENT_FAILED",
+      "count": 15
+    },
+    {
+      "blocker": "SOURCE_GIT_BLOB_SHA1_FAILED",
+      "count": 15
+    },
+    {
+      "blocker": "SOURCE_OBSERVATION_COUNT_FAILED",
+      "count": 15
+    },
+    {
+      "blocker": "SOURCE_SHA256_MATCHES_FAILED",
+      "count": 15
+    },
+    {
+      "blocker": "SOURCE_RECEIPT_VERIFIED_FAILED",
+      "count": 10
+    },
+    {
+      "blocker": "SOURCE_SHA256_FROZEN_FAILED",
+      "count": 10
+    },
+    {
+      "blocker": "AUTHORITATIVE_IDENTITY_CROSSWALK_UNRESOLVED",
+      "count": 2
+    },
+    {
+      "blocker": "AUTHORITATIVE_PERIOD_UNAVAILABLE",
+      "count": 2
+    },
+    {
+      "blocker": "AUTHORITATIVE_SUBTYPE_UNAVAILABLE",
+      "count": 2
+    }
+  ],
+  "execution_ledger_sha256": "cd5933e569a7cd8f3d09fc088aa7c2c89e23604d5e1cd51f19d92da7d9232827",
+  "family_coverage": [
+    {
+      "declared": 5,
+      "family": "classical_cepheid",
+      "fresh_results": 0,
+      "inherited_evidence": 3,
+      "metadata_ready": 5,
+      "population_fraction_status": "SUPPRESSED",
+      "source_ready": 0
+    },
+    {
+      "declared": 5,
+      "family": "delta_scuti",
+      "fresh_results": 0,
+      "inherited_evidence": 0,
+      "metadata_ready": 3,
+      "population_fraction_status": "SUPPRESSED",
+      "source_ready": 0
+    },
+    {
+      "declared": 5,
+      "family": "rr_lyrae",
+      "fresh_results": 0,
+      "inherited_evidence": 2,
+      "metadata_ready": 5,
+      "population_fraction_status": "SUPPRESSED",
+      "source_ready": 0
+    }
+  ],
+  "implementation_id": "DERD-v2.1-phase21-authoritative-dsct-pilot",
+  "metadata_lock_manifest_sha256": "505c9312d8c75aad7c90544cebda7f18c5678a59e9ff2f32b98a36ae102bec3c",
+  "period_coordinate_corrections": [
+    {
+      "absolute_difference_days": -0.125667568414,
+      "authoritative_period_days": 0.06644253,
+      "current_object_id": "OGLE-LMC-DSCT-00003",
+      "legacy_diagnostic_period_days": 0.192110098414,
+      "mode_label": "singlemode_radial_order_unresolved",
+      "period_ratio_authoritative_to_legacy": 0.34585651950901297,
+      "requested_object_id": "OGLE-LMC-DSCT-0003"
+    },
+    {
+      "absolute_difference_days": -0.084668640403,
+      "authoritative_period_days": 0.0676865,
+      "current_object_id": "OGLE-LMC-DSCT-00005",
+      "legacy_diagnostic_period_days": 0.152355140403,
+      "mode_label": "singlemode_radial_order_unresolved",
+      "period_ratio_authoritative_to_legacy": 0.444267911282547,
+      "requested_object_id": "OGLE-LMC-DSCT-0005"
+    },
+    {
+      "absolute_difference_days": -0.017024915227999995,
+      "authoritative_period_days": 0.12224786,
+      "current_object_id": "OGLE-LMC-DSCT-00006",
+      "legacy_diagnostic_period_days": 0.139272775228,
+      "mode_label": "singlemode_radial_order_unresolved",
+      "period_ratio_authoritative_to_legacy": 0.8777584836653902,
+      "requested_object_id": "OGLE-LMC-DSCT-0006"
+    }
+  ],
+  "physical_claim_boundary": {
+    "c17_promoted": false,
+    "shell_mass": false,
+    "transparent_outer_shell": false,
+    "unique_internal_mechanism": false
+  },
+  "sha256_canonical_json": "81bb0ecfbef8455f2c8843d5137afcab2d165ef49d81a3400ce4c50f82882c45",
+  "synthetic_positive_control": {
+    "astronomical_evidence": false,
+    "complete_denominator": true,
+    "control_id": "DERD-PHASE21-SYNTHETIC-COMPLETE-DENOMINATOR-CONTROL-1.0",
+    "family_intervals_emitted": true,
+    "rows": [
+      {
+        "family": "classical_cepheid",
+        "fraction": 0.4,
+        "n": 5,
+        "qualified": 2,
+        "wilson_high": 0.769275718723987,
+        "wilson_low": 0.11762077423264783
+      },
+      {
+        "family": "rr_lyrae",
+        "fraction": 0.4,
+        "n": 5,
+        "qualified": 2,
+        "wilson_high": 0.769275718723987,
+        "wilson_low": 0.11762077423264783
+      },
+      {
+        "family": "delta_scuti",
+        "fraction": 0.4,
+        "n": 5,
+        "qualified": 2,
+        "wilson_high": 0.769275718723987,
+        "wilson_low": 0.11762077423264783
+      }
+    ],
+    "sha256_canonical_json": "f3a6f26d703bf93344620beb393c72cc129e2636d84cbb40088686287c92a8a2"
+  }
+}

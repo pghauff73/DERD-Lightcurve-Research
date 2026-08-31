@@ -1,0 +1,78 @@
+{
+  "attribution_acknowledgement": true,
+  "components": [
+    {
+      "all_checks_passed": true,
+      "checks": {
+        "byte_count": true,
+        "first_time": true,
+        "git_blob_sha1": true,
+        "last_time": true,
+        "observation_count": true,
+        "sha256": true
+      },
+      "observed": {
+        "byte_count": 792,
+        "first_time": 3032.76066,
+        "git_blob_sha1": "9424f38e5ce9326a5e5b4f0fcf4fe158cc02cbf2",
+        "last_time": 4487.70058,
+        "observation_count": 33,
+        "sha256": "bc36f947e8e3d36d197498345b83aa24f9e1a0d9010a99f4fe8a0bab4ccdb855"
+      },
+      "path": "/mnt/data/lightcurve-trainer-roadmap/phase18-work/derd-v1.7/data/raw/phase18_external/OGLE-LMC-CEP-0002_OGLEIII_V.dat",
+      "source_id": "ogleiii_v",
+      "survey": "OGLE-III",
+      "url": "https://www.astrouw.edu.pl/ogle/ogle3/OIII-CVS/lmc/cep/phot/V/OGLE-LMC-CEP-0002.dat"
+    },
+    {
+      "all_checks_passed": true,
+      "checks": {
+        "byte_count": true,
+        "first_time": true,
+        "git_blob_sha1": true,
+        "last_time": true,
+        "observation_count": true,
+        "sha256": true
+      },
+      "observed": {
+        "byte_count": 768,
+        "first_time": 5275.51614,
+        "git_blob_sha1": "c815d569ca8b8e644e06d01577075c585dbebb4d",
+        "last_time": 7446.61441,
+        "observation_count": 32,
+        "sha256": "ef8975b4bed903433ae3b8e66072cafaa5671d2c085eb88d32bd33eaa049067c"
+      },
+      "path": "/mnt/data/lightcurve-trainer-roadmap/phase18-work/derd-v1.7/data/raw/phase18_external/OGLE-LMC-CEP-0002_OGLEIV_V.dat",
+      "source_id": "ogleiv_v",
+      "survey": "OGLE-IV",
+      "url": "https://www.astrouw.edu.pl/ogle/ogle4/OCVS/lmc/cep/phot/V/OGLE-LMC-CEP-0002.dat"
+    }
+  ],
+  "date": "2026-08-24T07:16:10.310602+00:00",
+  "merged": {
+    "all_checks_passed": true,
+    "checks": {
+      "byte_count": true,
+      "first_time": true,
+      "git_blob_sha1": true,
+      "last_time": true,
+      "observation_count": true,
+      "sha256": true
+    },
+    "observed": {
+      "byte_count": 1560,
+      "first_time": 3032.76066,
+      "git_blob_sha1": "d6fd2d3f505c33d544476a4d8f1e5e34b77de967",
+      "last_time": 7446.61441,
+      "observation_count": 65,
+      "sha256": "420871872497c8fccd8afe273a6548d079f59028f1067dcc1cd9c5f56711729d"
+    },
+    "path": "/mnt/data/lightcurve-trainer-roadmap/phase18-work/derd-v1.7/artifacts/phase18/phase18_merged_input.verification-only.dat"
+  },
+  "object_id": "OGLE-LMC-CEP-0002",
+  "publication_input_byte_identity_known": false,
+  "raw_source_redistributed": false,
+  "receipt_id": "DERD-PHASE18-AUTHORITATIVE-OGLE-INPUT-RECEIPT-1.0",
+  "source_manifest_sha256": "e461100fec4a1591821f791fff5d4769ee07d8acf0eb0df37a35377955547ad1",
+  "status": "AUTHORITATIVE_CURRENT_OGLEIII_IV_FILES_VERIFIED_AND_MERGED"
+}

@@ -1,0 +1,11 @@
+{
+  "claim": "The Jurkovic et al. (2022) OGLE-LMC-CEP-0002 V-band Fourier coordinates are frozen with the published cosine-series convention and uncertainties.",
+  "claim_id": "C79",
+  "evidence": [
+    "data/evidence/phase17_jurkovic2022_vband_anchor.json",
+    "artifacts/phase17/phase17_external_analysis_audit.json"
+  ],
+  "physical_claim_scope": "Fourier-coordinate provenance only",
+  "sha256_canonical_json": "5db148a39070e52f18d9ed0655d991b32c6f1c71575bdfae24e32ff9ac0059b3",
+  "status": "VERIFIED_FROM_EXTERNAL_PUBLICATION"
+}

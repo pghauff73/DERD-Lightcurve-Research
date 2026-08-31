@@ -1,0 +1,47 @@
+{
+  "analysis_coordinates": {
+    "fit_harmonics": 4,
+    "forecast_harmonics": 4,
+    "minimum_forecast_significant_harmonics": 2,
+    "minimum_forecast_snr": 2.0,
+    "minimum_observations": 240,
+    "minimum_recovery_snr": 3.0,
+    "period_grid_count": 101,
+    "propagation_draws": 2048,
+    "synthetic_samples_per_class": 96
+  },
+  "claim_boundary": {
+    "not_supported": [
+      "unique internal stellar mechanism",
+      "universal transparent outer shell",
+      "shell mass"
+    ],
+    "supported_scope": "target-level normalized waveform evidence"
+  },
+  "contradiction_policy": "Every declared target remains in the frontier, including pending and negative results.",
+  "date": "2026-08-18",
+  "denominator_firewall": {
+    "family_count": 3,
+    "objects_per_family": 5,
+    "partial_family_fractions_allowed": false,
+    "partial_target_results_allowed": true,
+    "total_objects": 15,
+    "wilson_intervals_allowed_only_after_all_fifteen_fresh_executions": true
+  },
+  "parent_protocol": "DERD-PHASE10-AUTHORITATIVE-METADATA-SOURCE-LOCK-PROTOCOL-V1",
+  "protocol_id": "DERD-PHASE11-PROGRESSIVE-EVIDENCE-UNLOCK-PROTOCOL-V1",
+  "research_role": "exposed-development-only",
+  "source_intake": {
+    "absent_source_is_pending_not_failure": true,
+    "invalid_present_source_is_hard_failure": true,
+    "partial_pack_allowed": true,
+    "raw_bytes_redistributed_in_release": false,
+    "required_checks": [
+      "byte_count",
+      "observation_count",
+      "git_blob_sha1",
+      "frozen_sha256_if_present"
+    ]
+  },
+  "target_execution_rule": "A target may execute only when its Phase-10 metadata_ready and source_ready gates both pass."
+}

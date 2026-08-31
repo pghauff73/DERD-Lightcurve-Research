@@ -1,0 +1,62 @@
+{
+  "current_result": "Protocol, cohort structure and catalog contract pass. Five authoritative DSCT metadata locks and fifteen source-byte locks remain unavailable, so execution and family outputs are suppressed.",
+  "implementation_id": "DERD-v1.0-phase10-authoritative-metadata-source-lock",
+  "manifest_id": "IURM-PHASE10-AUTHORITATIVE-METADATA-SOURCE-LOCK-V1",
+  "minimal_viable_dimensions": {
+    "complete_denominator_before_family_outputs": true,
+    "delta_scuti_authoritative_metadata_locks": 5,
+    "families": 3,
+    "minimum_forecast_harmonics": 2,
+    "minimum_observations_per_object": 240,
+    "objects_per_family": 5,
+    "recovery_harmonics": 4,
+    "source_byte_locks": 15,
+    "total_objects": 15
+  },
+  "one_dimension_interventions": [
+    {
+      "experiment": "identity policy",
+      "held_constant": "catalog rows, period join, hash policy",
+      "varied": "direct current ID versus explicit OGLE-III field"
+    },
+    {
+      "experiment": "catalog subtype",
+      "held_constant": "identity and period fields",
+      "result": "singlemode radial order remains unresolved",
+      "varied": "singlemode versus multimode"
+    },
+    {
+      "experiment": "input availability",
+      "held_constant": "cohort and protocol",
+      "result": "independent readiness coordinates",
+      "varied": "metadata bytes versus photometry bytes"
+    }
+  ],
+  "orthogonal_gates": [
+    {
+      "active_object": "sealed protocol SHA-256",
+      "dimension": "protocol integrity",
+      "pass_condition": "canonical protocol digest matches seal"
+    },
+    {
+      "active_object": "authoritative OGLE/VizieR schema contract",
+      "dimension": "catalog contract",
+      "pass_condition": "contract canonical digest and ID match cohort"
+    },
+    {
+      "active_object": "five DSCT row/file locks",
+      "dimension": "identity and metadata",
+      "pass_condition": "exact ID or explicit OGLE-III crosswalk plus positive period and uncertainty"
+    },
+    {
+      "active_object": "fifteen photometry files",
+      "dimension": "source replay",
+      "pass_condition": "commit, path, Git blob, bytes, observations and SHA-256 match"
+    },
+    {
+      "active_object": "fifteen object-level harmonic forecasts",
+      "dimension": "result completeness",
+      "pass_condition": "all object results complete before family aggregation"
+    }
+  ]
+}

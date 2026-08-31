@@ -1,0 +1,571 @@
+{
+  "analysis_plan": "research/preregistration/phase04_analysis_plan.json",
+  "analysis_plan_sha256": "34fbef46d0ff7f9743fd717c65bb937efae214ad1ed0115cb378dde206c8d641",
+  "audit": {
+    "candidate_count": 20,
+    "contract_id": "DERD-PHASE04-POPULATION-CONTRACT-1.0",
+    "error_count": 71,
+    "exposed_overlap": [
+      "OGLE-LMC-CEP-0001",
+      "OGLE-LMC-CEP-0002",
+      "OGLE-LMC-CEP-0003",
+      "OGLE-LMC-CEP-0004",
+      "OGLE-LMC-CEP-0005",
+      "OGLE-LMC-CEP-0006",
+      "OGLE-LMC-CEP-0007",
+      "OGLE-LMC-CEP-0009",
+      "OGLE-LMC-CEP-0010",
+      "OGLE-LMC-CEP-0012",
+      "OGLE-LMC-CEP-0013",
+      "OGLE-LMC-CEP-0014",
+      "OGLE-LMC-CEP-0015",
+      "OGLE-LMC-CEP-0017",
+      "OGLE-LMC-CEP-0018",
+      "OGLE-LMC-CEP-0021",
+      "OGLE-LMC-CEP-0023",
+      "OGLE-LMC-CEP-0025",
+      "OGLE-LMC-CEP-0026",
+      "OGLE-LMC-CEP-0027"
+    ],
+    "family_counts": {
+      "Classical Cepheid": 20
+    },
+    "file_verification_requested": true,
+    "files_verified": 20,
+    "issues": [
+      {
+        "code": "INSUFFICIENT_OBSERVATIONS",
+        "message": "requires at least 50 clean observations, observed '24'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0001",
+        "stratum": "CEP-1O"
+      },
+      {
+        "code": "INSUFFICIENT_PHASE_COVERAGE",
+        "message": "requires at least 10 occupied phase bins, observed '8'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0001",
+        "stratum": "CEP-1O"
+      },
+      {
+        "code": "INSUFFICIENT_OBSERVATIONS",
+        "message": "requires at least 50 clean observations, observed '24'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0002",
+        "stratum": "CEP-F"
+      },
+      {
+        "code": "INSUFFICIENT_PHASE_COVERAGE",
+        "message": "requires at least 10 occupied phase bins, observed '8'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0002",
+        "stratum": "CEP-F"
+      },
+      {
+        "code": "INSUFFICIENT_OBSERVATIONS",
+        "message": "requires at least 50 clean observations, observed '24'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0003",
+        "stratum": "CEP-1O"
+      },
+      {
+        "code": "INSUFFICIENT_PHASE_COVERAGE",
+        "message": "requires at least 10 occupied phase bins, observed '8'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0003",
+        "stratum": "CEP-1O"
+      },
+      {
+        "code": "INSUFFICIENT_OBSERVATIONS",
+        "message": "requires at least 50 clean observations, observed '24'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0004",
+        "stratum": "CEP-1O"
+      },
+      {
+        "code": "INSUFFICIENT_PHASE_COVERAGE",
+        "message": "requires at least 10 occupied phase bins, observed '8'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0004",
+        "stratum": "CEP-1O"
+      },
+      {
+        "code": "INSUFFICIENT_OBSERVATIONS",
+        "message": "requires at least 50 clean observations, observed '24'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0005",
+        "stratum": "CEP-F"
+      },
+      {
+        "code": "INSUFFICIENT_PHASE_COVERAGE",
+        "message": "requires at least 10 occupied phase bins, observed '8'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0005",
+        "stratum": "CEP-F"
+      },
+      {
+        "code": "INSUFFICIENT_OBSERVATIONS",
+        "message": "requires at least 50 clean observations, observed '24'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0006",
+        "stratum": "CEP-1O"
+      },
+      {
+        "code": "INSUFFICIENT_PHASE_COVERAGE",
+        "message": "requires at least 10 occupied phase bins, observed '8'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0006",
+        "stratum": "CEP-1O"
+      },
+      {
+        "code": "INSUFFICIENT_OBSERVATIONS",
+        "message": "requires at least 50 clean observations, observed '24'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0007",
+        "stratum": "CEP-1O"
+      },
+      {
+        "code": "INSUFFICIENT_PHASE_COVERAGE",
+        "message": "requires at least 10 occupied phase bins, observed '8'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0007",
+        "stratum": "CEP-1O"
+      },
+      {
+        "code": "INSUFFICIENT_OBSERVATIONS",
+        "message": "requires at least 50 clean observations, observed '24'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0009",
+        "stratum": "CEP-1O"
+      },
+      {
+        "code": "INSUFFICIENT_PHASE_COVERAGE",
+        "message": "requires at least 10 occupied phase bins, observed '8'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0009",
+        "stratum": "CEP-1O"
+      },
+      {
+        "code": "INSUFFICIENT_OBSERVATIONS",
+        "message": "requires at least 50 clean observations, observed '24'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0010",
+        "stratum": "CEP-1O"
+      },
+      {
+        "code": "INSUFFICIENT_PHASE_COVERAGE",
+        "message": "requires at least 10 occupied phase bins, observed '8'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0010",
+        "stratum": "CEP-1O"
+      },
+      {
+        "code": "INSUFFICIENT_OBSERVATIONS",
+        "message": "requires at least 50 clean observations, observed '24'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0012",
+        "stratum": "CEP-F"
+      },
+      {
+        "code": "INSUFFICIENT_PHASE_COVERAGE",
+        "message": "requires at least 10 occupied phase bins, observed '8'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0012",
+        "stratum": "CEP-F"
+      },
+      {
+        "code": "INSUFFICIENT_OBSERVATIONS",
+        "message": "requires at least 50 clean observations, observed '24'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0013",
+        "stratum": "CEP-1O"
+      },
+      {
+        "code": "INSUFFICIENT_PHASE_COVERAGE",
+        "message": "requires at least 10 occupied phase bins, observed '8'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0013",
+        "stratum": "CEP-1O"
+      },
+      {
+        "code": "INSUFFICIENT_OBSERVATIONS",
+        "message": "requires at least 50 clean observations, observed '24'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0014",
+        "stratum": "CEP-1O"
+      },
+      {
+        "code": "INSUFFICIENT_PHASE_COVERAGE",
+        "message": "requires at least 10 occupied phase bins, observed '8'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0014",
+        "stratum": "CEP-1O"
+      },
+      {
+        "code": "INSUFFICIENT_OBSERVATIONS",
+        "message": "requires at least 50 clean observations, observed '24'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0015",
+        "stratum": "CEP-1O"
+      },
+      {
+        "code": "INSUFFICIENT_PHASE_COVERAGE",
+        "message": "requires at least 10 occupied phase bins, observed '8'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0015",
+        "stratum": "CEP-1O"
+      },
+      {
+        "code": "INSUFFICIENT_OBSERVATIONS",
+        "message": "requires at least 50 clean observations, observed '24'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0017",
+        "stratum": "CEP-F"
+      },
+      {
+        "code": "INSUFFICIENT_PHASE_COVERAGE",
+        "message": "requires at least 10 occupied phase bins, observed '8'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0017",
+        "stratum": "CEP-F"
+      },
+      {
+        "code": "INSUFFICIENT_OBSERVATIONS",
+        "message": "requires at least 50 clean observations, observed '24'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0018",
+        "stratum": "CEP-F"
+      },
+      {
+        "code": "INSUFFICIENT_PHASE_COVERAGE",
+        "message": "requires at least 10 occupied phase bins, observed '8'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0018",
+        "stratum": "CEP-F"
+      },
+      {
+        "code": "INSUFFICIENT_OBSERVATIONS",
+        "message": "requires at least 50 clean observations, observed '24'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0021",
+        "stratum": "CEP-F"
+      },
+      {
+        "code": "INSUFFICIENT_PHASE_COVERAGE",
+        "message": "requires at least 10 occupied phase bins, observed '8'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0021",
+        "stratum": "CEP-F"
+      },
+      {
+        "code": "INSUFFICIENT_OBSERVATIONS",
+        "message": "requires at least 50 clean observations, observed '24'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0023",
+        "stratum": "CEP-F"
+      },
+      {
+        "code": "INSUFFICIENT_PHASE_COVERAGE",
+        "message": "requires at least 10 occupied phase bins, observed '8'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0023",
+        "stratum": "CEP-F"
+      },
+      {
+        "code": "INSUFFICIENT_OBSERVATIONS",
+        "message": "requires at least 50 clean observations, observed '24'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0025",
+        "stratum": "CEP-F"
+      },
+      {
+        "code": "INSUFFICIENT_PHASE_COVERAGE",
+        "message": "requires at least 10 occupied phase bins, observed '8'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0025",
+        "stratum": "CEP-F"
+      },
+      {
+        "code": "INSUFFICIENT_OBSERVATIONS",
+        "message": "requires at least 50 clean observations, observed '24'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0026",
+        "stratum": "CEP-F"
+      },
+      {
+        "code": "INSUFFICIENT_PHASE_COVERAGE",
+        "message": "requires at least 10 occupied phase bins, observed '8'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0026",
+        "stratum": "CEP-F"
+      },
+      {
+        "code": "INSUFFICIENT_OBSERVATIONS",
+        "message": "requires at least 50 clean observations, observed '24'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0027",
+        "stratum": "CEP-F"
+      },
+      {
+        "code": "INSUFFICIENT_PHASE_COVERAGE",
+        "message": "requires at least 10 occupied phase bins, observed '8'",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0027",
+        "stratum": "CEP-F"
+      },
+      {
+        "code": "PRIOR_EXPOSURE",
+        "message": "star was used in an earlier development or shakedown phase",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0001",
+        "stratum": null
+      },
+      {
+        "code": "PRIOR_EXPOSURE",
+        "message": "star was used in an earlier development or shakedown phase",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0002",
+        "stratum": null
+      },
+      {
+        "code": "PRIOR_EXPOSURE",
+        "message": "star was used in an earlier development or shakedown phase",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0003",
+        "stratum": null
+      },
+      {
+        "code": "PRIOR_EXPOSURE",
+        "message": "star was used in an earlier development or shakedown phase",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0004",
+        "stratum": null
+      },
+      {
+        "code": "PRIOR_EXPOSURE",
+        "message": "star was used in an earlier development or shakedown phase",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0005",
+        "stratum": null
+      },
+      {
+        "code": "PRIOR_EXPOSURE",
+        "message": "star was used in an earlier development or shakedown phase",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0006",
+        "stratum": null
+      },
+      {
+        "code": "PRIOR_EXPOSURE",
+        "message": "star was used in an earlier development or shakedown phase",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0007",
+        "stratum": null
+      },
+      {
+        "code": "PRIOR_EXPOSURE",
+        "message": "star was used in an earlier development or shakedown phase",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0009",
+        "stratum": null
+      },
+      {
+        "code": "PRIOR_EXPOSURE",
+        "message": "star was used in an earlier development or shakedown phase",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0010",
+        "stratum": null
+      },
+      {
+        "code": "PRIOR_EXPOSURE",
+        "message": "star was used in an earlier development or shakedown phase",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0012",
+        "stratum": null
+      },
+      {
+        "code": "PRIOR_EXPOSURE",
+        "message": "star was used in an earlier development or shakedown phase",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0013",
+        "stratum": null
+      },
+      {
+        "code": "PRIOR_EXPOSURE",
+        "message": "star was used in an earlier development or shakedown phase",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0014",
+        "stratum": null
+      },
+      {
+        "code": "PRIOR_EXPOSURE",
+        "message": "star was used in an earlier development or shakedown phase",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0015",
+        "stratum": null
+      },
+      {
+        "code": "PRIOR_EXPOSURE",
+        "message": "star was used in an earlier development or shakedown phase",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0017",
+        "stratum": null
+      },
+      {
+        "code": "PRIOR_EXPOSURE",
+        "message": "star was used in an earlier development or shakedown phase",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0018",
+        "stratum": null
+      },
+      {
+        "code": "PRIOR_EXPOSURE",
+        "message": "star was used in an earlier development or shakedown phase",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0021",
+        "stratum": null
+      },
+      {
+        "code": "PRIOR_EXPOSURE",
+        "message": "star was used in an earlier development or shakedown phase",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0023",
+        "stratum": null
+      },
+      {
+        "code": "PRIOR_EXPOSURE",
+        "message": "star was used in an earlier development or shakedown phase",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0025",
+        "stratum": null
+      },
+      {
+        "code": "PRIOR_EXPOSURE",
+        "message": "star was used in an earlier development or shakedown phase",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0026",
+        "stratum": null
+      },
+      {
+        "code": "PRIOR_EXPOSURE",
+        "message": "star was used in an earlier development or shakedown phase",
+        "severity": "error",
+        "star_id": "OGLE-LMC-CEP-0027",
+        "stratum": null
+      },
+      {
+        "code": "STRATUM_DEFICIT",
+        "message": "requires 15 stars, observed 0",
+        "severity": "error",
+        "star_id": null,
+        "stratum": "DSCT-SINGLE"
+      },
+      {
+        "code": "STRATUM_DEFICIT",
+        "message": "requires 15 stars, observed 0",
+        "severity": "error",
+        "star_id": null,
+        "stratum": "DSCT-HADS"
+      },
+      {
+        "code": "STRATUM_DEFICIT",
+        "message": "requires 15 stars, observed 0",
+        "severity": "error",
+        "star_id": null,
+        "stratum": "DSCT-COMPLEX"
+      },
+      {
+        "code": "STRATUM_DEFICIT",
+        "message": "requires 15 stars, observed 0",
+        "severity": "error",
+        "star_id": null,
+        "stratum": "RRL-RRAB-STABLE"
+      },
+      {
+        "code": "STRATUM_DEFICIT",
+        "message": "requires 15 stars, observed 0",
+        "severity": "error",
+        "star_id": null,
+        "stratum": "RRL-RRAB-BLAZHKO"
+      },
+      {
+        "code": "STRATUM_DEFICIT",
+        "message": "requires 15 stars, observed 0",
+        "severity": "error",
+        "star_id": null,
+        "stratum": "RRL-RRC"
+      },
+      {
+        "code": "STRATUM_DEFICIT",
+        "message": "requires 15 stars, observed 0",
+        "severity": "error",
+        "star_id": null,
+        "stratum": "RRL-RRD"
+      },
+      {
+        "code": "STRATUM_DEFICIT",
+        "message": "requires 15 stars, observed 10",
+        "severity": "error",
+        "star_id": null,
+        "stratum": "CEP-F"
+      },
+      {
+        "code": "STRATUM_DEFICIT",
+        "message": "requires 15 stars, observed 10",
+        "severity": "error",
+        "star_id": null,
+        "stratum": "CEP-1O"
+      },
+      {
+        "code": "STRATUM_DEFICIT",
+        "message": "requires 15 stars, observed 0",
+        "severity": "error",
+        "star_id": null,
+        "stratum": "CEP-CSE"
+      },
+      {
+        "code": "TOTAL_POPULATION_DEFICIT",
+        "message": "contract requires at least 150 unique stars, observed 20",
+        "severity": "error",
+        "star_id": null,
+        "stratum": null
+      }
+    ],
+    "ready_for_sealing": false,
+    "stratum_counts": {
+      "CEP-1O": 10,
+      "CEP-CSE": 0,
+      "CEP-F": 10,
+      "DSCT-COMPLEX": 0,
+      "DSCT-HADS": 0,
+      "DSCT-SINGLE": 0,
+      "RRL-RRAB-BLAZHKO": 0,
+      "RRL-RRAB-STABLE": 0,
+      "RRL-RRC": 0,
+      "RRL-RRD": 0
+    },
+    "stratum_deficits": {
+      "CEP-1O": 5,
+      "CEP-CSE": 15,
+      "CEP-F": 5,
+      "DSCT-COMPLEX": 15,
+      "DSCT-HADS": 15,
+      "DSCT-SINGLE": 15,
+      "RRL-RRAB-BLAZHKO": 15,
+      "RRL-RRAB-STABLE": 15,
+      "RRL-RRC": 15,
+      "RRL-RRD": 15
+    },
+    "unique_star_count": 20,
+    "warning_count": 0
+  },
+  "candidate_manifest": "data/manifests/phase04_current_pilot_ineligible.csv",
+  "candidate_manifest_sha256": "604b5cf5272a4eea1c6df704081d243f396552231553c1cf0fbd89397c3047d1",
+  "code_manifest": "research/CODE_MANIFEST_SHA256.txt",
+  "code_manifest_sha256": "0d0ddc5307748bf32236df9134dd341b37110a91128e9385bf99bed8786cb5de",
+  "contract": "data/manifests/phase04_population_contract_v1.json",
+  "contract_sha256": "bf00364f2a2b4c10c938ba8172bfd9f5178a5545caa44534f770cebf23868470",
+  "implementation_id": "DERD-v0.4-phase04-readiness",
+  "metadata_only": false,
+  "status": "NOT_READY_FOR_PROSPECTIVE_SEAL"
+}

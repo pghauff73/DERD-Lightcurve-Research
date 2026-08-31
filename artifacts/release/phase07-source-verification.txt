@@ -1,0 +1,1 @@
+{'git_blob_sha1': 'fd82c05bb3a62ba9a8c614ac51eb315124090381', 'sha256': '574d7252996f5ee71169a97f2d7b52a8acbdb0898df65a7b61f5419ae9f063e0', 'byte_count': 8928, 'git_blob_matches': True, 'sha256_matches': True, 'byte_count_matches': True}

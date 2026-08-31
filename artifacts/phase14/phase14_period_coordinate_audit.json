@@ -1,0 +1,1068 @@
+{
+  "catalog_dispersion_score": 0.09178604131779762,
+  "catalog_period_days": 3.118149,
+  "catalog_temporal_audit": {
+    "actual_below_stationary_threshold": false,
+    "actual_temporal_score": 2.385643842888151,
+    "all_blocks_quality_pass": true,
+    "all_blocks_recovery_snr_pass": false,
+    "blockers": [
+      "four_recovery_harmonics_in_every_block",
+      "temporal_coefficient_stationarity"
+    ],
+    "blocks": [
+      {
+        "block_index": 0,
+        "block_quality_pass": true,
+        "coefficient_snr": [
+          36.4895313795005,
+          11.934542483868118,
+          4.2942949378722455,
+          1.9205826333340124,
+          1.4595019441076087,
+          1.3474897045463425,
+          0.3099011580796773,
+          0.9996421355473469
+        ],
+        "cosine_coefficients": [
+          0.08193476055841747,
+          -0.028314521470225708,
+          -0.0031407966357544447,
+          0.0027564373316814115,
+          0.0037305148188219407,
+          -0.00252675986139553,
+          0.0005551291816433236,
+          -0.001018630328527043
+        ],
+        "design_condition_number": 2.052295060681948,
+        "end_time": 2975.64162,
+        "maximum_circular_phase_gap": 0.03146482095630887,
+        "observation_count": 122,
+        "occupied_phase_bins": 12,
+        "recovery_snr_pass": false,
+        "sine_coefficients": [
+          -0.052851353374198363,
+          -0.014745163292583997,
+          0.011028014066818241,
+          -0.004322299836916875,
+          0.0011158137094974398,
+          -0.002584193058374275,
+          -0.0006189200667567699,
+          0.0024664030483192976
+        ],
+        "start_time": 2171.85654
+      },
+      {
+        "block_index": 1,
+        "block_quality_pass": true,
+        "coefficient_snr": [
+          42.91577255396709,
+          12.502418151828298,
+          4.695695065273423,
+          1.1857075676807702,
+          0.4397611407901707,
+          0.13674661920381473,
+          0.5711183966614252,
+          1.3703728815516012
+        ],
+        "cosine_coefficients": [
+          0.08771063598571976,
+          -0.02751550745665821,
+          0.00026870419967898974,
+          0.0024132923168186018,
+          0.000531098658895722,
+          -0.0002697452636235032,
+          -0.001377499752496649,
+          -0.0019093862391275414
+        ],
+        "design_condition_number": 2.1671414124873953,
+        "end_time": 3702.78839,
+        "maximum_circular_phase_gap": 0.04377597093662189,
+        "observation_count": 122,
+        "occupied_phase_bins": 12,
+        "recovery_snr_pass": false,
+        "sine_coefficients": [
+          -0.05836928589340649,
+          -0.01358794778614621,
+          0.011689874359996676,
+          0.0016864274019195277,
+          -0.00096390760636837,
+          0.00020468631588241635,
+          -0.00031707555434882286,
+          0.0027962722568294677
+        ],
+        "start_time": 2979.76434
+      },
+      {
+        "block_index": 2,
+        "block_quality_pass": true,
+        "coefficient_snr": [
+          72.41502988750804,
+          20.666269510337678,
+          6.325754914831172,
+          1.023199865699167,
+          1.3432907199373567,
+          1.1127746333299036,
+          1.1041438478977992,
+          1.270483582793273
+        ],
+        "cosine_coefficients": [
+          0.08420439526938835,
+          -0.02563496406117328,
+          -0.0016893887542141842,
+          0.0014701297595364135,
+          0.0006209288098964741,
+          -0.0015630519790930852,
+          -0.0006713902723376622,
+          -0.001145113278027432
+        ],
+        "design_condition_number": 1.7849949745480307,
+        "end_time": 4540.51445,
+        "maximum_circular_phase_gap": 0.03668875348802203,
+        "observation_count": 122,
+        "occupied_phase_bins": 12,
+        "recovery_snr_pass": false,
+        "sine_coefficients": [
+          -0.059648024596468896,
+          -0.014607159264776421,
+          0.008952023283122421,
+          -6.738636736609083e-05,
+          -0.0018338583920608988,
+          -0.0004118272679730349,
+          0.0014548263146016882,
+          0.001449715453186097
+        ],
+        "start_time": 3705.69273
+      }
+    ],
+    "calibration_power_pass": true,
+    "calibration_rows": [
+      {
+        "balanced_accuracy": 0.7492342250357362,
+        "development_stationary_count": 133,
+        "holdout_drift_count": 83,
+        "holdout_stationary_count": 59,
+        "power_gate_pass": false,
+        "roc_auc": 0.8983050847457628,
+        "sensitivity": 0.5662650602409639,
+        "severity": 0.25,
+        "specificity": 0.9322033898305084,
+        "threshold": 2.2241818739023596
+      },
+      {
+        "balanced_accuracy": 0.9661016949152542,
+        "development_stationary_count": 133,
+        "holdout_drift_count": 57,
+        "holdout_stationary_count": 59,
+        "power_gate_pass": true,
+        "roc_auc": 1.0,
+        "sensitivity": 1.0,
+        "severity": 0.5,
+        "specificity": 0.9322033898305084,
+        "threshold": 2.2241818739023596
+      },
+      {
+        "balanced_accuracy": 0.9661016949152542,
+        "development_stationary_count": 133,
+        "holdout_drift_count": 63,
+        "holdout_stationary_count": 59,
+        "power_gate_pass": true,
+        "roc_auc": 1.0,
+        "sensitivity": 1.0,
+        "severity": 0.75,
+        "specificity": 0.9322033898305084,
+        "threshold": 2.2241818739023596
+      },
+      {
+        "balanced_accuracy": 0.9661016949152542,
+        "development_stationary_count": 133,
+        "holdout_drift_count": 65,
+        "holdout_stationary_count": 59,
+        "power_gate_pass": true,
+        "roc_auc": 1.0,
+        "sensitivity": 1.0,
+        "severity": 1.0,
+        "specificity": 0.9322033898305084,
+        "threshold": 2.2241818739023596
+      }
+    ],
+    "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+    "claim_scope": "temporal stability of signed waveform harmonics only",
+    "disposition": "TEMPORAL_REPLICATION_NOT_SUPPORTED",
+    "first_sustained_detectable_severity": 0.5,
+    "object_id": "OGLE-LMC-CEP-0002",
+    "observation_count": 366,
+    "pairwise_tests": [
+      {
+        "block_a": 0,
+        "block_b": 1,
+        "effective_rank": 8,
+        "normalized_score": 2.0775468475266683,
+        "p_value": 0.034313997872859554,
+        "wald_statistic": 16.620374780213346
+      },
+      {
+        "block_a": 0,
+        "block_b": 2,
+        "effective_rank": 8,
+        "normalized_score": 2.385643842888151,
+        "p_value": 0.014410834201088026,
+        "wald_statistic": 19.085150743105206
+      },
+      {
+        "block_a": 1,
+        "block_b": 2,
+        "effective_rank": 8,
+        "normalized_score": 1.113452845308118,
+        "p_value": 0.35014868370198204,
+        "wald_statistic": 8.907622762464944
+      }
+    ],
+    "period_days": 3.118149,
+    "reference_epoch": 2171.85654,
+    "sha256_canonical_json": "4b0f170084b0bcb12b4f35b72fd15ff34eca5c751b79cf14bd999fb7f674749e",
+    "stationary_threshold": 2.2241818739023596
+  },
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "claim_scope": "period-coordinate robustness of temporal signed-harmonic evidence only",
+  "classification": "TEMPORAL_STATIONARITY_FAILURE_ROBUST_TO_PERIOD_REFINEMENT",
+  "minimum_temporal_score": 2.3283246994483453,
+  "minimum_temporal_score_period_days": 3.1180866370199998,
+  "object_id": "OGLE-LMC-CEP-0002",
+  "refined_dispersion_score": 0.08350433999198169,
+  "refined_period_days": 3.1180866370199998,
+  "refined_temporal_audit": {
+    "actual_below_stationary_threshold": false,
+    "actual_temporal_score": 2.3283246994483453,
+    "all_blocks_quality_pass": true,
+    "all_blocks_recovery_snr_pass": false,
+    "blockers": [
+      "four_recovery_harmonics_in_every_block",
+      "temporal_coefficient_stationarity"
+    ],
+    "blocks": [
+      {
+        "block_index": 0,
+        "block_quality_pass": true,
+        "coefficient_snr": [
+          36.79799651070664,
+          11.970721639621354,
+          4.343942797032987,
+          1.9042323706746627,
+          1.4804039813070569,
+          1.3461102002048269,
+          0.3236609664299805,
+          0.8888537281020326
+        ],
+        "cosine_coefficients": [
+          0.08290391353275285,
+          -0.027665109064740758,
+          -0.0036249269281091305,
+          0.0029525694772048,
+          0.0037236314661340556,
+          -0.0023648047566235245,
+          0.000580913332084606,
+          -0.001220186312621218
+        ],
+        "design_condition_number": 2.0477375083243308,
+        "end_time": 2975.64162,
+        "maximum_circular_phase_gap": 0.027705375063817428,
+        "observation_count": 122,
+        "occupied_phase_bins": 12,
+        "recovery_snr_pass": false,
+        "sine_coefficients": [
+          -0.051634936025101316,
+          -0.015692157713382865,
+          0.010937556600320012,
+          -0.00409295102991164,
+          0.0012264030424671984,
+          -0.0026908261260848994,
+          -0.0006364970465653782,
+          0.002012210922295
+        ],
+        "start_time": 2171.85654
+      },
+      {
+        "block_index": 1,
+        "block_quality_pass": true,
+        "coefficient_snr": [
+          42.97072635787216,
+          12.462305898357792,
+          4.622448582395736,
+          1.2088887905145405,
+          0.4367313622034167,
+          0.07387413740330195,
+          0.6735547273920443,
+          1.3865767588662765
+        ],
+        "cosine_coefficients": [
+          0.09024975046509474,
+          -0.026060462864689122,
+          -0.0011763856919814353,
+          0.001915548965376536,
+          0.0008684466007278019,
+          -0.00018031520796661144,
+          -0.001417122455076846,
+          -0.0026803413438455897
+        ],
+        "design_condition_number": 2.1339771077458733,
+        "end_time": 3702.78839,
+        "maximum_circular_phase_gap": 0.04264459395756148,
+        "observation_count": 122,
+        "occupied_phase_bins": 12,
+        "recovery_snr_pass": false,
+        "sine_coefficients": [
+          -0.05448863926604831,
+          -0.016009986205870554,
+          0.011414273509808375,
+          0.0022974869592676085,
+          -0.0006568128384168521,
+          2.7407270110604548e-05,
+          -0.0008691243482909422,
+          0.0021175344298174762
+        ],
+        "start_time": 2979.76434
+      },
+      {
+        "block_index": 2,
+        "block_quality_pass": true,
+        "coefficient_snr": [
+          71.36877307872332,
+          20.336745655415758,
+          6.2620222857329715,
+          0.9930102238478072,
+          1.3005389095093736,
+          1.0463383193310973,
+          1.1476423696499634,
+          1.1449505705310665
+        ],
+        "cosine_coefficients": [
+          0.08875589677010852,
+          -0.022978116329731575,
+          -0.003909484980764675,
+          0.001329547366482467,
+          0.0012674781771608449,
+          -0.001259123206267105,
+          -0.0013385021009962549,
+          -0.0016274501408579515
+        ],
+        "design_condition_number": 1.7796957751530706,
+        "end_time": 4540.51445,
+        "maximum_circular_phase_gap": 0.03290941167631445,
+        "observation_count": 122,
+        "occupied_phase_bins": 12,
+        "recovery_snr_pass": false,
+        "sine_coefficients": [
+          -0.052665453116493996,
+          -0.01846814068919823,
+          0.008267437350665733,
+          0.0005750134895854366,
+          -0.0014183468945027208,
+          -0.0008837858177019439,
+          0.0010246180963108863,
+          0.00043785540979401276
+        ],
+        "start_time": 3705.69273
+      }
+    ],
+    "calibration_power_pass": true,
+    "calibration_rows": [
+      {
+        "balanced_accuracy": 0.7516847049213804,
+        "development_stationary_count": 133,
+        "holdout_drift_count": 83,
+        "holdout_stationary_count": 59,
+        "power_gate_pass": true,
+        "roc_auc": 0.8995303246885848,
+        "sensitivity": 0.5542168674698795,
+        "severity": 0.25,
+        "specificity": 0.9491525423728814,
+        "threshold": 2.254096307984191
+      },
+      {
+        "balanced_accuracy": 0.9745762711864407,
+        "development_stationary_count": 133,
+        "holdout_drift_count": 57,
+        "holdout_stationary_count": 59,
+        "power_gate_pass": true,
+        "roc_auc": 1.0,
+        "sensitivity": 1.0,
+        "severity": 0.5,
+        "specificity": 0.9491525423728814,
+        "threshold": 2.254096307984191
+      },
+      {
+        "balanced_accuracy": 0.9745762711864407,
+        "development_stationary_count": 133,
+        "holdout_drift_count": 63,
+        "holdout_stationary_count": 59,
+        "power_gate_pass": true,
+        "roc_auc": 1.0,
+        "sensitivity": 1.0,
+        "severity": 0.75,
+        "specificity": 0.9491525423728814,
+        "threshold": 2.254096307984191
+      },
+      {
+        "balanced_accuracy": 0.9745762711864407,
+        "development_stationary_count": 133,
+        "holdout_drift_count": 65,
+        "holdout_stationary_count": 59,
+        "power_gate_pass": true,
+        "roc_auc": 1.0,
+        "sensitivity": 1.0,
+        "severity": 1.0,
+        "specificity": 0.9491525423728814,
+        "threshold": 2.254096307984191
+      }
+    ],
+    "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+    "claim_scope": "temporal stability of signed waveform harmonics only",
+    "disposition": "TEMPORAL_REPLICATION_NOT_SUPPORTED",
+    "first_sustained_detectable_severity": 0.25,
+    "object_id": "OGLE-LMC-CEP-0002",
+    "observation_count": 366,
+    "pairwise_tests": [
+      {
+        "block_a": 0,
+        "block_b": 1,
+        "effective_rank": 8,
+        "normalized_score": 2.080628932022295,
+        "p_value": 0.03402505817460227,
+        "wald_statistic": 16.64503145617836
+      },
+      {
+        "block_a": 0,
+        "block_b": 2,
+        "effective_rank": 8,
+        "normalized_score": 2.3283246994483453,
+        "p_value": 0.01698933551540713,
+        "wald_statistic": 18.626597595586762
+      },
+      {
+        "block_a": 1,
+        "block_b": 2,
+        "effective_rank": 8,
+        "normalized_score": 1.2755367303874423,
+        "p_value": 0.25097900909006865,
+        "wald_statistic": 10.204293843099538
+      }
+    ],
+    "period_days": 3.1180866370199998,
+    "reference_epoch": 2171.85654,
+    "sha256_canonical_json": "c0808ace5dea6f0d7b5a82f743698304461dd2243c6e1e4762bf2364a244a42c",
+    "stationary_threshold": 2.254096307984191
+  },
+  "refinement_resolved": true,
+  "relative_period_delta": -2.0000000000020388e-05,
+  "sha256_canonical_json": "b6536eab825bf8bf55011c3b514094b12dd86821aec32eaa834bbfd04356ef2b",
+  "surface_rows": [
+    {
+      "period_days": 3.1150308509999998,
+      "phase_dispersion_score": 0.8649665785887971,
+      "relative_offset": -0.001,
+      "temporal_score": 61.85896445328751
+    },
+    {
+      "period_days": 3.11509321398,
+      "phase_dispersion_score": 0.8568430246173234,
+      "relative_offset": -0.00098,
+      "temporal_score": 64.39797445332468
+    },
+    {
+      "period_days": 3.11515557696,
+      "phase_dispersion_score": 0.8390130756013299,
+      "relative_offset": -0.00096,
+      "temporal_score": 66.96474817370033
+    },
+    {
+      "period_days": 3.1152179399399995,
+      "phase_dispersion_score": 0.8349886323600975,
+      "relative_offset": -0.00094,
+      "temporal_score": 69.5283876744478
+    },
+    {
+      "period_days": 3.1152803029199996,
+      "phase_dispersion_score": 0.8213201856482687,
+      "relative_offset": -0.00092,
+      "temporal_score": 72.07054088869799
+    },
+    {
+      "period_days": 3.1153426658999996,
+      "phase_dispersion_score": 0.8040471383459813,
+      "relative_offset": -0.0009,
+      "temporal_score": 74.58453622059784
+    },
+    {
+      "period_days": 3.1154050288799997,
+      "phase_dispersion_score": 0.7921184697475483,
+      "relative_offset": -0.00088,
+      "temporal_score": 77.0739247304021
+    },
+    {
+      "period_days": 3.1154673918599998,
+      "phase_dispersion_score": 0.7810541838789153,
+      "relative_offset": -0.00086,
+      "temporal_score": 79.5505843327055
+    },
+    {
+      "period_days": 3.11552975484,
+      "phase_dispersion_score": 0.7648263826167275,
+      "relative_offset": -0.00084,
+      "temporal_score": 82.03205129509435
+    },
+    {
+      "period_days": 3.11559211782,
+      "phase_dispersion_score": 0.7512690021705533,
+      "relative_offset": -0.00082,
+      "temporal_score": 84.53790159976951
+    },
+    {
+      "period_days": 3.1156544808,
+      "phase_dispersion_score": 0.7282362233501015,
+      "relative_offset": -0.0008,
+      "temporal_score": 87.08555039816527
+    },
+    {
+      "period_days": 3.11571684378,
+      "phase_dispersion_score": 0.7062874951701787,
+      "relative_offset": -0.00078,
+      "temporal_score": 89.68644260369055
+    },
+    {
+      "period_days": 3.11577920676,
+      "phase_dispersion_score": 0.6985824049861782,
+      "relative_offset": -0.00076,
+      "temporal_score": 92.34368076304403
+    },
+    {
+      "period_days": 3.11584156974,
+      "phase_dispersion_score": 0.6748666550658378,
+      "relative_offset": -0.00074,
+      "temporal_score": 95.05134772507071
+    },
+    {
+      "period_days": 3.1159039327199998,
+      "phase_dispersion_score": 0.6618733935099287,
+      "relative_offset": -0.0007199999999999999,
+      "temporal_score": 97.79472904760601
+    },
+    {
+      "period_days": 3.1159662957,
+      "phase_dispersion_score": 0.6380689163945983,
+      "relative_offset": -0.0007,
+      "temporal_score": 100.55033404482893
+    },
+    {
+      "period_days": 3.11602865868,
+      "phase_dispersion_score": 0.6247604939251907,
+      "relative_offset": -0.00068,
+      "temporal_score": 103.28529794967626
+    },
+    {
+      "period_days": 3.11609102166,
+      "phase_dispersion_score": 0.6065806251131176,
+      "relative_offset": -0.00066,
+      "temporal_score": 105.95675885289647
+    },
+    {
+      "period_days": 3.11615338464,
+      "phase_dispersion_score": 0.5968491339316996,
+      "relative_offset": -0.0006399999999999999,
+      "temporal_score": 108.51246004763236
+    },
+    {
+      "period_days": 3.11621574762,
+      "phase_dispersion_score": 0.5760380436376866,
+      "relative_offset": -0.00062,
+      "temporal_score": 110.89391139406787
+    },
+    {
+      "period_days": 3.1162781105999997,
+      "phase_dispersion_score": 0.5377426550090069,
+      "relative_offset": -0.0006000000000000001,
+      "temporal_score": 113.04292758730182
+    },
+    {
+      "period_days": 3.1163404735799998,
+      "phase_dispersion_score": 0.5281113527163893,
+      "relative_offset": -0.00058,
+      "temporal_score": 114.91113451591977
+    },
+    {
+      "period_days": 3.11640283656,
+      "phase_dispersion_score": 0.49883867163830126,
+      "relative_offset": -0.00056,
+      "temporal_score": 116.47011224899472
+    },
+    {
+      "period_days": 3.11646519954,
+      "phase_dispersion_score": 0.4730084597905528,
+      "relative_offset": -0.00054,
+      "temporal_score": 117.71797827365293
+    },
+    {
+      "period_days": 3.11652756252,
+      "phase_dispersion_score": 0.4407412883029735,
+      "relative_offset": -0.00052,
+      "temporal_score": 118.67808939923374
+    },
+    {
+      "period_days": 3.1165899255,
+      "phase_dispersion_score": 0.43501077633451224,
+      "relative_offset": -0.0005,
+      "temporal_score": 119.38850660572265
+    },
+    {
+      "period_days": 3.1166522884799996,
+      "phase_dispersion_score": 0.4116169446804115,
+      "relative_offset": -0.00047999999999999996,
+      "temporal_score": 119.88579631664813
+    },
+    {
+      "period_days": 3.1167146514599997,
+      "phase_dispersion_score": 0.3875293269762899,
+      "relative_offset": -0.00046,
+      "temporal_score": 120.18988967665065
+    },
+    {
+      "period_days": 3.1167770144399998,
+      "phase_dispersion_score": 0.36642153158586244,
+      "relative_offset": -0.00043999999999999996,
+      "temporal_score": 120.29523476238643
+    },
+    {
+      "period_days": 3.11683937742,
+      "phase_dispersion_score": 0.3411182402081315,
+      "relative_offset": -0.00042,
+      "temporal_score": 120.16879163463524
+    },
+    {
+      "period_days": 3.1169017404,
+      "phase_dispersion_score": 0.31925107391908736,
+      "relative_offset": -0.00039999999999999996,
+      "temporal_score": 119.7517330343435
+    },
+    {
+      "period_days": 3.1169641033799995,
+      "phase_dispersion_score": 0.3083045111600766,
+      "relative_offset": -0.00038,
+      "temporal_score": 118.96153440425444
+    },
+    {
+      "period_days": 3.1170264663599996,
+      "phase_dispersion_score": 0.2869258777311864,
+      "relative_offset": -0.00035999999999999997,
+      "temporal_score": 117.69366055349313
+    },
+    {
+      "period_days": 3.1170888293399996,
+      "phase_dispersion_score": 0.26104006604171415,
+      "relative_offset": -0.0003399999999999999,
+      "temporal_score": 115.82496918525581
+    },
+    {
+      "period_days": 3.1171511923199997,
+      "phase_dispersion_score": 0.2459274201103621,
+      "relative_offset": -0.00031999999999999997,
+      "temporal_score": 113.22217801222482
+    },
+    {
+      "period_days": 3.1172135552999998,
+      "phase_dispersion_score": 0.22903658707254637,
+      "relative_offset": -0.0002999999999999999,
+      "temporal_score": 109.75700435326323
+    },
+    {
+      "period_days": 3.11727591828,
+      "phase_dispersion_score": 0.20836685567442514,
+      "relative_offset": -0.00028,
+      "temporal_score": 105.32526830602127
+    },
+    {
+      "period_days": 3.11733828126,
+      "phase_dispersion_score": 0.1822954492600843,
+      "relative_offset": -0.0002599999999999999,
+      "temporal_score": 99.86333036877124
+    },
+    {
+      "period_days": 3.11740064424,
+      "phase_dispersion_score": 0.17280293409890837,
+      "relative_offset": -0.00023999999999999998,
+      "temporal_score": 93.35566710069506
+    },
+    {
+      "period_days": 3.11746300722,
+      "phase_dispersion_score": 0.16267623088637803,
+      "relative_offset": -0.00021999999999999993,
+      "temporal_score": 85.83301005306619
+    },
+    {
+      "period_days": 3.1175253702,
+      "phase_dispersion_score": 0.14681449028566063,
+      "relative_offset": -0.00019999999999999998,
+      "temporal_score": 77.36730466040838
+    },
+    {
+      "period_days": 3.11758773318,
+      "phase_dispersion_score": 0.15567094643654003,
+      "relative_offset": -0.00017999999999999993,
+      "temporal_score": 68.0725121091942
+    },
+    {
+      "period_days": 3.1176500961599998,
+      "phase_dispersion_score": 0.13022308410497047,
+      "relative_offset": -0.00015999999999999999,
+      "temporal_score": 58.11701034744847
+    },
+    {
+      "period_days": 3.11771245914,
+      "phase_dispersion_score": 0.11313017308641149,
+      "relative_offset": -0.00013999999999999993,
+      "temporal_score": 47.746127301878715
+    },
+    {
+      "period_days": 3.11777482212,
+      "phase_dispersion_score": 0.10699600655704487,
+      "relative_offset": -0.00011999999999999999,
+      "temporal_score": 37.305813436104906
+    },
+    {
+      "period_days": 3.1178371851,
+      "phase_dispersion_score": 0.09305080980068947,
+      "relative_offset": -9.999999999999994e-05,
+      "temporal_score": 27.253818499893622
+    },
+    {
+      "period_days": 3.11789954808,
+      "phase_dispersion_score": 0.08541006854978264,
+      "relative_offset": -7.999999999999999e-05,
+      "temporal_score": 18.145214531605912
+    },
+    {
+      "period_days": 3.11796191106,
+      "phase_dispersion_score": 0.0856360454631601,
+      "relative_offset": -5.999999999999994e-05,
+      "temporal_score": 10.585597620926476
+    },
+    {
+      "period_days": 3.1180242740399997,
+      "phase_dispersion_score": 0.08493725062570312,
+      "relative_offset": -3.999999999999989e-05,
+      "temporal_score": 5.156397941705219
+    },
+    {
+      "period_days": 3.1180866370199998,
+      "phase_dispersion_score": 0.08350433999198169,
+      "relative_offset": -1.9999999999999836e-05,
+      "temporal_score": 2.3283246994483453
+    },
+    {
+      "period_days": 3.118149,
+      "phase_dispersion_score": 0.09178604131779762,
+      "relative_offset": 0.0,
+      "temporal_score": 2.385643842888151
+    },
+    {
+      "period_days": 3.1182113629799995,
+      "phase_dispersion_score": 0.08847276889108878,
+      "relative_offset": 2.0000000000000052e-05,
+      "temporal_score": 5.38195989293364
+    },
+    {
+      "period_days": 3.11827372596,
+      "phase_dispersion_score": 0.09273804187032576,
+      "relative_offset": 4.0000000000000105e-05,
+      "temporal_score": 11.137952404647953
+    },
+    {
+      "period_days": 3.1183360889399996,
+      "phase_dispersion_score": 0.08984575454432264,
+      "relative_offset": 6.000000000000016e-05,
+      "temporal_score": 19.277870805460612
+    },
+    {
+      "period_days": 3.11839845192,
+      "phase_dispersion_score": 0.09910141801119725,
+      "relative_offset": 7.999999999999999e-05,
+      "temporal_score": 29.29074859655813
+    },
+    {
+      "period_days": 3.1184608148999997,
+      "phase_dispersion_score": 0.10509201184520381,
+      "relative_offset": 0.00010000000000000005,
+      "temporal_score": 40.598466870581575
+    },
+    {
+      "period_days": 3.1185231778799993,
+      "phase_dispersion_score": 0.11596663762468784,
+      "relative_offset": 0.0001200000000000001,
+      "temporal_score": 52.61617927944401
+    },
+    {
+      "period_days": 3.11858554086,
+      "phase_dispersion_score": 0.12022262836854093,
+      "relative_offset": 0.00014000000000000015,
+      "temporal_score": 64.79781227487031
+    },
+    {
+      "period_days": 3.1186479038399995,
+      "phase_dispersion_score": 0.13206144470182596,
+      "relative_offset": 0.00015999999999999999,
+      "temporal_score": 76.66586148690001
+    },
+    {
+      "period_days": 3.11871026682,
+      "phase_dispersion_score": 0.1711359348257519,
+      "relative_offset": 0.00018000000000000004,
+      "temporal_score": 87.82793654646046
+    },
+    {
+      "period_days": 3.1187726297999996,
+      "phase_dispersion_score": 0.1758230998146393,
+      "relative_offset": 0.0002000000000000001,
+      "temporal_score": 97.98306466240739
+    },
+    {
+      "period_days": 3.11883499278,
+      "phase_dispersion_score": 0.19530439293981558,
+      "relative_offset": 0.00022000000000000014,
+      "temporal_score": 106.920642251065
+    },
+    {
+      "period_days": 3.1188973557599997,
+      "phase_dispersion_score": 0.20870797804100352,
+      "relative_offset": 0.00023999999999999998,
+      "temporal_score": 114.51488603490161
+    },
+    {
+      "period_days": 3.1189597187399998,
+      "phase_dispersion_score": 0.23006886397426152,
+      "relative_offset": 0.00026000000000000003,
+      "temporal_score": 120.71695242249068
+    },
+    {
+      "period_days": 3.11902208172,
+      "phase_dispersion_score": 0.2615954193889679,
+      "relative_offset": 0.0002800000000000001,
+      "temporal_score": 125.54520229087723
+    },
+    {
+      "period_days": 3.1190844447,
+      "phase_dispersion_score": 0.27722825583244665,
+      "relative_offset": 0.00030000000000000014,
+      "temporal_score": 129.07256589902272
+    },
+    {
+      "period_days": 3.11914680768,
+      "phase_dispersion_score": 0.3086542366690394,
+      "relative_offset": 0.0003200000000000002,
+      "temporal_score": 131.41035640956466
+    },
+    {
+      "period_days": 3.11920917066,
+      "phase_dispersion_score": 0.3330802682277595,
+      "relative_offset": 0.00034,
+      "temporal_score": 132.69037575455823
+    },
+    {
+      "period_days": 3.1192715336399996,
+      "phase_dispersion_score": 0.36240908520082643,
+      "relative_offset": 0.0003600000000000001,
+      "temporal_score": 133.04953550623546
+    },
+    {
+      "period_days": 3.11933389662,
+      "phase_dispersion_score": 0.35598938317613654,
+      "relative_offset": 0.00038000000000000013,
+      "temporal_score": 132.62084519448348
+    },
+    {
+      "period_days": 3.1193962595999998,
+      "phase_dispersion_score": 0.3850715601239236,
+      "relative_offset": 0.0004000000000000002,
+      "temporal_score": 131.53136672118293
+    },
+    {
+      "period_days": 3.1194586225800003,
+      "phase_dispersion_score": 0.4066375741720898,
+      "relative_offset": 0.00042,
+      "temporal_score": 129.9041832288752
+    },
+    {
+      "period_days": 3.11952098556,
+      "phase_dispersion_score": 0.45058647562387816,
+      "relative_offset": 0.00044000000000000007,
+      "temporal_score": 127.8601784504554
+    },
+    {
+      "period_days": 3.1195833485399995,
+      "phase_dispersion_score": 0.4731119658366679,
+      "relative_offset": 0.0004600000000000001,
+      "temporal_score": 125.51681018783998
+    },
+    {
+      "period_days": 3.11964571152,
+      "phase_dispersion_score": 0.4958526728628916,
+      "relative_offset": 0.0004800000000000002,
+      "temporal_score": 122.9835073697952
+    },
+    {
+      "period_days": 3.1197080744999997,
+      "phase_dispersion_score": 0.514416492925537,
+      "relative_offset": 0.0005,
+      "temporal_score": 120.35510122458136
+    },
+    {
+      "period_days": 3.11977043748,
+      "phase_dispersion_score": 0.5461565183456832,
+      "relative_offset": 0.0005200000000000001,
+      "temporal_score": 117.70519728403146
+    },
+    {
+      "period_days": 3.1198328004599998,
+      "phase_dispersion_score": 0.5638085192907195,
+      "relative_offset": 0.0005400000000000001,
+      "temporal_score": 115.08104682205214
+    },
+    {
+      "period_days": 3.1198951634399994,
+      "phase_dispersion_score": 0.5907175471380587,
+      "relative_offset": 0.0005600000000000002,
+      "temporal_score": 112.50098212504925
+    },
+    {
+      "period_days": 3.11995752642,
+      "phase_dispersion_score": 0.60921430957434,
+      "relative_offset": 0.00058,
+      "temporal_score": 109.9551449411461
+    },
+    {
+      "period_days": 3.1200198893999995,
+      "phase_dispersion_score": 0.6272717414346614,
+      "relative_offset": 0.0006000000000000001,
+      "temporal_score": 107.40994491928501
+    },
+    {
+      "period_days": 3.12008225238,
+      "phase_dispersion_score": 0.6607309522973804,
+      "relative_offset": 0.0006200000000000001,
+      "temporal_score": 104.81623666111011
+    },
+    {
+      "period_days": 3.1201446153599997,
+      "phase_dispersion_score": 0.6653432226736959,
+      "relative_offset": 0.0006400000000000002,
+      "temporal_score": 102.12053074926442
+    },
+    {
+      "period_days": 3.12020697834,
+      "phase_dispersion_score": 0.6909133059396652,
+      "relative_offset": 0.0006600000000000002,
+      "temporal_score": 99.27769339584589
+    },
+    {
+      "period_days": 3.12026934132,
+      "phase_dispersion_score": 0.7051459744523829,
+      "relative_offset": 0.00068,
+      "temporal_score": 96.26269665991943
+    },
+    {
+      "period_days": 3.1203317042999994,
+      "phase_dispersion_score": 0.7353665201451077,
+      "relative_offset": 0.0007000000000000001,
+      "temporal_score": 93.07845245963118
+    },
+    {
+      "period_days": 3.12039406728,
+      "phase_dispersion_score": 0.7490028416007306,
+      "relative_offset": 0.0007200000000000002,
+      "temporal_score": 89.7571882843305
+    },
+    {
+      "period_days": 3.1204564302599995,
+      "phase_dispersion_score": 0.761868891388032,
+      "relative_offset": 0.0007400000000000002,
+      "temporal_score": 86.354539119773
+    },
+    {
+      "period_days": 3.12051879324,
+      "phase_dispersion_score": 0.7758679193578875,
+      "relative_offset": 0.00076,
+      "temporal_score": 82.93804797534484
+    },
+    {
+      "period_days": 3.1205811562199997,
+      "phase_dispersion_score": 0.7862415350150738,
+      "relative_offset": 0.0007800000000000001,
+      "temporal_score": 79.57377387717807
+    },
+    {
+      "period_days": 3.1206435191999997,
+      "phase_dispersion_score": 0.7949624678636005,
+      "relative_offset": 0.0008000000000000001,
+      "temporal_score": 76.31502975049689
+    },
+    {
+      "period_days": 3.12070588218,
+      "phase_dispersion_score": 0.8177151024933614,
+      "relative_offset": 0.0008200000000000002,
+      "temporal_score": 73.19592331946986
+    },
+    {
+      "period_days": 3.12076824516,
+      "phase_dispersion_score": 0.8191934779492002,
+      "relative_offset": 0.00084,
+      "temporal_score": 70.23039394330549
+    },
+    {
+      "period_days": 3.12083060814,
+      "phase_dispersion_score": 0.8203576171681835,
+      "relative_offset": 0.0008600000000000001,
+      "temporal_score": 67.41581318447624
+    },
+    {
+      "period_days": 3.12089297112,
+      "phase_dispersion_score": 0.827870702483991,
+      "relative_offset": 0.0008800000000000001,
+      "temporal_score": 64.73925350093289
+    },
+    {
+      "period_days": 3.1209553340999996,
+      "phase_dispersion_score": 0.8428080661934385,
+      "relative_offset": 0.0009000000000000002,
+      "temporal_score": 62.184163441794475
+    },
+    {
+      "period_days": 3.12101769708,
+      "phase_dispersion_score": 0.8670393573724937,
+      "relative_offset": 0.0009200000000000002,
+      "temporal_score": 59.73543615594473
+    },
+    {
+      "period_days": 3.1210800600599997,
+      "phase_dispersion_score": 0.8782079215499158,
+      "relative_offset": 0.0009400000000000001,
+      "temporal_score": 57.381763063274036
+    },
+    {
+      "period_days": 3.1211424230400002,
+      "phase_dispersion_score": 0.8730765390893627,
+      "relative_offset": 0.0009600000000000003,
+      "temporal_score": 55.115449255536575
+    },
+    {
+      "period_days": 3.12120478602,
+      "phase_dispersion_score": 0.8966162655805912,
+      "relative_offset": 0.00098,
+      "temporal_score": 52.93089860712122
+    },
+    {
+      "period_days": 3.1212671489999995,
+      "phase_dispersion_score": 0.9030310734312972,
+      "relative_offset": 0.001,
+      "temporal_score": 50.82320583524723
+    }
+  ],
+  "temporal_score_fractional_reduction": 0.024026697702877877
+}

@@ -1,0 +1,5 @@
+model_id,periodic,positive_mass_fraction,median_effective_mass,coefficient_of_variation_positive,sign_changes,gate_pass
+inverse_square_ballistic_segment,False,1.0,1.0,2.9027475788800784e-17,0,True
+harmonic_breathing_mode,True,0.34716796875,2.648025054108729,0.5188919650069859,2,False
+derd_waveform_interpreted_as_radius,True,0.5576171875,0.47465264837780247,1.257146002741701,4,False
+pressure_supported_hydrodynamic_surrogate,True,0.46435546875,1.4874635796993163,0.7897130248760968,4,False

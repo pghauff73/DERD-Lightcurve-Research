@@ -1,0 +1,13 @@
+{
+  "answer_commitment": "8512a7041f7f665db83bd458824a9775d43115f9df3d25501a948b7506292988",
+  "generated_utc": "2026-08-24T12:45:28.286302+00:00",
+  "implementation_id": "DERD-v1.9-phase19-external-group-replay-kit",
+  "kit_id": "DERD-PHASE19-BLIND-REPLICATION-KIT-1.0",
+  "private_answer_in_public_kit": false,
+  "private_evaluator_sha256": "c53d547002bb938916f398685ce5810c8219e7e1f90dd6d903eec6412789f555",
+  "private_evaluator_zip": "/mnt/data/lightcurve-trainer-roadmap/DERD_Phase19_Private_Evaluator.zip",
+  "public_file_count_excluding_checksum": 20,
+  "public_kit_sha256": "965b3d4228ccfbac8e9a605460349f425ca3d42bbaae22eebc108a83d2b57891",
+  "public_kit_zip": "/mnt/data/lightcurve-trainer-roadmap/DERD_Phase19_External_Replication_Kit.zip",
+  "task_count": 7
+}

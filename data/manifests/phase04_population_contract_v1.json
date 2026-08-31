@@ -1,0 +1,109 @@
+{
+  "contract_id": "DERD-PHASE04-POPULATION-CONTRACT-1.0",
+  "data_quality": {
+    "minimum_clean_observations": 50,
+    "minimum_phase_coverage_bins": 10,
+    "period_rule": "Use an externally sourced catalog period. Training-only verification is diagnostic and cannot silently replace it.",
+    "phase_bins": 12,
+    "uncertainty_rule": "A per-observation uncertainty column is required unless a source-specific preregistered error model is supplied."
+  },
+  "exposure_rule": "Any star used in Phase 01, 02, or 03 is permanently development-only and cannot enter the pristine sealed holdout.",
+  "implementation_id": "DERD-v0.4-phase04-readiness",
+  "minimum_counts": {
+    "development": 100,
+    "sealed_holdout": 50
+  },
+  "purpose": "Qualify a multi-class star population before any DERD or comparator result is inspected.",
+  "required_fields": [
+    "star_id",
+    "stratum",
+    "family",
+    "mode",
+    "survey",
+    "band",
+    "period_days",
+    "observation_count",
+    "phase_coverage_bins",
+    "relative_path",
+    "source_sha256",
+    "source_authority",
+    "source_locator",
+    "license_or_reuse_basis",
+    "mode_policy"
+  ],
+  "rights_rule": "Raw files are redistributed only when source terms permit. Otherwise the package contains lawful retrieval instructions, checksums, and locally generated derivatives only.",
+  "star_identity_rule": "One row represents one star package. All bands, sectors, epochs, and derivative files for that star inherit the same role.",
+  "status": "FROZEN_READINESS_CONTRACT_NO_CANDIDATE_POPULATION_YET",
+  "strata": [
+    {
+      "description": "single-dominant-mode Delta Scuti",
+      "development_minimum": 10,
+      "family": "Delta Scuti",
+      "sealed_minimum": 5,
+      "stratum_id": "DSCT-SINGLE"
+    },
+    {
+      "description": "high-amplitude Delta Scuti",
+      "development_minimum": 10,
+      "family": "Delta Scuti",
+      "sealed_minimum": 5,
+      "stratum_id": "DSCT-HADS"
+    },
+    {
+      "description": "multimode or rotationally complex Delta Scuti",
+      "development_minimum": 10,
+      "family": "Delta Scuti",
+      "sealed_minimum": 5,
+      "stratum_id": "DSCT-COMPLEX"
+    },
+    {
+      "description": "RRab without identified Blazhko modulation",
+      "development_minimum": 10,
+      "family": "RR Lyrae",
+      "sealed_minimum": 5,
+      "stratum_id": "RRL-RRAB-STABLE"
+    },
+    {
+      "description": "RRab with Blazhko modulation",
+      "development_minimum": 10,
+      "family": "RR Lyrae",
+      "sealed_minimum": 5,
+      "stratum_id": "RRL-RRAB-BLAZHKO"
+    },
+    {
+      "description": "first-overtone RRc",
+      "development_minimum": 10,
+      "family": "RR Lyrae",
+      "sealed_minimum": 5,
+      "stratum_id": "RRL-RRC"
+    },
+    {
+      "description": "double-mode RRd",
+      "development_minimum": 10,
+      "family": "RR Lyrae",
+      "sealed_minimum": 5,
+      "stratum_id": "RRL-RRD"
+    },
+    {
+      "description": "fundamental-mode classical Cepheid",
+      "development_minimum": 10,
+      "family": "Classical Cepheid",
+      "sealed_minimum": 5,
+      "stratum_id": "CEP-F"
+    },
+    {
+      "description": "first-overtone classical Cepheid",
+      "development_minimum": 10,
+      "family": "Classical Cepheid",
+      "sealed_minimum": 5,
+      "stratum_id": "CEP-1O"
+    },
+    {
+      "description": "suspected or measured circumstellar emission",
+      "development_minimum": 10,
+      "family": "Classical Cepheid",
+      "sealed_minimum": 5,
+      "stratum_id": "CEP-CSE"
+    }
+  ]
+}

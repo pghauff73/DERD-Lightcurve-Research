@@ -1,0 +1,251 @@
+{
+  "evidence_boundary": {
+    "allowed": [
+      "pipeline feasibility",
+      "training-only model selection feasibility",
+      "periodic-kernel baseline feasibility",
+      "cross-validated interval calibration feasibility",
+      "hypothesis generation for a larger study"
+    ],
+    "not_allowed": [
+      "broad Cepheid population performance claim",
+      "RR Lyrae or Delta Scuti performance claim",
+      "Fourier replacement claim",
+      "physical orbit identification",
+      "transparent-shell detection",
+      "stellar or shell mass inference"
+    ]
+  },
+  "heldout_rmse": {
+    "derd_g": {
+      "maximum": 0.5884356720976143,
+      "mean": 0.16542672910483577,
+      "median": 0.08075944734241028,
+      "minimum": 0.024893140453920902
+    },
+    "derd_k": {
+      "maximum": 0.4967481935970877,
+      "mean": 0.15641856461472037,
+      "median": 0.07203363684381647,
+      "minimum": 0.008197893054497753
+    },
+    "fourier_order2": {
+      "maximum": 0.5738596820369883,
+      "mean": 0.1472843442606196,
+      "median": 0.1068320082950659,
+      "minimum": 0.03268816896430825
+    },
+    "periodic_krr": {
+      "maximum": 0.769723865024874,
+      "mean": 0.16132011571385868,
+      "median": 0.12230468329466954,
+      "minimum": 0.011109805832037419
+    }
+  },
+  "implementation_id": "DERD-v0.3-phase03",
+  "interval_calibration": {
+    "absolute": {
+      "derd_g": {
+        "absolute_calibration_error": 0.20000000000000007,
+        "nominal_coverage": 0.9,
+        "pooled_empirical_coverage": 0.7,
+        "pooled_interval_score": 1.8249398334286215,
+        "pooled_mean_width": 0.4293516683614941,
+        "stars_at_or_above_nominal": 10
+      },
+      "derd_k": {
+        "absolute_calibration_error": 0.20000000000000007,
+        "nominal_coverage": 0.9,
+        "pooled_empirical_coverage": 0.7,
+        "pooled_interval_score": 1.763342783167903,
+        "pooled_mean_width": 0.3651063712558072,
+        "stars_at_or_above_nominal": 11
+      },
+      "fourier_order2": {
+        "absolute_calibration_error": 0.040000000000000036,
+        "nominal_coverage": 0.9,
+        "pooled_empirical_coverage": 0.86,
+        "pooled_interval_score": 1.4267895071293062,
+        "pooled_mean_width": 1.023837207460377,
+        "stars_at_or_above_nominal": 13
+      },
+      "periodic_krr": {
+        "absolute_calibration_error": 0.12,
+        "nominal_coverage": 0.9,
+        "pooled_empirical_coverage": 0.78,
+        "pooled_interval_score": 1.2328897947188224,
+        "pooled_mean_width": 0.5867618872655467,
+        "stars_at_or_above_nominal": 12
+      }
+    },
+    "error_standardized": {
+      "derd_g": {
+        "absolute_calibration_error": 0.21999999999999997,
+        "nominal_coverage": 0.9,
+        "pooled_empirical_coverage": 0.68,
+        "pooled_interval_score": 1.816274919693362,
+        "pooled_mean_width": 0.46979285317465275,
+        "stars_at_or_above_nominal": 8
+      },
+      "derd_k": {
+        "absolute_calibration_error": 0.20000000000000007,
+        "nominal_coverage": 0.9,
+        "pooled_empirical_coverage": 0.7,
+        "pooled_interval_score": 1.7609178307799127,
+        "pooled_mean_width": 0.4009346646288134,
+        "stars_at_or_above_nominal": 11
+      },
+      "fourier_order2": {
+        "absolute_calibration_error": 0.030000000000000027,
+        "nominal_coverage": 0.9,
+        "pooled_empirical_coverage": 0.87,
+        "pooled_interval_score": 1.4757365352190674,
+        "pooled_mean_width": 1.0530509476843255,
+        "stars_at_or_above_nominal": 14
+      },
+      "periodic_krr": {
+        "absolute_calibration_error": 0.10999999999999999,
+        "nominal_coverage": 0.9,
+        "pooled_empirical_coverage": 0.79,
+        "pooled_interval_score": 1.237834791174418,
+        "pooled_mean_width": 0.5822136358746498,
+        "stars_at_or_above_nominal": 12
+      }
+    }
+  },
+  "mode_counts": {
+    "1O": 10,
+    "F": 10
+  },
+  "mode_summary": {
+    "1O": {
+      "mean_primary_difference": -0.006339043802888097,
+      "median_primary_difference": 0.011328856946394846,
+      "selected_derd_win_count": 3,
+      "target_count": 10
+    },
+    "F": {
+      "mean_primary_difference": -0.013030068320160609,
+      "median_primary_difference": -0.016862856307551317,
+      "selected_derd_win_count": 6,
+      "target_count": 10
+    }
+  },
+  "observations": {
+    "held_out": 100,
+    "source_scope": "24-row mirrored excerpt per target",
+    "total": 480,
+    "training": 380
+  },
+  "period_scan": {
+    "maximum_absolute_relative_delta": 0.005000000000000041,
+    "maximum_span_distribution": {
+      "0.001": 16,
+      "0.005": 3,
+      "0.02": 1
+    },
+    "resolved_count": 20,
+    "stage_count_distribution": {
+      "1": 16,
+      "2": 3,
+      "3": 1
+    },
+    "unresolved_count": 0,
+    "unresolved_stars": []
+  },
+  "periodic_kernel": {
+    "fallback_count": 0,
+    "length_scale_boundary_hit_count": 3,
+    "length_scale_boundary_hit_stars": [
+      "OGLE-LMC-CEP-0013",
+      "OGLE-LMC-CEP-0018",
+      "OGLE-LMC-CEP-0025"
+    ],
+    "length_scale_counts": {
+      "0.5": 1,
+      "0.7": 5,
+      "1.0": 3,
+      "1.5": 8,
+      "2.0": 3
+    },
+    "median_condition_number": 6134.834238887899,
+    "median_effective_parameters": 7.09744858739541,
+    "ridge_counts": {
+      "0.0001": 4,
+      "0.001": 6,
+      "0.01": 9,
+      "0.1": 1
+    }
+  },
+  "primary_comparison": {
+    "bootstrap_repetitions": 20000,
+    "exact_sign_test_p_value": 0.8238029479980469,
+    "first_model_win_count": 9,
+    "mean_confidence_interval": [
+      -0.06740318726178679,
+      0.04671440409893052
+    ],
+    "mean_difference": -0.009684556061524354,
+    "median_confidence_interval": [
+      -0.024680359946590805,
+      0.031177054534672583
+    ],
+    "median_difference": 0.006606008298413523,
+    "noninferiority_margin": 0.02,
+    "noninferiority_pass_mean": false,
+    "sample_count": 20,
+    "second_model_win_or_tie_count": 11
+  },
+  "promotion_gate": {
+    "data_gates": {
+      "complete_official_photometry": false,
+      "minimum_qualifying_population": false,
+      "multiple_pulsator_classes": false,
+      "prospectively_sealed_star_identity_holdout": false
+    },
+    "decision": "DENIED_INCOMPLETE_DATA_CLASS_SCOPE_AND_NO_PRISTINE_SEALED_HOLDOUT",
+    "promoted": false,
+    "statistical_noninferiority_gate": false
+  },
+  "selection": {
+    "descriptive_test_winner_counts": {
+      "derd_g": 3,
+      "derd_k": 7,
+      "fourier_order2": 8,
+      "periodic_krr": 2
+    },
+    "preselected_model_counts": {
+      "derd_g": 5,
+      "derd_k": 9,
+      "periodic_krr": 6
+    },
+    "selected_baseline_counts": {
+      "fourier_order2": 6,
+      "periodic_krr": 14
+    },
+    "selected_derd_law_counts": {
+      "derd_g": 7,
+      "derd_k": 13
+    }
+  },
+  "status": "PHASE03_METHODS_AND_CALIBRATION_COMPLETE_C17_NOT_PROMOTED",
+  "target_count": 20,
+  "training_oof_weighted_rmse": {
+    "derd_g": {
+      "mean": 0.12256768030209182,
+      "median": 0.10592660564370887
+    },
+    "derd_k": {
+      "mean": 0.09818015856335362,
+      "median": 0.07314473672978061
+    },
+    "fourier_order2": {
+      "mean": 0.22920386314547772,
+      "median": 0.1486688894288835
+    },
+    "periodic_krr": {
+      "mean": 0.13530189631052378,
+      "median": 0.09747542282139915
+    }
+  }
+}

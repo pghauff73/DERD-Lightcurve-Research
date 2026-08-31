@@ -1,0 +1,7 @@
+Phase-09 raw-source retrieval attempt
+Command deadline: 12 seconds
+Exit code: 124 (timeout)
+Result: the isolated execution runtime did not complete DNS/network retrieval before the process deadline.
+Accepted source files: 0 of 15
+Raw bytes redistributed: no
+See phase09_acquisition_receipt.json for the frozen failure receipt.

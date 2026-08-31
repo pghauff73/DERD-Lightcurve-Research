@@ -1,0 +1,26 @@
+{
+  "claim": "A simultaneous weighted harmonic regression can preserve eight signed sine/cosine coefficients, an explicit intercept, reference epoch, source digest and full coefficient covariance in DERD-HARMONIC-EXCHANGE-1.0.",
+  "claim_id": "C35",
+  "evidence_level": "E3_REPRODUCIBLE_SOFTWARE_PROPERTY",
+  "result": {
+    "covariance_estimator": "hc3",
+    "design_condition_number": 1.828138992893719,
+    "exchange_records": {
+      "catalog_object_sha256": "c2d36709662557168f87423b51a44bbdfd1645810c14548b01c6df21d7b93d21",
+      "catalog_path": "artifacts/phase07/OGLE-LMC-CEP-0010.catalog-period.harmonics.json",
+      "catalog_sha256": "c2d36709662557168f87423b51a44bbdfd1645810c14548b01c6df21d7b93d21",
+      "refined_object_sha256": "2e32a19916d72ec3fd5dffc6e4ed33fd8d00d69f77fcac8681b5b2c23704f9ec",
+      "refined_path": "artifacts/phase07/OGLE-LMC-CEP-0010.refined-period.harmonics.json",
+      "refined_sha256": "2e32a19916d72ec3fd5dffc6e4ed33fd8d00d69f77fcac8681b5b2c23704f9ec"
+    },
+    "harmonic_count": 8
+  },
+  "scope": "The exchange preserves waveform-estimation evidence. It does not identify a physical mechanism.",
+  "software_evidence": [
+    "src/derd/harmonic_extraction.py",
+    "src/derd/harmonic_exchange.py",
+    "tests/test_phase07_harmonic_extraction.py",
+    "tests/test_phase06_harmonic_exchange.py"
+  ],
+  "status": "PROVED_AS_REPRODUCIBLE_SOFTWARE_PROPERTY"
+}

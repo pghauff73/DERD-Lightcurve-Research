@@ -1,0 +1,10 @@
+node_id,object_id,analysis_version,family,denominator_record,ledger_origin_phase
+OGLE-LMC-CEP-0002:phase08,OGLE-LMC-CEP-0002,phase08,classical_cepheid,False,phase14
+OGLE-LMC-CEP-0002:phase14,OGLE-LMC-CEP-0002,phase14,classical_cepheid,True,phase14
+OGLE-LMC-CEP-0004:phase11,OGLE-LMC-CEP-0004,phase11,classical_cepheid,True,phase11
+OGLE-LMC-CEP-0010:phase07,OGLE-LMC-CEP-0010,phase07,classical_cepheid,False,phase15_archival_promotion
+OGLE-LMC-CEP-0010:phase08,OGLE-LMC-CEP-0010,phase08,classical_cepheid,False,phase15_archival_promotion
+OGLE-LMC-RRLYR-00001:phase08,OGLE-LMC-RRLYR-00001,phase08,rr_lyrae,False,phase12
+OGLE-LMC-RRLYR-00001:phase12,OGLE-LMC-RRLYR-00001,phase12,rr_lyrae,True,phase12
+OGLE-LMC-RRLYR-00004:phase08,OGLE-LMC-RRLYR-00004,phase08,rr_lyrae,False,phase13
+OGLE-LMC-RRLYR-00004:phase13,OGLE-LMC-RRLYR-00004,phase13,rr_lyrae,True,phase13

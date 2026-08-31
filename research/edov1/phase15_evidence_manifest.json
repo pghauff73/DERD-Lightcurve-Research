@@ -1,0 +1,25 @@
+{
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "contradictory_or_limiting_evidence": [
+    "Phase-07 and Phase-08 do not reproduce an exact scientific result under their different configurations",
+    "the evidence is same-source software lineage rather than independent astronomical replication",
+    "no Delta Scuti target has entered the cumulative ledger",
+    "all family and population outputs remain blocked by the incomplete frozen denominator"
+  ],
+  "implementation_id": "DERD-v1.5-phase15-archival-lineage-promotion",
+  "manifest_id": "EDOV1-PHASE15-ARCHIVAL-LINEAGE-EVIDENCE-V1",
+  "rights_and_provenance": {
+    "lineage_audit": "artifacts/phase15/phase15_archival_lineage_OGLE-LMC-CEP-0010.json",
+    "raw_bytes_redistributed": false,
+    "source_commit": "55836b58345b9507bfbd98c5fabbac82c83605e3",
+    "source_git_blob_sha1": "fd82c05bb3a62ba9a8c614ac51eb315124090381",
+    "source_repository": "bksim/OutlierDetection",
+    "source_sha256": "574d7252996f5ee71169a97f2d7b52a8acbdb0898df65a7b61f5419ae9f063e0"
+  },
+  "supporting_evidence": [
+    "the Phase-07 and Phase-08 records identify the same frozen observational source coordinates",
+    "the Phase-08 target-record and harmonic-exchange hashes pass the frozen promotion checks",
+    "OGLE-LMC-CEP-0010 is appended as one cumulative astronomical denominator record",
+    "the cumulative ledger grows from four to five unique target records while partial family outputs remain suppressed"
+  ]
+}

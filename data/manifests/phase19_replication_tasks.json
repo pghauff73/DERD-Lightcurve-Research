@@ -1,0 +1,135 @@
+{
+  "answer_labels_disclosed": false,
+  "date_frozen": "2026-08-24",
+  "implementation_id": "DERD-v1.9-phase19-external-group-replay-kit",
+  "kit_id": "DERD-PHASE19-BLIND-REPLICATION-KIT-1.0",
+  "manifest_id": "DERD-PHASE19-TASK-MANIFEST-1.0",
+  "raw_third_party_photometry_included": false,
+  "sha256_canonical_json": "bead42fa49f6b1f552d6ff2fa47661398addfd330d60b7b655797a280a568205",
+  "task_count": 7,
+  "task_types": {
+    "observational_exchange": 3,
+    "synthetic_photometry": 4
+  },
+  "tasks": [
+    {
+      "direct_fit": {
+        "enabled": true,
+        "max_function_evaluations": 220,
+        "seed": 3286129357,
+        "starts": 4
+      },
+      "fit_harmonics": 4,
+      "harmonic_order": 8,
+      "input_path": "P19-7A31F2.dat",
+      "input_sha256": "f65c12d9465bc033c14315fc2d30945a8f524f0452d939086000ac3a31e132dd",
+      "observation_count": 336,
+      "period_days": 0.7421,
+      "propagation_draws": 384,
+      "propagation_seed": 3487489299,
+      "reference_epoch": 0.958952870983032,
+      "ridge": 0.0001,
+      "task_id": "P19-7A31F2",
+      "task_type": "synthetic_photometry"
+    },
+    {
+      "direct_fit": {
+        "enabled": true,
+        "max_function_evaluations": 220,
+        "seed": 3044878780,
+        "starts": 4
+      },
+      "fit_harmonics": 4,
+      "harmonic_order": 8,
+      "input_path": "P19-C91D44.dat",
+      "input_sha256": "e7824ffee1c5276358f3bfa64ca53ce85149ca41204825dfa0a8667852e957ac",
+      "observation_count": 352,
+      "period_days": 1.1387,
+      "propagation_draws": 384,
+      "propagation_seed": 679765926,
+      "reference_epoch": 0.6694042944662891,
+      "ridge": 0.0001,
+      "task_id": "P19-C91D44",
+      "task_type": "synthetic_photometry"
+    },
+    {
+      "direct_fit": {
+        "enabled": true,
+        "max_function_evaluations": 220,
+        "seed": 3633975893,
+        "starts": 4
+      },
+      "fit_harmonics": 4,
+      "harmonic_order": 8,
+      "input_path": "P19-5E08B7.dat",
+      "input_sha256": "ad332742fa43d758dcc6075066d89e41e5eb257774f94122df50fc14849e725d",
+      "observation_count": 384,
+      "period_days": 0.4932,
+      "propagation_draws": 384,
+      "propagation_seed": 1939948555,
+      "reference_epoch": 0.14837867124402138,
+      "ridge": 0.0001,
+      "task_id": "P19-5E08B7",
+      "task_type": "synthetic_photometry"
+    },
+    {
+      "direct_fit": {
+        "enabled": true,
+        "max_function_evaluations": 220,
+        "seed": 3822799721,
+        "starts": 4
+      },
+      "fit_harmonics": 4,
+      "harmonic_order": 8,
+      "input_path": "P19-A4F663.dat",
+      "input_sha256": "d099501baa2255986f854f48f2f549a89143824da81cb2a849ea20663c90fd32",
+      "observation_count": 368,
+      "period_days": 0.8814,
+      "propagation_draws": 384,
+      "propagation_seed": 3585565475,
+      "reference_epoch": 0.08041724734988807,
+      "ridge": 0.0001,
+      "task_id": "P19-A4F663",
+      "task_type": "synthetic_photometry"
+    },
+    {
+      "direct_fit": {
+        "enabled": false
+      },
+      "fit_harmonics": 4,
+      "harmonic_count": 8,
+      "input_path": "P19-3BD812.json",
+      "input_sha256": "7f5f723e342af5fa0fb384006c2f8e0bf6eb79611cb2251b85447ee009183a2e",
+      "propagation_draws": 512,
+      "propagation_seed": 3569245069,
+      "task_id": "P19-3BD812",
+      "task_type": "observational_exchange"
+    },
+    {
+      "direct_fit": {
+        "enabled": false
+      },
+      "fit_harmonics": 4,
+      "harmonic_count": 8,
+      "input_path": "P19-E2710C.json",
+      "input_sha256": "f49a6eb0cdc8eb9deb97eaebee78ee8347dff815ee4ef4aacf64a9d0230d92dc",
+      "propagation_draws": 512,
+      "propagation_seed": 1678688082,
+      "task_id": "P19-E2710C",
+      "task_type": "observational_exchange"
+    },
+    {
+      "direct_fit": {
+        "enabled": false
+      },
+      "fit_harmonics": 4,
+      "harmonic_count": 8,
+      "input_path": "P19-94C05A.json",
+      "input_sha256": "c34686a49fa2ad202cb9adb1a2145b7868e15125c7a812d467180b207f351b99",
+      "propagation_draws": 512,
+      "propagation_seed": 2026907730,
+      "task_id": "P19-94C05A",
+      "task_type": "observational_exchange"
+    }
+  ]
+}

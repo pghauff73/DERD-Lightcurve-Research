@@ -1,0 +1,198 @@
+{
+  "artifact_id": "EDO-PHASE02-OGLE-EXCERPT-001",
+  "observations_total": 480,
+  "official_source": "https://www.astrouw.edu.pl/ogle/ogle4/OCVS/lmc/cep/",
+  "period_mode_mirror": {
+    "commit": "2d5f05d5c20d8c4c1c1e8811d502398232f14316",
+    "repository": "dubbatee/ScienceExtensionCode"
+  },
+  "photometry_mirror": {
+    "commit": "55836b58345b9507bfbd98c5fabbac82c83605e3",
+    "repository": "bksim/OutlierDetection"
+  },
+  "rights_and_attribution": "Retain OGLE attribution and cite the appropriate OGLE collection paper in scientific reuse.",
+  "status": "EXECUTABLE_EXCERPT_NOT_COMPLETE_SURVEY_DOWNLOAD",
+  "target_count": 20,
+  "targets": [
+    {
+      "local_path": "data/raw/ogle/OGLE-LMC-CEP-0001.dat",
+      "local_sha256": "a55f64c66fa94c6a2f29539e8085792ad984bdb9bee16e4078b529445529432f",
+      "mode": "1O",
+      "observation_count": 24,
+      "period_days": 0.3068181,
+      "star_id": "OGLE-LMC-CEP-0001",
+      "upstream_blob_sha1": "b3e221c5fe12622334a2473f34022e632251a485"
+    },
+    {
+      "local_path": "data/raw/ogle/OGLE-LMC-CEP-0002.dat",
+      "local_sha256": "e793fbe2bca3f68121cec05e31e1af26866dcc8f6f52ed8cb5b8809ab68ae063",
+      "mode": "F",
+      "observation_count": 24,
+      "period_days": 3.118149,
+      "star_id": "OGLE-LMC-CEP-0002",
+      "upstream_blob_sha1": "1602e53ada1ee586b6a9c7c0b7b09f4c967c144d"
+    },
+    {
+      "local_path": "data/raw/ogle/OGLE-LMC-CEP-0003.dat",
+      "local_sha256": "45b86328fe30b498fcb96eeb62d0844ca2561f70a9da78de364e7a362d8683d5",
+      "mode": "1O",
+      "observation_count": 24,
+      "period_days": 0.3500957,
+      "star_id": "OGLE-LMC-CEP-0003",
+      "upstream_blob_sha1": "8220c1e6fd379bee4c8bee00d3775514a7906913"
+    },
+    {
+      "local_path": "data/raw/ogle/OGLE-LMC-CEP-0004.dat",
+      "local_sha256": "90288a5f96940f59d9bddbede8c2b683a72b07ed0f6dcdc92571f501ad4a04c7",
+      "mode": "1O",
+      "observation_count": 24,
+      "period_days": 2.2296385,
+      "star_id": "OGLE-LMC-CEP-0004",
+      "upstream_blob_sha1": "12ba4fb6df56ade0f191307c1d7c0ebaa0f563dd"
+    },
+    {
+      "local_path": "data/raw/ogle/OGLE-LMC-CEP-0005.dat",
+      "local_sha256": "450368e130f5aa0d1823d415b3041463e65f8eaf10e6d90ff72d14c4f9621ed7",
+      "mode": "F",
+      "observation_count": 24,
+      "period_days": 5.6119491,
+      "star_id": "OGLE-LMC-CEP-0005",
+      "upstream_blob_sha1": "889b8f84a98b545956f99adf234ac079f2ee4c8a"
+    },
+    {
+      "local_path": "data/raw/ogle/OGLE-LMC-CEP-0006.dat",
+      "local_sha256": "4afcf12f90c25b367b86a81de44c5901967d738af7ec283abdae005404ab4878",
+      "mode": "1O",
+      "observation_count": 24,
+      "period_days": 3.2947501,
+      "star_id": "OGLE-LMC-CEP-0006",
+      "upstream_blob_sha1": "74a2794a59a5cc2c9fd462e7347342bafc1b0a96"
+    },
+    {
+      "local_path": "data/raw/ogle/OGLE-LMC-CEP-0007.dat",
+      "local_sha256": "8851b3c1b637300484849de12ced3a8c7d959827b97e982168c5a76dfe4bbb5c",
+      "mode": "1O",
+      "observation_count": 24,
+      "period_days": 0.7090827,
+      "star_id": "OGLE-LMC-CEP-0007",
+      "upstream_blob_sha1": "be5ae122aa45d75b40b9d2aa8587ee1d738a085a"
+    },
+    {
+      "local_path": "data/raw/ogle/OGLE-LMC-CEP-0009.dat",
+      "local_sha256": "256b9dad787c2e7c38abf0baa272dc73063ed7aa422212e468a6a96015396b9b",
+      "mode": "1O",
+      "observation_count": 24,
+      "period_days": 2.0243667,
+      "star_id": "OGLE-LMC-CEP-0009",
+      "upstream_blob_sha1": "8aaf8fb25c389125437d30d06c8e90ff0e8ef902"
+    },
+    {
+      "local_path": "data/raw/ogle/OGLE-LMC-CEP-0010.dat",
+      "local_sha256": "8b2e368df3a3de9beb178268cbe53020a827202ee54acf599cbb41a83ff88752",
+      "mode": "1O",
+      "observation_count": 24,
+      "period_days": 2.5655853,
+      "star_id": "OGLE-LMC-CEP-0010",
+      "upstream_blob_sha1": "fd82c05bb3a62ba9a8c614ac51eb315124090381"
+    },
+    {
+      "local_path": "data/raw/ogle/OGLE-LMC-CEP-0012.dat",
+      "local_sha256": "a5d5065333cbfc177a2cd67c22bfbcd1dadfc003ef02b5a76b49c03d2962dcbc",
+      "mode": "F",
+      "observation_count": 24,
+      "period_days": 2.6601839,
+      "star_id": "OGLE-LMC-CEP-0012",
+      "upstream_blob_sha1": "cf6705ce98c6cb32756b47a8500458957e0f1be2"
+    },
+    {
+      "local_path": "data/raw/ogle/OGLE-LMC-CEP-0013.dat",
+      "local_sha256": "31ca97c5f2fda2ddd864779f11e1d5c9169b07150db42b58b3a6317e237e8820",
+      "mode": "1O",
+      "observation_count": 24,
+      "period_days": 1.5985688,
+      "star_id": "OGLE-LMC-CEP-0013",
+      "upstream_blob_sha1": "ee1f29bf8eecd833bf9f8713d1add86a402f5c49"
+    },
+    {
+      "local_path": "data/raw/ogle/OGLE-LMC-CEP-0014.dat",
+      "local_sha256": "d9b39ac7f05fddb8d51109d6f926ea8b0c7bbcd9a21da1b34121e092970707c3",
+      "mode": "1O",
+      "observation_count": 24,
+      "period_days": 3.1356338,
+      "star_id": "OGLE-LMC-CEP-0014",
+      "upstream_blob_sha1": "424ab882f0c103e45efad05bc53f2aba6d97cedf"
+    },
+    {
+      "local_path": "data/raw/ogle/OGLE-LMC-CEP-0015.dat",
+      "local_sha256": "7f60236698093bd5226e4b18db58fec5d0d9fa2584187bd7623a1a813e6b670b",
+      "mode": "1O",
+      "observation_count": 24,
+      "period_days": 1.6556995,
+      "star_id": "OGLE-LMC-CEP-0015",
+      "upstream_blob_sha1": "bf226a46a92b655523d84821c422ca8e8434b5a0"
+    },
+    {
+      "local_path": "data/raw/ogle/OGLE-LMC-CEP-0017.dat",
+      "local_sha256": "dc5cca6466dd5cf2fc0aa2d470389b28786ec4bcc0919b5c3b53e8da833ae273",
+      "mode": "F",
+      "observation_count": 24,
+      "period_days": 3.6772904,
+      "star_id": "OGLE-LMC-CEP-0017",
+      "upstream_blob_sha1": "6261c76f4466499cbd4bad2b7952577b9a915e2a"
+    },
+    {
+      "local_path": "data/raw/ogle/OGLE-LMC-CEP-0018.dat",
+      "local_sha256": "aa00b8e81cd677a531afbf5f2b21b434c2be621defc0aa5f757ed395d4a42d3c",
+      "mode": "F",
+      "observation_count": 24,
+      "period_days": 4.0478369,
+      "star_id": "OGLE-LMC-CEP-0018",
+      "upstream_blob_sha1": "caefd408e669ad13ab8a2995ef835b9396361aa8"
+    },
+    {
+      "local_path": "data/raw/ogle/OGLE-LMC-CEP-0021.dat",
+      "local_sha256": "978f768f733ad6665b51d7964992b7291e3d010646c69a3ede2279e306bc9174",
+      "mode": "F",
+      "observation_count": 24,
+      "period_days": 5.4579579,
+      "star_id": "OGLE-LMC-CEP-0021",
+      "upstream_blob_sha1": "90d6040ae33c811fb15773c4b4a46c78d8df6e79"
+    },
+    {
+      "local_path": "data/raw/ogle/OGLE-LMC-CEP-0023.dat",
+      "local_sha256": "d3629879698b47eee0b448085b909582972128cf4d7bf051300a77e3f4efe728",
+      "mode": "F",
+      "observation_count": 24,
+      "period_days": 1.7018187,
+      "star_id": "OGLE-LMC-CEP-0023",
+      "upstream_blob_sha1": "241402d6c63af354ef4be10be93df3dda37cec49"
+    },
+    {
+      "local_path": "data/raw/ogle/OGLE-LMC-CEP-0025.dat",
+      "local_sha256": "aa05f391082a9ec0545562f374f2b5a9f45d198fb3c3e99a2dc93ec2285ce515",
+      "mode": "F",
+      "observation_count": 24,
+      "period_days": 3.7334902,
+      "star_id": "OGLE-LMC-CEP-0025",
+      "upstream_blob_sha1": "56afc7f1293a37599a0ee750dfe23f6095c2aa76"
+    },
+    {
+      "local_path": "data/raw/ogle/OGLE-LMC-CEP-0026.dat",
+      "local_sha256": "cbfb505a8ba72cca95b51f0fe5c6f6d1689b74b9f9614a05200ce8ff12143ffb",
+      "mode": "F",
+      "observation_count": 24,
+      "period_days": 2.5706724,
+      "star_id": "OGLE-LMC-CEP-0026",
+      "upstream_blob_sha1": "204466f467c8668c0297756ac0b417ba39520f8f"
+    },
+    {
+      "local_path": "data/raw/ogle/OGLE-LMC-CEP-0027.dat",
+      "local_sha256": "2f837845043a0d8dbab4a3616ed38c27166a5e57af7a42278ecdf5ad64b1d253",
+      "mode": "F",
+      "observation_count": 24,
+      "period_days": 3.5229124,
+      "star_id": "OGLE-LMC-CEP-0027",
+      "upstream_blob_sha1": "b5a6261b12d03dcd3dc2861b711bfeaba9b2766e"
+    }
+  ]
+}

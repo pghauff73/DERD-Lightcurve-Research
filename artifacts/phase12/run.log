@@ -1,0 +1,8 @@
+{
+  "cumulative_records": 2,
+  "decision": "PHASE12_CUMULATIVE_LEDGER_UPDATED_REPLAY_AUDIT_PASSED_POPULATION_GATE_CLOSED",
+  "new_records": 1,
+  "population_outputs_allowed": false,
+  "prior_records": 1,
+  "scientific_replay_pass": true
+}

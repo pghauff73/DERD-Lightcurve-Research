@@ -1,0 +1,21 @@
+{
+  "band": "V",
+  "byte_count": 792,
+  "commit": "55836b58345b9507bfbd98c5fabbac82c83605e3",
+  "git_blob_sha1": "9424f38e5ce9326a5e5b4f0fcf4fe158cc02cbf2",
+  "limitations": [
+    "The published external workflow excluded objects with fewer than 50 measurements.",
+    "The publication may merge OGLE-III and OGLE-IV V-band observations, while this mirror contains 33 rows.",
+    "The exact publication input bytes are not known, so source-byte identity cannot be claimed."
+  ],
+  "manifest_id": "DERD-PHASE17-EXTERNAL-V-SOURCE-MANIFEST-1.0",
+  "object_id": "OGLE-LMC-CEP-0002",
+  "observation_count": 33,
+  "redistribution_status": "EXCLUDED_FROM_RELEASE_PENDING_INDEPENDENT_RIGHTS_CONFIRMATION",
+  "repository": "bksim/OutlierDetection",
+  "repository_path": "Cluster/cep/phot/V/OGLE-LMC-CEP-0002.dat",
+  "sha256_canonical_json": "47b541f035254196655f05e84acfd3d6a7a00d9cd69c4124c58cabe963f2173b",
+  "source_relative_path": "data/raw/phase17_external/OGLE-LMC-CEP-0002_V.dat",
+  "source_role": "partial V-band mirror used for an external-analysis consistency anchor",
+  "source_sha256": "bc36f947e8e3d36d197498345b83aa24f9e1a0d9010a99f4fe8a0bab4ccdb855"
+}

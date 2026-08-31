@@ -1,0 +1,11 @@
+{
+  "claim": "Reasonable curve_fit weighting and fixed-versus-free-period variants remain jointly consistent with the published vector, while OGLE-III-only and OGLE-IV-only estimates demonstrate a source-scope effect.",
+  "claim_id": "C87",
+  "evidence": [
+    "artifacts/phase18/phase18_method_lattice.csv",
+    "artifacts/phase18/phase18_source_scope_intervention.csv"
+  ],
+  "physical_claim_scope": "external Fourier input reconstruction and normalized waveform provenance only",
+  "sha256_canonical_json": "01a700365d2a2d4b483b2a9ba7da6488e66a90158d9b084ad7c0238a685b1ecd",
+  "status": "VERIFIED_METHOD_LATTICE"
+}

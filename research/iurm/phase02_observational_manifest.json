@@ -1,0 +1,41 @@
+{
+  "manifest_id": "IURM-PHASE02-OBSERVATIONAL-0.2",
+  "rule": "one active dimension, one frozen constant set, one output bundle, one gate decision",
+  "experiments": [
+    {
+      "experiment_id": "IURM-P02-TIME-LAW",
+      "active_dimension": "time_law",
+      "values": ["DERD-G", "DERD-K"],
+      "frozen": ["star", "period", "phase split", "epoch estimator", "train scaler", "weights", "optimizer budget", "parameter bounds"],
+      "output": "held-out metrics and Jacobian condition number"
+    },
+    {
+      "experiment_id": "IURM-P02-MODEL-FAMILY",
+      "active_dimension": "waveform family",
+      "values": ["DERD-G", "DERD-K", "Fourier order 2", "Fourier stability-gated BIC"],
+      "frozen": ["observations", "period", "train-test membership", "training-only preprocessing"],
+      "output": "held-out RMSE, weighted RMSE, MAE, maximum error, residual autocorrelation, Durbin-Watson"
+    },
+    {
+      "experiment_id": "IURM-P02-PULSATION-MODE",
+      "active_dimension": "catalog pulsation mode",
+      "values": ["F", "1O"],
+      "frozen": ["survey", "band", "target count per mode", "fitting pipeline"],
+      "output": "stratified aggregate metrics"
+    },
+    {
+      "experiment_id": "IURM-P02-FOURIER-STABILITY",
+      "active_dimension": "training-only Fourier stability gate",
+      "values": ["raw BIC", "condition-and-span-gated BIC"],
+      "frozen": ["training observations", "candidate orders", "BIC formula", "held-out observations hidden from selection"],
+      "output": "rejected orders and held-out diagnostic metrics"
+    }
+  ],
+  "anti_leakage": [
+    "test membership frozen before epoch estimation",
+    "epoch estimated from training observations only",
+    "min-max scaler fit on training observations only",
+    "Fourier order and stability selection use training observations only",
+    "no sealed confirmatory holdout is claimed"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "claim": "Source-byte completeness and conservative observation cleaning are orthogonal evidence dimensions; removing a quoted-error outlier does not make a hash-verified source incomplete.",
+  "claim_id": "C40",
+  "date": "2026-08-15",
+  "evidence": [
+    "src/derd/validation_phase07.py",
+    "tests/test_phase08_cohort.py"
+  ],
+  "implementation_id": "DERD-v0.8-phase08-multifamily-harmonic-forecast-cohort",
+  "physical_claim_certificate": false,
+  "scope": "Applies to the implemented source and cleaning definitions.",
+  "status": "VERIFIED_SOFTWARE_INVARIANT"
+}

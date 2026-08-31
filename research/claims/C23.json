@@ -1,0 +1,23 @@
+{
+  "claim": "The four Phase-02 period-grid boundary cases can be audited with a staged training-only widening rule.",
+  "claim_id": "C23",
+  "evidence_level": "E2_ENGINEERING_REANALYSIS",
+  "result": {
+    "maximum_absolute_relative_delta": 0.005000000000000041,
+    "maximum_span_distribution": {
+      "0.001": 16,
+      "0.005": 3,
+      "0.02": 1
+    },
+    "resolved_count": 20,
+    "stage_count_distribution": {
+      "1": 16,
+      "2": 3,
+      "3": 1
+    },
+    "unresolved_count": 0,
+    "unresolved_stars": []
+  },
+  "scope": "A resolved grid optimum is not proof that the catalog period is physically exact.",
+  "status": "VERIFIED_ON_PHASE03_ENGINEERING_POPULATION"
+}

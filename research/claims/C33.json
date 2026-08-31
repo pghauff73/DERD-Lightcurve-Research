@@ -1,0 +1,21 @@
+{
+  "claim": "DERD-HARMONIC-EXCHANGE-1.0 losslessly preserves the canonical complex harmonics by storing signed sine and cosine coefficients, frequency, epoch, units and source digest.",
+  "claim_id": "C33",
+  "evidence_level": "E3_REPRODUCIBLE_SOFTWARE_PROPERTY",
+  "positive_control": {
+    "evidence_level": "HARMONIC_FORECAST",
+    "flags": [],
+    "forecast_harmonics": 4,
+    "harmonic_count": 8,
+    "path": "data/examples/phase06_canonical_harmonic_exchange.json",
+    "record_sha256": "7b8c1b7f5bdea8a54a7f657821617d4645d990059c1458d22c21f41bd8804209",
+    "screen_score": 2.856463321256154e-15
+  },
+  "schema": "data/schemas/derd_harmonic_exchange_v1.schema.json",
+  "scope": "The schema preserves waveform evidence; it does not establish a physical stellar mechanism.",
+  "software_evidence": [
+    "src/derd/harmonic_exchange.py",
+    "tests/test_phase06_harmonic_exchange.py"
+  ],
+  "status": "PROVED_AS_SERIALIZATION_AND_RECONSTRUCTION_PROPERTY"
+}

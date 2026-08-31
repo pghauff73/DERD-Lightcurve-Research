@@ -1,0 +1,51 @@
+{
+  "manifest_id": "IURM-PHASE05-HARMONIC-SCREEN-0.5",
+  "rule": "one active dimension, one frozen constant set, one output bundle, one gate decision",
+  "experiments": [
+    {
+      "experiment_id": "IURM-P05-OBSERVATION-COUNT",
+      "active_dimension": "observations per star",
+      "values": [24, 40, 60, 80, 120, 160, 240, 400],
+      "frozen": [
+        "uniform phase coverage",
+        "median observed noise ratio",
+        "eight extracted harmonics",
+        "four fit harmonics",
+        "four forecast harmonics",
+        "null-family mixture",
+        "five deterministic replications",
+        "score and threshold rule"
+      ],
+      "output": "holdout ROC AUC and balanced-accuracy distributions",
+      "gate_result": "first pass at 160 observations"
+    },
+    {
+      "experiment_id": "IURM-P05-NOISE-MULTIPLIER",
+      "active_dimension": "quoted photometric-noise multiplier",
+      "values": [0.5, 1.0, 2.0],
+      "frozen": [
+        "20 exposed 24-point cadences",
+        "synthetic signal families",
+        "fourier order and ridge",
+        "harmonic score",
+        "development-holdout assignment"
+      ],
+      "output": "synthetic holdout ROC AUC and balanced accuracy",
+      "gate_result": "all 24-point variants failed reliable discrimination"
+    },
+    {
+      "experiment_id": "IURM-P05-PERIOD-COORDINATE",
+      "active_dimension": "catalog period versus training-only adaptive period diagnostic",
+      "frozen": [
+        "observations",
+        "photometric conversion",
+        "Fourier order",
+        "ridge",
+        "harmonic score"
+      ],
+      "output": "per-star score delta and period delta",
+      "gate_result": "large score sensitivity preserved as a warning; catalog-period rank remains primary"
+    }
+  ],
+  "status": "EXECUTED_ON_SYNTHETIC_CONTROLS_AND_EXPOSED_DEVELOPMENT_DATA"
+}

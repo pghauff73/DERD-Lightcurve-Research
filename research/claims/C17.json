@@ -1,0 +1,34 @@
+{
+  "claim": "Corrected DERD may provide a compact descriptor for a restricted subset of single-period pulsating-star light curves.",
+  "claim_id": "C17",
+  "evidence_level": "E2_ENGINEERING_REANALYSIS",
+  "falsifier": "Inferior or non-noninferior held-out performance, structured residuals, unstable parameters, failed uncertainty calibration, or failure on prespecified star strata.",
+  "next_gate": "Complete data, frozen multi-class development set, calibrated uncertainty, and one-time sealed holdout evaluation.",
+  "phase03_gate": {
+    "observations": "24 mirrored I-band rows per target",
+    "population": "20 previously examined LMC classical Cepheid excerpts, 10 F and 10 1O",
+    "primary_result": {
+      "DERD_wins": 9,
+      "baseline_wins_or_ties": 11,
+      "mean_95_ci": [
+        -0.06740318726178679,
+        0.04671440409893052
+      ],
+      "mean_difference": -0.009684556061524354,
+      "noninferiority_margin": 0.02,
+      "noninferiority_pass": false
+    },
+    "promotion": "DENIED",
+    "selection": "DERD time law and baseline family chosen by training-only four-fold circular phase OOF weighted RMSE",
+    "uncertainty_result": "DERD intervals under-covered the nominal 90% level on this sparse population."
+  },
+  "physical_scope": "Does not identify internal dynamics, transparent shells, or masses.",
+  "reason_not_promoted": [
+    "statistical noninferiority gate failed",
+    "photometry is incomplete excerpt data",
+    "population is below qualifying size",
+    "only classical Cepheid strata are present",
+    "no pristine prospectively sealed holdout exists"
+  ],
+  "status": "PHASE03_METHODS_COMPLETE_CLAIM_OPEN_NOT_PROVED"
+}

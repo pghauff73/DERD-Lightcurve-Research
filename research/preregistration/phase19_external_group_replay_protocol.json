@@ -1,0 +1,51 @@
+{
+  "blind_answer_commitment": {
+    "algorithm": "HMAC-SHA256",
+    "disclosure_time": "after external submission SHA-256 is frozen",
+    "hmac_sha256": "8512a7041f7f665db83bd458824a9775d43115f9df3d25501a948b7506292988",
+    "private_answer_key_disclosed_in_public_kit": false,
+    "private_key_disclosed_in_public_kit": false
+  },
+  "claim_boundary": "Computational portability of a frozen DERD workflow only; no population, unique mechanism, transparent-shell, prevalence, or mass claim.",
+  "date_frozen": "2026-08-24",
+  "external_operator_gate": {
+    "all_seven_task_projections_must_pass": true,
+    "environment_manifest_required": true,
+    "no_pre_submission_answer_key_access": true,
+    "operator_controls_execution_environment": true,
+    "operator_outside_implementation_team": true,
+    "signed_operator_attestation_requested": true,
+    "submission_self_hash_required": true
+  },
+  "implementation_id": "DERD-v1.9-phase19-external-group-replay-kit",
+  "local_cleanroom_policy": {
+    "counts_as_external_replication": false,
+    "counts_as_independent_astrophysical_replication": false,
+    "may_validate_kit_portability": true
+  },
+  "numerical_tolerance": {
+    "absolute": 2e-07,
+    "relative": 2e-06
+  },
+  "parent_phase18": {
+    "graph_path": "artifacts/phase18/phase18_reproducibility_graph.json",
+    "graph_sha256": "d0fc6ad3d1108028a320afc1b64907908a84372fb32c98ab01db2738453fb060",
+    "ledger_path": "artifacts/phase18/phase18_cumulative_ledger.json",
+    "ledger_sha256": "59ded2e67039f580356cde8ecd23cf3256ff4e7fdf5c1567f1f130c12ee56cf0",
+    "summary_path": "artifacts/phase18/phase18_summary.json",
+    "summary_sha256": "cbd25388f14440a37b56e7a047bca3fb94d0eeba301100cd87ae1583f28d8277"
+  },
+  "protocol_id": "DERD-PHASE19-EXTERNAL-GROUP-REPLAY-1.0",
+  "public_task_manifest": {
+    "canonical_sha256": "bead42fa49f6b1f552d6ff2fa47661398addfd330d60b7b655797a280a568205",
+    "path": "data/manifests/phase19_replication_tasks.json",
+    "sha256": "cf403d2ae77f7bacca65289e02007bbc744407d71413497669faba3b76615558",
+    "task_count": 7
+  },
+  "replication_policy": {
+    "successful_external_execution_adds_astronomical_denominator": false,
+    "successful_external_execution_adds_external_computational_edge": true,
+    "successful_external_execution_adds_independent_observing_source": false,
+    "successful_external_execution_proves_physical_mechanism": false
+  }
+}

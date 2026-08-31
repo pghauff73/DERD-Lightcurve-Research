@@ -1,0 +1,22 @@
+{
+  "owner": "pghauff73",
+  "name": "DERD-Lightcurve-Research",
+  "visibility": "private",
+  "default_branch": "main",
+  "description": "Reproducible DERD waveform-model research and evidence gates for Cepheid, RR Lyrae, and Delta Scuti light curves",
+  "version": "2.1.0",
+  "release_id": "DERD-v2.1-phase21-authoritative-dsct-pilot",
+  "license_status": "pending",
+  "raw_third_party_photometry_bundled": false,
+  "physical_claim_certificate": false,
+  "suggested_topics": [
+    "astrophysics",
+    "variable-stars",
+    "light-curves",
+    "cepheids",
+    "rr-lyrae",
+    "delta-scuti",
+    "reproducible-research",
+    "python"
+  ]
+}

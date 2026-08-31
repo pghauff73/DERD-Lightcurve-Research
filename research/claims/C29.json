@@ -1,0 +1,17 @@
+{
+  "claim": "The frozen legacy harmonic extractor stores arctan(b/a), which identifies coefficient pairs (a,b) and (-a,-b) and therefore loses the complex-coefficient quadrant.",
+  "claim_id": "C29",
+  "evidence_level": "E4_FORMAL_AND_SOURCE_CODE_PROOF",
+  "formal_basis": "docs/IMPLEMENTATION_PHASE_06_PHASE_CONVENTION.md",
+  "software_evidence": [
+    "src/derd/phase_convention.py",
+    "tests/test_phase06_phase_convention.py"
+  ],
+  "source_evidence": {
+    "blob_sha1": "957823bc6e305dc3d3e96811e7be35c3e0e1260e",
+    "commit": "55836b58345b9507bfbd98c5fabbac82c83605e3",
+    "path": "Cluster/code/FeatureFunctionLib.py",
+    "repository": "bksim/OutlierDetection"
+  },
+  "status": "PROVED_FOR_THE_FROZEN_SOURCE_CONVENTION"
+}

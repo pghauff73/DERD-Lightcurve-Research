@@ -1,0 +1,89 @@
+{
+  "claim_boundary": "Waveform projection, mechanism non-uniqueness, and gravity-only mathematical falsification. No shell mass, prevalence, unique internal mechanism, or literal orbital claim.",
+  "date_frozen": "2026-08-25",
+  "experiment_a_passband_invariance": {
+    "active_dimension": "passband I versus V",
+    "frozen_dimensions": {
+      "coefficient_covariance": "HC3",
+      "harmonic_order": 8,
+      "invariant_vector": [
+        "R21",
+        "phi21",
+        "R31",
+        "phi31"
+      ],
+      "period_days": 3.1181490000000003,
+      "reference_epoch": 2171.85654
+    },
+    "object_id": "OGLE-LMC-CEP-0002",
+    "rejection_gate": "joint covariance Mahalanobis p<0.01 rejects strict band invariance",
+    "same_band_negative_control": "OGLE-III V versus OGLE-IV V"
+  },
+  "experiment_b_projection_models": {
+    "active_dimension": "passband projection structure",
+    "bootstrap_draws": 64,
+    "criterion": "representation-level BIC on covariance-sampled h1-h8 curves",
+    "limitation": "not independent raw-observation BIC",
+    "models": [
+      "shared_derd",
+      "separate_derd",
+      "shared_components_band_weights"
+    ]
+  },
+  "experiment_c_mechanism_tournament": {
+    "active_dimension": "synthetic generating mechanism",
+    "cases_per_family": 30,
+    "families": [
+      "derd_geometric",
+      "generic_fourier",
+      "two_pole_transfer",
+      "radius_temperature_projection",
+      "vdp_hydrodynamic_surrogate",
+      "two_zone_surrogate",
+      "shock_modified",
+      "tidal_kepler_response",
+      "spot_rotation",
+      "cse_reprocessing"
+    ],
+    "gates": [
+      "heldout_rmse",
+      "harmonic_screen_score",
+      "forecast_residual"
+    ],
+    "limitation": "controlled surrogates do not estimate astrophysical prevalence",
+    "split_policy": "deterministic SHA-256 two-thirds development, one-third holdout",
+    "threshold_training_families": [
+      "derd_geometric",
+      "generic_fourier"
+    ],
+    "uniqueness_falsifier": "any non-DERD holdout family with joint fit-and-screen passes disproves uniqueness of the signature"
+  },
+  "experiment_d_gravity_only": {
+    "active_dimension": "force law",
+    "equation": "R_ddot=-G*M/R^2 with constant G>0, M>0",
+    "formal_gate": "nonconstant twice-differentiable positive periodic R is impossible under the equation",
+    "numerical_controls": [
+      "inverse_square_ballistic_segment",
+      "harmonic_breathing_mode",
+      "derd_waveform_interpreted_as_radius",
+      "pressure_supported_hydrodynamic_surrogate"
+    ]
+  },
+  "implementation_id": "DERD-v2.0-phase20-multiband-mechanism-falsification",
+  "parent_phase19": {
+    "summary_path": "artifacts/phase19/phase19_summary.json",
+    "summary_sha256": "69a6ff2427ca65ab575599aeb6451e7bedc6a941519cf159296fe8680f0f92c0"
+  },
+  "promotion_policy": {
+    "c17_promoted": false,
+    "physical_mechanism_gate_opened": false,
+    "population_denominator_increment": 0,
+    "transparent_shell_gate_opened": false
+  },
+  "protocol_id": "DERD-PHASE20-MULTIBAND-MECHANISM-FALSIFICATION-1.0",
+  "source_manifest": {
+    "canonical_sha256": "74c6f3bacde426db3d1e4bc126403bddac6a2a978d09941b38584fdbf4d9ea05",
+    "path": "data/manifests/phase20_multiband_sources.json",
+    "sha256": "5da27fa3ef9fa0a120dc94d0928f37414056e670299bb909eb16edc432b7d208"
+  }
+}

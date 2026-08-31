@@ -1,0 +1,12 @@
+{
+  "claim": "Adding the external publication and local reanalysis leaves the astronomical denominator at five and the independent astrophysical replication count at zero.",
+  "claim_id": "C84",
+  "evidence": [
+    "artifacts/phase17/phase17_reproducibility_graph.json",
+    "artifacts/phase17/phase17_cumulative_ledger.json",
+    "artifacts/phase17/phase17_summary.json"
+  ],
+  "physical_claim_scope": "evidence multiplicity only",
+  "sha256_canonical_json": "f021894bdcffa6d1f85a444b7d5c4f191a790b2026a67acb346879e510a9c60a",
+  "status": "VERIFIED_AND_ENFORCED"
+}

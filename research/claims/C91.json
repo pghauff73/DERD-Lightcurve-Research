@@ -1,0 +1,17 @@
+{
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "claim": "Strict passband invariance of the normalized h1-h3 harmonic shape is rejected for OGLE-LMC-CEP-0002 under the frozen I-versus-merged-V test.",
+  "claim_id": "C91",
+  "evidence": [
+    "artifacts/phase20/phase20_harmonic_invariant_comparisons.csv",
+    "artifacts/phase20/phase20_summary.json"
+  ],
+  "metrics": {
+    "degrees_of_freedom": 4,
+    "mahalanobis_chi_square": 123.25637409476077,
+    "p_value": 1.0764361533163735e-25
+  },
+  "physical_claim_scope": "waveform and force-law discrimination only",
+  "sha256_canonical_json": "e851fffa77e1043b0af344b7b074c44c7370b3ab75ee0ea6eb4b3cb0cffd08b0",
+  "status": "VERIFIED_REJECTED_STRICT_PASSBAND_INVARIANCE"
+}

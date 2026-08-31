@@ -1,0 +1,19 @@
+{
+  "claim_id": "C27",
+  "claim": "The existing 24-observation-per-star development cadence is insufficient for reliable DERD harmonic-family discrimination under the Phase-05 synthetic control design.",
+  "evidence_level": "E2_ENGINEERING_REANALYSIS",
+  "result": {
+    "observations_per_star": 24,
+    "synthetic_holdout_roc_auc": 0.4764319248826291,
+    "synthetic_holdout_balanced_accuracy": 0.5597183098591549,
+    "synthetic_holdout_sensitivity": 0.23943661971830985,
+    "synthetic_holdout_specificity": 0.88
+  },
+  "evidence": [
+    "artifacts/phase05/phase05_summary.json",
+    "artifacts/phase05/phase05_synthetic_controls.csv",
+    "artifacts/phase05/phase05_synthetic_score_distribution.png"
+  ],
+  "scope": "This finding applies to the frozen sparse cadence and synthetic families; it is not a population prevalence result.",
+  "status": "SUPPORTED_IN_FROZEN_ENGINEERING_DESIGN"
+}

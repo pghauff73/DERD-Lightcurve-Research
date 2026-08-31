@@ -1,0 +1,52 @@
+{
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "claim_ids": [
+    "C29",
+    "C30",
+    "C31",
+    "C32",
+    "C33"
+  ],
+  "contradiction_and_limit_evidence": [
+    "The ambiguity-minimized legacy representation remains highly separable in the frozen synthetic families, so the format may retain exploratory triage utility.",
+    "The selected ambiguity branch is not identified by the catalog row and cannot be promoted as measured evidence.",
+    "Four canonical harmonics separated the frozen synthetic families through DERD root/residue constraints, but supplied no independent recurrence forecast degrees of freedom.",
+    "Three compact rows do not establish catalog-wide prevalence of the frozen-source mismatch."
+  ],
+  "cross_checks": [
+    "algebraic sine/cosine-to-complex conversion",
+    "epoch-shift intervention",
+    "quadrant sign-pair intervention",
+    "four-harmonic recurrence degree count",
+    "three-class frozen-source block-repeat invariant",
+    "canonical exchange round trip and SHA-256 replay"
+  ],
+  "decision": "LEGACY_FEATURE_TABLES_BLOCKED_FROM_EXACT_DERD_HARMONIC_PROOF",
+  "implementation_id": "DERD-v0.6-phase06-phase-convention-gate",
+  "method": "EDOv1",
+  "primary_sources": [
+    {
+      "blob_sha1": "957823bc6e305dc3d3e96811e7be35c3e0e1260e",
+      "commit": "55836b58345b9507bfbd98c5fabbac82c83605e3",
+      "path": "Cluster/code/FeatureFunctionLib.py",
+      "repository": "bksim/OutlierDetection",
+      "type": "source_code"
+    },
+    {
+      "blob_sha1": "2051440f2ca4662b65e011b479884d9159bbc238",
+      "path": "Cluster/out/cep_I.csv",
+      "type": "catalog_sample"
+    },
+    {
+      "blob_sha1": "eb5e136201674e2571a319eedfbff71515531dd5",
+      "path": "Cluster/out/rrlyr_I.csv",
+      "type": "catalog_sample"
+    },
+    {
+      "blob_sha1": "9baba79171d5dbc8ec5a6925fa1eb56dfda0812c",
+      "path": "Cluster/out/dsct_I.csv",
+      "type": "catalog_sample"
+    }
+  ],
+  "result": "artifacts/phase06/phase06_summary.json"
+}

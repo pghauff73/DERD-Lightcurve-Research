@@ -1,0 +1,20 @@
+{
+  "claim_id": "C25",
+  "claim": "After arbitrary observational epoch and real amplitude scaling, every non-degenerate geometric DERD positive-harmonic sequence is a sum of two geometric sequences, satisfies an order-two recurrence, and has root-residue ratios that are real with opposite signs.",
+  "evidence_level": "E4_FORMAL_AND_REPRODUCIBLE_COMPUTATIONAL_PROOF",
+  "formal_basis": "docs/IMPLEMENTATION_PHASE_05_HARMONIC_SCREEN.md",
+  "software_evidence": [
+    "src/derd/harmonic_screen.py",
+    "src/derd/spectral.py",
+    "tests/test_phase05_harmonic_screen.py",
+    "tests/test_spectral.py"
+  ],
+  "degenerate_exclusions": [
+    "zero or unresolved roots",
+    "repeated roots",
+    "exact harmonic cancellation",
+    "insufficient non-zero harmonics"
+  ],
+  "physical_scope": "A harmonic identity is not a proof that stellar material follows literal internal Keplerian orbits.",
+  "status": "PROVED_FOR_THE_DEFINED_GEOMETRIC_DERD_MODEL"
+}

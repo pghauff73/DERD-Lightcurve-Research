@@ -1,0 +1,7 @@
+decision=PHASE09_IMPLEMENTED_EXECUTION_BLOCKED_BY_METADATA_AND_SOURCE_GATES
+protocol_valid=True
+cohort_structure_ready=True
+cohort_metadata_ready=False
+cohort_sources_ready=False
+inherited_results=5/15
+primary_outputs_suppressed=True

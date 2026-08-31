@@ -1,0 +1,235 @@
+{
+  "audit": {
+    "actual_below_stationary_threshold": false,
+    "actual_temporal_score": 3.4326544455250376,
+    "all_blocks_quality_pass": true,
+    "all_blocks_recovery_snr_pass": false,
+    "blockers": [
+      "four_recovery_harmonics_in_every_block",
+      "temporal_coefficient_stationarity"
+    ],
+    "blocks": [
+      {
+        "block_index": 0,
+        "block_quality_pass": true,
+        "coefficient_snr": [
+          16.037326501667245,
+          6.653028399383153,
+          2.352057545023923,
+          1.8524504967842106,
+          1.5146302902782758,
+          1.4933823023646748,
+          0.7246332593512057,
+          1.363701729389234
+        ],
+        "cosine_coefficients": [
+          -0.22706929038588008,
+          0.053360936659251436,
+          0.014980742962168865,
+          -0.02623419874271763,
+          0.004577536548291436,
+          -0.0027343635116280334,
+          -0.010191897552057518,
+          0.0015916956101420232
+        ],
+        "design_condition_number": 2.0809813510864985,
+        "end_time": 2988.62048,
+        "maximum_circular_phase_gap": 0.04133304838592977,
+        "observation_count": 120,
+        "occupied_phase_bins": 12,
+        "recovery_snr_pass": false,
+        "sine_coefficients": [
+          0.031993856645216055,
+          -0.07919392748655053,
+          0.03019972445062984,
+          0.00397457445507251,
+          -0.021150399278255003,
+          0.021108420192586037,
+          0.0020255599632165878,
+          -0.0195166540609812
+        ],
+        "start_time": 2171.86025
+      },
+      {
+        "block_index": 1,
+        "block_quality_pass": true,
+        "coefficient_snr": [
+          14.98195438692509,
+          5.691709454341248,
+          3.067511790405086,
+          1.35452770984642,
+          1.1805770639046398,
+          0.5745733844286044,
+          1.6423968945500163,
+          1.3932186665623565
+        ],
+        "cosine_coefficients": [
+          -0.21363937974196137,
+          0.024763323775008863,
+          0.04206182542112534,
+          -0.019649029193176036,
+          0.010216124062347821,
+          0.002590900658991828,
+          -0.02042470125539474,
+          0.007501799986925773
+        ],
+        "design_condition_number": 1.9505850609865103,
+        "end_time": 3707.67402,
+        "maximum_circular_phase_gap": 0.03535597497557319,
+        "observation_count": 120,
+        "occupied_phase_bins": 12,
+        "recovery_snr_pass": false,
+        "sine_coefficients": [
+          0.038564727786434286,
+          -0.07865846520910805,
+          0.014107504403713623,
+          0.0023108667131383196,
+          -0.01392909933533427,
+          0.007995295686064247,
+          -0.012618379518204345,
+          -0.018939062347986695
+        ],
+        "start_time": 2990.81169
+      },
+      {
+        "block_index": 2,
+        "block_quality_pass": true,
+        "coefficient_snr": [
+          15.174444593281569,
+          5.072490719543669,
+          3.4284282592734128,
+          2.3190138736606047,
+          0.703715575667809,
+          1.8671424952889197,
+          1.7190300929600901,
+          1.5068013176624508
+        ],
+        "cosine_coefficients": [
+          -0.22734256256883698,
+          0.04614709029431518,
+          0.004219585518265138,
+          -0.019846839148399114,
+          0.010566207445714763,
+          -0.01999452610906826,
+          0.009080708516015815,
+          0.016427960512668857
+        ],
+        "design_condition_number": 2.5363077909941945,
+        "end_time": 4540.51801,
+        "maximum_circular_phase_gap": 0.04460897253966323,
+        "observation_count": 120,
+        "occupied_phase_bins": 12,
+        "recovery_snr_pass": false,
+        "sine_coefficients": [
+          0.015059846216861223,
+          -0.05986935566598709,
+          0.051217656702738076,
+          -0.02885108930715347,
+          0.0012483503346117284,
+          0.019794963399924606,
+          -0.02448016542413042,
+          0.015505711789728161
+        ],
+        "start_time": 3713.63558
+      }
+    ],
+    "calibration_power_pass": true,
+    "calibration_rows": [
+      {
+        "balanced_accuracy": 0.5101809954751131,
+        "development_stationary_count": 140,
+        "holdout_drift_count": 68,
+        "holdout_stationary_count": 52,
+        "power_gate_pass": false,
+        "roc_auc": 0.6199095022624435,
+        "sensitivity": 0.058823529411764705,
+        "severity": 0.25,
+        "specificity": 0.9615384615384616,
+        "threshold": 2.9151015296131146
+      },
+      {
+        "balanced_accuracy": 0.6156898656898657,
+        "development_stationary_count": 140,
+        "holdout_drift_count": 63,
+        "holdout_stationary_count": 52,
+        "power_gate_pass": false,
+        "roc_auc": 0.8171550671550671,
+        "sensitivity": 0.2698412698412698,
+        "severity": 0.5,
+        "specificity": 0.9615384615384616,
+        "threshold": 2.9151015296131146
+      },
+      {
+        "balanced_accuracy": 0.8083554376657824,
+        "development_stationary_count": 140,
+        "holdout_drift_count": 58,
+        "holdout_stationary_count": 52,
+        "power_gate_pass": true,
+        "roc_auc": 0.9509283819628647,
+        "sensitivity": 0.6551724137931034,
+        "severity": 0.75,
+        "specificity": 0.9615384615384616,
+        "threshold": 2.9151015296131146
+      },
+      {
+        "balanced_accuracy": 0.9807692307692308,
+        "development_stationary_count": 140,
+        "holdout_drift_count": 50,
+        "holdout_stationary_count": 52,
+        "power_gate_pass": true,
+        "roc_auc": 0.9953846153846154,
+        "sensitivity": 1.0,
+        "severity": 1.0,
+        "specificity": 0.9615384615384616,
+        "threshold": 2.9151015296131146
+      }
+    ],
+    "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+    "claim_scope": "temporal stability of signed waveform harmonics only",
+    "disposition": "TEMPORAL_REPLICATION_NOT_SUPPORTED",
+    "first_sustained_detectable_severity": 0.75,
+    "object_id": "OGLE-LMC-RRLYR-00004",
+    "observation_count": 360,
+    "pairwise_tests": [
+      {
+        "block_a": 0,
+        "block_b": 1,
+        "effective_rank": 8,
+        "normalized_score": 1.2581455603070923,
+        "p_value": 0.260481990209057,
+        "wald_statistic": 10.065164482456739
+      },
+      {
+        "block_a": 0,
+        "block_b": 2,
+        "effective_rank": 8,
+        "normalized_score": 1.521708557642767,
+        "p_value": 0.14362180720275808,
+        "wald_statistic": 12.173668461142135
+      },
+      {
+        "block_a": 1,
+        "block_b": 2,
+        "effective_rank": 8,
+        "normalized_score": 3.4326544455250376,
+        "p_value": 0.0005883167816288496,
+        "wald_statistic": 27.4612355642003
+      }
+    ],
+    "period_days": 0.5123745,
+    "reference_epoch": 2171.86025,
+    "sha256_canonical_json": "a349f2927b9dcd989f178db29a83ba1d9c66d0228a160748c66b4d1127a2d587",
+    "stationary_threshold": 2.9151015296131146
+  },
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "claim_boundary": "temporal stability of normalized waveform coefficients only",
+  "exchange_sha256": "670be6c6f30d1fec2ba5caf223d237d36b4e7b1b901ab895932317762ee6eda6",
+  "input_lock_sha256": "0cf8a879bb57679db1f33d282a9a34e0946b8ef46413fec19ceb9208f314a85b",
+  "ledger_record_sha256": "6efa15085182361bb64e796e2cddbfa3bd72f5bf1ee94ce454a251ee7f4fb251",
+  "object_id": "OGLE-LMC-RRLYR-00004",
+  "phase13_configuration_sha256": "9d74191cd648a3670e14aec236fccabda61f3adec5968cc49b2fd54f510c0a24",
+  "result_sha256": "bda1bf7ed039b80a357f226e033d82d5510acb3ca08f25e975be65764daad6fe",
+  "sha256_canonical_json": "f31cbe04a17a010aa38d1b62ad7c3adc7d1f78a432d7086bb2518269db600f23",
+  "sidecar_id": "DERD-PHASE13-TEMPORAL-REPLICATION-SIDECAR-1.0",
+  "source_receipt_sha256": "cf686b391a708c2a40a922235c77656623980a63dd71a35b29b15e62743a56c4"
+}

@@ -1,0 +1,9 @@
+{
+  "claim": "A partial source pack can be cryptographically frozen without changing the declared 5+5+5 cohort denominator.",
+  "claim_id": "C54",
+  "evidence": [
+    "artifacts/phase11/phase11_source_acquisition_receipt.json"
+  ],
+  "sha256_canonical_json": "b90834fe36d3f2f41be6b563f98755af8ed2cead22397694ba27daef0268ad39",
+  "status": "VERIFIED_BY_IMPLEMENTATION_AND_SOURCE_RECEIPT"
+}

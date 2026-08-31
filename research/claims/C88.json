@@ -1,0 +1,11 @@
+{
+  "claim": "Exact publication-byte identity and exact analysis-code replay remain unavailable because the article supplies neither input hashes nor the analysis source code and does not fully specify curve_fit weighting.",
+  "claim_id": "C88",
+  "evidence": [
+    "data/evidence/phase18_jurkovic2022_method_contract.json",
+    "artifacts/phase18/phase18_summary.json"
+  ],
+  "physical_claim_scope": "external Fourier input reconstruction and normalized waveform provenance only",
+  "sha256_canonical_json": "b08f2fe2dba3195e4e21bcffa32230137150cd031509955a981f4459403508a4",
+  "status": "VERIFIED_REPLICATION_LIMITATION"
+}

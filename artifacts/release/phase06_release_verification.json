@@ -1,0 +1,17 @@
+{
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "environment": {
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "scipy": "1.17.0"
+  },
+  "implementation_id": "DERD-v0.6-phase06-phase-convention-gate",
+  "manifest_state": "TO_BE_BUILT_AND_VERIFIED_EXTERNALLY",
+  "phase06_experiment": "PASS",
+  "phase06_summary": "artifacts/phase06/phase06_summary.json",
+  "python_compileall": "PASS",
+  "test_count": 143,
+  "test_errors": 0,
+  "test_failures": 0
+}

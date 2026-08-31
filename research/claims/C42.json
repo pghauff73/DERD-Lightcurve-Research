@@ -1,0 +1,13 @@
+{
+  "claim": "Every nominal Phase-08 candidate violates at least one frozen DERD root or residue structural constraint.",
+  "claim_id": "C42",
+  "date": "2026-08-15",
+  "evidence": [
+    "artifacts/phase08/phase08_target_results.csv",
+    "artifacts/phase08/phase08_summary.json"
+  ],
+  "implementation_id": "DERD-v0.8-phase08-multifamily-harmonic-forecast-cohort",
+  "physical_claim_certificate": false,
+  "scope": "Nominal fits at frozen period coordinates; not a statement about all stars.",
+  "status": "VERIFIED_FOR_FROZEN_COHORT"
+}

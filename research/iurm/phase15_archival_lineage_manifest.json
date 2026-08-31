@@ -1,0 +1,21 @@
+{
+  "active_dimensions": [
+    "cumulative verified astronomical target count: 4 to 5",
+    "analysis configuration: Phase-07 raw-harmonic gate versus Phase-08 multi-family cohort gate"
+  ],
+  "frozen_dimensions": [
+    "OGLE-LMC-CEP-0010 observational source repository, commit, path, Git blob, and SHA-256",
+    "one astronomical object contributes at most one denominator record",
+    "five-object family and fifteen-object total denominators",
+    "physical-claim gates remain locked"
+  ],
+  "gate": "PHASE15_ARCHIVAL_LINEAGE_PROMOTED_LEDGER_UPDATED_POPULATION_GATE_CLOSED",
+  "implementation_id": "DERD-v1.5-phase15-archival-lineage-promotion",
+  "manifest_id": "IURM-PHASE15-ARCHIVAL-LINEAGE-PROMOTION-V1",
+  "result": {
+    "cumulative_record_count": 5,
+    "lineage_classification": "ARCHIVAL_LINEAGE_CONFIGURATION_SENSITIVE_SCIENTIFIC_DRIFT",
+    "population_outputs_allowed": false,
+    "selected_object_id": "OGLE-LMC-CEP-0010"
+  }
+}

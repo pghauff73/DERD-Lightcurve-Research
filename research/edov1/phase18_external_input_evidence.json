@@ -1,0 +1,26 @@
+{
+  "alternative_explanations": [
+    "source membership and epoch coverage can shift Fourier coordinates",
+    "weighting and covariance scaling can shift estimates and uncertainties",
+    "period-grid and pre-whitening choices can create small remaining differences"
+  ],
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "contradictions_and_limits": [
+    "the publication does not publish source-file hashes or an exact row list",
+    "the external analysis source code is not available in the evidence capsule",
+    "curve_fit weighting is not explicitly reported",
+    "OGLE-III-only and OGLE-IV-only coordinates differ, demonstrating source-scope sensitivity",
+    "quoted-error reduced chi-square exceeds one for the merged fits",
+    "the observing source family is not independent of the Phase-17 anchor",
+    "no DERD pipeline has been executed by an external group"
+  ],
+  "evidence_manifest_id": "EDOV1-PHASE18-1.0",
+  "promotion_status": "PUBLICATION_COMPATIBLE_RECONSTRUCTION_ONLY",
+  "sha256_canonical_json": "0088cf61b8eb4478f8918ad66758e09db493ce459acd97d613192c6d10bb3c6c",
+  "supporting_evidence": [
+    "both official current survey components pass independent hashes and row counts",
+    "merged source contains 65 observations and meets the publication minimum",
+    "primary four-coordinate vector passes joint and marginal consistency gates",
+    "all six merged method variants pass those consistency gates"
+  ]
+}

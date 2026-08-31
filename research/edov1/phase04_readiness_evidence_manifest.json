@@ -1,0 +1,25 @@
+{
+  "contradiction_and_null_results": [
+    "All 20 current stars are prior-exposed development objects.",
+    "Every current file contains only 24 observations, below the frozen minimum of 50.",
+    "Every current target occupies only the provisional eight recorded phase bins in the audit fixture, below the minimum of ten of twelve.",
+    "Only two of ten required strata are represented and both are underfilled.",
+    "The current population has 20 stars versus the contract minimum of 150.",
+    "No Phase-04 astrophysical result exists because the population gate correctly stops before fitting."
+  ],
+  "evidence_objects": [
+    "data/manifests/phase04_population_contract_v1.json",
+    "research/preregistration/phase04_analysis_plan.json",
+    "research/preregistration/phase04_analysis_plan.seal.json",
+    "src/derd/population.py",
+    "experiments/prepare_phase04_population.py",
+    "experiments/verify_phase04_population.py",
+    "experiments/guard_phase04_evaluation.py",
+    "artifacts/phase04_readiness/phase04_readiness.json"
+  ],
+  "manifest_id": "EDOV1-PHASE04-READINESS-0.4",
+  "physical_claim_boundary": "Population readiness cannot promote internal orbit, transparent-shell prevalence, or shell-mass claims.",
+  "precision_objective": "Prevent data incompleteness, prior exposure, rights ambiguity, or role leakage from being mistaken for confirmatory evidence.",
+  "promotion_decision": "BLOCKED_BEFORE_ROLE_ASSIGNMENT",
+  "status": "READINESS_SYSTEM_IMPLEMENTED_POPULATION_ACQUISITION_OPEN"
+}

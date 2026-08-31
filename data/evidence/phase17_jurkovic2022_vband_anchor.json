@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2211.06461",
+  "band": "OGLE V",
+  "citation": "Jurkovic et al. (2022), Type II and anomalous Cepheids in the Kepler K2 mission, MNRAS 518, 642-663, Appendix A Table A1",
+  "doi": "10.1093/mnras/stac2957",
+  "method_summary": "Cosine Fourier series; R_i1=A_i/A_1 and phi_i1=phi_i-i*phi_1; OGLE-III and OGLE-IV V-band observations could be merged; objects with fewer than 50 measurements were excluded; uncertainties were estimated from 100 resamples containing 60 percent of the measurements.",
+  "minimum_measurements": 50,
+  "object_id": "OGLE-LMC-CEP-0002",
+  "object_type": "DCEP-F",
+  "period_days": 3.118121,
+  "phi21": 4.238,
+  "phi21_error": 0.051,
+  "phi31": 2.283,
+  "phi31_error": 0.083,
+  "r21": 0.314,
+  "r21_error": 0.005,
+  "r31": 0.117,
+  "r31_error": 0.005,
+  "sha256_canonical_json": "ce79dd91dfe2fb8a48b0cf4107ee73f8425e6cbb0b622a451f6c5663aae43e35",
+  "source_scope": "Published external analysis of an OGLE V-band light curve that may merge OGLE-III and OGLE-IV observations; exact source bytes and row membership were not supplied in the article table."
+}

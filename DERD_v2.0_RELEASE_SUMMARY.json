@@ -1,0 +1,33 @@
+{
+  "claim_status": {
+    "C17": "OPEN_NOT_PROMOTED",
+    "C91": "VERIFIED_REJECTED_STRICT_PASSBAND_INVARIANCE",
+    "C94": "VERIFIED_NONUNIQUENESS_IN_CONTROLLED_TOURNAMENT",
+    "C95": "FORMALLY_PROVED_GRAVITY_ONLY_PERIODIC_IMPOSSIBILITY"
+  },
+  "decision": "PHASE20_MULTIBAND_AND_MECHANISM_TESTS_COMPLETE_STRICT_PASSBAND_INVARIANCE_REJECTED_DERD_UNIQUENESS_REJECTED_GRAVITY_ONLY_PERIODIC_MOTION_FORMALLY_REJECTED",
+  "key_results": {
+    "I_vs_V_p_value": 1.0764361533163735e-25,
+    "V_epoch_control_p_value": 0.9922785587669352,
+    "all_periodic_gravity_controls_failed": true,
+    "bootstrap_draws": 64,
+    "gravity_ballistic_control_passed": true,
+    "non_derd_joint_pass_families": [
+      "radius_temperature_projection",
+      "vdp_hydrodynamic_surrogate",
+      "two_zone_surrogate",
+      "shock_modified",
+      "spot_rotation",
+      "cse_reprocessing"
+    ],
+    "shared_component_bootstrap_wins": 62
+  },
+  "protocol_seal": "PASSED",
+  "python_compile": "PASSED",
+  "raw_phase20_files_in_release": 0,
+  "raw_redistribution": "NONE",
+  "release": "DERD-v2.0-phase20-multiband-mechanism-falsification",
+  "test_failures": 0,
+  "tests_passed": 257,
+  "tests_pending": false
+}

@@ -1,0 +1,54 @@
+{
+  "analysis_plan": "research/preregistration/phase04_analysis_plan.json",
+  "analysis_plan_sha256": "34fbef46d0ff7f9743fd717c65bb937efae214ad1ed0115cb378dde206c8d641",
+  "audit": {
+    "candidate_count": 150,
+    "contract_id": "DERD-PHASE04-POPULATION-CONTRACT-1.0",
+    "error_count": 0,
+    "exposed_overlap": [],
+    "family_counts": {
+      "Classical Cepheid": 45,
+      "Delta Scuti": 45,
+      "RR Lyrae": 60
+    },
+    "file_verification_requested": true,
+    "files_verified": 150,
+    "issues": [],
+    "ready_for_sealing": true,
+    "stratum_counts": {
+      "CEP-1O": 15,
+      "CEP-CSE": 15,
+      "CEP-F": 15,
+      "DSCT-COMPLEX": 15,
+      "DSCT-HADS": 15,
+      "DSCT-SINGLE": 15,
+      "RRL-RRAB-BLAZHKO": 15,
+      "RRL-RRAB-STABLE": 15,
+      "RRL-RRC": 15,
+      "RRL-RRD": 15
+    },
+    "stratum_deficits": {
+      "CEP-1O": 0,
+      "CEP-CSE": 0,
+      "CEP-F": 0,
+      "DSCT-COMPLEX": 0,
+      "DSCT-HADS": 0,
+      "DSCT-SINGLE": 0,
+      "RRL-RRAB-BLAZHKO": 0,
+      "RRL-RRAB-STABLE": 0,
+      "RRL-RRC": 0,
+      "RRL-RRD": 0
+    },
+    "unique_star_count": 150,
+    "warning_count": 0
+  },
+  "candidate_manifest": "artifacts/phase04_readiness/synthetic_demo/synthetic_candidates.csv",
+  "candidate_manifest_sha256": "dc0d6b5b5e5001baf13f3bd30ecdb0588a4e76e5859cf074501e40f281d498cc",
+  "code_manifest": "research/CODE_MANIFEST_SHA256.txt",
+  "code_manifest_sha256": "0d0ddc5307748bf32236df9134dd341b37110a91128e9385bf99bed8786cb5de",
+  "contract": "data/manifests/phase04_population_contract_v1.json",
+  "contract_sha256": "bf00364f2a2b4c10c938ba8172bfd9f5178a5545caa44534f770cebf23868470",
+  "implementation_id": "DERD-v0.4-phase04-readiness",
+  "metadata_only": false,
+  "status": "READY_FOR_PROSPECTIVE_SEAL"
+}

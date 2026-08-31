@@ -1,0 +1,78 @@
+{
+  "bic": {
+    "separate_derd": -3601.384247453727,
+    "shared_components_band_weights": -4023.4026728419194,
+    "shared_derd": -2781.529456341556
+  },
+  "bootstrap_delta_bic": {
+    "components_minus_separate_derd": {
+      "fraction_below_zero": 0.96875,
+      "median": -367.829043725711,
+      "q05": -601.4849495948305,
+      "q95": -127.74198937648879
+    },
+    "components_minus_shared_derd": {
+      "fraction_below_zero": 1.0,
+      "median": -1135.7076890710227,
+      "q05": -1300.3508230040195,
+      "q95": -828.4023256579248
+    },
+    "separate_minus_shared_derd": {
+      "fraction_below_zero": 1.0,
+      "median": -707.3504717367666,
+      "q05": -928.9574683443566,
+      "q95": -589.2739116713877
+    }
+  },
+  "bootstrap_draws": 64,
+  "bootstrap_wins": {
+    "separate_derd": 2,
+    "shared_components_band_weights": 62,
+    "shared_derd": 0
+  },
+  "grid_size": 256,
+  "interpretation_limit": "The comparison uses covariance-sampled h1-h8 reconstructions, not independent raw observations. BIC is therefore a representation-level heuristic.",
+  "rmse": {
+    "separate_derd": 0.028276796698445992,
+    "shared_components_band_weights": 0.018499245868130076,
+    "shared_derd": 0.06452478823590153
+  },
+  "separate_derd_parameters": [
+    [
+      0.18870712562584666,
+      0.448233175728528,
+      1.306079408433155,
+      0.9001220395739199
+    ],
+    [
+      0.3721249765578514,
+      0.3770203408917179,
+      1.0887335351393612,
+      0.9754431194801081
+    ]
+  ],
+  "shared_component_band_coefficients": [
+    [
+      0.43445050592698037,
+      1.1281320250117897,
+      -0.9192129233105716
+    ],
+    [
+      0.240966505939939,
+      1.2019723858607005,
+      -0.7183459839337485
+    ]
+  ],
+  "shared_component_parameters": [
+    0.4272773218493285,
+    0.276430146805155,
+    0.14133264156367523,
+    0.5416059009115944
+  ],
+  "shared_derd_parameters": [
+    0.2059436006335105,
+    0.43121617149637137,
+    1.4592586667526923,
+    0.90348393117441
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "claim": "The OGLE-III and OGLE-IV V-band harmonic invariant vectors for OGLE-LMC-CEP-0002 are mutually consistent under the frozen same-band epoch control.",
+  "claim_id": "C92",
+  "evidence": [
+    "artifacts/phase20/phase20_harmonic_invariant_comparisons.csv"
+  ],
+  "metrics": {
+    "degrees_of_freedom": 4,
+    "mahalanobis_chi_square": 0.25946125448216567,
+    "p_value": 0.9922785587669352
+  },
+  "physical_claim_scope": "waveform and force-law discrimination only",
+  "sha256_canonical_json": "f91ccb386c1b4c62d7c99bdef68abf2e6b5773fafbf2c4c9cacf7268a3803b3f",
+  "status": "NOT_REJECTED_SAME_BAND_EPOCH_INVARIANCE"
+}

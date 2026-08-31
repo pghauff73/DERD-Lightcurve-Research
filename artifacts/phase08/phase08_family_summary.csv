@@ -1,0 +1,4 @@
+family,object_count,claim_grade_period_count,recovery_ready_count,forecast_measured_count,structurally_compatible_count,qualified_count,median_screen_score,median_cadence_auc
+classical_cepheid,2,2,0,0,0,0,2.250408189017686,0.8975694444444444
+delta_scuti,2,0,0,0,0,0,6.126520918920659,0.6145833333333334
+rr_lyrae,2,2,1,0,0,0,2.33353334766829,0.7633101851851851

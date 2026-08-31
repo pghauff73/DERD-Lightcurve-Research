@@ -1,0 +1,14 @@
+{
+  "claim": "The frozen Phase-09 manifest declares exactly five classical Cepheids, five RR Lyrae stars, and five Delta Scuti candidates, with unique exposed-development identities and unique source paths.",
+  "claim_id": "C44",
+  "date": "2026-08-17",
+  "evidence": [
+    "data/manifests/phase09_development_cohort.json",
+    "artifacts/phase09/phase09_summary.json",
+    "src/derd/validation_phase09.py"
+  ],
+  "implementation_id": "DERD-v0.9-phase09-claim-grade-development-cohort",
+  "physical_claim_certificate": false,
+  "scope": "Population-structure and governance claim only.",
+  "status": "PROVED_BY_FROZEN_MANIFEST_AND_VALIDATOR"
+}

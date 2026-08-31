@@ -1,0 +1,11 @@
+{
+  "claim": "Nine analysis-version nodes contribute only five astronomical denominator records because each astronomical object is counted at most once.",
+  "claim_id": "C77",
+  "evidence": [
+    "artifacts/phase16/phase16_analysis_nodes.csv",
+    "artifacts/phase16/phase16_reproducibility_graph.json",
+    "artifacts/phase16/phase16_cumulative_ledger.json"
+  ],
+  "sha256_canonical_json": "14e92ff5f152e13a3bf3516fd84fbcd79a2bf444141e035766de07b5cc5c7957",
+  "status": "VERIFIED_AND_ENFORCED"
+}

@@ -1,0 +1,629 @@
+{
+  "actual_cadence_calibration": {
+    "development_metrics": {
+      "accuracy": 0.9012875536480687,
+      "balanced_accuracy": 0.902617994100295,
+      "false_negative": 17,
+      "false_positive": 6,
+      "negative_count": 113,
+      "positive_count": 120,
+      "roc_auc": 0.9452064896755162,
+      "sample_count": 233,
+      "sensitivity": 0.8583333333333333,
+      "specificity": 0.9469026548672567,
+      "true_negative": 107,
+      "true_positive": 103
+    },
+    "holdout_metrics": {
+      "accuracy": 0.7586206896551724,
+      "balanced_accuracy": 0.7542553191489361,
+      "false_negative": 12,
+      "false_positive": 9,
+      "negative_count": 47,
+      "positive_count": 40,
+      "roc_auc": 0.7962765957446809,
+      "sample_count": 87,
+      "sensitivity": 0.7,
+      "specificity": 0.8085106382978723,
+      "true_negative": 38,
+      "true_positive": 28
+    },
+    "threshold": 1.470081839858064
+  },
+  "actual_cadence_mvhe": {
+    "first_pointwise_passing_observation_count": 120,
+    "first_sustained_passing_observation_count": 240,
+    "gate_assessment": {
+      "first_pointwise_pass": 120,
+      "first_sustained_pass": 240,
+      "minimum_sustained_levels": 3,
+      "non_monotonic_pointwise_pattern": true,
+      "pass_pattern": [
+        {
+          "observation_count": 80,
+          "passes_gate": false
+        },
+        {
+          "observation_count": 120,
+          "passes_gate": true
+        },
+        {
+          "observation_count": 160,
+          "passes_gate": false
+        },
+        {
+          "observation_count": 240,
+          "passes_gate": true
+        },
+        {
+          "observation_count": 320,
+          "passes_gate": true
+        },
+        {
+          "observation_count": 372,
+          "passes_gate": true
+        }
+      ],
+      "sustained_level_count": 3
+    },
+    "interpretation": "Use the sustained pass rather than an isolated pointwise pass because finite Monte-Carlo sweeps can be non-monotonic.",
+    "promoted_actual_cadence_mvhe": 240,
+    "summaries": [
+      {
+        "median_balanced_accuracy": 0.7972890786749482,
+        "median_roc_auc": 0.8329562594268477,
+        "median_threshold": 1.8078850970084306,
+        "observation_count": 80,
+        "passes_gate": false,
+        "q10_balanced_accuracy": 0.6517482517482518,
+        "q10_roc_auc": 0.6799465240641711,
+        "replicate_count": 24
+      },
+      {
+        "median_balanced_accuracy": 0.8158992763772175,
+        "median_roc_auc": 0.8774509803921569,
+        "median_threshold": 1.6247690178161802,
+        "observation_count": 120,
+        "passes_gate": true,
+        "q10_balanced_accuracy": 0.7100650452488688,
+        "q10_roc_auc": 0.8033333333333333,
+        "replicate_count": 24
+      },
+      {
+        "median_balanced_accuracy": 0.7998130341880342,
+        "median_roc_auc": 0.8861904761904762,
+        "median_threshold": 1.4561050863578942,
+        "observation_count": 160,
+        "passes_gate": false,
+        "q10_balanced_accuracy": 0.7144230769230769,
+        "q10_roc_auc": 0.7159090909090909,
+        "replicate_count": 24
+      },
+      {
+        "median_balanced_accuracy": 0.8186145510835914,
+        "median_roc_auc": 0.8826086956521739,
+        "median_threshold": 1.5564701329716957,
+        "observation_count": 240,
+        "passes_gate": true,
+        "q10_balanced_accuracy": 0.7286483253588516,
+        "q10_roc_auc": 0.7842307692307692,
+        "replicate_count": 24
+      },
+      {
+        "median_balanced_accuracy": 0.831845238095238,
+        "median_roc_auc": 0.8863636363636364,
+        "median_threshold": 1.3974628558161029,
+        "observation_count": 320,
+        "passes_gate": true,
+        "q10_balanced_accuracy": 0.7358522727272727,
+        "q10_roc_auc": 0.8210005358418672,
+        "replicate_count": 24
+      },
+      {
+        "median_balanced_accuracy": 0.8483455882352942,
+        "median_roc_auc": 0.9143772893772893,
+        "median_threshold": 1.378994240617561,
+        "observation_count": 372,
+        "passes_gate": true,
+        "q10_balanced_accuracy": 0.7674358974358975,
+        "q10_roc_auc": 0.8453296703296703,
+        "replicate_count": 24
+      }
+    ],
+    "uniform_phase_lower_bound_from_phase05": 160
+  },
+  "c17_promoted": false,
+  "catalog_period_days": 2.5655853,
+  "catalog_period_extraction": {
+    "complex_standard_errors": [
+      0.0004182903834699394,
+      0.00042132342988666173,
+      0.00042168876220578555,
+      0.0004236031199423411,
+      0.000425055010144039,
+      0.0004288158209283615,
+      0.0004296118951421808,
+      0.0004248527818161376
+    ],
+    "covariance_estimator": "hc3",
+    "design_condition_number": 1.82846459222499,
+    "effective_rank": 17,
+    "harmonic_count": 8,
+    "harmonic_wald_snr": [
+      182.77683755110428,
+      15.013624258101945,
+      3.8266211202214246,
+      3.1836560558408955,
+      1.7382325872941222,
+      1.345471093984283,
+      1.7404370738189283,
+      0.9318416786585461
+    ],
+    "intercept": 1.0066682486568408,
+    "intercept_standard_error": 0.0004198348555567784,
+    "period_days": 2.5655853,
+    "phase_coverage": {
+      "bin_count": 12,
+      "bin_counts": [
+        30,
+        30,
+        23,
+        29,
+        36,
+        30,
+        24,
+        33,
+        34,
+        36,
+        39,
+        28
+      ],
+      "maximum_bin_count": 39,
+      "maximum_circular_phase_gap": 0.01784076327544426,
+      "median_circular_phase_gap": 0.0018481357840016699,
+      "minimum_bin_count": 23,
+      "occupied_bins": 12
+    },
+    "photometric_covariance_trace": 2.039266022240203e-06,
+    "residual_rmse": 0.007810017371032283,
+    "ridge": 1e-08,
+    "robust_covariance_trace": 5.757449317848013e-06,
+    "sample_count": 372,
+    "weighted_reduced_chi_square": 2.774793748552552
+  },
+  "catalog_period_screen": {
+    "available_harmonics": 8,
+    "candidate": {
+      "amplitude_domain_penalty": 0.0,
+      "epoch_ratio": 0.12634450499095984,
+      "fit_residual": 0.7196346451305695,
+      "forecast_residual": 0.2934345173905769,
+      "opposite_sign_residues": false,
+      "parameters": {
+        "amplitude_ratio": 0.19858107844521453,
+        "e1": 0.2823044069924803,
+        "e2": 0.7569266353208908,
+        "phase_ratio": 0.08952938326261367
+      },
+      "ratio_imaginary_residual": 0.8312345824728935,
+      "root_domain_penalty": 0.0,
+      "root_magnitudes": [
+        0.14408248991479342,
+        0.4577724214127509
+      ],
+      "root_phases_cycles": [
+        0.6263445049909597,
+        0.7158738882535736
+      ],
+      "scale": -0.1818089041939884,
+      "total_score": 1.9286864537575938
+    },
+    "evidence_level": "HARMONIC_FORECAST",
+    "fit_energy": 0.0031784910079912594,
+    "fit_harmonics": 4,
+    "flags": [
+      "RESIDUE_SIGN_CONSTRAINT_FAILED",
+      "RESIDUE_PHASE_CONSTRAINT_WEAK"
+    ],
+    "harmonic_energy": 0.0031792922767836036,
+    "holdout_energy": 8.012687923436783e-07,
+    "recurrence": {
+      "fit_harmonics": 4,
+      "normalized_residual": 5.746857178200625e-16,
+      "product_roots": {
+        "imag": 0.055191324559100405,
+        "real": -0.03611429442369788
+      },
+      "root_magnitudes": [
+        0.4577724214127509,
+        0.14408248991479342
+      ],
+      "roots": [
+        {
+          "imag": -0.4472893532442897,
+          "real": -0.0974054632985143
+        },
+        {
+          "imag": -0.10273873369023118,
+          "real": -0.10101740691472093
+        }
+      ],
+      "sum_roots": {
+        "imag": -0.5500280869345208,
+        "real": -0.19842287021323515
+      },
+      "system_condition_number": 40.6662494893553
+    },
+    "score": 1.9286864537575938,
+    "unconstrained_forecast_residual": 0.3203814136650802
+  },
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "cleaning": {
+    "error_threshold": 0.025,
+    "input_count": 372,
+    "output_count": 372,
+    "removed_count": 0
+  },
+  "combined_harmonic_evidence_gate": {
+    "blockers": [
+      "forecast_harmonics_snr",
+      "structural_constraints",
+      "score_below_cadence_threshold",
+      "uncertainty_structural_stability",
+      "uncertainty_threshold_stability",
+      "cadence_calibration_auc"
+    ],
+    "checks": {
+      "cadence_calibration_auc": false,
+      "cadence_calibration_balanced_accuracy": true,
+      "design_conditioning": true,
+      "forecast_harmonics_snr": false,
+      "four_recovery_harmonics_snr": true,
+      "harmonic_forecast_available": true,
+      "minimum_observation_count": true,
+      "phase_coverage": true,
+      "score_below_cadence_threshold": false,
+      "source_complete": true,
+      "structural_constraints": false,
+      "uncertainty_structural_stability": false,
+      "uncertainty_threshold_stability": false
+    },
+    "decision": "ABSTAIN_OR_REJECT_INSUFFICIENT_HARMONIC_EVIDENCE",
+    "measurements": {
+      "cadence_holdout_auc": 0.7962765957446809,
+      "cadence_holdout_balanced_accuracy": 0.7542553191489361,
+      "coefficient_snr": [
+        182.89489337855974,
+        15.061330366976446,
+        3.8207035735811035,
+        3.116553391944194,
+        1.7595607075032889,
+        1.3364386097235104,
+        1.6985830766898415,
+        0.832390454178761
+      ],
+      "design_condition_number": 1.828138992893719,
+      "first_four_snr_count_ge_threshold": 4,
+      "forecast_snr_count_ge_threshold": 0,
+      "observation_count": 372,
+      "occupied_phase_bins": 12,
+      "score_threshold": 1.470081839858064,
+      "screen_score": 1.9052202501405278,
+      "structural_flags": [
+        "RESIDUE_PHASE_CONSTRAINT_WEAK",
+        "RESIDUE_SIGN_CONSTRAINT_FAILED"
+      ],
+      "total_phase_bins": 12,
+      "uncertainty_below_threshold_fraction": 0.1259765625,
+      "uncertainty_structural_pass_fraction": 0.004150390625
+    },
+    "passed": false
+  },
+  "component_evidence_status": "INSUFFICIENT_MEASURED_FORECAST_HARMONICS",
+  "date": "2026-08-15",
+  "environment": {
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]"
+  },
+  "exchange_records": {
+    "catalog_object_sha256": "c2d36709662557168f87423b51a44bbdfd1645810c14548b01c6df21d7b93d21",
+    "catalog_path": "artifacts/phase07/OGLE-LMC-CEP-0010.catalog-period.harmonics.json",
+    "catalog_sha256": "c2d36709662557168f87423b51a44bbdfd1645810c14548b01c6df21d7b93d21",
+    "refined_object_sha256": "2e32a19916d72ec3fd5dffc6e4ed33fd8d00d69f77fcac8681b5b2c23704f9ec",
+    "refined_path": "artifacts/phase07/OGLE-LMC-CEP-0010.refined-period.harmonics.json",
+    "refined_sha256": "2e32a19916d72ec3fd5dffc6e4ed33fd8d00d69f77fcac8681b5b2c23704f9ec"
+  },
+  "figures": [
+    "artifacts/phase07/phase07_folded_complete_lightcurve.png",
+    "artifacts/phase07/phase07_harmonic_snr.png",
+    "artifacts/phase07/phase07_harmonic_forecast.png",
+    "artifacts/phase07/phase07_actual_cadence_score_calibration.png",
+    "artifacts/phase07/phase07_actual_cadence_mvhe.png"
+  ],
+  "gate_decision": "ABSTAIN_OR_REJECT_INSUFFICIENT_HARMONIC_EVIDENCE",
+  "historical_excerpt_comparison": {
+    "flags": [
+      "RESIDUE_PHASE_CONSTRAINT_WEAK"
+    ],
+    "forecast_residual": 1.1236208028848997,
+    "harmonic_wald_snr": [
+      3.9432672667260196,
+      0.1407892255669658,
+      0.19210823311525516,
+      0.12289768508094684,
+      0.32626045677707294,
+      0.11411246919083858,
+      0.34546375833815995,
+      0.4277084836818593
+    ],
+    "observation_count": 24,
+    "score": 1.7697395244154166
+  },
+  "implementation_id": "DERD-v0.7-phase07-raw-harmonic-forecast-gate",
+  "locked_gates": [
+    "C17-population-promotion",
+    "prospective-sealed-evaluation",
+    "physical-mechanism",
+    "transparent-shell-prevalence",
+    "shell-mass"
+  ],
+  "period_profile": {
+    "best_chi_square": 982.7419813082082,
+    "best_period_days": 2.565578036774857,
+    "catalog_chi_square": 985.0517807361559,
+    "catalog_period_days": 2.5655853,
+    "grid_count": 201,
+    "profile_half_width_days": 7.696755899733176e-06,
+    "profile_lower_days": 2.56557041960526,
+    "profile_upper_days": 2.5655858131170595,
+    "reduced_chi_square_at_best": 2.768287271290727,
+    "relative_delta": -2.831020719952658e-06,
+    "relative_span": 0.0002,
+    "resolved": true
+  },
+  "recurrence_propagation": {
+    "amplitude_ratio_quantiles": {
+      "median": 4.091413037488113,
+      "q05": 0.08097043672899815,
+      "q10": 0.12776265020333596,
+      "q90": 9.200409790883562,
+      "q95": 10.46520557579941
+    },
+    "below_threshold_fraction": 0.1259765625,
+    "e1_quantiles": {
+      "median": 0.741455878424937,
+      "q05": 0.21361444180692243,
+      "q10": 0.24745485091640407,
+      "q90": 0.9796943118573378,
+      "q95": 0.9997263843267391
+    },
+    "e2_quantiles": {
+      "median": 0.26965410723247624,
+      "q05": 0.18050977903737642,
+      "q10": 0.1951814771733108,
+      "q90": 0.8116211554839909,
+      "q95": 0.9304449598763598
+    },
+    "flag_counts": {
+      "AMPLITUDE_RATIO_EXTREME": 213,
+      "RESIDUE_PHASE_CONSTRAINT_WEAK": 4079,
+      "RESIDUE_SIGN_CONSTRAINT_FAILED": 2311,
+      "ROOT_OUTSIDE_PHYSICAL_Q_DOMAIN": 214
+    },
+    "forecast_residual_quantiles": {
+      "median": 0.45760705302379523,
+      "q05": 0.2882686951094716,
+      "q10": 0.3193847875772062,
+      "q90": 0.6327296960108566,
+      "q95": 0.7049151108989052
+    },
+    "numerical_failure_fraction": 0.0,
+    "phase_ratio_quantiles": {
+      "median": 0.7537611410316649,
+      "q05": 0.03482763384135683,
+      "q10": 0.07340875065877782,
+      "q90": 0.9445205111324586,
+      "q95": 0.9712419485030513
+    },
+    "requested_draws": 4096,
+    "score_quantiles": {
+      "median": 1.8179098673352114,
+      "q05": 1.0205789694754004,
+      "q10": 1.2888957453048877,
+      "q90": 2.2901520512170848,
+      "q95": 2.944031569422386
+    },
+    "seed": 2026081509,
+    "structural_pass_fraction": 0.004150390625,
+    "successful_draws": 4096,
+    "unconstrained_forecast_quantiles": {
+      "median": 0.4634941676000711,
+      "q05": 0.2791708701158846,
+      "q10": 0.31556398348719716,
+      "q90": 0.7494326306255079,
+      "q95": 1.0086656263017717
+    }
+  },
+  "refined_period_extraction": {
+    "complex_standard_errors": [
+      0.0004185512792119738,
+      0.0004215717044531285,
+      0.0004217864873455311,
+      0.00042369882001303054,
+      0.0004252995701686299,
+      0.00042941771701291234,
+      0.0004303847950675183,
+      0.00042466427343366503
+    ],
+    "covariance_estimator": "hc3",
+    "design_condition_number": 1.828138992893719,
+    "effective_rank": 17,
+    "harmonic_count": 8,
+    "harmonic_wald_snr": [
+      182.89489337855974,
+      15.061330366976446,
+      3.8207035735811035,
+      3.116553391944194,
+      1.7595607075032889,
+      1.3364386097235104,
+      1.6985830766898415,
+      0.832390454178761
+    ],
+    "intercept": 1.0066765208435653,
+    "intercept_standard_error": 0.0004202298284809729,
+    "period_days": 2.565578036774857,
+    "phase_coverage": {
+      "bin_count": 12,
+      "bin_counts": [
+        28,
+        31,
+        24,
+        28,
+        37,
+        30,
+        24,
+        33,
+        34,
+        36,
+        39,
+        28
+      ],
+      "maximum_bin_count": 39,
+      "maximum_circular_phase_gap": 0.018576881254148248,
+      "median_circular_phase_gap": 0.0018724769908828875,
+      "minimum_bin_count": 24,
+      "occupied_bins": 12
+    },
+    "photometric_covariance_trace": 2.040372080415159e-06,
+    "residual_rmse": 0.0078113914857576155,
+    "ridge": 1e-08,
+    "robust_covariance_trace": 5.764730093358669e-06,
+    "sample_count": 372,
+    "weighted_reduced_chi_square": 2.768287271290727
+  },
+  "refined_period_screen": {
+    "available_harmonics": 8,
+    "candidate": {
+      "amplitude_domain_penalty": 0.0,
+      "epoch_ratio": 0.21463981141285593,
+      "fit_residual": 0.7053854389807697,
+      "forecast_residual": 0.2896213443906518,
+      "opposite_sign_residues": false,
+      "parameters": {
+        "amplitude_ratio": 4.6514750259700905,
+        "e1": 0.7360414063068497,
+        "e2": 0.28904445550987395,
+        "phase_ratio": 0.9092392522436142
+      },
+      "ratio_imaginary_residual": 0.8204269335382113,
+      "root_domain_penalty": 0.0,
+      "root_magnitudes": [
+        0.43892025654839184,
+        0.14767390825809343
+      ],
+      "root_phases_cycles": [
+        0.7146398114128558,
+        0.6238790636564702
+      ],
+      "scale": 0.040487080929123336,
+      "total_score": 1.9052202501405278
+    },
+    "evidence_level": "HARMONIC_FORECAST",
+    "fit_energy": 0.0031796052818228388,
+    "fit_harmonics": 4,
+    "flags": [
+      "RESIDUE_SIGN_CONSTRAINT_FAILED",
+      "RESIDUE_PHASE_CONSTRAINT_WEAK"
+    ],
+    "harmonic_energy": 0.003180382846404208,
+    "holdout_energy": 7.775645813696785e-07,
+    "recurrence": {
+      "fit_harmonics": 4,
+      "normalized_residual": 5.963116710325529e-16,
+      "product_roots": {
+        "imag": 0.05504769797698482,
+        "real": -0.03421992799070432
+      },
+      "root_magnitudes": [
+        0.43892025654839184,
+        0.14767390825809343
+      ],
+      "roots": [
+        {
+          "imag": -0.4281318495842013,
+          "real": -0.09671665306511051
+        },
+        {
+          "imag": -0.10368319417302961,
+          "real": -0.10515406994642497
+        }
+      ],
+      "sum_roots": {
+        "imag": -0.5318150437572311,
+        "real": -0.2018707230115356
+      },
+      "system_condition_number": 40.53387051958889
+    },
+    "score": 1.9052202501405278,
+    "unconstrained_forecast_residual": 0.31575095891707056
+  },
+  "source": {
+    "evidence_role": "exposed-development-only",
+    "expected_git_blob_sha1": "fd82c05bb3a62ba9a8c614ac51eb315124090381",
+    "git_blob_verified": true,
+    "local_byte_count": 8928,
+    "local_sha256": "574d7252996f5ee71169a97f2d7b52a8acbdb0898df65a7b61f5419ae9f063e0",
+    "median_magnitude_error": 0.005,
+    "mode": "1O",
+    "observation_count": 372,
+    "observed_git_blob_sha1": "fd82c05bb3a62ba9a8c614ac51eb315124090381",
+    "rights_status": "PUBLIC_MIRROR; REDISTRIBUTION_TERMS_NOT_VERIFIED",
+    "source_commit": "55836b58345b9507bfbd98c5fabbac82c83605e3",
+    "source_locator": "https://github.com/bksim/OutlierDetection/blob/55836b58345b9507bfbd98c5fabbac82c83605e3/Cluster/cep/phot/I/OGLE-LMC-CEP-0010.dat",
+    "source_repository": "bksim/OutlierDetection",
+    "star_id": "OGLE-LMC-CEP-0010",
+    "time_max_hjd_minus_2450000": 4540.50409,
+    "time_min_hjd_minus_2450000": 2162.88312,
+    "time_span_days": 2377.6209700000004
+  },
+  "uncertainty_gate": {
+    "draws_requested": 4096,
+    "draws_successful": 4096,
+    "evidence_status": "INSUFFICIENT_MEASURED_FORECAST_HARMONICS",
+    "forecast_residual_median": 0.4576070530237947,
+    "forecast_residual_q05": 0.28826869510947467,
+    "forecast_residual_q95": 0.7049151108989015,
+    "forecast_significant_count": 0,
+    "forecast_snr": [
+      1.7595607075032889,
+      1.3364386097235104,
+      1.6985830766898415,
+      0.832390454178761
+    ],
+    "nominal_flags": [
+      "RESIDUE_SIGN_CONSTRAINT_FAILED",
+      "RESIDUE_PHASE_CONSTRAINT_WEAK"
+    ],
+    "nominal_forecast_residual": 0.2896213443906518,
+    "nominal_score": 1.9052202501405278,
+    "qualifies": false,
+    "quality_flags": [
+      "FORECAST_HARMONICS_NOT_MEASURED",
+      "RESIDUE_PHASE_CONSTRAINT_WEAK",
+      "RESIDUE_SIGN_CONSTRAINT_FAILED"
+    ],
+    "recovery_significant_count": 4,
+    "recovery_snr": [
+      182.89489337855974,
+      15.061330366976446,
+      3.8207035735811035,
+      3.116553391944194
+    ],
+    "score_median": 1.8179098673352119,
+    "score_q05": 1.0205789694753937,
+    "score_q95": 2.944031569422422,
+    "threshold": 1.470081839858064,
+    "threshold_pass_fraction": 0.1259765625
+  }
+}

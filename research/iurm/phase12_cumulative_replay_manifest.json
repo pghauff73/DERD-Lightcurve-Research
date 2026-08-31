@@ -1,0 +1,27 @@
+{
+  "active_dimension": "new cryptographically verified source and target execution",
+  "frozen_dimensions": [
+    "fifteen-object cohort identities",
+    "five-object family denominators",
+    "metadata policy",
+    "harmonic extraction h1-h8",
+    "Phase-11 scientific configuration",
+    "target-specific calibration",
+    "covariance propagation",
+    "SNR and structural thresholds",
+    "population firewall"
+  ],
+  "gate": "PHASE12_CUMULATIVE_LEDGER_UPDATED_REPLAY_AUDIT_PASSED_POPULATION_GATE_CLOSED",
+  "implementation_id": "DERD-v1.2-phase12-cumulative-replay-ledger",
+  "intervention": {
+    "cumulative_verified_targets_after": 2,
+    "cumulative_verified_targets_before": 1
+  },
+  "manifest_id": "IURM-PHASE12-CUMULATIVE-REPLAY-LEDGER-V1",
+  "result": {
+    "cumulative_record_count": 2,
+    "new_record_count": 1,
+    "population_outputs_allowed": false,
+    "scientific_replay_pass": true
+  }
+}

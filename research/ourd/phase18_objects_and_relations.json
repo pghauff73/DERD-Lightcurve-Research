@@ -1,0 +1,95 @@
+{
+  "invariants": [
+    "source verification, method reconstruction, numerical consistency, independence, and physical interpretation remain separate dimensions",
+    "analysis versions do not increase the astronomical object denominator",
+    "normalized waveform evidence does not identify shell mass or a unique internal mechanism"
+  ],
+  "object_model": "OURD-PHASE18-1.0",
+  "objects": [
+    {
+      "id": "O18-PROTOCOL",
+      "path": "research/preregistration/phase18_exact_external_input_reconstruction_protocol.json",
+      "type": "sealed_protocol"
+    },
+    {
+      "id": "O18-OGLEIII",
+      "observations": 33,
+      "survey": "OGLE-III",
+      "type": "observational_source"
+    },
+    {
+      "id": "O18-OGLEIV",
+      "observations": 32,
+      "survey": "OGLE-IV",
+      "type": "observational_source"
+    },
+    {
+      "id": "O18-MERGED",
+      "observations": 65,
+      "type": "derived_source_scope"
+    },
+    {
+      "id": "O18-METHOD",
+      "path": "data/evidence/phase18_jurkovic2022_method_contract.json",
+      "type": "external_method_contract"
+    },
+    {
+      "id": "O18-LATTICE",
+      "type": "method_lattice",
+      "variants": 18
+    },
+    {
+      "id": "O18-PRIMARY",
+      "type": "publication_compatible_reconstruction",
+      "variant": "merged_ogleiii_iv_unweighted_free"
+    },
+    {
+      "id": "O18-GRAPH",
+      "path": "artifacts/phase18/phase18_reproducibility_graph.json",
+      "type": "reproducibility_graph"
+    },
+    {
+      "family_outputs_allowed": false,
+      "id": "O18-FIREWALL",
+      "type": "population_firewall"
+    }
+  ],
+  "relations": [
+    {
+      "relation": "merged_with",
+      "source": "O18-OGLEIII",
+      "target": "O18-OGLEIV"
+    },
+    {
+      "relation": "contributes_to",
+      "source": "O18-OGLEIII",
+      "target": "O18-MERGED"
+    },
+    {
+      "relation": "contributes_to",
+      "source": "O18-OGLEIV",
+      "target": "O18-MERGED"
+    },
+    {
+      "relation": "constrains",
+      "source": "O18-METHOD",
+      "target": "O18-LATTICE"
+    },
+    {
+      "relation": "selects_preregistered",
+      "source": "O18-LATTICE",
+      "target": "O18-PRIMARY"
+    },
+    {
+      "relation": "extends",
+      "source": "O18-PRIMARY",
+      "target": "O18-GRAPH"
+    },
+    {
+      "relation": "does_not_open",
+      "source": "O18-GRAPH",
+      "target": "O18-FIREWALL"
+    }
+  ],
+  "sha256_canonical_json": "d1cd90a7c5cb9e0e245bf56da427eb9043a427dc43971e7e5a2fd7ea405e27bc"
+}

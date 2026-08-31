@@ -1,0 +1,67 @@
+{
+  "claim": "The exact frozen three-pass extractor cannot by itself reproduce the differing freq1, freq2 and freq3 blocks in the sampled Cepheid, RR Lyrae and Delta Scuti catalog rows because its data input is not updated between passes.",
+  "claim_id": "C32",
+  "evidence_level": "E3_SOURCE_REPLAY_INVARIANT_AND_CROSS_CATALOG_CHECK",
+  "interpretation": "The table values are not declared false; the frozen source is declared incomplete provenance for those values.",
+  "sample_results": [
+    {
+      "ambiguity_best_score": 1.2443894741758417,
+      "ambiguity_median_score": 7.003503246988155,
+      "ambiguity_worst_score": 15.224060064297744,
+      "catalog_blob_sha1": "2051440f2ca4662b65e011b479884d9159bbc238",
+      "catalog_path": "Cluster/out/cep_I.csv",
+      "feasible_fundamental_phase_width": 2.0729066944797934,
+      "flags": "ONE_ARGUMENT_ARCTAN_LOSES_QUADRANT;ABSOLUTE_FUNDAMENTAL_PHASE_NOT_REPORTED;COMMON_PHASE_SUBTRACTION_IS_NOT_EPOCH_INVARIANT_FOR_N_GT_1;FOUR_HARMONICS_HAVE_ZERO_RECURRENCE_FORECAST_DEGREES_OF_FREEDOM;INSUFFICIENT_HARMONICS_FOR_TWO_COEFFICIENT_FORECAST",
+      "frozen_source_repeat_invariant": false,
+      "maximum_absolute_relative_phase_block_change": 3.2994848468699995,
+      "maximum_relative_amplitude_block_change": 0.9344005575428399,
+      "object_id": "OGLE-LMC-CEP-0001",
+      "quadrant_branch_count": 8,
+      "qualifies_for_harmonic_forecast": false,
+      "qualifies_for_unique_complex_screen": false,
+      "recoverability": "continuous_and_branch_ambiguous",
+      "recurrence_overidentifying_real_dof": 0
+    },
+    {
+      "ambiguity_best_score": 0.42875975877088446,
+      "ambiguity_median_score": 3.296201944006191,
+      "ambiguity_worst_score": 41.40132071236118,
+      "catalog_blob_sha1": "eb5e136201674e2571a319eedfbff71515531dd5",
+      "catalog_path": "Cluster/out/rrlyr_I.csv",
+      "feasible_fundamental_phase_width": 0.6808503295857931,
+      "flags": "ONE_ARGUMENT_ARCTAN_LOSES_QUADRANT;ABSOLUTE_FUNDAMENTAL_PHASE_NOT_REPORTED;COMMON_PHASE_SUBTRACTION_IS_NOT_EPOCH_INVARIANT_FOR_N_GT_1;FOUR_HARMONICS_HAVE_ZERO_RECURRENCE_FORECAST_DEGREES_OF_FREEDOM;INSUFFICIENT_HARMONICS_FOR_TWO_COEFFICIENT_FORECAST",
+      "frozen_source_repeat_invariant": false,
+      "maximum_absolute_relative_phase_block_change": 2.32636883006,
+      "maximum_relative_amplitude_block_change": 0.8548462749910667,
+      "object_id": "OGLE-LMC-RRLYR-00001",
+      "quadrant_branch_count": 8,
+      "qualifies_for_harmonic_forecast": false,
+      "qualifies_for_unique_complex_screen": false,
+      "recoverability": "continuous_and_branch_ambiguous",
+      "recurrence_overidentifying_real_dof": 0
+    },
+    {
+      "ambiguity_best_score": 32.407462949731766,
+      "ambiguity_median_score": 60.39244842676976,
+      "ambiguity_worst_score": 89.66666017600782,
+      "catalog_blob_sha1": "9baba79171d5dbc8ec5a6925fa1eb56dfda0812c",
+      "catalog_path": "Cluster/out/dsct_I.csv",
+      "feasible_fundamental_phase_width": 0.34604450307979295,
+      "flags": "ONE_ARGUMENT_ARCTAN_LOSES_QUADRANT;ABSOLUTE_FUNDAMENTAL_PHASE_NOT_REPORTED;COMMON_PHASE_SUBTRACTION_IS_NOT_EPOCH_INVARIANT_FOR_N_GT_1;FOUR_HARMONICS_HAVE_ZERO_RECURRENCE_FORECAST_DEGREES_OF_FREEDOM;INSUFFICIENT_HARMONICS_FOR_TWO_COEFFICIENT_FORECAST",
+      "frozen_source_repeat_invariant": false,
+      "maximum_absolute_relative_phase_block_change": 2.28768671969,
+      "maximum_relative_amplitude_block_change": 0.5025501665263237,
+      "object_id": "OGLE-LMC-DSCT-0001",
+      "quadrant_branch_count": 8,
+      "qualifies_for_harmonic_forecast": false,
+      "qualifies_for_unique_complex_screen": false,
+      "recoverability": "continuous_and_branch_ambiguous",
+      "recurrence_overidentifying_real_dof": 0
+    }
+  ],
+  "source_evidence": {
+    "catalog_sample_manifest": "data/evidence/phase06_frozen_catalog_samples.json",
+    "extractor_blob_sha1": "957823bc6e305dc3d3e96811e7be35c3e0e1260e"
+  },
+  "status": "PROVENANCE_MISMATCH_VERIFIED_ON_THREE_COMPACT_SAMPLES"
+}

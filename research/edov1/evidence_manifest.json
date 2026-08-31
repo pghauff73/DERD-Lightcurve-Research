@@ -1,0 +1,43 @@
+{
+  "evidence_limits": [
+    "A001 and A002 share an author provenance cluster and do not constitute independent astrophysical replication.",
+    "This phase verifies implementation behavior and mathematical identities only.",
+    "Real-star performance, mechanism, shell prevalence, and shell mass remain unpromoted."
+  ],
+  "intended_repository_base": {
+    "branch": "main",
+    "commit": "a0d93a2e95cbe9287326897efc419255c1f39610",
+    "frozen_at_utc": "2026-08-07T00:00:00Z",
+    "repository": "pghauff55/lightcurve-trainer"
+  },
+  "schema_version": "EDOv1-evidence-manifest-0.1",
+  "sources": [
+    {
+      "evidence_id": "A001",
+      "provenance_cluster": "author-primary-paper",
+      "relevant_locations": [
+        "p.3 four parameters",
+        "pp.7-10 printed code",
+        "p.10 normalization and mass-factored statement",
+        "pp.13-14 physical interpretation"
+      ],
+      "sha256": "61454058ca99aec855c9558490778eec19776f7f0c7b50d0037cbc5741609712",
+      "title": "Cephids Pulsating Stars \u2013 Transparent Outer Shell",
+      "type": "primary_manuscript"
+    },
+    {
+      "commit": "a0d93a2e95cbe9287326897efc419255c1f39610",
+      "evidence_id": "A002",
+      "key_blobs": {
+        "README.md": "065b78bfb4354d669163912adf321dab5402833b",
+        "kepler-feature-counter.py": "10e82ecf32b59e2eda1b6008850142a4f61c0392",
+        "lightcurve-generator.ipynb": "e7b0d91cdded16573e70b57cf3edab2a17628c46",
+        "lightcurve-trainer-start.py": "f2a7015c0a343b5c0fe32fdc0c57c92e7e674e75",
+        "lightcurve-trainer.py": "d60523227abe0296364f32ce889a832f49a4ea6c"
+      },
+      "provenance_cluster": "author-primary-software",
+      "title": "pghauff55/lightcurve-trainer",
+      "type": "primary_software_repository"
+    }
+  ]
+}

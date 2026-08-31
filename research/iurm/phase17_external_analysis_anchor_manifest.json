@@ -1,0 +1,28 @@
+{
+  "active_dimensions": [
+    "analysis-group independence: internal to external",
+    "observing-source independence: same survey family versus independent survey",
+    "source completeness: 33 local rows versus published minimum 50",
+    "Fourier-coordinate difference vector under combined covariance"
+  ],
+  "frozen_dimensions": [
+    "astronomical identity OGLE-LMC-CEP-0002",
+    "V passband",
+    "cosine Fourier invariant convention",
+    "three-harmonic order",
+    "60-percent bootstrap fraction",
+    "one denominator record per astronomical object",
+    "physical-claim gates remain locked"
+  ],
+  "gate": "PHASE17_EXTERNAL_ANALYSIS_ANCHOR_CONSISTENT_PARTIAL_SOURCE_OVERLAP_INDEPENDENT_ASTROPHYSICAL_REPLICATION_STILL_ABSENT",
+  "implementation_id": "DERD-v1.7-phase17-external-analysis-anchor",
+  "manifest_id": "IURM-PHASE17-EXTERNAL-ANALYSIS-ANCHOR-V1",
+  "result": {
+    "astronomical_denominator": 5,
+    "classification": "EXTERNAL_ANALYSIS_CONSISTENT_PARTIAL_SOURCE_OVERLAP",
+    "external_analysis_consistency_count": 1,
+    "external_independent_replication_count": 0,
+    "joint_p_value": 0.7773544797654233,
+    "maximum_absolute_marginal_z": 1.2754903867600589
+  }
+}

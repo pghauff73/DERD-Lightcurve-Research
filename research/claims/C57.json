@@ -1,0 +1,9 @@
+{
+  "claim": "A cryptographically verified prior target result can remain in a cumulative ledger without re-importing its raw source bytes.",
+  "claim_id": "C57",
+  "evidence": [
+    "artifacts/phase12/phase12_cumulative_ledger.json"
+  ],
+  "sha256_canonical_json": "8d00e2efff46e87cbccd9dea779b0db4ed6b82666ed21cece7c4eba0794f14e3",
+  "status": "VERIFIED_BY_PHASE12_LEDGER_CHAIN"
+}

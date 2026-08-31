@@ -1,0 +1,11 @@
+{
+  "claim": "The Phase-17 method summary conflated K2 bootstrap uncertainties with the OGLE comparison; the corrected Phase-18 method contract records curve_fit covariance for the OGLE table while preserving the historical Phase-17 object.",
+  "claim_id": "C89",
+  "evidence": [
+    "data/evidence/phase18_jurkovic2022_method_contract.json",
+    "data/evidence/phase17_jurkovic2022_vband_anchor.json"
+  ],
+  "physical_claim_scope": "external Fourier input reconstruction and normalized waveform provenance only",
+  "sha256_canonical_json": "5ccb8d1b8edc125cedbc6e9cca1f38e40c0ebec82e932c815793002b5705f45f",
+  "status": "CORRECTED_WITH_HISTORICAL_PROVENANCE_PRESERVED"
+}

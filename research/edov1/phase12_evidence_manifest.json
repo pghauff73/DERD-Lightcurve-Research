@@ -1,0 +1,23 @@
+{
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "contradictory_or_limiting_evidence": [
+    "the RR Lyrae target still lacks two measured forecast harmonics",
+    "its DERD score remains above the target-specific threshold",
+    "structural compatibility remains false",
+    "thirteen cohort targets lack cumulative records",
+    "five Delta Scuti authoritative metadata locks remain absent",
+    "family and population estimates remain suppressed"
+  ],
+  "implementation_id": "DERD-v1.2-phase12-cumulative-replay-ledger",
+  "manifest_id": "EDOV1-PHASE12-CUMULATIVE-REPLAY-EVIDENCE-V1",
+  "rights_and_provenance": {
+    "raw_bytes_redistributed": false,
+    "source_commit": "55836b58345b9507bfbd98c5fabbac82c83605e3",
+    "source_receipt": "artifacts/phase12/phase12_source_acquisition_receipt.json"
+  },
+  "supporting_evidence": [
+    "RR Lyrae source bytes pass all frozen source checks",
+    "fresh result reproduces the Phase-08 scientific record and harmonic exchange",
+    "cumulative ledger retains two unique verified target records"
+  ]
+}

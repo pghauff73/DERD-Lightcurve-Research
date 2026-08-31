@@ -1,0 +1,35 @@
+{
+  "active_dimension": "authoritative Delta Scuti metadata readiness and complete raw-source readiness",
+  "claim_boundary": "development waveform evidence only; no C17 confirmation, unique mechanism, transparent-shell, or shell-mass claim",
+  "cohort": {
+    "canonical_sha256": "ee2b414ec2e0197dd55962efa10ab35feb8cddc3ca03a7bcb7280f9f911bc06c",
+    "path": "data/manifests/phase21_development_cohort.json",
+    "required_family_counts": {
+      "classical_cepheid": 5,
+      "delta_scuti": 5,
+      "rr_lyrae": 5
+    }
+  },
+  "date_frozen": "2026-08-25",
+  "delta_scuti_crosswalk_policy": "two exact hops: old OGLE-III object ID -> old field ID -> current ident.OGLE-III field; no suffix or positional fallback",
+  "execution_gate": "all 15 target results freshly computed or cryptographically replayed under the frozen Phase21 configuration",
+  "frozen_dimensions": [
+    "15 object identities",
+    "family denominators",
+    "target-level DERD gate",
+    "h1-h8 extraction",
+    "HC3 covariance",
+    "recovery and forecast SNR thresholds",
+    "population firewall"
+  ],
+  "implementation_id": "DERD-v2.1-phase21-authoritative-dsct-pilot",
+  "metadata_gate": "all 15 claim-grade identities, periods, uncertainties, and mode/subtype labels",
+  "parent_phase20": {
+    "summary_path": "artifacts/phase20/phase20_summary.json",
+    "summary_sha256": "5360bbda9c45ab80839bd16a129093ae884e4c2503942f099daaae0c36cd0afb"
+  },
+  "population_output_gate": "family Wilson intervals only when all 15 denominator records exist",
+  "protocol_id": "DERD-PHASE21-AUTHORITATIVE-DSCT-PILOT-1.0",
+  "sha256_canonical_json": "bee274f9797ba2ada537e092f507204399bdc6b1c8847b7408210175f8ca06b2",
+  "source_gate": "all 15 complete raw light curves verified by repository, commit, path, blob, bytes, observation count, and SHA-256"
+}

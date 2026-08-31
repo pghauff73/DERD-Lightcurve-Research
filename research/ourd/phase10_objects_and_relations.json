@@ -1,0 +1,153 @@
+{
+  "graph_id": "OURD-PHASE10-AUTHORITATIVE-METADATA-SOURCE-LOCK-GRAPH-V1",
+  "objects": [
+    {
+      "id": "P10-PROTOCOL",
+      "type": "sealed_protocol"
+    },
+    {
+      "id": "P10-CATALOG-CONTRACT",
+      "type": "authoritative_catalog_contract"
+    },
+    {
+      "count": 15,
+      "id": "P10-COHORT",
+      "type": "declared_development_cohort"
+    },
+    {
+      "current_count": 0,
+      "id": "P10-METADATA-LOCKS",
+      "required_count": 5,
+      "type": "row_and_file_digest_locks"
+    },
+    {
+      "current_count": 0,
+      "id": "P10-SOURCE-LOCKS",
+      "required_count": 15,
+      "type": "raw_photometry_replay_locks"
+    },
+    {
+      "count": 5,
+      "id": "P10-CACHED-EVIDENCE",
+      "type": "verified_prior_results"
+    },
+    {
+      "id": "P10-CATALOG-RECEIPT",
+      "type": "acquisition_receipt"
+    },
+    {
+      "id": "P10-SOURCE-RECEIPT",
+      "type": "acquisition_receipt"
+    },
+    {
+      "id": "P10-SYNTHETIC-CONTROL",
+      "type": "non_astrophysical_positive_control"
+    },
+    {
+      "id": "C48",
+      "type": "claim"
+    },
+    {
+      "id": "C49",
+      "type": "claim"
+    },
+    {
+      "id": "C50",
+      "type": "claim"
+    },
+    {
+      "id": "C51",
+      "type": "claim"
+    },
+    {
+      "id": "C52",
+      "type": "claim"
+    },
+    {
+      "id": "C53",
+      "type": "claim"
+    }
+  ],
+  "relations": [
+    {
+      "relation": "governs",
+      "source": "P10-PROTOCOL",
+      "target": "P10-COHORT"
+    },
+    {
+      "relation": "constrains",
+      "source": "P10-CATALOG-CONTRACT",
+      "target": "P10-METADATA-LOCKS"
+    },
+    {
+      "relation": "required_by",
+      "source": "P10-METADATA-LOCKS",
+      "target": "P10-COHORT"
+    },
+    {
+      "relation": "required_by",
+      "source": "P10-SOURCE-LOCKS",
+      "target": "P10-COHORT"
+    },
+    {
+      "relation": "partially_informs",
+      "source": "P10-CACHED-EVIDENCE",
+      "target": "P10-COHORT"
+    },
+    {
+      "relation": "records_attempt_for",
+      "source": "P10-CATALOG-RECEIPT",
+      "target": "P10-METADATA-LOCKS"
+    },
+    {
+      "relation": "records_attempt_for",
+      "source": "P10-SOURCE-RECEIPT",
+      "target": "P10-SOURCE-LOCKS"
+    },
+    {
+      "relation": "tests",
+      "source": "P10-SYNTHETIC-CONTROL",
+      "target": "P10-CATALOG-CONTRACT"
+    },
+    {
+      "relation": "supports",
+      "source": "P10-CATALOG-CONTRACT",
+      "target": "C48"
+    },
+    {
+      "relation": "supports",
+      "source": "P10-CATALOG-CONTRACT",
+      "target": "C49"
+    },
+    {
+      "relation": "bounds",
+      "source": "P10-CATALOG-CONTRACT",
+      "target": "C50"
+    },
+    {
+      "relation": "orthogonal_to",
+      "source": "P10-METADATA-LOCKS",
+      "target": "P10-SOURCE-LOCKS"
+    },
+    {
+      "relation": "supports",
+      "source": "P10-COHORT",
+      "target": "C52"
+    },
+    {
+      "relation": "supports",
+      "source": "P10-SYNTHETIC-CONTROL",
+      "target": "C53"
+    }
+  ],
+  "score_vector": {
+    "causal_fidelity": "not established; waveform-only boundary retained",
+    "complexity": "fifteen object locks plus five DSCT row-level crosswalk locks",
+    "family_transfer": "three-family structure frozen; execution pending",
+    "orthogonality": "catalog metadata, raw bytes, cached results and scientific outputs separated",
+    "predictive_calibration": "not executed in Phase 10 while source lock gate is closed",
+    "reconstruction": "catalogue and source replay code complete; authoritative bytes absent",
+    "temporal_stability": "catalog release and source commit pinned; repeated catalog query not yet replayed",
+    "uniqueness": "exact identity and source-path uniqueness enforced"
+  }
+}

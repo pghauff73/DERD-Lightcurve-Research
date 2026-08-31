@@ -1,0 +1,111 @@
+{
+  "graph_id": "OURD-PHASE14-PERIOD-COORDINATE-ROBUSTNESS-LEDGER-GRAPH-V1",
+  "objects": [
+    {
+      "id": "P14-PROTOCOL",
+      "type": "sealed_protocol"
+    },
+    {
+      "id": "P14-ACQUISITION-ORDER",
+      "selected": "OGLE-LMC-CEP-0002",
+      "type": "result-blind_priority_order"
+    },
+    {
+      "count": 3,
+      "id": "P14-PARENT-LEDGER",
+      "type": "verified_phase13_ledger"
+    },
+    {
+      "count": 1,
+      "id": "P14-NEW-SOURCE",
+      "type": "verified_source_lock"
+    },
+    {
+      "id": "P14-REPLAY",
+      "passed": true,
+      "type": "cross_phase_scientific_replay"
+    },
+    {
+      "classification": "TEMPORAL_STATIONARITY_FAILURE_ROBUST_TO_PERIOD_REFINEMENT",
+      "id": "P14-PERIOD-AUDIT",
+      "type": "period_coordinate_robustness"
+    },
+    {
+      "count": 4,
+      "id": "P14-LEDGER",
+      "type": "sealed_cumulative_evidence"
+    },
+    {
+      "id": "P14-FIREWALL",
+      "open": false,
+      "type": "population_output_guard"
+    },
+    {
+      "id": "C66",
+      "type": "claim"
+    },
+    {
+      "id": "C67",
+      "type": "claim"
+    },
+    {
+      "id": "C68",
+      "type": "claim"
+    },
+    {
+      "id": "C69",
+      "type": "claim"
+    },
+    {
+      "id": "C70",
+      "type": "claim"
+    }
+  ],
+  "relations": [
+    {
+      "relation": "governs",
+      "source": "P14-PROTOCOL",
+      "target": "P14-ACQUISITION-ORDER"
+    },
+    {
+      "relation": "selects",
+      "source": "P14-ACQUISITION-ORDER",
+      "target": "P14-NEW-SOURCE"
+    },
+    {
+      "relation": "enables",
+      "source": "P14-NEW-SOURCE",
+      "target": "P14-REPLAY"
+    },
+    {
+      "relation": "enables",
+      "source": "P14-NEW-SOURCE",
+      "target": "P14-PERIOD-AUDIT"
+    },
+    {
+      "relation": "extends_into",
+      "source": "P14-PARENT-LEDGER",
+      "target": "P14-LEDGER"
+    },
+    {
+      "relation": "is_bound_as_sidecar_to",
+      "source": "P14-PERIOD-AUDIT",
+      "target": "P14-LEDGER"
+    },
+    {
+      "relation": "suppresses_partial_population_outputs_from",
+      "source": "P14-FIREWALL",
+      "target": "P14-LEDGER"
+    }
+  ],
+  "score_vector": {
+    "causal_fidelity": "not established; waveform-only boundary retained",
+    "complexity": "one narrow period surface plus two complete temporal audits",
+    "family_transfer": "not established; ledger covers two Cepheids and two RR Lyrae targets",
+    "orthogonality": "period selection uses phase dispersion rather than the DERD score",
+    "predictive_calibration": "actual-cadence stationary and controlled-drift calibration at catalog and refined periods",
+    "reconstruction": "one newly acquired Cepheid source is replayed against Phase 08",
+    "temporal_stability": "TEMPORAL_STATIONARITY_FAILURE_ROBUST_TO_PERIOD_REFINEMENT",
+    "uniqueness": "one selected identity, one base evidence record, and one period-coordinate sidecar"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "graph_id": "OURD-PHASE11-PROGRESSIVE-EVIDENCE-UNLOCK-GRAPH-V1",
+  "objects": [
+    {
+      "id": "P11-PROTOCOL",
+      "type": "sealed_protocol"
+    },
+    {
+      "count": 15,
+      "id": "P11-DECLARED-COHORT",
+      "type": "frozen_5_plus_5_plus_5_denominator"
+    },
+    {
+      "id": "P11-PROGRESSIVE-RECEIPT",
+      "type": "partial_source_lock_receipt",
+      "verified_count": 1
+    },
+    {
+      "execution_ready_count": 1,
+      "id": "P11-EXECUTION-FRONTIER",
+      "type": "target_level_readiness_frontier"
+    },
+    {
+      "count": 1,
+      "id": "P11-FRESH-EVIDENCE",
+      "type": "fresh_waveform_results"
+    },
+    {
+      "id": "P11-DENOMINATOR-FIREWALL",
+      "open": false,
+      "type": "population_output_guard"
+    },
+    {
+      "id": "C54",
+      "type": "claim"
+    },
+    {
+      "id": "C55",
+      "type": "claim"
+    },
+    {
+      "id": "C56",
+      "type": "claim"
+    }
+  ],
+  "relations": [
+    {
+      "relation": "governs",
+      "source": "P11-PROTOCOL",
+      "target": "P11-EXECUTION-FRONTIER"
+    },
+    {
+      "relation": "constrains",
+      "source": "P11-DECLARED-COHORT",
+      "target": "P11-DENOMINATOR-FIREWALL"
+    },
+    {
+      "relation": "unlocks",
+      "source": "P11-PROGRESSIVE-RECEIPT",
+      "target": "P11-EXECUTION-FRONTIER"
+    },
+    {
+      "relation": "permits",
+      "source": "P11-EXECUTION-FRONTIER",
+      "target": "P11-FRESH-EVIDENCE"
+    },
+    {
+      "relation": "suppresses_partial_population_outputs_from",
+      "source": "P11-DENOMINATOR-FIREWALL",
+      "target": "P11-FRESH-EVIDENCE"
+    },
+    {
+      "relation": "supports",
+      "source": "P11-PROGRESSIVE-RECEIPT",
+      "target": "C54"
+    },
+    {
+      "relation": "supports",
+      "source": "P11-DENOMINATOR-FIREWALL",
+      "target": "C55"
+    },
+    {
+      "relation": "supports",
+      "source": "P11-FRESH-EVIDENCE",
+      "target": "C56"
+    }
+  ],
+  "score_vector": {
+    "causal_fidelity": "not established; normalized waveform-only boundary retained",
+    "complexity": "one progressive receipt plus one execution frontier and one denominator firewall",
+    "family_transfer": "not established; only one fresh classical-Cepheid result",
+    "orthogonality": "target execution is separated from family aggregation",
+    "predictive_calibration": "target-specific synthetic calibration completed for the fresh object",
+    "reconstruction": "one exact raw source replayed and evaluated; fourteen remain pending",
+    "temporal_stability": "source commit, Git blob, SHA-256, protocol and configuration are frozen",
+    "uniqueness": "declared identities and source paths remain unique"
+  }
+}

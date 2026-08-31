@@ -1,0 +1,11 @@
+{
+  "claim": "Independent phase-dispersion period refinement does not rescue the temporal-stationarity gate for OGLE-LMC-CEP-0002.",
+  "claim_id": "C69",
+  "evidence": [
+    "artifacts/phase14/phase14_period_coordinate_audit.json",
+    "artifacts/phase14/phase14_period_coordinate_surface.csv"
+  ],
+  "physical_claim_scope": "waveform-only",
+  "sha256_canonical_json": "c0cf78212c9d3b151a90d9881ed99f21614977e2c4aad3d88abe002c3ffa020d",
+  "status": "VERIFIED_FOR_EXPOSED_DEVELOPMENT_TARGET"
+}

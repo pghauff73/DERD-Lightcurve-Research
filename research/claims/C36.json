@@ -1,0 +1,25 @@
+{
+  "catalog_screen_score": 1.9286864537575938,
+  "claim": "A generic eight-harmonic period profile, selected without using the DERD recurrence score, places the OGLE-LMC-CEP-0010 optimum within 2.84 parts per million of the catalog period and does not rescue the target from the frozen harmonic gate.",
+  "claim_id": "C36",
+  "evidence_level": "E2_EXPOSED_SINGLE_TARGET_DEVELOPMENT_RESULT",
+  "interpretation": "The gate failure is not caused by a large hypothesis-tuned period shift. This is one exposed target, not a population result.",
+  "method": "generic weighted harmonic chi-square profile independent of the DERD score",
+  "period_profile": {
+    "best_chi_square": 982.7419813082082,
+    "best_period_days": 2.565578036774857,
+    "catalog_chi_square": 985.0517807361559,
+    "catalog_period_days": 2.5655853,
+    "grid_count": 201,
+    "profile_half_width_days": 7.696755899733176e-06,
+    "profile_lower_days": 2.56557041960526,
+    "profile_upper_days": 2.5655858131170595,
+    "reduced_chi_square_at_best": 2.768287271290727,
+    "relative_delta": -2.831020719952658e-06,
+    "relative_span": 0.0002,
+    "resolved": true
+  },
+  "refined_screen_score": 1.9052202501405278,
+  "result": "artifacts/phase07/phase07_summary.json",
+  "status": "SUPPORTED_FOR_THE_FROZEN_SINGLE_TARGET_PROFILE"
+}

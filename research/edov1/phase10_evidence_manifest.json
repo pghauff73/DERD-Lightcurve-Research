@@ -1,0 +1,56 @@
+{
+  "artifacts": [
+    "artifacts/phase10/PHASE10_RESULT.md",
+    "artifacts/phase10/phase10_summary.json",
+    "artifacts/phase10/phase10_target_readiness.csv",
+    "artifacts/phase10/phase10_blockers.csv",
+    "artifacts/phase10/phase10_catalog_acquisition_receipt.json",
+    "artifacts/phase10/phase10_source_acquisition_receipt.json",
+    "data/manifests/phase10_authoritative_catalog_contract.json",
+    "data/manifests/phase10_delta_scuti_metadata_lock.json"
+  ],
+  "contradicting_or_limiting_findings": [
+    "The authoritative ident.dat and dsct.dat bytes could not be retrieved in the isolated runtime.",
+    "Zero of five selected Delta Scuti metadata locks are currently promoted.",
+    "Zero of fifteen complete raw source files are replay-ready in the release runtime.",
+    "Ten source SHA-256 coordinates remain pending acquisition.",
+    "No Phase-10 object can be freshly executed and family-level Wilson intervals remain suppressed.",
+    "All identities are exposed development cases and cannot become pristine confirmation.",
+    "The current release establishes input-governance correctness, not a population result or physical mechanism."
+  ],
+  "date": "2026-08-18",
+  "evidence_role": "EXPOSED_DEVELOPMENT_ONLY",
+  "manifest_id": "EDOV1-PHASE10-AUTHORITATIVE-METADATA-SOURCE-LOCK-EVIDENCE-V1",
+  "promotion_decision": "DENIED_AUTHORITATIVE_CATALOG_ROWS_AND_RAW_SOURCE_BYTES_ABSENT",
+  "provenance_clusters": [
+    {
+      "cluster": "paper hypothesis",
+      "independence_note": "originating claim lineage",
+      "source": "Cephids Pulsating Stars - Transparent Outer Shell"
+    },
+    {
+      "cluster": "authoritative catalogue",
+      "independence_note": "external catalogue authority; bytes not bundled",
+      "source": "OGLE-IV LMC Delta Scuti / VizieR J/AcA/73/105"
+    },
+    {
+      "cluster": "photometry mirror",
+      "independence_note": "single mirror lineage; complete bytes not bundled",
+      "source": "bksim/OutlierDetection commit 55836b5..."
+    },
+    {
+      "cluster": "prior computational evidence",
+      "independence_note": "same research programme; hash-verified reuse only",
+      "source": "DERD Phase-08 artifacts"
+    }
+  ],
+  "supporting_findings": [
+    "The Phase-10 protocol seal verifies.",
+    "The authoritative catalogue contract digest verifies.",
+    "The cohort remains exactly five Cepheids, five RR Lyrae and five Delta Scuti identities.",
+    "Ten non-Delta-Scuti targets retain claim-grade metadata coordinates.",
+    "Five cached Phase-08 object records remain cryptographically verified.",
+    "The synthetic fixed-width crosswalk control resolves five of five old identities and verifies all lock hashes.",
+    "Rights-aware catalogue and source acquisition tools reject unacknowledged or mismatched inputs."
+  ]
+}

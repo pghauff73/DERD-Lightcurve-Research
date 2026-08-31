@@ -1,0 +1,83 @@
+{
+  "acquisition_order": {
+    "path": "data/manifests/phase13_acquisition_order.json",
+    "selected_object_id": "OGLE-LMC-RRLYR-00004",
+    "sha256_file": "3ee9838d3f7014f44a0224fd75680097f7aa1655cf4d42cb53fc54470351de1b"
+  },
+  "base_execution_policy": {
+    "conflicting_duplicate_records": "HARD_FAIL",
+    "require_exact_phase08_scientific_replay": true,
+    "scientific_coordinates": {
+      "fast": false,
+      "minimum_observations": 240,
+      "period_grid_count": 101,
+      "propagation_draws": 2048,
+      "require_scientific_replay_match": true,
+      "synthetic_samples_per_class": 96
+    }
+  },
+  "claim_boundary": {
+    "not_supported": [
+      "unique internal stellar mechanism",
+      "literal internal Keplerian motion",
+      "universal transparent outer shell",
+      "shell prevalence",
+      "shell mass or mass fraction"
+    ],
+    "supported": [
+      "source-lock verification",
+      "target-level normalized waveform evidence",
+      "cross-phase replay",
+      "chronological signed-harmonic stability"
+    ]
+  },
+  "date_frozen": "2026-08-18",
+  "denominator_firewall": {
+    "family_count": 3,
+    "objects_per_family": 5,
+    "partial_family_fractions": "SUPPRESSED",
+    "partial_wilson_intervals": "SUPPRESSED",
+    "population_claims": "SUPPRESSED",
+    "total_records_required": 15
+  },
+  "parent_phase12_ledger": {
+    "path": "artifacts/phase12/phase12_cumulative_ledger.json",
+    "record_count": 2,
+    "sha256_canonical_json": "5a1e582967576e72985c1b15200a4852eff1044f553e1e0fb3ae937ddab46211"
+  },
+  "parent_phase12_summary": {
+    "path": "artifacts/phase12/phase12_summary.json",
+    "sha256": "3a5efd6dd8353b06f46050cd8217e58c603b00784b2c9f5291dc7154d91ee994"
+  },
+  "protocol_id": "DERD-PHASE13-TEMPORAL-REPLICATION-LEDGER-1.0",
+  "research_role": "exposed-development-only",
+  "rights_policy": {
+    "attribution_acknowledgement_required": true,
+    "raw_source_bytes_in_release": false,
+    "source_digests_and_retrieval_coordinates_retained": true
+  },
+  "temporal_replication_policy": {
+    "chronological_blocks": 3,
+    "common_catalog_period_and_reference_epoch": true,
+    "development_fraction": 0.7,
+    "drift_replicates_per_severity": 192,
+    "drift_severities": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "harmonic_order": 8,
+    "maximum_design_condition_number": 10000.0,
+    "minimum_block_observations": 100,
+    "minimum_drift_auc": 0.8,
+    "minimum_drift_balanced_accuracy": 0.75,
+    "minimum_occupied_phase_bins": 10,
+    "minimum_recovery_snr": 3.0,
+    "random_seed": 2026081813,
+    "recovery_harmonics": 4,
+    "stationary_replicates": 192,
+    "stationary_threshold_quantile": 0.95,
+    "temporal_audit_changes_population_denominator": false
+  }
+}

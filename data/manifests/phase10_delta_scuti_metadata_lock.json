@@ -1,0 +1,22 @@
+{
+  "blockers": [
+    "OGLE_IV_IDENT_DAT_NOT_LOCALLY_FROZEN",
+    "OGLE_IV_DSCT_DAT_NOT_LOCALLY_FROZEN",
+    "FIVE_EXPLICIT_IDENTITY_CROSSWALKS_NOT_YET_LOCKED",
+    "FIVE_PRIMARY_PERIOD_ROWS_NOT_YET_LOCKED"
+  ],
+  "catalog_contract_id": "DERD-PHASE10-OGLE-AUTHORITATIVE-CATALOG-CONTRACT-1.0",
+  "implementation_id": "DERD-v1.0-phase10-authoritative-metadata-source-lock",
+  "lock_id": "PHASE10-LMC-DSCT-AUTHORITATIVE-METADATA-LOCK-V1",
+  "prohibition": "Do not populate from legacy PeriodLS or numeric-suffix assumptions.",
+  "records": [],
+  "requested_object_ids": [
+    "OGLE-LMC-DSCT-0003",
+    "OGLE-LMC-DSCT-0004",
+    "OGLE-LMC-DSCT-0005",
+    "OGLE-LMC-DSCT-0006",
+    "OGLE-LMC-DSCT-0007"
+  ],
+  "sha256_canonical_json": "4993c26230f4ae15d571dc0855cc1ef019cac2c8e032be3a0a1fa929598bc1d1",
+  "status": "PENDING_AUTHORITATIVE_CATALOG_BYTES"
+}

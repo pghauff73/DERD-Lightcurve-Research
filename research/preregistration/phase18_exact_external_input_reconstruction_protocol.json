@@ -1,0 +1,77 @@
+{
+  "analysis": {
+    "frequency_relative_span": 0.001,
+    "harmonic_order": 3,
+    "period_modes": [
+      "fixed",
+      "free"
+    ],
+    "primary_variant": "merged_ogleiii_iv_unweighted_free",
+    "published_parameter_order": [
+      "r21",
+      "phi21",
+      "r31",
+      "phi31"
+    ],
+    "source_scopes": [
+      "ogleiii_only",
+      "ogleiv_only",
+      "merged_ogleiii_iv"
+    ],
+    "weighting_modes": [
+      "unweighted",
+      "quoted_relative",
+      "quoted_absolute"
+    ]
+  },
+  "claim_boundary": "External Fourier input-scope and numerical method reconstruction only; no DERD population, physical mechanism, transparent-shell, prevalence, or mass claim.",
+  "consistency_gate": {
+    "all_merged_variants_reported": true,
+    "joint_alpha": 0.05,
+    "joint_test": "Mahalanobis chi-square using curve_fit propagated local covariance plus published diagonal covariance",
+    "marginal_absolute_z_max": 2.0,
+    "primary_variant_must_pass": true
+  },
+  "date_frozen": "2026-08-24",
+  "external_anchor": {
+    "file_sha256": "80784477c41c624afe9d5a61b4b34b639f9eabef5903134f44cae142812f4172",
+    "path": "data/evidence/phase17_jurkovic2022_vband_anchor.json"
+  },
+  "implementation_id": "DERD-v1.8-phase18-exact-external-input-reconstruction",
+  "method_contract": {
+    "file_sha256": "e7c6262de3e95f6afbbfbf79f7841a79341751aad6d15dd3aeb77255d6a05d5e",
+    "path": "data/evidence/phase18_jurkovic2022_method_contract.json"
+  },
+  "parent_phase17": {
+    "graph_path": "artifacts/phase17/phase17_reproducibility_graph.json",
+    "graph_sha256": "707ad59252c0f7ddeb72e0bdff1d7fd8d41f315f772f3685d39fac25fc118511",
+    "ledger_path": "artifacts/phase17/phase17_cumulative_ledger.json",
+    "ledger_seal_path": "artifacts/phase17/phase17_cumulative_ledger.seal.json",
+    "ledger_seal_sha256": "942a764e3886d9e327723f309eda72287713f06977cdd9ebcfdb0f86d8454194",
+    "ledger_sha256": "926669d26d92db60cbb02d9a73282760de63aa2e03f49e042846f00d0d829c03",
+    "summary_path": "artifacts/phase17/phase17_summary.json",
+    "summary_sha256": "594313ca7a75831d29a0de1e40a62ac8837d84b4e8728eef7db2421348b99a79"
+  },
+  "protocol_id": "DERD-PHASE18-EXACT-EXTERNAL-INPUT-RECONSTRUCTION-1.0",
+  "raw_data_policy": {
+    "official_source_bytes_used_locally": true,
+    "raw_bytes_redistributed_in_release": false,
+    "retrieval_requires_attribution_acknowledgement": true
+  },
+  "replication_policy": {
+    "authoritative_current_ogle_files_count_as_exact_publication_bytes": false,
+    "counts_as_astronomical_denominator_increment": false,
+    "publication_scope_reconstruction_counts_as_exact_code_replay": false,
+    "publication_scope_reconstruction_counts_as_independent_astrophysical_replication": false
+  },
+  "source_manifest": {
+    "file_sha256": "e461100fec4a1591821f791fff5d4769ee07d8acf0eb0df37a35377955547ad1",
+    "path": "data/manifests/phase18_external_input_manifest.json",
+    "required_components": [
+      "ogleiii_v",
+      "ogleiv_v"
+    ],
+    "required_merged_observations": 65
+  },
+  "target": "OGLE-LMC-CEP-0002"
+}

@@ -1,0 +1,39 @@
+{
+  "analysis_version_nodes": 11,
+  "c17_promoted": false,
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "classification": "EXTERNAL_ANALYSIS_CONSISTENT_PARTIAL_SOURCE_OVERLAP",
+  "decision": "PHASE17_EXTERNAL_ANALYSIS_ANCHOR_CONSISTENT_PARTIAL_SOURCE_OVERLAP_INDEPENDENT_ASTROPHYSICAL_REPLICATION_STILL_ABSENT",
+  "degrees_of_freedom": 4,
+  "duplicate_analysis_inflation_prevented": 6,
+  "external_analysis_consistency_count": 1,
+  "external_independent_astrophysical_replication_count": 0,
+  "joint_p_value": 0.7773544797654233,
+  "json_files_validated": 275,
+  "local_period_days": 3.1181329738579113,
+  "local_source_observations": 33,
+  "locked_physical_gates": [
+    "UNIQUE_INTERNAL_MECHANISM",
+    "LITERAL_INTERNAL_KEPLERIAN_MOTION",
+    "UNIVERSAL_TRANSPARENT_OUTER_SHELL",
+    "SHELL_PREVALENCE",
+    "SHELL_MASS_OR_MASS_FRACTION"
+  ],
+  "mahalanobis_chi_square": 1.773349307327351,
+  "main_artifacts": [
+    "artifacts/phase17/PHASE17_RESULT.md",
+    "artifacts/phase17/phase17_summary.json",
+    "artifacts/phase17/phase17_external_analysis_audit.json",
+    "artifacts/phase17/phase17_reproducibility_graph.json",
+    "artifacts/phase17/phase17_cumulative_ledger.json"
+  ],
+  "maximum_absolute_marginal_z": 1.2754903867600589,
+  "object_id": "OGLE-LMC-CEP-0002",
+  "population_outputs_allowed": false,
+  "published_minimum_observations": 50,
+  "published_period_days": 3.118121,
+  "raw_complete_photometry_bundled": false,
+  "release_id": "DERD-v1.7-phase17-external-analysis-anchor",
+  "test_count": 232,
+  "unique_astronomical_objects": 5
+}

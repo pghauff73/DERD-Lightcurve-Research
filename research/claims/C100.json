@@ -1,0 +1,19 @@
+{
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "claim": "The three authoritative Delta Scuti periods differ materially from the legacy diagnostic PeriodLS coordinates and require fresh target execution.",
+  "claim_id": "C100",
+  "evidence": [
+    "artifacts/phase21/PHASE21_RESULT.md",
+    "artifacts/phase21/phase21_summary.json"
+  ],
+  "metrics": {
+    "authoritative_periods_days": {
+      "OGLE-LMC-DSCT-0003": 0.06644253,
+      "OGLE-LMC-DSCT-0005": 0.0676865,
+      "OGLE-LMC-DSCT-0006": 0.12224786
+    }
+  },
+  "physical_claim_scope": "metadata and development-cohort readiness only",
+  "sha256_canonical_json": "a6f80a51f7669edfd42e0e6d0cec190ba73bb2251ffa00a33ae2ea77116e719a",
+  "status": "VERIFIED_PERIOD_COORDINATE_REPLACEMENT_REQUIRED"
+}

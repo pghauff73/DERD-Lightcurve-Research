@@ -1,0 +1,7 @@
+{
+  "canonicalization": "json.dumps(sort_keys=True,separators=(comma,colon),UTF-8)",
+  "protocol_id": "DERD-PHASE09-CLAIM-GRADE-MULTIFAMILY-DEVELOPMENT-1.0",
+  "sealed_date": "2026-08-15",
+  "sha256_canonical_json": "25642d29d8e72e8fde54767151c6c824c64f08175a5681aeb9cfcacdc86fd6e5",
+  "status": "FROZEN_BEFORE_PHASE09_TARGET_SCORE_INSPECTION"
+}

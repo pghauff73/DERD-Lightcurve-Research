@@ -1,0 +1,21 @@
+{
+  "baseline_release_id": "DERD-v2.0-phase20-multiband-mechanism-falsification",
+  "c17_promoted": false,
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "complete_third_party_raw_files_bundled": false,
+  "decision": "PHASE21_AUTHORITATIVE_DSCT_CROSSWALK_PARTIALLY_UNLOCKED_COMPLETE_PILOT_BLOCKED_BY_METADATA_AND_SOURCE_BYTES",
+  "delta_scuti_locked_count": 3,
+  "delta_scuti_unresolved_count": 2,
+  "fresh_result_count": 0,
+  "inherited_evidence_count": 5,
+  "metadata_ready_count": 13,
+  "phase21_summary": "artifacts/phase21/phase21_summary.json",
+  "population_outputs_allowed": false,
+  "python_compile_passed": true,
+  "release_id": "DERD-v2.1-phase21-authoritative-dsct-pilot",
+  "source_ready_count": 0,
+  "test_failures": 0,
+  "tests_passed": 273,
+  "tracked_code_manifest": "research/CODE_MANIFEST_SHA256.txt",
+  "tracked_repository_manifest": "research/MANIFEST_SHA256.txt"
+}

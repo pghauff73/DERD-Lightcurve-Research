@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/mnt/data/lightcurve-trainer-roadmap/phase03-release-work/derd-v0.3/experiments/guard_phase04_evaluation.py", line 33, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/mnt/data/lightcurve-trainer-roadmap/phase03-release-work/derd-v0.3/experiments/guard_phase04_evaluation.py", line 27, in main
+    assert_no_sealed_evaluation(star_ids, roles)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/mnt/data/lightcurve-trainer-roadmap/phase03-release-work/derd-v0.3/src/derd/sealing.py", line 48, in assert_no_sealed_evaluation
+    raise PermissionError(f"sealed stars cannot be evaluated: {overlap}")
+PermissionError: sealed stars cannot be evaluated: ['SYN-CEP-1O-02']

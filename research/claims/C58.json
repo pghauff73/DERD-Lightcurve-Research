@@ -1,0 +1,11 @@
+{
+  "claim": "The frozen OGLE-LMC-RRLYR-00001 source is byte-, observation-, Git-blob-, and SHA-256-consistent and supports a fresh target-level execution.",
+  "claim_id": "C58",
+  "evidence": [
+    "artifacts/phase12/phase12_source_acquisition_receipt.json",
+    "artifacts/phase12/phase12_new_execution.csv"
+  ],
+  "physical_claim_scope": "waveform-only",
+  "sha256_canonical_json": "264cb6e3d629fbdcfd48b3e0c758d0fbabc9f090de6e7d2ea75b1216a054d03a",
+  "status": "VERIFIED_FOR_EXPOSED_DEVELOPMENT_TARGET"
+}

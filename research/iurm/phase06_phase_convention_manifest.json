@@ -1,0 +1,44 @@
+{
+  "active_dimension": "harmonic_information_representation",
+  "decision": "LEGACY_RELATIVE_PHASE_REPRESENTATION_FAILS_INFORMATION_GATE",
+  "frozen_dimensions": [
+    "100 geometric DERD positives",
+    "100 nulls split between generic Fourier and phase-scrambled DERD amplitudes",
+    "deterministic seed 20260815",
+    "70 percent hash development partition",
+    "30 percent hash holdout partition",
+    "four recurrence-fit harmonics",
+    "same DERD root and residue score"
+  ],
+  "gate": "A representation may carry exact recurrence evidence only when it uniquely identifies signed complex coefficients and supplies at least six harmonics for the planned two-harmonic forecast.",
+  "implementation_id": "DERD-v0.6-phase06-phase-convention-gate",
+  "levels": [
+    "canonical_signed_coefficients_8_harmonics",
+    "canonical_signed_coefficients_4_harmonics",
+    "legacy_relative_phases_unsafe_direct",
+    "legacy_relative_phases_best_ambiguity_branch"
+  ],
+  "method": "IURMv1.1.1",
+  "results": {
+    "ambiguity_best_score": {
+      "holdout_balanced_accuracy": 0.930952380952381,
+      "holdout_roc_auc": 0.9821428571428571,
+      "threshold": 0.08219753322262655
+    },
+    "canonical_four_score": {
+      "holdout_balanced_accuracy": 1.0,
+      "holdout_roc_auc": 1.0,
+      "threshold": 0.20581728596731766
+    },
+    "canonical_full_score": {
+      "holdout_balanced_accuracy": 1.0,
+      "holdout_roc_auc": 1.0,
+      "threshold": 0.31342086471264
+    },
+    "unsafe_relative_score": {
+      "holdout_balanced_accuracy": 0.6107142857142858,
+      "holdout_roc_auc": 0.6535714285714286,
+      "threshold": 1.810445882935578
+    }
+  }
+}

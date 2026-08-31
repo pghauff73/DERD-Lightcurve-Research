@@ -1,0 +1,11 @@
+{
+  "claim": "The official current OGLE-III and OGLE-IV V-band files for OGLE-LMC-CEP-0002 contain 33 and 32 verified observations and merge into a 65-observation source scope.",
+  "claim_id": "C85",
+  "evidence": [
+    "data/manifests/phase18_external_input_manifest.json",
+    "artifacts/phase18/phase18_source_acquisition_receipt.json"
+  ],
+  "physical_claim_scope": "external Fourier input reconstruction and normalized waveform provenance only",
+  "sha256_canonical_json": "0d0a9c5754fa04d6ccee4e408db0302d5f681ea6bbd09b59ca0632d3dad4c279",
+  "status": "VERIFIED_AUTHORITATIVE_CURRENT_SOURCE_SCOPE"
+}

@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "analysis_plan": true,
+    "candidate_manifest": true,
+    "code_manifest": true,
+    "contract": true,
+    "role_seal": true
+  },
+  "digest": "8dfeea4cb50cbadf7b1710883712b294469e8ae4737443b0fa526bd6b84dca3f",
+  "valid": true
+}

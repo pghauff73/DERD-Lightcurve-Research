@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/derd/phase09_development_cohort.schema.json",
+  "title": "DERD Phase-09 claim-grade multi-family development cohort",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "manifest_id",
+    "implementation_id",
+    "protocol_id",
+    "protocol_sha256",
+    "date",
+    "status",
+    "selection_rule",
+    "claim_boundary",
+    "rights_status",
+    "raw_bytes_bundling_policy",
+    "targets"
+  ],
+  "properties": {
+    "manifest_id": {"const": "PHASE09-CLAIM-GRADE-MULTIFAMILY-DEVELOPMENT-COHORT-V1"},
+    "implementation_id": {"const": "DERD-v0.9-phase09-claim-grade-development-cohort"},
+    "protocol_id": {"type": "string", "minLength": 1},
+    "protocol_sha256": {"$ref": "#/$defs/sha256"},
+    "date": {"type": "string", "format": "date"},
+    "status": {"type": "string", "minLength": 1},
+    "selection_rule": {"type": "string", "minLength": 1},
+    "claim_boundary": {"type": "string", "minLength": 1},
+    "rights_status": {"type": "string", "minLength": 1},
+    "raw_bytes_bundling_policy": {"type": "string", "minLength": 1},
+    "targets": {
+      "type": "array",
+      "minItems": 15,
+      "maxItems": 15,
+      "items": {"$ref": "#/$defs/target"}
+    }
+  },
+  "$defs": {
+    "sha1": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "target": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "object_id",
+        "family",
+        "mode",
+        "catalog_period_days",
+        "period_evidence_grade",
+        "mode_evidence_grade",
+        "period_source",
+        "metadata_identity_status",
+        "source_repository",
+        "source_commit",
+        "source_repository_path",
+        "source_git_blob_sha1",
+        "source_byte_count",
+        "source_observation_count",
+        "source_sha256",
+        "source_sha256_status",
+        "source_relative_path",
+        "evidence_role",
+        "inherited_phase08"
+      ],
+      "properties": {
+        "object_id": {"type": "string", "pattern": "^OGLE-LMC-(CEP|RRLYR|DSCT)-[0-9]+$"},
+        "family": {"enum": ["classical_cepheid", "rr_lyrae", "delta_scuti"]},
+        "mode": {"type": "string", "minLength": 1},
+        "catalog_period_days": {"type": "number", "exclusiveMinimum": 0},
+        "period_evidence_grade": {"type": "string", "minLength": 1},
+        "mode_evidence_grade": {"type": "string", "minLength": 1},
+        "period_source": {"type": "string", "minLength": 1},
+        "metadata_identity_status": {"type": "string", "minLength": 1},
+        "source_repository": {"type": "string", "pattern": "^[^/]+/[^/]+$"},
+        "source_commit": {"$ref": "#/$defs/sha1"},
+        "source_repository_path": {"type": "string", "minLength": 1},
+        "source_git_blob_sha1": {"$ref": "#/$defs/sha1"},
+        "source_byte_count": {"type": "integer", "minimum": 1},
+        "source_observation_count": {"type": "integer", "minimum": 240},
+        "source_sha256": {"oneOf": [{"$ref": "#/$defs/sha256"}, {"type": "null"}]},
+        "source_sha256_status": {"enum": ["FROZEN", "PENDING_ACQUISITION_RECEIPT"]},
+        "source_relative_path": {"type": "string", "pattern": "^data/raw/phase09_cohort/.+\\.complete\\.dat$"},
+        "evidence_role": {"const": "exposed-development-only"},
+        "inherited_phase08": {
+          "oneOf": [
+            {"type": "null"},
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "summary_relative_path",
+                "exchange_relative_path",
+                "exchange_sha256",
+                "canonical_target_record_sha256",
+                "phase08_stage_reached",
+                "phase08_disposition"
+              ],
+              "properties": {
+                "summary_relative_path": {"type": "string", "minLength": 1},
+                "exchange_relative_path": {"type": "string", "minLength": 1},
+                "exchange_sha256": {"$ref": "#/$defs/sha256"},
+                "canonical_target_record_sha256": {"$ref": "#/$defs/sha256"},
+                "phase08_stage_reached": {"type": "string", "minLength": 1},
+                "phase08_disposition": {"type": "string", "minLength": 1}
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

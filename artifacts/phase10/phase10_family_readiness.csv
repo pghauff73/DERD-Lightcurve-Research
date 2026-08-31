@@ -1,0 +1,4 @@
+family,declared_count,metadata_ready_count,source_ready_count,cached_result_count,execution_ready_count,primary_fraction_suppressed
+classical_cepheid,5,5,0,2,0,True
+delta_scuti,5,0,0,1,0,True
+rr_lyrae,5,5,0,2,0,True

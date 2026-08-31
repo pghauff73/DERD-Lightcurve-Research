@@ -1,0 +1,116 @@
+{
+  "graph_id": "OURD-PHASE13-TEMPORAL-REPLICATION-LEDGER-GRAPH-V1",
+  "objects": [
+    {
+      "id": "P13-PROTOCOL",
+      "type": "sealed_protocol"
+    },
+    {
+      "id": "P13-ACQUISITION-ORDER",
+      "selected": "OGLE-LMC-RRLYR-00004",
+      "type": "result-blind_priority_order"
+    },
+    {
+      "count": 2,
+      "id": "P13-PARENT-LEDGER",
+      "type": "verified_phase12_ledger"
+    },
+    {
+      "count": 1,
+      "id": "P13-NEW-SOURCE",
+      "type": "verified_source_lock"
+    },
+    {
+      "id": "P13-REPLAY",
+      "passed": true,
+      "type": "cross_phase_scientific_replay"
+    },
+    {
+      "disposition": "TEMPORAL_REPLICATION_NOT_SUPPORTED",
+      "id": "P13-TEMPORAL-AUDIT",
+      "type": "chronological_harmonic_stability"
+    },
+    {
+      "count": 3,
+      "id": "P13-LEDGER",
+      "type": "sealed_cumulative_evidence"
+    },
+    {
+      "id": "P13-FIREWALL",
+      "open": false,
+      "type": "population_output_guard"
+    },
+    {
+      "id": "C61",
+      "type": "claim"
+    },
+    {
+      "id": "C62",
+      "type": "claim"
+    },
+    {
+      "id": "C63",
+      "type": "claim"
+    },
+    {
+      "id": "C64",
+      "type": "claim"
+    },
+    {
+      "id": "C65",
+      "type": "claim"
+    }
+  ],
+  "relations": [
+    {
+      "relation": "governs",
+      "source": "P13-PROTOCOL",
+      "target": "P13-ACQUISITION-ORDER"
+    },
+    {
+      "relation": "selects",
+      "source": "P13-ACQUISITION-ORDER",
+      "target": "P13-NEW-SOURCE"
+    },
+    {
+      "relation": "enables",
+      "source": "P13-NEW-SOURCE",
+      "target": "P13-REPLAY"
+    },
+    {
+      "relation": "enables",
+      "source": "P13-NEW-SOURCE",
+      "target": "P13-TEMPORAL-AUDIT"
+    },
+    {
+      "relation": "extends_into",
+      "source": "P13-PARENT-LEDGER",
+      "target": "P13-LEDGER"
+    },
+    {
+      "relation": "validates_append_to",
+      "source": "P13-REPLAY",
+      "target": "P13-LEDGER"
+    },
+    {
+      "relation": "is_bound_as_sidecar_to",
+      "source": "P13-TEMPORAL-AUDIT",
+      "target": "P13-LEDGER"
+    },
+    {
+      "relation": "suppresses_partial_population_outputs_from",
+      "source": "P13-FIREWALL",
+      "target": "P13-LEDGER"
+    }
+  ],
+  "score_vector": {
+    "causal_fidelity": "not established; waveform-only boundary retained",
+    "complexity": "three chronological blocks and one one-dimensional drift-severity family",
+    "family_transfer": "not established; ledger covers one Cepheid and two RR Lyrae targets",
+    "orthogonality": "acquisition priority, source integrity, base waveform evidence, temporal stability, and population aggregation remain separate",
+    "predictive_calibration": "actual-cadence stationary and controlled-drift calibration",
+    "reconstruction": "one newly acquired RR Lyrae source is replayed against Phase 08",
+    "temporal_stability": "TEMPORAL_REPLICATION_NOT_SUPPORTED",
+    "uniqueness": "one selected identity, one base evidence record, and one temporal sidecar"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "contradictory_or_limiting_evidence": [
+    "the local mirror contains 33 observations while the publication excluded objects with fewer than 50",
+    "the external publication may merge OGLE-III and OGLE-IV data and its exact input bytes are not supplied",
+    "both analyses use the OGLE observing-source family, so observing-source independence is absent",
+    "the local reduced chi-square is above one, indicating scatter or model mismatch beyond quoted errors",
+    "the comparison validates Fourier-coordinate transport, not DERD physical interpretation",
+    "the frozen fifteen-object denominator remains incomplete"
+  ],
+  "implementation_id": "DERD-v1.7-phase17-external-analysis-anchor",
+  "manifest_id": "EDOV1-PHASE17-EXTERNAL-ANALYSIS-ANCHOR-EVIDENCE-V1",
+  "rights_and_provenance": {
+    "external_anchor": "data/evidence/phase17_jurkovic2022_vband_anchor.json",
+    "publication_doi": "10.1093/mnras/stac2957",
+    "raw_bytes_redistributed": false,
+    "source_manifest": "data/manifests/phase17_external_v_source_manifest.json",
+    "source_verification": "artifacts/phase17/phase17_source_verification.json"
+  },
+  "supporting_evidence": [
+    "the external publication reports four V-band Fourier coordinates with uncertainties for the same astronomical identity",
+    "the local partial-source Fourier coordinates are jointly consistent under the frozen covariance test",
+    "all four marginal absolute z scores are below two",
+    "the local source passes exact repository-object and SHA-256 verification"
+  ]
+}

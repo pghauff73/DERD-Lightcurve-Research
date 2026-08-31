@@ -1,0 +1,26 @@
+{
+  "base_commit": "a0d93a2e95cbe9287326897efc419255c1f39610",
+  "base_repository": "pghauff55/lightcurve-trainer",
+  "compile_gate": {
+    "command": "python -m compileall -q src experiments tests",
+    "passed": true
+  },
+  "date": "2026-08-07",
+  "implementation_id": "DERD-v0.2-phase02",
+  "network_note": "The current runtime could not clone GitHub directly; upstream provenance was frozen through the connected GitHub integration and the patch adds paths absent from the frozen upstream tree.",
+  "observational_gate": "PHASE02_ENGINEERING_SHAKEDOWN_COMPLETE_C17_NOT_PROMOTED",
+  "runtime": {
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+    "python": "3.13.5"
+  },
+  "test_gate": {
+    "command": "PYTHONPATH=src pytest -q --junitxml=artifacts/phase02/pytest-junit.xml",
+    "errors": 0,
+    "failures": 0,
+    "passed": 77,
+    "skipped": 0,
+    "tests": 77
+  },
+  "upstream_modified": false,
+  "version": "0.2.0"
+}

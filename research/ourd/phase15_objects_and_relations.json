@@ -1,0 +1,110 @@
+{
+  "graph_id": "OURD-PHASE15-ARCHIVAL-LINEAGE-PROMOTION-GRAPH-V1",
+  "objects": [
+    {
+      "id": "P15-PROTOCOL",
+      "type": "sealed_protocol"
+    },
+    {
+      "count": 4,
+      "id": "P15-PARENT-LEDGER",
+      "type": "verified_phase14_ledger"
+    },
+    {
+      "id": "P15-ARCHIVAL-SOURCE",
+      "object_id": "OGLE-LMC-CEP-0010",
+      "type": "previously_verified_source_identity"
+    },
+    {
+      "id": "P15-PHASE07-ANALYSIS",
+      "type": "analysis_version"
+    },
+    {
+      "id": "P15-PHASE08-ANALYSIS",
+      "type": "analysis_version"
+    },
+    {
+      "classification": "ARCHIVAL_LINEAGE_CONFIGURATION_SENSITIVE_SCIENTIFIC_DRIFT",
+      "id": "P15-LINEAGE-AUDIT",
+      "type": "configuration_sensitive_lineage"
+    },
+    {
+      "count": 5,
+      "id": "P15-LEDGER",
+      "type": "sealed_cumulative_evidence"
+    },
+    {
+      "id": "P15-FIREWALL",
+      "open": false,
+      "type": "population_output_guard"
+    },
+    {
+      "id": "C71",
+      "type": "claim"
+    },
+    {
+      "id": "C72",
+      "type": "claim"
+    },
+    {
+      "id": "C73",
+      "type": "claim"
+    },
+    {
+      "id": "C74",
+      "type": "claim"
+    }
+  ],
+  "relations": [
+    {
+      "relation": "governs",
+      "source": "P15-PROTOCOL",
+      "target": "P15-LINEAGE-AUDIT"
+    },
+    {
+      "relation": "is_shared_by",
+      "source": "P15-ARCHIVAL-SOURCE",
+      "target": "P15-PHASE07-ANALYSIS"
+    },
+    {
+      "relation": "is_shared_by",
+      "source": "P15-ARCHIVAL-SOURCE",
+      "target": "P15-PHASE08-ANALYSIS"
+    },
+    {
+      "relation": "compared_with",
+      "source": "P15-PHASE07-ANALYSIS",
+      "target": "P15-PHASE08-ANALYSIS"
+    },
+    {
+      "relation": "classifies",
+      "source": "P15-LINEAGE-AUDIT",
+      "target": "P15-PHASE07-ANALYSIS"
+    },
+    {
+      "relation": "classifies",
+      "source": "P15-LINEAGE-AUDIT",
+      "target": "P15-PHASE08-ANALYSIS"
+    },
+    {
+      "relation": "extends_into",
+      "source": "P15-PARENT-LEDGER",
+      "target": "P15-LEDGER"
+    },
+    {
+      "relation": "suppresses_partial_population_outputs_from",
+      "source": "P15-FIREWALL",
+      "target": "P15-LEDGER"
+    }
+  ],
+  "score_vector": {
+    "causal_fidelity": "not established; normalized waveform and computational-lineage boundary retained",
+    "complexity": "one archived target, two analysis versions, one lineage classification",
+    "family_transfer": "not established; cumulative ledger covers three Cepheids and two RR Lyrae stars",
+    "orthogonality": "source identity is separated from analysis configuration",
+    "predictive_calibration": "inherited target-specific Phase-07 and Phase-08 calibrations are retained separately",
+    "reconstruction": "source and artifact digests are verified without redistributing raw photometry",
+    "temporal_stability": "not evaluated in Phase 15",
+    "uniqueness": "one object contributes one denominator record despite two analysis versions"
+  }
+}

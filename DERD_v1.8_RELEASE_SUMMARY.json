@@ -1,0 +1,41 @@
+{
+  "all_merged_variants_consistent": true,
+  "c17_promoted": false,
+  "certificate": "NOT_A_PHYSICAL_CLAIM_CERTIFICATE",
+  "classification": "PUBLICATION_COMPATIBLE_RECONSTRUCTION_AUTHORITATIVE_INPUT_SCOPE_EXACT_CODE_AND_PUBLICATION_BYTE_IDENTITY_UNAVAILABLE",
+  "decision": "PHASE18_AUTHORITATIVE_OGLEIII_IV_INPUT_SCOPE_RECONSTRUCTED_PUBLISHED_VECTOR_REPRODUCED_EXACT_PUBLICATION_CODE_AND_BYTE_IDENTITY_UNAVAILABLE",
+  "exact_publication_analysis_code_available": false,
+  "exact_publication_source_byte_identity_known": false,
+  "independent_astrophysical_replication_count": 0,
+  "json_files_validated": 295,
+  "locked_physical_gates": [
+    "UNIQUE_INTERNAL_MECHANISM",
+    "LITERAL_INTERNAL_KEPLERIAN_MOTION",
+    "UNIVERSAL_TRANSPARENT_OUTER_SHELL",
+    "SHELL_PREVALENCE",
+    "SHELL_MASS_OR_MASS_FRACTION"
+  ],
+  "main_artifacts": [
+    "artifacts/phase18/PHASE18_RESULT.md",
+    "artifacts/phase18/phase18_summary.json",
+    "artifacts/phase18/phase18_primary_reconstruction.json",
+    "artifacts/phase18/phase18_method_lattice.csv",
+    "artifacts/phase18/phase18_reproducibility_graph.json"
+  ],
+  "merged_observations": 65,
+  "object_id": "OGLE-LMC-CEP-0002",
+  "ogleiii_observations": 33,
+  "ogleiv_observations": 32,
+  "population_outputs_allowed": false,
+  "primary_joint_p_value": 0.9418783392731293,
+  "primary_mahalanobis_chi_square": 0.7741598736714553,
+  "primary_maximum_absolute_marginal_z": 0.8066912972796184,
+  "primary_period_days": 3.118129483183655,
+  "primary_variant": "merged_ogleiii_iv_unweighted_free",
+  "publication_minimum_met": true,
+  "publication_minimum_observations": 50,
+  "raw_complete_photometry_bundled": false,
+  "release_id": "DERD-v1.8-phase18-exact-external-input-reconstruction",
+  "test_count": 238,
+  "unique_astronomical_objects": 5
+}

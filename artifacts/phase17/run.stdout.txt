@@ -1,0 +1,10 @@
+{
+  "decision": "PHASE17_EXTERNAL_ANALYSIS_ANCHOR_CONSISTENT_PARTIAL_SOURCE_OVERLAP_INDEPENDENT_ASTROPHYSICAL_REPLICATION_STILL_ABSENT",
+  "classification": "EXTERNAL_ANALYSIS_CONSISTENT_PARTIAL_SOURCE_OVERLAP",
+  "joint_p_value": 0.7773544797654233,
+  "max_abs_marginal_z": 1.2754903867600589,
+  "external_analysis_consistency_count": 1,
+  "external_independent_replication_count": 0,
+  "astronomical_denominator": 5,
+  "ledger_sha256": "a9c721f56cdd51267a54d73735edb91aaf433ac75beac71f89669281d29bf23a"
+}

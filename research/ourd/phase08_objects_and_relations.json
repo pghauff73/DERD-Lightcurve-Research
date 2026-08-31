@@ -1,0 +1,92 @@
+{
+  "graph_id": "OURD-PHASE08-MULTIFAMILY-GRAPH-V1",
+  "objects": [
+    {
+      "count": 6,
+      "id": "P08-COHORT",
+      "type": "development_cohort"
+    },
+    {
+      "count": 2,
+      "id": "P08-CEP",
+      "type": "family_stratum"
+    },
+    {
+      "count": 2,
+      "id": "P08-RRL",
+      "type": "family_stratum"
+    },
+    {
+      "count": 2,
+      "id": "P08-DSCT",
+      "type": "family_stratum"
+    },
+    {
+      "id": "C39",
+      "type": "claim"
+    },
+    {
+      "id": "C40",
+      "type": "claim"
+    },
+    {
+      "id": "C41",
+      "type": "claim"
+    },
+    {
+      "id": "C42",
+      "type": "claim"
+    },
+    {
+      "id": "C43",
+      "type": "claim"
+    }
+  ],
+  "relations": [
+    {
+      "relation": "member_of",
+      "source": "P08-CEP",
+      "target": "P08-COHORT"
+    },
+    {
+      "relation": "member_of",
+      "source": "P08-RRL",
+      "target": "P08-COHORT"
+    },
+    {
+      "relation": "member_of",
+      "source": "P08-DSCT",
+      "target": "P08-COHORT"
+    },
+    {
+      "relation": "supports",
+      "source": "P08-COHORT",
+      "target": "C39"
+    },
+    {
+      "relation": "supports",
+      "source": "P08-COHORT",
+      "target": "C41"
+    },
+    {
+      "relation": "supports",
+      "source": "P08-COHORT",
+      "target": "C42"
+    },
+    {
+      "relation": "bounds",
+      "source": "P08-COHORT",
+      "target": "C43"
+    }
+  ],
+  "score_vector": {
+    "causal_fidelity": "not established",
+    "complexity": "8 harmonics plus order-2 recurrence",
+    "family_transfer": "engineering demonstrated",
+    "orthogonality": "source/cleaning/period/SNR/structure/calibration separated",
+    "predictive_calibration": "target-specific and mixed",
+    "reconstruction": "executed",
+    "temporal_stability": "not tested",
+    "uniqueness": "not established"
+  }
+}

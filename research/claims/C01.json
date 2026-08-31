@@ -1,0 +1,15 @@
+{
+  "claim": "The intended corrected DERD family is deterministic and exposes exactly four effective shape controls: e1, e2, amplitude ratio, and phase ratio.",
+  "claim_id": "C01",
+  "falsifier": "Identical outputs after a material intervention on one declared dimension away from a degenerate parameter point.",
+  "objects": [
+    "DERD-G-0.1",
+    "DERD-K-0.1"
+  ],
+  "scope": "Software/model-definition claim only.",
+  "status": "IMPLEMENTED_AND_TESTED_E3",
+  "tests": [
+    "tests/test_model.py::test_corrected_model_is_deterministic",
+    "tests/test_model.py::test_all_four_declared_dimensions_are_effective"
+  ]
+}

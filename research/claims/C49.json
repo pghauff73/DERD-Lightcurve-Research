@@ -1,0 +1,14 @@
+{
+  "claim": "An OGLE-III Delta Scuti identity is promoted only through an exact current-ID match or the explicit OGLE-III identifier field in the OGLE-IV identity table; numeric suffix and string-similarity matches are forbidden.",
+  "claim_id": "C49",
+  "date": "2026-08-18",
+  "evidence": [
+    "src/derd/ogle_catalog.py",
+    "tests/test_phase10_ogle_catalog.py",
+    "data/manifests/phase10_authoritative_catalog_contract.json"
+  ],
+  "implementation_id": "DERD-v1.0-phase10-authoritative-metadata-source-lock",
+  "physical_claim_certificate": false,
+  "scope": "Identity uniqueness and crosswalk fidelity.",
+  "status": "PROVED_BY_POLICY_AND_TESTS"
+}

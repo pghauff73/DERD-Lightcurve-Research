@@ -1,0 +1,22 @@
+{
+  "acknowledgement": "OGLE citation and VizieR acknowledgement accepted for research use",
+  "all_valid": false,
+  "files": [
+    {
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
+      "error_type": "URLError",
+      "filename": "ident.dat",
+      "source_url": "https://www.astrouw.edu.pl/ogle/ogle4/OCVS/lmc/dsct/ident.dat",
+      "status": "FAILED"
+    },
+    {
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
+      "error_type": "URLError",
+      "filename": "dsct.dat",
+      "source_url": "https://www.astrouw.edu.pl/ogle/ogle4/OCVS/lmc/dsct/dsct.dat",
+      "status": "FAILED"
+    }
+  ],
+  "generated_utc": "2026-08-17T18:42:31.325950+00:00",
+  "receipt_id": "PHASE10-AUTHORITATIVE-CATALOG-ACQUISITION-V1"
+}
